@@ -23,7 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt  # 安装依赖
       - name: 执行Python脚本
-        run: python main.py
+        run: python ./src/main.py
       - name: 上传爬虫结果
         uses: actions/upload-artifact@v4
         with:
