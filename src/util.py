@@ -3,7 +3,7 @@ import yaml
 import os
 from logger import  logger
 
-CONFIG_PATH = "../config/comic.yaml"
+CONFIG_PATH = "./config/comic.yaml"
 max_path_length = 110
 
 def generate_default_config():

@@ -23,6 +23,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt  # 安装依赖
       - name: 执行Python脚本
+        env:
+          USER_NAME: ${{secrets.USER_NAME}}
+          USER_PASSWORD: ${{secrets.USER_PASSWORD}}
         run: python ./src/main.py
       - name: 上传爬虫结果
         uses: actions/upload-artifact@v4
@@ -37,7 +40,7 @@ jobs:
           git config --global user.email "action@github.com"
           git add ./data/*
           git add ./logs/*
-          git commit -m "Add config or log $(date +'%Y-%m-%d_%H-%M-%S')" || echo "无新日志需提交"
+          git commit -m "Add data or logs $(date +'%Y-%m-%d_%H-%M-%S')" || echo "无新日志需提交"
           git push origin master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
