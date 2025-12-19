@@ -15,7 +15,7 @@ def setup_rotating_logger():
         logger.handlers.clear()
 
     # 2. 确保日志目录存在
-    log_dir = "../logs"
+    log_dir = "./logs"
     os.makedirs(log_dir, exist_ok=True)
     log_file = os.path.join(log_dir, f'data_{datetime.now().strftime("%Y-%m-%d")}.log')
 
