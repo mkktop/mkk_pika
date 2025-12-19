@@ -38,8 +38,8 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add ./data/*
-          git add ./logs/*
+          git add ./data/ || echo "data目录无文件可添加"
+          git add ./logs/ || echo "logs目录无文件可添加"
           git commit -m "Add data or logs $(date +'%Y-%m-%d_%H-%M-%S')" || echo "无新日志需提交"
           git push origin master
         env:

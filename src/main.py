@@ -128,7 +128,7 @@ def download_comic(comic,executor:ThreadPoolExecutor):
 
 if __name__ == "__main__":
     #初始化数据库
-    db = ComicSQLiteDB("../data/comic_spider.db")
+    db = ComicSQLiteDB("./data/comic_spider.db")
     #获取累计的下载数量
     logger.info('已经累计下载%d本漫画' %db.get_downloaded_comic_count())
     #登录
