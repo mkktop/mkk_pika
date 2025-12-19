@@ -49,7 +49,7 @@ def download_comic(comic,executor:ThreadPoolExecutor):
         return
     #数据库加入该漫画
     db.mark_comic_as_downloaded(comic["_id"])
-    comic_path = os.path.join("..",
+    comic_path = os.path.join(".",
                               "comics",
                               f"{convert_file_name(title)}"
                             )
