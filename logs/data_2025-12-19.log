@@ -23,3 +23,26 @@
                 =================================================
 2025-12-19 16:05:04 - mkk_pika - database.py:101 - INFO - 保存成功：11月のティアドロップafter
 2025-12-19 16:05:04 - mkk_pika - database.py:206 - INFO - 数据库连接已关闭
+2025-12-19 16:07:58 - mkk_pika - database.py:61 - INFO - 表和索引初始化成功
+2025-12-19 16:07:58 - mkk_pika - main.py:133 - INFO - 已经累计下载1本漫画
+2025-12-19 16:07:59 - mkk_pika - api.py:82 - INFO - 登录成功
+2025-12-19 16:07:59 - mkk_pika - main.py:139 - INFO - 收藏夹共计1本漫画
+2025-12-19 16:08:00 - mkk_pika - main.py:44 - INFO - 正在下载:[11月のティアドロップafter]-[つかこ]-[['短篇']]-[total_pages:40]
+2025-12-19 16:08:00 - mkk_pika - main.py:80 - INFO - 找到 32 张图片在:第1話
+2025-12-19 16:08:01 - mkk_pika - main.py:109 - INFO - [episode:第1話       ] downloaded:    32, total:  32, progress:100%
+2025-12-19 16:08:01 - mkk_pika - database.py:269 - INFO - 数据库更新已下载章节
+2025-12-19 16:08:03 - mkk_pika - main.py:80 - INFO - 找到 8 张图片在:第2話
+2025-12-19 16:08:03 - mkk_pika - main.py:109 - INFO - [episode:第2話       ] downloaded:     8, total:   8, progress:100%
+2025-12-19 16:08:03 - mkk_pika - database.py:269 - INFO - 数据库更新已下载章节
+2025-12-19 16:08:05 - mkk_pika - main.py:161 - INFO - ==================== 漫画信息 ====================
+                漫画ID：6940289f636cdc389a6fdf63
+                标题：11月のティアドロップafter
+                作者：つかこ
+                是否完结：是
+                总页数：40
+                分类：短篇
+                章节数：2
+                最后更新时间：2025-12-15T15:26:23.339Z
+                =================================================
+2025-12-19 16:08:05 - mkk_pika - database.py:101 - INFO - 保存成功：11月のティアドロップafter
+2025-12-19 16:08:05 - mkk_pika - database.py:206 - INFO - 数据库连接已关闭
