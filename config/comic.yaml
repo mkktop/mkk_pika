@@ -1,0 +1,15 @@
+global:
+  USER_NAME:
+  USER_PASSWORD:
+
+pdf:
+  pdf_switch: 0
+  pdf_password: None
+
+download:
+  is_detail: True
+  thread_number: 5
+  remove_favorites: False
+
+
+
