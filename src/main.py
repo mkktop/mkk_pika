@@ -148,15 +148,6 @@ if __name__ == "__main__":
                 info = comic_info(the_comic['_id'])
                 data = info["data"]['comic']
                 is_remove_favorites = get_config(section="download", key="remove_favorites")
-                #如果设置了下载取消收藏，并且是已经完结的作品，则取消收藏
-                if is_remove_favorites and data['isFavourite'] and data["finished"]:
-                    favourite(data["_id"])
-                    logger.info(f"{data["title"]}已经取消收藏！")
-                #如果设置了下载取消收藏，没有完结，但长时间不更新则取消收藏
-                if is_remove_favorites and data['isFavourite'] and data["finished"] == False:
-                    if compare_time(data["updated_at"]):
-                        favourite(data["_id"])
-                        logger.info(f"长时间未更新{data["title"]}已经取消收藏！")
                 comic_id = data["_id"]
                 title = data["title"]
                 author = data["author"]
@@ -191,6 +182,16 @@ if __name__ == "__main__":
                     "update_time": update_time,
                 }
                 db.save_comic(add_comic)
+
+                #如果设置了下载取消收藏，并且是已经完结的作品，则取消收藏
+                if is_remove_favorites and data['isFavourite'] and data["finished"]:
+                    favourite(data["_id"])
+                    logger.info(f"{title}已经取消收藏！")
+                #如果设置了下载取消收藏，没有完结，但长时间不更新则取消收藏
+                if is_remove_favorites and data['isFavourite'] and data["finished"] == False:
+                    if compare_time(data["updated_at"]):
+                        favourite(data["_id"])
+                        logger.info(f"长时间未更新{title}已经取消收藏！")
 
             except Exception as e:
                 logger.error(
