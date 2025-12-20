@@ -145,6 +145,12 @@ def search_all(the_keyword):
                 if idx == 1 and page == 1:
                     this_title = doc["title"]
                 if last_title == doc["title"]:
+                    last_comic = {
+                        "comic_id": the_keyword,
+                        "title": this_title,
+                        "author": "mkk"
+                    }
+                    db.save_comic(last_comic)
                     return subscribed_comics
                 intersection = set(doc['categories']).intersection(set(categories))
                 if len(intersection) == 0:
