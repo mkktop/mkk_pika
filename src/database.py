@@ -243,4 +243,23 @@ class ComicSQLiteDB:
             logger.info("该漫画已下载章节如下")
             logger.info(downloaded_episodes)
 
+    def get_title_by_comic_id(self, comic_id: str) -> Optional[str]:
+        """
+        根据漫画ID查询标题
+        :param comic_id: 漫画唯一ID
+        :return: 漫画标题，如果未找到则返回None
+        """
+        sql = "SELECT title FROM comic_info WHERE comic_id = ?"
+        try:
+            self.cursor.execute(sql, (comic_id,))
+            result = self.cursor.fetchone()
+            if result:
+                logger.info(f"根据ID查询到标题：{comic_id} -> {result[0]}")
+                return result[0]
+            else:
+                logger.info(f"未找到ID为{comic_id}的漫画标题")
+                return None
+        except sqlite3.Error as e:
+            raise Exception(f"查询失败：{e}")
+
 

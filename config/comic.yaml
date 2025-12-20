@@ -11,6 +11,9 @@ download:
   thread_number: 5
   remove_favorites: True
   out_time_day: 30
+  key_world : "萝莉"
+  filter : "CG雜圖,生肉,耽美花園,偽娘哲學"
+  page : 2
 
 
 

@@ -128,6 +128,40 @@ def download_comic(comic,executor:ThreadPoolExecutor):
         sleep(1)
 
 
+def search_all(the_keyword):
+    subscribed_comics = []
+    categories = get_config("download","filter").split(',')
+    download_page = get_config("download","page")
+    if the_keyword:
+        db.mark_comic_as_downloaded(the_keyword)
+        last_title = db.get_title_by_comic_id(the_keyword)
+        this_title = ""
+        total_pages_num = search(the_keyword)["pages"]
+        if total_pages_num < download_page:
+            download_page = total_pages_num
+        for page in range(1, download_page+1):
+            page_docs = search(the_keyword, page)["docs"]
+            for doc in page_docs:
+                if last_title == doc["title"]:
+                    last_comic ={
+                        "comic_id": the_keyword,
+                        "title": doc["title"],
+                        "author": doc["author"],
+                    }
+                    db.save_comic(last_comic)
+                    return subscribed_comics
+                intersection = set(doc['categories']).intersection(set(categories))
+                if len(intersection) == 0:
+                    subscribed_comics.append(doc)
+                this_title = doc["title"]
+        last_comic ={
+            "comic_id": the_keyword,
+            "title": this_title,
+            "author": "mkk"
+        }
+        db.save_comic(last_comic)
+    return subscribed_comics
+
 
 if __name__ == "__main__":
     logger.info("=======================================================================")
@@ -163,7 +197,7 @@ if __name__ == "__main__":
                 update_time = data["updated_at"]
                 logger.info(
                     f"""
-                
+
                 ==================== 漫画信息 ====================
                 漫画ID：{comic_id}
                 标题：{title}
@@ -204,5 +238,63 @@ if __name__ == "__main__":
                 )
                 continue
     logger.info("收藏夹内容下载完毕")
+    #开始下载订阅内容
+    logger.info("开始下载订阅内容")
+    searched_comics = []
+    keywords = get_config(section='download', key='key_world').split(',')
+    for keyword in keywords:
+        searched_comic = search_all(keyword)
+        logger.info(f"关键词{keyword}找到{len(searched_comic)}本漫画")
+        searched_comics += searched_comic
+    logger.info('订阅内容共计%d本漫画' % (len(searched_comics)))
+    with ThreadPoolExecutor(max_workers=thread_number) as executor:
+        for the_comic in searched_comics:
+            try:
+                #开始下载
+                download_comic(the_comic,executor)
+                info = comic_info(the_comic['_id'])
+                data = info["data"]['comic']
+                comic_id = data["_id"]
+                title = data["title"]
+                author = data["author"]
+                finished = data["finished"]
+                pagesCount = data["pagesCount"]
+                category_list = data["categories"]
+                category = ",".join(category_list) if isinstance(category_list, list) else ""
+                epsCount = data["epsCount"]
+                update_time = data["updated_at"]
+                logger.info(
+                    f"""
+
+                                ==================== 漫画信息 ====================
+                                漫画ID：{comic_id}
+                                标题：{title}
+                                作者：{author}
+                                是否完结：{"是" if finished else "否"}
+                                总页数：{pagesCount}
+                                分类：{category}
+                                章节数：{epsCount}
+                                最后更新时间：{update_time}
+                                =================================================
+                                    """.strip()  # strip() 去掉首尾空行，让日志更整洁
+                )
+                add_comic = {
+                    "comic_id": comic_id,
+                    "title": title,
+                    "author": author,
+                    "finished": finished,
+                    "pagesCount": pagesCount,
+                    "category": category,
+                    "epsCount": epsCount,
+                    "update_time": update_time,
+                }
+                db.save_comic(add_comic)
+                logger.info("订阅内容内容下载完毕")
+            except Exception as e:
+                logger.error(
+                    'Download failed for {}, with Exception:{}'.format(the_comic["title"], e)
+                )
+                continue
+
 
 

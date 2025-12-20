@@ -23,6 +23,11 @@ headers = {
     "image-quality": "original"
 }
 
+Order_Default = "ua"  # 默认
+Order_Latest = "dd"  # 新到旧
+Order_Oldest = "da"  # 旧到新
+Order_Loved = "ld"  # 最多爱心
+Order_Point = "vd"  # 最多指名
 
 def http_do(method, url, **kwargs):
     """
@@ -159,3 +164,15 @@ def comic_info(book_id):
     url = f"{api_base}comics/{book_id}"
     res = http_do("GET", url=url)
     return json.loads(res.content.decode())
+
+def get_categories():
+    url = f"{api_base}categories"
+    res = http_do("GET", url=url)
+    print(json.loads(res.content.decode()))
+    return res
+
+def search(keyword, page=1, sort=Order_Latest):
+    url = f"{api_base}comics/advanced-search?page={page}"
+    res = http_do("POST", url=url, json={"keyword": keyword, "sort": sort})
+    return json.loads(res.content.decode("utf-8"))["data"]["comics"]
+
