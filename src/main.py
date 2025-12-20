@@ -146,7 +146,7 @@ def search_all(the_keyword):
                     last_comic ={
                         "comic_id": the_keyword,
                         "title": doc["title"],
-                        "author": doc["author"],
+                        "author": "mkk",
                     }
                     db.save_comic(last_comic)
                     return subscribed_comics
@@ -289,12 +289,11 @@ if __name__ == "__main__":
                     "update_time": update_time,
                 }
                 db.save_comic(add_comic)
-                logger.info("订阅内容内容下载完毕")
             except Exception as e:
                 logger.error(
                     'Download failed for {}, with Exception:{}'.format(the_comic["title"], e)
                 )
                 continue
-
+    logger.info("订阅内容内容下载完毕")
 
 
