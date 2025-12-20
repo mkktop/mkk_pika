@@ -163,7 +163,7 @@ def compare_time(start_time):
     current_utc_time = datetime.now(timezone.utc)
     logger.info(f"目标时间（UTC）：{target_time}")
     logger.info(f"当前UTC时间：{current_utc_time}")
-    time_diff = target_time - current_utc_time
+    time_diff = current_utc_time - target_time
     logger.info(f"相差：{time_diff.days} 天 {time_diff.seconds // 3600} 小时 {(time_diff.seconds % 3600) // 60} 分钟")
     out_time_day = get_config("download","out_time_day", "30")
     out_time_day = int(out_time_day)
