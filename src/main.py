@@ -32,6 +32,7 @@ def download(name_len,folder_path: str, i: int, url: str, retries=3,):
 def download_comic(comic,executor:ThreadPoolExecutor):
     cid = comic["_id"]
     title = comic["title"]
+    logger.info(f"开始检查{title}是否存在未下载章节")
     author = comic["author"]
     categories = comic["categories"]
     episodes = episodes_all(cid, title)
@@ -45,7 +46,9 @@ def download_comic(comic,executor:ThreadPoolExecutor):
             '正在下载:[%s]-[%s]-[%s]-[total_pages:%d]' %
             (title, author, categories, num_pages)
         )
+        logger.info(episodes)
     else:
+        logger.info(f"{title}中没有可下载章节")
         return
     #数据库加入该漫画
     db.mark_comic_as_downloaded(comic["_id"])
@@ -139,7 +142,8 @@ if __name__ == "__main__":
     #获取下载的线程数
     logger.info('收藏夹共计%d本漫画' % (len(favourite_comics)))
     thread_number = get_config(section="download", key="thread_number")
-
+    #开始下载收藏夹内容
+    logger.info("开始下载收藏夹内未下载内容")
     with ThreadPoolExecutor(max_workers=thread_number) as executor:
         for the_comic in favourite_comics:
             try:
@@ -159,6 +163,7 @@ if __name__ == "__main__":
                 update_time = data["updated_at"]
                 logger.info(
                     f"""
+                
                 ==================== 漫画信息 ====================
                 漫画ID：{comic_id}
                 标题：{title}
@@ -198,5 +203,6 @@ if __name__ == "__main__":
                     'Download failed for {}, with Exception:{}'.format(the_comic["title"], e)
                 )
                 continue
+    logger.info("收藏夹内容下载完毕")
 
 

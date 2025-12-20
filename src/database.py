@@ -200,8 +200,7 @@ class ComicSQLiteDB:
         result = self.cursor.fetchone()
         if result and result[0]:
             downloaded_episodes = json.loads(result[0])
-            logger.info("查询数据库中是否已存在该章节")
-            logger.info(downloaded_episodes)
+            logger.info(f"查询数据库中是否已存在{episode_title}")
             return episode_title in downloaded_episodes
         return False
 
@@ -213,7 +212,7 @@ class ComicSQLiteDB:
         result = self.cursor.fetchone()
         if not result:
             self.cursor.execute('INSERT OR IGNORE INTO comic_info (comic_id) VALUES (?)', (comic_id,))
-            logger.info("数据库插入该漫画ID")
+            logger.info("第一次下载该漫画，记录数据库中")
 
     def update_downloaded_episodes(self,comic_id,episode_title):
         """
