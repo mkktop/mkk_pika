@@ -127,6 +127,7 @@ def download_comic(comic,executor:ThreadPoolExecutor):
 
 
 if __name__ == "__main__":
+    logger.info("=======================================================================")
     #初始化数据库
     db = ComicSQLiteDB("./data/comic_spider.db")
     #获取累计的下载数量
@@ -147,7 +148,11 @@ if __name__ == "__main__":
                 info = comic_info(the_comic['_id'])
                 data = info["data"]['comic']
                 is_remove_favorites = get_config(section="download", key="remove_favorites")
-                if is_remove_favorites and data['isFavourite']:
+                #如果设置了下载取消收藏，并且是已经完结的作品，则取消收藏
+                if is_remove_favorites and data['isFavourite'] and data["finished"]:
+                    favourite(data["_id"])
+                #如果设置了下载取消收藏，没有完结，但长时间不更新则取消收藏
+                if is_remove_favorites and data['isFavourite'] and compare_time(data["updated_at"]):
                     favourite(data["_id"])
                 comic_id = data["_id"]
                 title = data["title"]

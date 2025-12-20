@@ -9,7 +9,8 @@ pdf:
 download:
   is_detail: True
   thread_number: 5
-  remove_favorites: False
+  remove_favorites: True
+  out_time_day: 30
 
 
 

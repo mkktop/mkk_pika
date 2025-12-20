@@ -1,6 +1,7 @@
 import json
 import yaml
 import os
+from datetime import datetime, timezone
 from logger import  logger
 
 CONFIG_PATH = "./config/comic.yaml"
@@ -17,8 +18,8 @@ def generate_default_config():
     os.makedirs(os.path.dirname(CONFIG_PATH), exist_ok=True)
     with open(CONFIG_PATH, "w", encoding="utf-8") as f:
         yaml.safe_dump(default_config, f, indent=2, allow_unicode=True,sort_keys=False)
-    print(f"【首次运行】已自动生成默认配置文件 → {CONFIG_PATH}")
-    print("请修改配置文件后重新运行！")
+    logger.info(f"【首次运行】已自动生成默认配置文件 → {CONFIG_PATH}")
+    logger.info("请修改配置文件后重新运行！")
 
 def load_config():
     if not os.path.exists(CONFIG_PATH):
@@ -152,3 +153,20 @@ def ensure_valid_path(path):
         path = path[:max_path_length]  # 截断路径
     return path
 
+def compare_time(start_time):
+    time_str = start_time
+    # 1. 解析字符串为UTC时区的datetime对象
+    # %Y=年, %m=月, %d=日, %H=时, %M=分, %S=秒, %f=微秒
+    target_time = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
+    # 3. 获取当前时间
+    # 当前UTC时间
+    current_utc_time = datetime.now(timezone.utc)
+    logger.info(f"目标时间（UTC）：{target_time}")
+    logger.info(f"当前UTC时间：{current_utc_time}")
+    time_diff = target_time - current_utc_time
+    logger.info(f"相差：{time_diff.days} 天 {time_diff.seconds // 3600} 小时 {(time_diff.seconds % 3600) // 60} 分钟")
+    out_time_day = get_config("download","out_time_day", "30")
+    out_time_day = int(out_time_day)
+    if time_diff.days >= out_time_day :
+        return 1
+    return 0
