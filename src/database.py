@@ -103,39 +103,6 @@ class ComicSQLiteDB:
             self.conn.rollback()
             raise Exception(f"保存失败：{e} | 数据：{filtered_data}")
 
-    def batch_save_comics(self, comic_list: List[Dict]):
-        """
-        批量保存漫画数据（效率远高于单条保存）
-        :param comic_list: 漫画字典列表
-        """
-        if not comic_list:
-            logger.info("批量保存：无数据可保存")
-            return
-
-        # 统一字段（取第一条数据的字段，保证一致性）
-        sample_fields = [
-            "comic_id", "title", "author","finished", "pagesCount","category","epsCount",
-            "update_time","downloaded_episodes"
-        ]
-        # 构造批量插入数据
-        batch_data = []
-        for comic in comic_list:
-            filtered = {k: comic.get(k, '' if k != 'score' else 0.0) for k in sample_fields}
-            batch_data.append(tuple(filtered.values()))
-
-        # 批量执行
-        sql = f'''
-        INSERT OR REPLACE INTO comic_info ({', '.join(sample_fields)})
-        VALUES ({', '.join(['?'] * len(sample_fields))})
-        '''
-        try:
-            self.cursor.executemany(sql, batch_data)
-            self.conn.commit()
-            logger.info(f"批量保存完成：共{len(batch_data)}条")
-        except sqlite3.Error as e:
-            self.conn.rollback()
-            raise Exception(f"批量保存失败：{e}")
-
     def get_comic(self,
                   comic_id: Optional[str] = None,
                   title: Optional[str] = None,
@@ -233,6 +200,8 @@ class ComicSQLiteDB:
         result = self.cursor.fetchone()
         if result and result[0]:
             downloaded_episodes = json.loads(result[0])
+            logger.info("查询数据库中是否已存在该章节")
+            logger.info(downloaded_episodes)
             return episode_title in downloaded_episodes
         return False
 
@@ -245,6 +214,7 @@ class ComicSQLiteDB:
         if not result:
             self.cursor.execute('INSERT OR IGNORE INTO comic_info (comic_id) VALUES (?)', (comic_id,))
             logger.info("数据库插入该漫画ID")
+        self.conn.commit()
 
     def update_downloaded_episodes(self,comic_id,episode_title):
         """
@@ -267,4 +237,12 @@ class ComicSQLiteDB:
             ''', (json.dumps(downloaded_episodes), comic_id))
         self.conn.commit()
         logger.info("数据库更新已下载章节")
+        #从数据库里获取章节列表打印出来
+        self.cursor.execute('SELECT downloaded_episodes FROM comic_info WHERE comic_id = ?', (comic_id,))
+        result = self.cursor.fetchone()
+        if result and result[0]:
+            downloaded_episodes = json.loads(result[0])
+            logger.info("该漫画已下载章节如下")
+            logger.info(downloaded_episodes)
+
 
