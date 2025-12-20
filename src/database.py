@@ -36,7 +36,7 @@ class ComicSQLiteDB:
         create_sql = '''
         CREATE TABLE IF NOT EXISTS comic_info (
             comic_id TEXT NOT NULL PRIMARY KEY,
-            title TEXT NOT NULL,
+            title TEXT DEFAULT NULL,
             author TEXT DEFAULT '',
             finished BOOLEAN DEFAULT FALSE,
             pagesCount INTEGER DEFAULT 0,
@@ -214,7 +214,6 @@ class ComicSQLiteDB:
         if not result:
             self.cursor.execute('INSERT OR IGNORE INTO comic_info (comic_id) VALUES (?)', (comic_id,))
             logger.info("数据库插入该漫画ID")
-        self.conn.commit()
 
     def update_downloaded_episodes(self,comic_id,episode_title):
         """
