@@ -141,19 +141,14 @@ def search_all(the_keyword):
             download_page = total_pages_num
         for page in range(1, download_page+1):
             page_docs = search(the_keyword, page)["docs"]
-            for doc in page_docs:
+            for idx, doc in enumerate(page_docs):
+                if idx == 1 and page == 1:
+                    this_title = doc["title"]
                 if last_title == doc["title"]:
-                    last_comic ={
-                        "comic_id": the_keyword,
-                        "title": doc["title"],
-                        "author": "mkk",
-                    }
-                    db.save_comic(last_comic)
                     return subscribed_comics
                 intersection = set(doc['categories']).intersection(set(categories))
                 if len(intersection) == 0:
                     subscribed_comics.append(doc)
-                this_title = doc["title"]
         last_comic ={
             "comic_id": the_keyword,
             "title": this_title,
