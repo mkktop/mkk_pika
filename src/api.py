@@ -6,7 +6,7 @@ from util import *
 from time import time
 from urllib.parse import urlencode
 from logger import  logger
-
+from urllib.parse import quote
 api_base = "https://picaapi.picacomic.com/"
 
 headers = {
@@ -168,11 +168,37 @@ def comic_info(book_id):
 def get_categories():
     url = f"{api_base}categories"
     res = http_do("GET", url=url)
-    print(json.loads(res.content.decode()))
-    return res
+    return json.loads(res.content.decode("utf-8"))
 
 def search(keyword, page=1, sort=Order_Latest):
     url = f"{api_base}comics/advanced-search?page={page}"
     res = http_do("POST", url=url, json={"keyword": keyword, "sort": sort})
     return json.loads(res.content.decode("utf-8"))["data"]["comics"]
 
+#通过分类获取漫画
+def categories_search(page, categories, sort=Order_Latest):
+    """
+    分类搜索
+    :param page: 页码
+    :param categories: 分类
+    :param sort: 排序方式
+    :return: 搜索结果
+    """
+    categories = quote(categories)
+    url = f"{api_base}comics?page={page}&c={categories}&s={sort}"
+    res = http_do("GET", url=url)
+    return json.loads(res.content.decode("utf-8"))["data"]["comics"]
+
+#获取最新漫画
+def get_update(page):
+    sort = Order_Latest
+    url = f"{api_base}comics?page={page}&s={sort}"
+    res = http_do("GET", url=url)
+    return json.loads(res.content.decode("utf-8"))["data"]["comics"]
+
+#从旧到新获取漫画
+def get_old_update(page):
+    sort = Order_Oldest
+    url = f"{api_base}comics?page={page}&s={sort}"
+    res = http_do("GET", url=url)
+    return json.loads(res.content.decode("utf-8"))["data"]["comics"]
