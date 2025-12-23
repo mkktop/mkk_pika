@@ -213,6 +213,7 @@ class ComicSQLiteDB:
         if not result:
             self.cursor.execute('INSERT OR IGNORE INTO comic_info (comic_id) VALUES (?)', (comic_id,))
             logger.info("第一次下载该漫画，记录数据库中")
+            self.conn.commit()
 
     def update_downloaded_episodes(self,comic_id,episode_title):
         """
@@ -262,4 +263,79 @@ class ComicSQLiteDB:
         except sqlite3.Error as e:
             raise Exception(f"查询失败：{e}")
 
+    def create_download_all_info(self):
+        """初始化表结构（不存在则创建）"""
+        create_sql = '''
+        CREATE TABLE IF NOT EXISTS download_info (
+            comic_id TEXT NOT NULL PRIMARY KEY,
+            pagesCount INTEGER DEFAULT 0,
+            totalPages INTEGER DEFAULT 0,
+            total_comic INTEGER DEFAULT 0,
+            crawl_time TEXT DEFAULT (datetime('now'))
+        )
+        '''
+        try:
+            self.cursor.execute(create_sql)
+            self.conn.commit()
+            logger.info("表和索引初始化成功")
+        except sqlite3.Error as e:
+            self.conn.rollback()
+            logger.error(f"表或索引初始化失败：{e}")
+            raise Exception(f"表初始化失败：{e}")
 
+    def save_download_info(self, comic_data: Dict):
+        """
+        保存单条漫画数据（存在则更新指定字段，不存在则插入）
+        :param comic_data: 字典，必须包含comic_id，其他字段可选
+        """
+        # 字段列表（排除 downloaded_episodes，避免覆盖）
+        fields = [
+            "comic_id", "pagesCount", "total_comic", "totalPages"
+        ]
+        # 过滤数据，只保留表中存在的字段
+        filtered_data = {k: v for k, v in comic_data.items() if k in fields}
+        if "comic_id" not in filtered_data:
+            raise ValueError("comic_data 必须包含 comic_id 字段")
+        # 补全默认值
+        for field in fields:
+            filtered_data.setdefault(field, '')
+
+        # 构造 UPSERT SQL（存在则更新，只更新指定字段，保留 downloaded_episodes）
+        columns = ', '.join(filtered_data.keys())
+        placeholders = ', '.join(['?'] * len(filtered_data))
+        # 需要更新的字段（排除主键 comic_id）
+        update_fields = [f"{k} = excluded.{k}" for k in filtered_data.keys() if k != "comic_id"]
+        update_clause = ', '.join(update_fields)
+
+        sql = f'''
+        INSERT INTO download_info ({columns})
+        VALUES ({placeholders})
+        ON CONFLICT(comic_id) DO UPDATE SET {update_clause}
+        '''
+        try:
+            self.cursor.execute(sql, tuple(filtered_data.values()))
+            self.conn.commit()
+            logger.info(f"保存成功")
+        except sqlite3.Error as e:
+            self.conn.rollback()
+            raise Exception(f"保存失败：{e} | 数据：{filtered_data}")
+
+    def get_download_info_pagesCount(self, comic_id: str):
+        sql = "SELECT pagesCount FROM download_info WHERE comic_id = ?"
+        try:
+            self.cursor.execute(sql, (comic_id,))
+            result = self.cursor.fetchone()
+            if result:
+                return result[0]
+            else:
+                return None
+        except sqlite3.Error as e:
+            raise Exception(f"查询失败：{e}")
+
+    def mark_download_info_id(self,comic_id):
+        self.cursor.execute('SELECT comic_id FROM download_info WHERE comic_id = ?', (comic_id,))
+        result = self.cursor.fetchone()
+        if not result:
+            self.cursor.execute('INSERT OR IGNORE INTO download_info (comic_id) VALUES (?)', (comic_id,))
+            logger.info("第一次下载全部漫画，记录数据库中")
+            self.conn.commit()
