@@ -324,7 +324,7 @@ if __name__ == "__main__":
     logger.info("开始分批下载全部章节")
     db.create_download_all_info()
     the_all_comics = []
-    download_plan = int(get_config(section="download", key="download_plan"))
+    download_plan = int(get_config(section="download", key="download_plan", default_value=0))
     if download_plan >0:
         for download_num in range(download_plan):
             the_all_comics += download_all_comics()
