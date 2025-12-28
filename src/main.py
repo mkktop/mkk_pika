@@ -324,9 +324,10 @@ if __name__ == "__main__":
     logger.info("开始分批下载全部章节")
     db.create_download_all_info()
     the_all_comics = []
-    download_plan = get_config(section="download", key="download_plan")
-    for download_num in range(download_plan):
-        the_all_comics += download_all_comics()
+    download_plan = int(get_config(section="download", key="download_plan"))
+    if download_plan >0:
+        for download_num in range(download_plan):
+            the_all_comics += download_all_comics()
     logger.info('分批下载共计%d本漫画' % (len(the_all_comics)))
     with ThreadPoolExecutor(max_workers=thread_number) as executor:
         for the_comic in the_all_comics:
