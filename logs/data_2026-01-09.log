@@ -1,0 +1,852 @@
+2026-01-09 23:29:48 - mkk_pika - main.py:193 - INFO - =======================================================================
+2026-01-09 23:29:48 - mkk_pika - database.py:61 - INFO - 表和索引初始化成功
+2026-01-09 23:29:48 - mkk_pika - main.py:197 - INFO - 已经累计下载867本漫画
+2026-01-09 23:29:48 - mkk_pika - api.py:87 - INFO - 登录成功
+2026-01-09 23:29:49 - mkk_pika - main.py:203 - INFO - 收藏夹共计1本漫画
+2026-01-09 23:29:49 - mkk_pika - main.py:206 - INFO - 开始下载收藏夹内未下载内容
+2026-01-09 23:29:49 - mkk_pika - main.py:35 - INFO - 开始检查[Artist] BBStaff（AI）是否存在未下载章节
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在伊蕾娜
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在金色暗影
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在惠惠
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在结城美柑
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在贝尔泽古·斯黛莉休·索德·爱丽丝
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在板柳有栖
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在尤菲莉亚·玛泽塔
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在椎名日和
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在高町奈叶
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在星野瑠美衣
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在小柳香穗
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在甘织玲奈子
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在伊地知虹夏
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在芙兰达·塞维伦
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在小美浪爱澄
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在有马加奈
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在白银圭
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在鹿目圆香
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在莉赛萝黛·库雷提雅
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在空银子
+2026-01-09 23:29:49 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在谷地仁花
+2026-01-09 23:29:49 - mkk_pika - main.py:51 - INFO - [Artist] BBStaff（AI）中没有可下载章节
+2026-01-09 23:29:49 - mkk_pika - main.py:224 - INFO - ==================== 漫画信息 ====================
+                漫画ID：687a1b80ecd86823a404aa48
+                标题：[Artist] BBStaff（AI）
+                作者：BBStaff
+                是否完结：否
+                总页数：4149
+                分类：全彩,同人,CG雜圖
+                章节数：21
+                最后更新时间：2026-01-05T15:24:08.585Z
+                =================================================
+2026-01-09 23:29:49 - mkk_pika - database.py:101 - INFO - 保存成功：[Artist] BBStaff（AI）
+2026-01-09 23:29:49 - mkk_pika - util.py:164 - INFO - 目标时间（UTC）：2026-01-05 15:24:08.585000+00:00
+2026-01-09 23:29:49 - mkk_pika - util.py:165 - INFO - 当前UTC时间：2026-01-09 23:29:49.776049+00:00
+2026-01-09 23:29:49 - mkk_pika - util.py:167 - INFO - 相差：4 天 8 小时 5 分钟
+2026-01-09 23:29:49 - mkk_pika - main.py:266 - INFO - 收藏夹内容下载完毕
+2026-01-09 23:29:49 - mkk_pika - main.py:268 - INFO - 开始下载订阅内容
+2026-01-09 23:29:49 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：萝莉 -> 妹・姪っ子発情中♥[中国翻译]
+2026-01-09 23:29:50 - mkk_pika - database.py:101 - INFO - 保存成功：妹・姪っ子発情中♥[中国翻译]
+2026-01-09 23:29:50 - mkk_pika - main.py:273 - INFO - 关键词萝莉找到0本漫画
+2026-01-09 23:29:50 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：蘿莉 -> お願い!いなば様♡
+2026-01-09 23:29:51 - mkk_pika - database.py:101 - INFO - 保存成功：仙人の弟子になったからには…
+2026-01-09 23:29:51 - mkk_pika - main.py:273 - INFO - 关键词蘿莉找到0本漫画
+2026-01-09 23:29:51 - mkk_pika - main.py:275 - INFO - 订阅内容共计0本漫画
+2026-01-09 23:29:51 - mkk_pika - main.py:323 - INFO - 订阅内容内容下载完毕
+2026-01-09 23:29:51 - mkk_pika - main.py:324 - INFO - 开始分批下载全部章节
+2026-01-09 23:29:51 - mkk_pika - database.py:280 - INFO - 表和索引初始化成功
+2026-01-09 23:29:51 - mkk_pika - main.py:177 - INFO - 已经下载了39页，一共6671页，现在开始添加第40页
+2026-01-09 23:29:53 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-01-09 23:29:53 - mkk_pika - main.py:177 - INFO - 已经下载了40页，一共6671页，现在开始添加第41页
+2026-01-09 23:29:53 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-01-09 23:29:53 - mkk_pika - main.py:331 - INFO - 分批下载共计39本漫画
+2026-01-09 23:29:53 - mkk_pika - main.py:35 - INFO - 开始检查エリーンペロペロ是否存在未下载章节
+2026-01-09 23:29:54 - mkk_pika - main.py:45 - INFO - 正在下载:[エリーンペロペロ]-[チームキハラ(もじゃりん)]-[['同人', '短篇', '妹妹系']]-[total_pages:31]
+2026-01-09 23:29:54 - mkk_pika - main.py:49 - INFO - [{'_id': '58218aad5f6b9a4f93df9cf3', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:19:57.529Z', 'id': '58218aad5f6b9a4f93df9cf3'}]
+2026-01-09 23:29:54 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:29:54 - mkk_pika - main.py:83 - INFO - 找到 31 张图片在:第1集
+2026-01-09 23:29:55 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    31, total:  31, progress:100%
+2026-01-09 23:29:55 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:29:55 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:29:55 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:29:56 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218aac5f6b9a4f93df9cf1
+                                   标题：エリーンペロペロ
+                                   作者：チームキハラ(もじゃりん)
+                                   是否完结：否
+                                   总页数：31
+                                   分类：同人,短篇,妹妹系
+                                   章节数：1
+                                   最后更新时间：2007-10-16T06:47:26.000Z
+                                   =================================================
+2026-01-09 23:29:56 - mkk_pika - database.py:101 - INFO - 保存成功：エリーンペロペロ
+2026-01-09 23:29:56 - mkk_pika - main.py:35 - INFO - 开始检查Mahou Shoujo Ai是否存在未下载章节
+2026-01-09 23:29:57 - mkk_pika - main.py:45 - INFO - 正在下载:[Mahou Shoujo Ai]-[manga]-[['同人', '長篇', '非人類']]-[total_pages:176]
+2026-01-09 23:29:57 - mkk_pika - main.py:49 - INFO - [{'_id': '58218aae5f6b9a4f93df9d71', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:19:58.777Z', 'id': '58218aae5f6b9a4f93df9d71'}]
+2026-01-09 23:29:57 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:29:59 - mkk_pika - main.py:83 - INFO - 找到 176 张图片在:第1集
+2026-01-09 23:30:03 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   176, total: 176, progress:100%
+2026-01-09 23:30:03 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:03 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:03 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:30:04 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218aae5f6b9a4f93df9d6f
+                                   标题：Mahou Shoujo Ai
+                                   作者：manga
+                                   是否完结：是
+                                   总页数：176
+                                   分类：同人,長篇,非人類
+                                   章节数：1
+                                   最后更新时间：2007-10-17T02:47:26.000Z
+                                   =================================================
+2026-01-09 23:30:04 - mkk_pika - database.py:101 - INFO - 保存成功：Mahou Shoujo Ai
+2026-01-09 23:30:04 - mkk_pika - main.py:35 - INFO - 开始检查子種フルインストール！是否存在未下载章节
+2026-01-09 23:30:05 - mkk_pika - main.py:45 - INFO - 正在下载:[子種フルインストール！]-[吉田]-[['同人', '長篇', '純愛']]-[total_pages:182]
+2026-01-09 23:30:05 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ab15f6b9a4f93df9f41', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:01.405Z', 'id': '58218ab15f6b9a4f93df9f41'}]
+2026-01-09 23:30:05 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:30:07 - mkk_pika - main.py:83 - INFO - 找到 182 张图片在:第1集
+2026-01-09 23:30:10 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   182, total: 182, progress:100%
+2026-01-09 23:30:10 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:10 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:10 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:30:12 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ab05f6b9a4f93df9f3f
+                                   标题：子種フルインストール！
+                                   作者：吉田
+                                   是否完结：是
+                                   总页数：182
+                                   分类：同人,長篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-18T08:47:26.000Z
+                                   =================================================
+2026-01-09 23:30:12 - mkk_pika - database.py:101 - INFO - 保存成功：子種フルインストール！
+2026-01-09 23:30:12 - mkk_pika - main.py:35 - INFO - 开始检查おねショ是否存在未下载章节
+2026-01-09 23:30:12 - mkk_pika - main.py:45 - INFO - 正在下载:[おねショ]-[高岡基文]-[['同人', '長篇', '後宮閃光', '姐姐系']]-[total_pages:198]
+2026-01-09 23:30:12 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ab35f6b9a4f93dfa0b1', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:03.716Z', 'id': '58218ab35f6b9a4f93dfa0b1'}]
+2026-01-09 23:30:12 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:30:15 - mkk_pika - main.py:83 - INFO - 找到 198 张图片在:第1集
+2026-01-09 23:30:18 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   198, total: 198, progress:100%
+2026-01-09 23:30:18 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:18 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:18 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:30:19 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ab35f6b9a4f93dfa0af
+                                   标题：おねショ
+                                   作者：高岡基文
+                                   是否完结：是
+                                   总页数：198
+                                   分类：同人,長篇,後宮閃光,姐姐系
+                                   章节数：1
+                                   最后更新时间：2007-10-18T18:47:26.000Z
+                                   =================================================
+2026-01-09 23:30:19 - mkk_pika - database.py:101 - INFO - 保存成功：おねショ
+2026-01-09 23:30:19 - mkk_pika - main.py:35 - INFO - 开始检查ちゃんと“好き”ってゆって？是否存在未下载章节
+2026-01-09 23:30:20 - mkk_pika - main.py:45 - INFO - 正在下载:[ちゃんと“好き”ってゆって？]-[藤崎ひかり]-[['同人', '長篇', '妹妹系', '純愛']]-[total_pages:199]
+2026-01-09 23:30:20 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ab55f6b9a4f93dfa2bd', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:05.991Z', 'id': '58218ab55f6b9a4f93dfa2bd'}]
+2026-01-09 23:30:20 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:30:22 - mkk_pika - main.py:83 - INFO - 找到 199 张图片在:第1集
+2026-01-09 23:30:25 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   199, total: 199, progress:100%
+2026-01-09 23:30:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:25 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:30:27 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ab55f6b9a4f93dfa2bb
+                                   标题：ちゃんと“好き”ってゆって？
+                                   作者：藤崎ひかり
+                                   是否完结：是
+                                   总页数：199
+                                   分类：同人,長篇,妹妹系,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-20T00:47:26.000Z
+                                   =================================================
+2026-01-09 23:30:27 - mkk_pika - database.py:101 - INFO - 保存成功：ちゃんと“好き”ってゆって？
+2026-01-09 23:30:27 - mkk_pika - main.py:35 - INFO - 开始检查むっちりすけべ是否存在未下载章节
+2026-01-09 23:30:27 - mkk_pika - main.py:45 - INFO - 正在下载:[むっちりすけべ]-[[ボボボ]-[['同人', '長篇', '純愛']]-[total_pages:236]
+2026-01-09 23:30:27 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ab75f6b9a4f93dfa44f', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:07.144Z', 'id': '58218ab75f6b9a4f93dfa44f'}]
+2026-01-09 23:30:27 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:30:31 - mkk_pika - main.py:83 - INFO - 找到 236 张图片在:第1集
+2026-01-09 23:30:35 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   236, total: 236, progress:100%
+2026-01-09 23:30:35 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:35 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:35 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:30:36 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ab65f6b9a4f93dfa44d
+                                   标题：むっちりすけべ
+                                   作者：[ボボボ
+                                   是否完结：是
+                                   总页数：236
+                                   分类：同人,長篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-20T10:47:26.000Z
+                                   =================================================
+2026-01-09 23:30:36 - mkk_pika - database.py:101 - INFO - 保存成功：むっちりすけべ
+2026-01-09 23:30:36 - mkk_pika - main.py:35 - INFO - 开始检查触乳是否存在未下载章节
+2026-01-09 23:30:37 - mkk_pika - main.py:45 - INFO - 正在下载:[触乳]-[琴義弓介]-[['SM', '人妻', '長篇', 'NTR', '強暴']]-[total_pages:344]
+2026-01-09 23:30:37 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ab85f6b9a4f93dfa62b', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:08.605Z', 'id': '58218ab85f6b9a4f93dfa62b'}, {'_id': '58218ab95f6b9a4f93dfa793', 'title': '第2集', 'order': 2, 'updated_at': '2016-11-08T08:20:09.691Z', 'id': '58218ab95f6b9a4f93dfa793'}]
+2026-01-09 23:30:37 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:30:39 - mkk_pika - main.py:83 - INFO - 找到 179 张图片在:第1集
+2026-01-09 23:30:42 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   179, total: 179, progress:100%
+2026-01-09 23:30:42 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:42 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:42 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:30:45 - mkk_pika - main.py:83 - INFO - 找到 165 张图片在:第2集
+2026-01-09 23:30:48 - mkk_pika - main.py:112 - INFO - [episode:第2集       ] downloaded:   165, total: 165, progress:100%
+2026-01-09 23:30:48 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:48 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:48 - mkk_pika - database.py:245 - INFO - ['第1集', '第2集']
+2026-01-09 23:30:49 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ab85f6b9a4f93dfa629
+                                   标题：触乳
+                                   作者：琴義弓介
+                                   是否完结：是
+                                   总页数：344
+                                   分类：SM,人妻,長篇,NTR,強暴
+                                   章节数：2
+                                   最后更新时间：2007-10-20T20:47:26.000Z
+                                   =================================================
+2026-01-09 23:30:49 - mkk_pika - database.py:101 - INFO - 保存成功：触乳
+2026-01-09 23:30:49 - mkk_pika - main.py:35 - INFO - 开始检查地味巨乳黒川さんのえっちな性活是否存在未下载章节
+2026-01-09 23:30:49 - mkk_pika - main.py:45 - INFO - 正在下载:[地味巨乳黒川さんのえっちな性活]-[琴義弓介]-[['人妻', '長篇', '姐姐系']]-[total_pages:202]
+2026-01-09 23:30:49 - mkk_pika - main.py:49 - INFO - [{'_id': '58218abc5f6b9a4f93dfaa5b', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:12.637Z', 'id': '58218abc5f6b9a4f93dfaa5b'}]
+2026-01-09 23:30:49 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:30:52 - mkk_pika - main.py:83 - INFO - 找到 202 张图片在:第1集
+2026-01-09 23:30:55 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   202, total: 202, progress:100%
+2026-01-09 23:30:55 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:55 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:55 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:30:57 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218abc5f6b9a4f93dfaa59
+                                   标题：地味巨乳黒川さんのえっちな性活
+                                   作者：琴義弓介
+                                   是否完结：是
+                                   总页数：202
+                                   分类：人妻,長篇,姐姐系
+                                   章节数：1
+                                   最后更新时间：2007-10-21T16:47:26.000Z
+                                   =================================================
+2026-01-09 23:30:57 - mkk_pika - database.py:101 - INFO - 保存成功：地味巨乳黒川さんのえっちな性活
+2026-01-09 23:30:57 - mkk_pika - main.py:35 - INFO - 开始检查ブリコラ3(BLEACH)是否存在未下载章节
+2026-01-09 23:30:57 - mkk_pika - main.py:45 - INFO - 正在下载:[ブリコラ3(BLEACH)]-[ディオゲネスクラブ(灰川ヘムレン)]-[['同人', '短篇', '姐姐系']]-[total_pages:26]
+2026-01-09 23:30:57 - mkk_pika - main.py:49 - INFO - [{'_id': '58218abf5f6b9a4f93dfaf77', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:15.991Z', 'id': '58218abf5f6b9a4f93dfaf77'}]
+2026-01-09 23:30:57 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:30:58 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-01-09 23:30:58 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-01-09 23:30:58 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:30:58 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:30:58 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:30:59 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218abf5f6b9a4f93dfaf75
+                                   标题：ブリコラ3(BLEACH)
+                                   作者：ディオゲネスクラブ(灰川ヘムレン)
+                                   是否完结：否
+                                   总页数：26
+                                   分类：同人,短篇,姐姐系
+                                   章节数：1
+                                   最后更新时间：2007-10-22T22:47:26.000Z
+                                   =================================================
+2026-01-09 23:30:59 - mkk_pika - database.py:101 - INFO - 保存成功：ブリコラ3(BLEACH)
+2026-01-09 23:30:59 - mkk_pika - main.py:35 - INFO - 开始检查ブリコラ 4(BLEACH)是否存在未下载章节
+2026-01-09 23:31:00 - mkk_pika - main.py:45 - INFO - 正在下载:[ブリコラ 4(BLEACH)]-[ディオゲネスクラブ(灰川ヘムレン)]-[['同人', '短篇', '姐姐系']]-[total_pages:29]
+2026-01-09 23:31:00 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac05f6b9a4f93dfafaf', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:16.606Z', 'id': '58218ac05f6b9a4f93dfafaf'}]
+2026-01-09 23:31:00 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:00 - mkk_pika - main.py:83 - INFO - 找到 29 张图片在:第1集
+2026-01-09 23:31:01 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    29, total:  29, progress:100%
+2026-01-09 23:31:01 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:01 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:01 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:02 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac05f6b9a4f93dfafad
+                                   标题：ブリコラ 4(BLEACH)
+                                   作者：ディオゲネスクラブ(灰川ヘムレン)
+                                   是否完结：否
+                                   总页数：29
+                                   分类：同人,短篇,姐姐系
+                                   章节数：1
+                                   最后更新时间：2007-10-23T08:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:02 - mkk_pika - database.py:101 - INFO - 保存成功：ブリコラ 4(BLEACH)
+2026-01-09 23:31:02 - mkk_pika - main.py:35 - INFO - 开始检查ブリコラ 5(BLEACH)是否存在未下载章节
+2026-01-09 23:31:03 - mkk_pika - main.py:45 - INFO - 正在下载:[ブリコラ 5(BLEACH)]-[ディオゲネスクラブ(灰川ヘムレン)]-[['同人', '短篇', '姐姐系']]-[total_pages:27]
+2026-01-09 23:31:03 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac05f6b9a4f93dfafed', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:16.955Z', 'id': '58218ac05f6b9a4f93dfafed'}]
+2026-01-09 23:31:03 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:03 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-01-09 23:31:04 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-01-09 23:31:04 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:04 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:04 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:05 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac05f6b9a4f93dfafeb
+                                   标题：ブリコラ 5(BLEACH)
+                                   作者：ディオゲネスクラブ(灰川ヘムレン)
+                                   是否完结：否
+                                   总页数：27
+                                   分类：同人,短篇,姐姐系
+                                   章节数：1
+                                   最后更新时间：2007-10-23T18:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:05 - mkk_pika - database.py:101 - INFO - 保存成功：ブリコラ 5(BLEACH)
+2026-01-09 23:31:05 - mkk_pika - main.py:35 - INFO - 开始检查兄様！制服ですよ！(BLEACH)是否存在未下载章节
+2026-01-09 23:31:05 - mkk_pika - main.py:45 - INFO - 正在下载:[兄様！制服ですよ！(BLEACH)]-[琴乃屋(桐原ふたは)]-[['同人', '短篇', '妹妹系']]-[total_pages:24]
+2026-01-09 23:31:05 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac15f6b9a4f93dfb027', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:17.396Z', 'id': '58218ac15f6b9a4f93dfb027'}]
+2026-01-09 23:31:05 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:06 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:第1集
+2026-01-09 23:31:07 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    24, total:  24, progress:100%
+2026-01-09 23:31:07 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:07 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:07 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:08 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac15f6b9a4f93dfb025
+                                   标题：兄様！制服ですよ！(BLEACH)
+                                   作者：琴乃屋(桐原ふたは)
+                                   是否完结：是
+                                   总页数：24
+                                   分类：同人,短篇,妹妹系
+                                   章节数：1
+                                   最后更新时间：2007-10-24T04:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:08 - mkk_pika - database.py:101 - INFO - 保存成功：兄様！制服ですよ！(BLEACH)
+2026-01-09 23:31:08 - mkk_pika - main.py:35 - INFO - 开始检查黒蝶乱舞(BLEACH)是否存在未下载章节
+2026-01-09 23:31:08 - mkk_pika - main.py:45 - INFO - 正在下载:[黒蝶乱舞(BLEACH)]-[くりおね社(YU-RI)]-[['同人', '短篇', 'NTR']]-[total_pages:34]
+2026-01-09 23:31:08 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac25f6b9a4f93dfb05b', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:18.033Z', 'id': '58218ac25f6b9a4f93dfb05b'}]
+2026-01-09 23:31:08 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:09 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:第1集
+2026-01-09 23:31:10 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    34, total:  34, progress:100%
+2026-01-09 23:31:10 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:10 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:10 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:11 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac15f6b9a4f93dfb059
+                                   标题：黒蝶乱舞(BLEACH)
+                                   作者：くりおね社(YU-RI)
+                                   是否完结：否
+                                   总页数：34
+                                   分类：同人,短篇,NTR
+                                   章节数：1
+                                   最后更新时间：2007-10-24T14:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:11 - mkk_pika - database.py:101 - INFO - 保存成功：黒蝶乱舞(BLEACH)
+2026-01-09 23:31:11 - mkk_pika - main.py:35 - INFO - 开始检查黒蝶遊戯(BLEACH)是否存在未下载章节
+2026-01-09 23:31:11 - mkk_pika - main.py:45 - INFO - 正在下载:[黒蝶遊戯(BLEACH)]-[くりおね社 (YU-RI)]-[['同人', '短篇', '姐姐系', '純愛']]-[total_pages:30]
+2026-01-09 23:31:11 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac25f6b9a4f93dfb0a3', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:18.700Z', 'id': '58218ac25f6b9a4f93dfb0a3'}]
+2026-01-09 23:31:11 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:12 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-01-09 23:31:12 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-01-09 23:31:12 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:12 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:12 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:14 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac25f6b9a4f93dfb0a1
+                                   标题：黒蝶遊戯(BLEACH)
+                                   作者：くりおね社 (YU-RI)
+                                   是否完结：否
+                                   总页数：30
+                                   分类：同人,短篇,姐姐系,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-25T00:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:14 - mkk_pika - database.py:101 - INFO - 保存成功：黒蝶遊戯(BLEACH)
+2026-01-09 23:31:14 - mkk_pika - main.py:35 - INFO - 开始检查黒蝶恋慕(BLEACH)是否存在未下载章节
+2026-01-09 23:31:14 - mkk_pika - main.py:45 - INFO - 正在下载:[黒蝶恋慕(BLEACH)]-[くりおね社 (YU-RI)]-[['同人', '短篇', '姐姐系', '純愛']]-[total_pages:30]
+2026-01-09 23:31:14 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac35f6b9a4f93dfb0e3', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:19.461Z', 'id': '58218ac35f6b9a4f93dfb0e3'}]
+2026-01-09 23:31:14 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:15 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-01-09 23:31:15 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-01-09 23:31:15 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:15 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:15 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:17 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac25f6b9a4f93dfb0e1
+                                   标题：黒蝶恋慕(BLEACH)
+                                   作者：くりおね社 (YU-RI)
+                                   是否完结：否
+                                   总页数：30
+                                   分类：同人,短篇,姐姐系,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-25T10:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:17 - mkk_pika - database.py:101 - INFO - 保存成功：黒蝶恋慕(BLEACH)
+2026-01-09 23:31:17 - mkk_pika - main.py:35 - INFO - 开始检查ラブ フレーバー(BLEACH)是否存在未下载章节
+2026-01-09 23:31:17 - mkk_pika - main.py:45 - INFO - 正在下载:[ラブ フレーバー(BLEACH)]-[くりおね社 (YU-RI)]-[['同人', '短篇', '姐姐系']]-[total_pages:30]
+2026-01-09 23:31:17 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac45f6b9a4f93dfb123', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:20.087Z', 'id': '58218ac45f6b9a4f93dfb123'}]
+2026-01-09 23:31:17 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:18 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-01-09 23:31:18 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-01-09 23:31:18 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:18 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:18 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:20 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac35f6b9a4f93dfb121
+                                   标题：ラブ フレーバー(BLEACH)
+                                   作者：くりおね社 (YU-RI)
+                                   是否完结：否
+                                   总页数：30
+                                   分类：同人,短篇,姐姐系
+                                   章节数：1
+                                   最后更新时间：2007-10-25T20:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:20 - mkk_pika - database.py:101 - INFO - 保存成功：ラブ フレーバー(BLEACH)
+2026-01-09 23:31:20 - mkk_pika - main.py:35 - INFO - 开始检查黒蝶艶美(BLEACH)是否存在未下载章节
+2026-01-09 23:31:20 - mkk_pika - main.py:45 - INFO - 正在下载:[黒蝶艶美(BLEACH)]-[くりおね社 (YU-RI)]-[['同人', '短篇', '姐姐系', '純愛']]-[total_pages:22]
+2026-01-09 23:31:20 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac45f6b9a4f93dfb163', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:20.776Z', 'id': '58218ac45f6b9a4f93dfb163'}]
+2026-01-09 23:31:20 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:21 - mkk_pika - main.py:83 - INFO - 找到 22 张图片在:第1集
+2026-01-09 23:31:22 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    22, total:  22, progress:100%
+2026-01-09 23:31:22 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:22 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:22 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:23 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac45f6b9a4f93dfb161
+                                   标题：黒蝶艶美(BLEACH)
+                                   作者：くりおね社 (YU-RI)
+                                   是否完结：否
+                                   总页数：22
+                                   分类：同人,短篇,姐姐系,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-26T06:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:23 - mkk_pika - database.py:101 - INFO - 保存成功：黒蝶艶美(BLEACH)
+2026-01-09 23:31:23 - mkk_pika - main.py:35 - INFO - 开始检查セクシャル フレーバー(BLEACH)是否存在未下载章节
+2026-01-09 23:31:23 - mkk_pika - main.py:45 - INFO - 正在下载:[セクシャル フレーバー(BLEACH)]-[くりおね社 (YU-RI)]-[['同人', '短篇', '姐姐系']]-[total_pages:30]
+2026-01-09 23:31:23 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac55f6b9a4f93dfb193', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:21.464Z', 'id': '58218ac55f6b9a4f93dfb193'}]
+2026-01-09 23:31:23 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:24 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-01-09 23:31:24 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-01-09 23:31:24 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:24 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:24 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:26 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac45f6b9a4f93dfb191
+                                   标题：セクシャル フレーバー(BLEACH)
+                                   作者：くりおね社 (YU-RI)
+                                   是否完结：否
+                                   总页数：30
+                                   分类：同人,短篇,姐姐系
+                                   章节数：1
+                                   最后更新时间：2007-10-26T16:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:26 - mkk_pika - database.py:101 - INFO - 保存成功：セクシャル フレーバー(BLEACH)
+2026-01-09 23:31:26 - mkk_pika - main.py:35 - INFO - 开始检查ハッピィホリディ(乱菊総集編 第6章)(BLEACH)是否存在未下载章节
+2026-01-09 23:31:26 - mkk_pika - main.py:45 - INFO - 正在下载:[ハッピィホリディ(乱菊総集編 第6章)(BLEACH)]-[くりおね社 (YU-RI)]-[['同人', '短篇', '強暴']]-[total_pages:24]
+2026-01-09 23:31:26 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac65f6b9a4f93dfb1d3', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:22.247Z', 'id': '58218ac65f6b9a4f93dfb1d3'}]
+2026-01-09 23:31:26 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:27 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:第1集
+2026-01-09 23:31:27 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    24, total:  24, progress:100%
+2026-01-09 23:31:27 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:27 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:27 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:28 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac55f6b9a4f93dfb1d1
+                                   标题：ハッピィホリディ(乱菊総集編 第6章)(BLEACH)
+                                   作者：くりおね社 (YU-RI)
+                                   是否完结：否
+                                   总页数：24
+                                   分类：同人,短篇,強暴
+                                   章节数：1
+                                   最后更新时间：2007-10-27T02:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:28 - mkk_pika - database.py:101 - INFO - 保存成功：ハッピィホリディ(乱菊総集編 第6章)(BLEACH)
+2026-01-09 23:31:28 - mkk_pika - main.py:35 - INFO - 开始检查ぬるぬるぱにっく!(BLEACH)是否存在未下载章节
+2026-01-09 23:31:29 - mkk_pika - main.py:45 - INFO - 正在下载:[ぬるぬるぱにっく!(BLEACH)]-[くりおね社 (YU-RI)]-[['同人', '短篇', '非人類', '強暴']]-[total_pages:30]
+2026-01-09 23:31:29 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac65f6b9a4f93dfb207', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:22.657Z', 'id': '58218ac65f6b9a4f93dfb207'}]
+2026-01-09 23:31:29 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:29 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-01-09 23:31:30 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-01-09 23:31:30 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:30 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:30 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:31 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac65f6b9a4f93dfb205
+                                   标题：ぬるぬるぱにっく!(BLEACH)
+                                   作者：くりおね社 (YU-RI)
+                                   是否完结：否
+                                   总页数：30
+                                   分类：同人,短篇,非人類,強暴
+                                   章节数：1
+                                   最后更新时间：2007-10-27T12:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:31 - mkk_pika - database.py:101 - INFO - 保存成功：ぬるぬるぱにっく!(BLEACH)
+2026-01-09 23:31:31 - mkk_pika - main.py:35 - INFO - 开始检查黒崎家の死神(BLEACH)是否存在未下载章节
+2026-01-09 23:31:32 - mkk_pika - main.py:45 - INFO - 正在下载:[黒崎家の死神(BLEACH)]-[くりおね社 (YU-RI)]-[['同人', '短篇', '強暴']]-[total_pages:30]
+2026-01-09 23:31:32 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac75f6b9a4f93dfb247', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:23.220Z', 'id': '58218ac75f6b9a4f93dfb247'}]
+2026-01-09 23:31:32 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:32 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-01-09 23:31:33 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-01-09 23:31:33 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:33 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:33 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:34 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac65f6b9a4f93dfb245
+                                   标题：黒崎家の死神(BLEACH)
+                                   作者：くりおね社 (YU-RI)
+                                   是否完结：否
+                                   总页数：30
+                                   分类：同人,短篇,強暴
+                                   章节数：1
+                                   最后更新时间：2007-10-27T22:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:34 - mkk_pika - database.py:101 - INFO - 保存成功：黒崎家の死神(BLEACH)
+2026-01-09 23:31:34 - mkk_pika - main.py:35 - INFO - 开始检查Baby Maybe(BLEACH)是否存在未下载章节
+2026-01-09 23:31:34 - mkk_pika - main.py:45 - INFO - 正在下载:[Baby Maybe(BLEACH)]-[くりおね館, プラチナブロンド(YU-RI, ミズタマ)]-[['同人', '短篇']]-[total_pages:19]
+2026-01-09 23:31:34 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ac75f6b9a4f93dfb287', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:23.799Z', 'id': '58218ac75f6b9a4f93dfb287'}]
+2026-01-09 23:31:34 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:36 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:第1集
+2026-01-09 23:31:36 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    19, total:  19, progress:100%
+2026-01-09 23:31:36 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:36 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:36 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:37 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ac75f6b9a4f93dfb285
+                                   标题：Baby Maybe(BLEACH)
+                                   作者：くりおね館, プラチナブロンド(YU-RI, ミズタマ)
+                                   是否完结：否
+                                   总页数：19
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2007-10-28T08:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:37 - mkk_pika - database.py:101 - INFO - 保存成功：Baby Maybe(BLEACH)
+2026-01-09 23:31:37 - mkk_pika - main.py:35 - INFO - 开始检查即ハメビッチンポ是否存在未下载章节
+2026-01-09 23:31:38 - mkk_pika - main.py:45 - INFO - 正在下载:[即ハメビッチンポ]-[カンナビス(しまじ]-[['同人']]-[total_pages:58]
+2026-01-09 23:31:38 - mkk_pika - main.py:49 - INFO - [{'_id': '58218aca5f6b9a4f93dfb493', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:26.322Z', 'id': '58218aca5f6b9a4f93dfb493'}, {'_id': '58218aca5f6b9a4f93dfb4d3', 'title': '第2集', 'order': 2, 'updated_at': '2016-11-08T08:20:26.949Z', 'id': '58218aca5f6b9a4f93dfb4d3'}]
+2026-01-09 23:31:38 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:38 - mkk_pika - main.py:83 - INFO - 找到 31 张图片在:第1集
+2026-01-09 23:31:39 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    31, total:  31, progress:100%
+2026-01-09 23:31:39 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:39 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:39 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:40 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第2集
+2026-01-09 23:31:41 - mkk_pika - main.py:112 - INFO - [episode:第2集       ] downloaded:    27, total:  27, progress:100%
+2026-01-09 23:31:41 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:41 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:41 - mkk_pika - database.py:245 - INFO - ['第1集', '第2集']
+2026-01-09 23:31:42 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218aca5f6b9a4f93dfb491
+                                   标题：即ハメビッチンポ
+                                   作者：カンナビス(しまじ
+                                   是否完结：是
+                                   总页数：58
+                                   分类：同人
+                                   章节数：2
+                                   最后更新时间：2007-10-29T14:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:42 - mkk_pika - database.py:101 - INFO - 保存成功：即ハメビッチンポ
+2026-01-09 23:31:42 - mkk_pika - main.py:35 - INFO - 开始检查黒砂糖 (妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:31:43 - mkk_pika - main.py:45 - INFO - 正在下载:[黒砂糖 (妖狐×僕SS)]-[兎座堂 (エヌ)]-[['同人', '短篇', '純愛']]-[total_pages:20]
+2026-01-09 23:31:43 - mkk_pika - main.py:49 - INFO - [{'_id': '5fde22a7cc2a3c407ff90c03', 'title': '第1話', 'order': 1, 'updated_at': '2020-12-19T13:47:01.630Z', 'id': '5fde22a7cc2a3c407ff90c03'}]
+2026-01-09 23:31:43 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:43 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1話
+2026-01-09 23:31:44 - mkk_pika - main.py:112 - INFO - [episode:第1話       ] downloaded:    20, total:  20, progress:100%
+2026-01-09 23:31:44 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:44 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:44 - mkk_pika - database.py:245 - INFO - ['第1話']
+2026-01-09 23:31:45 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218acb5f6b9a4f93dfb50b
+                                   标题：黒砂糖 (妖狐×僕SS)
+                                   作者：兎座堂 (エヌ)
+                                   是否完结：是
+                                   总页数：20
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-30T00:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:45 - mkk_pika - database.py:101 - INFO - 保存成功：黒砂糖 (妖狐×僕SS)
+2026-01-09 23:31:45 - mkk_pika - main.py:35 - INFO - 开始检查白砂糖 (妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:31:45 - mkk_pika - main.py:45 - INFO - 正在下载:[白砂糖 (妖狐×僕SS)]-[兎座堂 (エヌ)]-[['同人', '短篇', '純愛']]-[total_pages:19]
+2026-01-09 23:31:45 - mkk_pika - main.py:49 - INFO - [{'_id': '5fde227ccc2a3c407ff90b90', 'title': '第1話', 'order': 1, 'updated_at': '2020-12-19T14:09:22.811Z', 'id': '5fde227ccc2a3c407ff90b90'}]
+2026-01-09 23:31:45 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:46 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:第1話
+2026-01-09 23:31:46 - mkk_pika - main.py:112 - INFO - [episode:第1話       ] downloaded:    19, total:  19, progress:100%
+2026-01-09 23:31:46 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:46 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:46 - mkk_pika - database.py:245 - INFO - ['第1話']
+2026-01-09 23:31:48 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218acb5f6b9a4f93dfb533
+                                   标题：白砂糖 (妖狐×僕SS)
+                                   作者：兎座堂 (エヌ)
+                                   是否完结：是
+                                   总页数：19
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-30T10:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:48 - mkk_pika - database.py:101 - INFO - 保存成功：白砂糖 (妖狐×僕SS)
+2026-01-09 23:31:48 - mkk_pika - main.py:35 - INFO - 开始检查桃砂糖 (妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:31:48 - mkk_pika - main.py:45 - INFO - 正在下载:[桃砂糖 (妖狐×僕SS)]-[兎座堂 (エヌ)]-[['同人', '短篇', '百合花園']]-[total_pages:21]
+2026-01-09 23:31:48 - mkk_pika - main.py:49 - INFO - [{'_id': '5fde22bea9f3e14073d4d24d', 'title': '第1話', 'order': 1, 'updated_at': '2020-12-19T14:15:31.620Z', 'id': '5fde22bea9f3e14073d4d24d'}]
+2026-01-09 23:31:48 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:49 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第1話
+2026-01-09 23:31:49 - mkk_pika - main.py:112 - INFO - [episode:第1話       ] downloaded:    21, total:  21, progress:100%
+2026-01-09 23:31:49 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:49 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:49 - mkk_pika - database.py:245 - INFO - ['第1話']
+2026-01-09 23:31:50 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218acc5f6b9a4f93dfb55b
+                                   标题：桃砂糖 (妖狐×僕SS)
+                                   作者：兎座堂 (エヌ)
+                                   是否完结：是
+                                   总页数：21
+                                   分类：同人,短篇,百合花園
+                                   章节数：1
+                                   最后更新时间：2007-10-30T20:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:50 - mkk_pika - database.py:101 - INFO - 保存成功：桃砂糖 (妖狐×僕SS)
+2026-01-09 23:31:50 - mkk_pika - main.py:35 - INFO - 开始检查わんわん物語 (妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:31:51 - mkk_pika - main.py:45 - INFO - 正在下载:[わんわん物語 (妖狐×僕SS)]-[ciaociao(あらきかなお)]-[['同人', '短篇', '妹妹系', '純愛']]-[total_pages:26]
+2026-01-09 23:31:51 - mkk_pika - main.py:49 - INFO - [{'_id': '58218acc5f6b9a4f93dfb589', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:28.858Z', 'id': '58218acc5f6b9a4f93dfb589'}]
+2026-01-09 23:31:51 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:51 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-01-09 23:31:52 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-01-09 23:31:52 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:52 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:52 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:53 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218acc5f6b9a4f93dfb587
+                                   标题：わんわん物語 (妖狐×僕SS)
+                                   作者：ciaociao(あらきかなお)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：同人,短篇,妹妹系,純愛
+                                   章节数：1
+                                   最后更新时间：2007-10-31T06:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:53 - mkk_pika - database.py:101 - INFO - 保存成功：わんわん物語 (妖狐×僕SS)
+2026-01-09 23:31:53 - mkk_pika - main.py:35 - INFO - 开始检查momoiro lesson (妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:31:53 - mkk_pika - main.py:45 - INFO - 正在下载:[momoiro lesson (妖狐×僕SS)]-[ペチカ (みかみかん)]-[['同人', '短篇', '扶他樂園', '妹妹系']]-[total_pages:19]
+2026-01-09 23:31:53 - mkk_pika - main.py:49 - INFO - [{'_id': '58218acd5f6b9a4f93dfb5c1', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:29.443Z', 'id': '58218acd5f6b9a4f93dfb5c1'}]
+2026-01-09 23:31:53 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:54 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:第1集
+2026-01-09 23:31:54 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    19, total:  19, progress:100%
+2026-01-09 23:31:54 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:54 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:54 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:56 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218acc5f6b9a4f93dfb5bf
+                                   标题：momoiro lesson (妖狐×僕SS)
+                                   作者：ペチカ (みかみかん)
+                                   是否完结：否
+                                   总页数：19
+                                   分类：同人,短篇,扶他樂園,妹妹系
+                                   章节数：1
+                                   最后更新时间：2007-10-31T16:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:56 - mkk_pika - database.py:101 - INFO - 保存成功：momoiro lesson (妖狐×僕SS)
+2026-01-09 23:31:56 - mkk_pika - main.py:35 - INFO - 开始检查 ぼくの狐さま。(妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:31:56 - mkk_pika - main.py:45 - INFO - 正在下载:[ ぼくの狐さま。(妖狐×僕SS)]-[水護亭 (水護難陀)]-[['同人', '短篇', '妹妹系', '純愛']]-[total_pages:20]
+2026-01-09 23:31:56 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ace5f6b9a4f93dfb5eb', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:30.076Z', 'id': '58218ace5f6b9a4f93dfb5eb'}]
+2026-01-09 23:31:56 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:57 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-01-09 23:31:57 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-01-09 23:31:57 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:31:57 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:31:57 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:31:58 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218acd5f6b9a4f93dfb5e9
+                                   标题： ぼくの狐さま。(妖狐×僕SS)
+                                   作者：水護亭 (水護難陀)
+                                   是否完结：是
+                                   总页数：20
+                                   分类：同人,短篇,妹妹系,純愛
+                                   章节数：1
+                                   最后更新时间：2007-11-01T02:47:26.000Z
+                                   =================================================
+2026-01-09 23:31:58 - mkk_pika - database.py:101 - INFO - 保存成功： ぼくの狐さま。(妖狐×僕SS)
+2026-01-09 23:31:58 - mkk_pika - main.py:35 - INFO - 开始检查 カルタメニアック (妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:31:59 - mkk_pika - main.py:45 - INFO - 正在下载:[ カルタメニアック (妖狐×僕SS)]-[LOOP THE LOOP! (へるるん)]-[['同人', '短篇', '純愛']]-[total_pages:21]
+2026-01-09 23:31:59 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ace5f6b9a4f93dfb617', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:30.496Z', 'id': '58218ace5f6b9a4f93dfb617'}]
+2026-01-09 23:31:59 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:31:59 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第1集
+2026-01-09 23:32:00 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    21, total:  21, progress:100%
+2026-01-09 23:32:00 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:00 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:00 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:01 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ace5f6b9a4f93dfb615
+                                   标题： カルタメニアック (妖狐×僕SS)
+                                   作者：LOOP THE LOOP! (へるるん)
+                                   是否完结：否
+                                   总页数：21
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-11-01T12:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:01 - mkk_pika - database.py:101 - INFO - 保存成功： カルタメニアック (妖狐×僕SS)
+2026-01-09 23:32:01 - mkk_pika - main.py:35 - INFO - 开始检查ちいさな器是否存在未下载章节
+2026-01-09 23:32:01 - mkk_pika - main.py:45 - INFO - 正在下载:[ちいさな器]-[興津惣介]-[['同人', '長篇', '強暴', '妹妹系']]-[total_pages:160]
+2026-01-09 23:32:01 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ace5f6b9a4f93dfb645', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:30.926Z', 'id': '58218ace5f6b9a4f93dfb645'}]
+2026-01-09 23:32:01 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:03 - mkk_pika - main.py:83 - INFO - 找到 160 张图片在:第1集
+2026-01-09 23:32:06 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   160, total: 160, progress:100%
+2026-01-09 23:32:06 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:06 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:06 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:07 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ace5f6b9a4f93dfb643
+                                   标题：ちいさな器
+                                   作者：興津惣介
+                                   是否完结：是
+                                   总页数：160
+                                   分类：同人,長篇,強暴,妹妹系
+                                   章节数：1
+                                   最后更新时间：2007-11-01T22:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:07 - mkk_pika - database.py:101 - INFO - 保存成功：ちいさな器
+2026-01-09 23:32:07 - mkk_pika - main.py:35 - INFO - 开始检查冴えない加藤の誘惑… 是否存在未下载章节
+2026-01-09 23:32:08 - mkk_pika - main.py:45 - INFO - 正在下载:[冴えない加藤の誘惑… ]-[相川たつき]-[['同人', '短篇', '純愛']]-[total_pages:22]
+2026-01-09 23:32:08 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ad05f6b9a4f93dfb789', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:32.292Z', 'id': '58218ad05f6b9a4f93dfb789'}]
+2026-01-09 23:32:08 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:08 - mkk_pika - main.py:83 - INFO - 找到 22 张图片在:第1集
+2026-01-09 23:32:09 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    22, total:  22, progress:100%
+2026-01-09 23:32:09 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:09 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:09 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:10 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218acf5f6b9a4f93dfb787
+                                   标题：冴えない加藤の誘惑… 
+                                   作者：相川たつき
+                                   是否完结：是
+                                   总页数：22
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-11-02T08:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:10 - mkk_pika - database.py:101 - INFO - 保存成功：冴えない加藤の誘惑… 
+2026-01-09 23:32:10 - mkk_pika - main.py:35 - INFO - 开始检查淫らな彼女達の作りかた是否存在未下载章节
+2026-01-09 23:32:10 - mkk_pika - main.py:45 - INFO - 正在下载:[淫らな彼女達の作りかた]-[流石堂]-[['同人', '短篇', '全彩', '後宮閃光']]-[total_pages:17]
+2026-01-09 23:32:10 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ad05f6b9a4f93dfb7b9', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:32.968Z', 'id': '58218ad05f6b9a4f93dfb7b9'}]
+2026-01-09 23:32:10 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:11 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:第1集
+2026-01-09 23:32:11 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    17, total:  17, progress:100%
+2026-01-09 23:32:11 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:11 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:11 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:13 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ad05f6b9a4f93dfb7b7
+                                   标题：淫らな彼女達の作りかた
+                                   作者：流石堂
+                                   是否完结：是
+                                   总页数：17
+                                   分类：同人,短篇,全彩,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2007-11-02T18:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:13 - mkk_pika - database.py:101 - INFO - 保存成功：淫らな彼女達の作りかた
+2026-01-09 23:32:13 - mkk_pika - main.py:35 - INFO - 开始检查たったひとりの冴えた彼女是否存在未下载章节
+2026-01-09 23:32:13 - mkk_pika - main.py:45 - INFO - 正在下载:[たったひとりの冴えた彼女]-[ななろぼ華]-[['同人', '短篇', '全彩', '純愛']]-[total_pages:19]
+2026-01-09 23:32:13 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ad15f6b9a4f93dfb7df', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:33.369Z', 'id': '58218ad15f6b9a4f93dfb7df'}]
+2026-01-09 23:32:13 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:14 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:第1集
+2026-01-09 23:32:14 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    19, total:  19, progress:100%
+2026-01-09 23:32:14 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:14 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:14 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:15 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ad15f6b9a4f93dfb7dd
+                                   标题：たったひとりの冴えた彼女
+                                   作者：ななろぼ華
+                                   是否完结：是
+                                   总页数：19
+                                   分类：同人,短篇,全彩,純愛
+                                   章节数：1
+                                   最后更新时间：2007-11-03T04:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:15 - mkk_pika - database.py:101 - INFO - 保存成功：たったひとりの冴えた彼女
+2026-01-09 23:32:15 - mkk_pika - main.py:35 - INFO - 开始检查黑カノ是否存在未下载章节
+2026-01-09 23:32:16 - mkk_pika - main.py:45 - INFO - 正在下载:[黑カノ]-[不明]-[['同人', '短篇', '純愛']]-[total_pages:25]
+2026-01-09 23:32:16 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ad15f6b9a4f93dfb809', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:33.775Z', 'id': '58218ad15f6b9a4f93dfb809'}]
+2026-01-09 23:32:16 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:16 - mkk_pika - main.py:83 - INFO - 找到 25 张图片在:第1集
+2026-01-09 23:32:17 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    25, total:  25, progress:100%
+2026-01-09 23:32:17 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:17 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:17 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:18 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ad15f6b9a4f93dfb807
+                                   标题：黑カノ
+                                   作者：不明
+                                   是否完结：是
+                                   总页数：25
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-11-03T14:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:18 - mkk_pika - database.py:101 - INFO - 保存成功：黑カノ
+2026-01-09 23:32:18 - mkk_pika - main.py:35 - INFO - 开始检查勃起的淫母濕濡的兒子是否存在未下载章节
+2026-01-09 23:32:18 - mkk_pika - main.py:45 - INFO - 正在下载:[勃起的淫母濕濡的兒子]-[勃起する母、濡れる息子]-[['同人', '人妻', '長篇', '後宮閃光', '純愛']]-[total_pages:187]
+2026-01-09 23:32:18 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ad25f6b9a4f93dfb83f', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:34.298Z', 'id': '58218ad25f6b9a4f93dfb83f'}]
+2026-01-09 23:32:18 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:20 - mkk_pika - main.py:83 - INFO - 找到 187 张图片在:第1集
+2026-01-09 23:32:24 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   187, total: 187, progress:100%
+2026-01-09 23:32:24 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:24 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:24 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:25 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ad15f6b9a4f93dfb83d
+                                   标题：勃起的淫母濕濡的兒子
+                                   作者：勃起する母、濡れる息子
+                                   是否完结：是
+                                   总页数：187
+                                   分类：同人,人妻,長篇,後宮閃光,純愛
+                                   章节数：1
+                                   最后更新时间：2007-11-04T00:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:25 - mkk_pika - database.py:101 - INFO - 保存成功：勃起的淫母濕濡的兒子
+2026-01-09 23:32:25 - mkk_pika - main.py:35 - INFO - 开始检查やらせてっBunnys]是否存在未下载章节
+2026-01-09 23:32:25 - mkk_pika - main.py:45 - INFO - 正在下载:[やらせてっBunnys]]-[The Amanoja9]-[['同人', '人妻', '長篇']]-[total_pages:171]
+2026-01-09 23:32:25 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ad35f6b9a4f93dfb9b9', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:35.941Z', 'id': '58218ad35f6b9a4f93dfb9b9'}]
+2026-01-09 23:32:25 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:27 - mkk_pika - main.py:83 - INFO - 找到 171 张图片在:第1集
+2026-01-09 23:32:30 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   171, total: 171, progress:100%
+2026-01-09 23:32:30 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:30 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:30 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:32 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ad35f6b9a4f93dfb9b7
+                                   标题：やらせてっBunnys]
+                                   作者：The Amanoja9
+                                   是否完结：是
+                                   总页数：171
+                                   分类：同人,人妻,長篇
+                                   章节数：1
+                                   最后更新时间：2007-11-04T10:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:32 - mkk_pika - database.py:101 - INFO - 保存成功：やらせてっBunnys]
+2026-01-09 23:32:32 - mkk_pika - main.py:35 - INFO - 开始检查Sweets Paradise (妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:32:32 - mkk_pika - main.py:45 - INFO - 正在下载:[Sweets Paradise (妖狐×僕SS)]-[ねころっぷ (遊月ひな)]-[['同人', '短篇', '純愛']]-[total_pages:16]
+2026-01-09 23:32:32 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ad55f6b9a4f93dfbc95', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:37.767Z', 'id': '58218ad55f6b9a4f93dfbc95'}]
+2026-01-09 23:32:32 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:32 - mkk_pika - main.py:83 - INFO - 找到 16 张图片在:第1集
+2026-01-09 23:32:33 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    16, total:  16, progress:100%
+2026-01-09 23:32:33 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:33 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:33 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:34 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ad55f6b9a4f93dfbc93
+                                   标题：Sweets Paradise (妖狐×僕SS)
+                                   作者：ねころっぷ (遊月ひな)
+                                   是否完结：是
+                                   总页数：16
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-11-05T06:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:34 - mkk_pika - database.py:101 - INFO - 保存成功：Sweets Paradise (妖狐×僕SS)
+2026-01-09 23:32:34 - mkk_pika - main.py:35 - INFO - 开始检查カルたぬき (妖狐×僕SS)是否存在未下载章节
+2026-01-09 23:32:34 - mkk_pika - main.py:45 - INFO - 正在下载:[カルたぬき (妖狐×僕SS)]-[さぷり(みずせ希跡)]-[['同人', '短篇', '純愛']]-[total_pages:28]
+2026-01-09 23:32:34 - mkk_pika - main.py:49 - INFO - [{'_id': '58218ad65f6b9a4f93dfbcb9', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:20:38.340Z', 'id': '58218ad65f6b9a4f93dfbcb9'}]
+2026-01-09 23:32:34 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-01-09 23:32:35 - mkk_pika - main.py:83 - INFO - 找到 28 张图片在:第1集
+2026-01-09 23:32:36 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    28, total:  28, progress:100%
+2026-01-09 23:32:36 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-01-09 23:32:36 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-01-09 23:32:36 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-01-09 23:32:37 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218ad55f6b9a4f93dfbcb7
+                                   标题：カルたぬき (妖狐×僕SS)
+                                   作者：さぷり(みずせ希跡)
+                                   是否完结：是
+                                   总页数：28
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2007-11-05T16:47:26.000Z
+                                   =================================================
+2026-01-09 23:32:37 - mkk_pika - database.py:101 - INFO - 保存成功：カルたぬき (妖狐×僕SS)
+2026-01-09 23:32:37 - mkk_pika - main.py:380 - INFO - 本次任务下载完毕
+2026-01-09 23:32:37 - mkk_pika - database.py:173 - INFO - 数据库连接已关闭
