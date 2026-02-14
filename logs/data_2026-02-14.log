@@ -1,0 +1,325 @@
+2026-02-14 23:35:11 - mkk_pika - main.py:193 - INFO - =======================================================================
+2026-02-14 23:35:11 - mkk_pika - database.py:61 - INFO - 表和索引初始化成功
+2026-02-14 23:35:11 - mkk_pika - main.py:197 - INFO - 已经累计下载2147本漫画
+2026-02-14 23:35:11 - mkk_pika - api.py:87 - INFO - 登录成功
+2026-02-14 23:35:12 - mkk_pika - main.py:203 - INFO - 收藏夹共计0本漫画
+2026-02-14 23:35:12 - mkk_pika - main.py:206 - INFO - 开始下载收藏夹内未下载内容
+2026-02-14 23:35:12 - mkk_pika - main.py:266 - INFO - 收藏夹内容下载完毕
+2026-02-14 23:35:12 - mkk_pika - main.py:268 - INFO - 开始下载订阅内容
+2026-02-14 23:35:12 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：萝莉 -> 凪ちゃんと二人にしたお前が悪いよ | 让我和小凪独处 这可是你的错哦
+2026-02-14 23:35:13 - mkk_pika - database.py:101 - INFO - 保存成功：凪ちゃんと二人にしたお前が悪いよ | 让我和小凪独处 这可是你的错哦
+2026-02-14 23:35:13 - mkk_pika - main.py:273 - INFO - 关键词萝莉找到0本漫画
+2026-02-14 23:35:13 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：蘿莉 -> レズトラップダンジョン
+2026-02-14 23:35:14 - mkk_pika - database.py:101 - INFO - 保存成功：[PIXIV] AIうえお (118437861)（AI）
+2026-02-14 23:35:14 - mkk_pika - main.py:273 - INFO - 关键词蘿莉找到4本漫画
+2026-02-14 23:35:14 - mkk_pika - main.py:275 - INFO - 订阅内容共计4本漫画
+2026-02-14 23:35:14 - mkk_pika - main.py:35 - INFO - 开始检查ゼンゼロモブの漫画 (ゼンレスゾーンゼロ)[中国翻訳]是否存在未下载章节
+2026-02-14 23:35:14 - mkk_pika - main.py:45 - INFO - 正在下载:[ゼンゼロモブの漫画 (ゼンレスゾーンゼロ)[中国翻訳]]-[Rev3 (もんちゃんrev3)]-[['短篇', '同人', '非人類']]-[total_pages:-1]
+2026-02-14 23:35:14 - mkk_pika - main.py:49 - INFO - [{'_id': '6990ac9811f7f05be2a133ce', 'title': '熟肉', 'order': 1, 'updated_at': '2026-02-14T09:00:37.740Z', 'id': '6990ac9811f7f05be2a133ce'}]
+2026-02-14 23:35:14 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:15 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:熟肉
+2026-02-14 23:35:16 - mkk_pika - main.py:112 - INFO - [episode:熟肉        ] downloaded:    21, total:  21, progress:100%
+2026-02-14 23:35:16 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:16 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:16 - mkk_pika - database.py:245 - INFO - ['熟肉']
+2026-02-14 23:35:17 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：6990ac9811f7f05be2a133cd
+                                标题：ゼンゼロモブの漫画 (ゼンレスゾーンゼロ)[中国翻訳]
+                                作者：Rev3 (もんちゃんrev3)
+                                是否完结：是
+                                总页数：21
+                                分类：短篇,同人,非人類
+                                章节数：1
+                                最后更新时间：2026-02-14T17:10:48.627Z
+                                =================================================
+2026-02-14 23:35:17 - mkk_pika - database.py:101 - INFO - 保存成功：ゼンゼロモブの漫画 (ゼンレスゾーンゼロ)[中国翻訳]
+2026-02-14 23:35:17 - mkk_pika - main.py:35 - INFO - 开始检查えっちなマッサージはだめっ! (ブルーアーカイブ)是否存在未下载章节
+2026-02-14 23:35:18 - mkk_pika - main.py:45 - INFO - 正在下载:[えっちなマッサージはだめっ! (ブルーアーカイブ)]-[芽の里 (めりーべ)]-[['短篇']]-[total_pages:-1]
+2026-02-14 23:35:18 - mkk_pika - main.py:49 - INFO - [{'_id': '6990ab024313ca467ef7f726', 'title': '第1話', 'order': 1, 'updated_at': '2026-02-13T07:56:09.248Z', 'id': '6990ab024313ca467ef7f726'}]
+2026-02-14 23:35:18 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:18 - mkk_pika - main.py:83 - INFO - 找到 32 张图片在:第1話
+2026-02-14 23:35:20 - mkk_pika - main.py:112 - INFO - [episode:第1話       ] downloaded:    32, total:  32, progress:100%
+2026-02-14 23:35:20 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:20 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:20 - mkk_pika - database.py:245 - INFO - ['第1話']
+2026-02-14 23:35:21 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：6990ab024313ca467ef7f725
+                                标题：えっちなマッサージはだめっ! (ブルーアーカイブ)
+                                作者：芽の里 (めりーべ)
+                                是否完结：是
+                                总页数：32
+                                分类：短篇
+                                章节数：1
+                                最后更新时间：2026-02-14T17:04:02.327Z
+                                =================================================
+2026-02-14 23:35:21 - mkk_pika - database.py:101 - INFO - 保存成功：えっちなマッサージはだめっ! (ブルーアーカイブ)
+2026-02-14 23:35:21 - mkk_pika - main.py:35 - INFO - 开始检查ココナちゃんと温泉旅行 (ブルーアーカイブ)是否存在未下载章节
+2026-02-14 23:35:21 - mkk_pika - main.py:45 - INFO - 正在下载:[ココナちゃんと温泉旅行 (ブルーアーカイブ)]-[啓々堂 (啓々)]-[['全彩', '同人', '短篇']]-[total_pages:-1]
+2026-02-14 23:35:21 - mkk_pika - main.py:49 - INFO - [{'_id': '6990aafb4313ca467ef7f710', 'title': '第1話', 'order': 1, 'updated_at': '2026-02-13T15:29:10.193Z', 'id': '6990aafb4313ca467ef7f710'}]
+2026-02-14 23:35:21 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:22 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:第1話
+2026-02-14 23:35:23 - mkk_pika - main.py:112 - INFO - [episode:第1話       ] downloaded:    17, total:  17, progress:100%
+2026-02-14 23:35:23 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:23 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:23 - mkk_pika - database.py:245 - INFO - ['第1話']
+2026-02-14 23:35:24 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：6990aafb4313ca467ef7f70f
+                                标题：ココナちゃんと温泉旅行 (ブルーアーカイブ)
+                                作者：啓々堂 (啓々)
+                                是否完结：是
+                                总页数：17
+                                分类：全彩,同人,短篇
+                                章节数：1
+                                最后更新时间：2026-02-14T17:03:55.861Z
+                                =================================================
+2026-02-14 23:35:24 - mkk_pika - database.py:101 - INFO - 保存成功：ココナちゃんと温泉旅行 (ブルーアーカイブ)
+2026-02-14 23:35:24 - mkk_pika - main.py:35 - INFO - 开始检查いとこの家庭教師是否存在未下载章节
+2026-02-14 23:35:24 - mkk_pika - main.py:45 - INFO - 正在下载:[いとこの家庭教師]-[yam]-[['短篇']]-[total_pages:-1]
+2026-02-14 23:35:24 - mkk_pika - main.py:49 - INFO - [{'_id': '6990aae511f7f05be2a12fdc', 'title': '第1話', 'order': 1, 'updated_at': '2026-02-13T13:52:48.082Z', 'id': '6990aae511f7f05be2a12fdc'}]
+2026-02-14 23:35:24 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:25 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:第1話
+2026-02-14 23:35:26 - mkk_pika - main.py:112 - INFO - [episode:第1話       ] downloaded:    18, total:  18, progress:100%
+2026-02-14 23:35:26 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:26 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:26 - mkk_pika - database.py:245 - INFO - ['第1話']
+2026-02-14 23:35:27 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：6990aae511f7f05be2a12fdb
+                                标题：いとこの家庭教師
+                                作者：yam
+                                是否完结：否
+                                总页数：18
+                                分类：短篇
+                                章节数：1
+                                最后更新时间：2026-02-14T17:03:33.404Z
+                                =================================================
+2026-02-14 23:35:27 - mkk_pika - database.py:101 - INFO - 保存成功：いとこの家庭教師
+2026-02-14 23:35:27 - mkk_pika - main.py:323 - INFO - 订阅内容内容下载完毕
+2026-02-14 23:35:27 - mkk_pika - main.py:324 - INFO - 开始分批下载全部章节
+2026-02-14 23:35:27 - mkk_pika - database.py:280 - INFO - 表和索引初始化成功
+2026-02-14 23:35:28 - mkk_pika - main.py:177 - INFO - 已经下载了105页，一共6739页，现在开始添加第106页
+2026-02-14 23:35:28 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-02-14 23:35:29 - mkk_pika - main.py:177 - INFO - 已经下载了106页，一共6739页，现在开始添加第107页
+2026-02-14 23:35:29 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-02-14 23:35:29 - mkk_pika - main.py:331 - INFO - 分批下载共计11本漫画
+2026-02-14 23:35:29 - mkk_pika - main.py:35 - INFO - 开始检查(C84) [たくみな無知 (たくみなむち)] ウラコイ (ニセコイ)是否存在未下载章节
+2026-02-14 23:35:30 - mkk_pika - main.py:45 - INFO - 正在下载:[(C84) [たくみな無知 (たくみなむち)] ウラコイ (ニセコイ)]-[たくみな無知 (たくみなむち)]-[['同人', '短篇', '全彩', '純愛']]-[total_pages:44]
+2026-02-14 23:35:30 - mkk_pika - main.py:49 - INFO - [{'_id': '5821928b5f6b9a4f93e5851f', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:31.273Z', 'id': '5821928b5f6b9a4f93e5851f'}]
+2026-02-14 23:35:30 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:31 - mkk_pika - main.py:83 - INFO - 找到 44 张图片在:第1集
+2026-02-14 23:35:33 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    44, total:  44, progress:100%
+2026-02-14 23:35:33 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:33 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:33 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:35:34 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5821928a5f6b9a4f93e5851d
+                                   标题：(C84) [たくみな無知 (たくみなむち)] ウラコイ (ニセコイ)
+                                   作者：たくみな無知 (たくみなむち)
+                                   是否完结：是
+                                   总页数：44
+                                   分类：同人,短篇,全彩,純愛
+                                   章节数：1
+                                   最后更新时间：2009-07-28T02:47:17.000Z
+                                   =================================================
+2026-02-14 23:35:34 - mkk_pika - database.py:101 - INFO - 保存成功：(C84) [たくみな無知 (たくみなむち)] ウラコイ (ニセコイ)
+2026-02-14 23:35:34 - mkk_pika - main.py:35 - INFO - 开始检查(C88) [りとる☆はむれっと (きぃら～☆)] 古明地さとりのエレベーターはトイレじゃありません♡ (東方Project)【CE家族社】是否存在未下载章节
+2026-02-14 23:35:34 - mkk_pika - main.py:45 - INFO - 正在下载:[(C88) [りとる☆はむれっと (きぃら～☆)] 古明地さとりのエレベーターはトイレじゃありません♡ (東方Project)【CE家族社】]-[きぃら～☆]-[['同人', '短篇', '全彩', '東方', '純愛']]-[total_pages:35]
+2026-02-14 23:35:34 - mkk_pika - main.py:49 - INFO - [{'_id': '5821928c5f6b9a4f93e5857b', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:32.140Z', 'id': '5821928c5f6b9a4f93e5857b'}]
+2026-02-14 23:35:34 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:35 - mkk_pika - main.py:83 - INFO - 找到 35 张图片在:第1集
+2026-02-14 23:35:39 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    35, total:  35, progress:100%
+2026-02-14 23:35:39 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:39 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:39 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:35:40 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5821928b5f6b9a4f93e58579
+                                   标题：(C88) [りとる☆はむれっと (きぃら～☆)] 古明地さとりのエレベーターはトイレじゃありません♡ (東方Project)【CE家族社】
+                                   作者：きぃら～☆
+                                   是否完结：是
+                                   总页数：35
+                                   分类：同人,短篇,全彩,東方,純愛
+                                   章节数：1
+                                   最后更新时间：2009-07-28T12:47:17.000Z
+                                   =================================================
+2026-02-14 23:35:40 - mkk_pika - database.py:101 - INFO - 保存成功：(C88) [りとる☆はむれっと (きぃら～☆)] 古明地さとりのエレベーターはトイレじゃありません♡ (東方Project)【CE家族社】
+2026-02-14 23:35:40 - mkk_pika - main.py:35 - INFO - 开始检查(C83) [くりもも (つかこ)] 夢みる小野寺さん (ニセコイ)是否存在未下载章节
+2026-02-14 23:35:40 - mkk_pika - main.py:45 - INFO - 正在下载:[(C83) [くりもも (つかこ)] 夢みる小野寺さん (ニセコイ)]-[くりもも (つかこ)]-[['同人', '短篇']]-[total_pages:28]
+2026-02-14 23:35:40 - mkk_pika - main.py:49 - INFO - [{'_id': '5821928c5f6b9a4f93e585c5', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:32.936Z', 'id': '5821928c5f6b9a4f93e585c5'}]
+2026-02-14 23:35:40 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:41 - mkk_pika - main.py:83 - INFO - 找到 28 张图片在:第1集
+2026-02-14 23:35:42 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    28, total:  28, progress:100%
+2026-02-14 23:35:42 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:42 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:42 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:35:43 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5821928c5f6b9a4f93e585c3
+                                   标题：(C83) [くりもも (つかこ)] 夢みる小野寺さん (ニセコイ)
+                                   作者：くりもも (つかこ)
+                                   是否完结：是
+                                   总页数：28
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2009-07-28T22:47:17.000Z
+                                   =================================================
+2026-02-14 23:35:43 - mkk_pika - database.py:101 - INFO - 保存成功：(C83) [くりもも (つかこ)] 夢みる小野寺さん (ニセコイ)
+2026-02-14 23:35:43 - mkk_pika - main.py:35 - INFO - 开始检查(C73) [Hina prin (Takanon Ikuta)] Ookami no Hatsujouki 是否存在未下载章节
+2026-02-14 23:35:43 - mkk_pika - main.py:45 - INFO - 正在下载:[(C73) [Hina prin (Takanon Ikuta)] Ookami no Hatsujouki ]-[Hina prin (Takanon Ikuta)]-[['同人', '短篇', '非人類']]-[total_pages:20]
+2026-02-14 23:35:43 - mkk_pika - main.py:49 - INFO - [{'_id': '582192955f6b9a4f93e58aaf', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:41.063Z', 'id': '582192955f6b9a4f93e58aaf'}]
+2026-02-14 23:35:43 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:44 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-02-14 23:35:45 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-02-14 23:35:45 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:45 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:45 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:35:46 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：582192945f6b9a4f93e58aad
+                                   标题：(C73) [Hina prin (Takanon Ikuta)] Ookami no Hatsujouki 
+                                   作者：Hina prin (Takanon Ikuta)
+                                   是否完结：是
+                                   总页数：20
+                                   分类：同人,短篇,非人類
+                                   章节数：1
+                                   最后更新时间：2009-08-02T22:47:17.000Z
+                                   =================================================
+2026-02-14 23:35:46 - mkk_pika - database.py:101 - INFO - 保存成功：(C73) [Hina prin (Takanon Ikuta)] Ookami no Hatsujouki 
+2026-02-14 23:35:46 - mkk_pika - main.py:35 - INFO - 开始检查(C74) [Hina prin (Takanon Ikuta)] Ookami ga Koushinryou (Spice and Wolf) [Chinese] [满手汉化]是否存在未下载章节
+2026-02-14 23:35:46 - mkk_pika - main.py:45 - INFO - 正在下载:[(C74) [Hina prin (Takanon Ikuta)] Ookami ga Koushinryou (Spice and Wolf) [Chinese] [满手汉化]]-[Hina prin (Takanon Ikuta)]-[['同人', '短篇', '非人類']]-[total_pages:35]
+2026-02-14 23:35:46 - mkk_pika - main.py:49 - INFO - [{'_id': '582192955f6b9a4f93e58adb', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:41.732Z', 'id': '582192955f6b9a4f93e58adb'}]
+2026-02-14 23:35:46 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:47 - mkk_pika - main.py:83 - INFO - 找到 35 张图片在:第1集
+2026-02-14 23:35:48 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    35, total:  35, progress:100%
+2026-02-14 23:35:48 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:48 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:48 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:35:49 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：582192955f6b9a4f93e58ad9
+                                   标题：(C74) [Hina prin (Takanon Ikuta)] Ookami ga Koushinryou (Spice and Wolf) [Chinese] [满手汉化]
+                                   作者：Hina prin (Takanon Ikuta)
+                                   是否完结：是
+                                   总页数：35
+                                   分类：同人,短篇,非人類
+                                   章节数：1
+                                   最后更新时间：2009-08-03T08:47:17.000Z
+                                   =================================================
+2026-02-14 23:35:49 - mkk_pika - database.py:101 - INFO - 保存成功：(C74) [Hina prin (Takanon Ikuta)] Ookami ga Koushinryou (Spice and Wolf) [Chinese] [满手汉化]
+2026-02-14 23:35:49 - mkk_pika - main.py:35 - INFO - 开始检查(C81)(同人誌)[tete a tete fragile (佐々原憂樹)] 小鳩は三度さえずる (僕は友達が少ない)[Genesis漢化]是否存在未下载章节
+2026-02-14 23:35:49 - mkk_pika - main.py:45 - INFO - 正在下载:[(C81)(同人誌)[tete a tete fragile (佐々原憂樹)] 小鳩は三度さえずる (僕は友達が少ない)[Genesis漢化]]-[tete a tete fragile (佐々原憂樹)]-[['同人', '短篇', '妹妹系']]-[total_pages:23]
+2026-02-14 23:35:49 - mkk_pika - main.py:49 - INFO - [{'_id': '582192995f6b9a4f93e58c31', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:45.286Z', 'id': '582192995f6b9a4f93e58c31'}]
+2026-02-14 23:35:49 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:50 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-02-14 23:35:50 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-02-14 23:35:50 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:50 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:50 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:35:52 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：582192995f6b9a4f93e58c2f
+                                   标题：(C81)(同人誌)[tete a tete fragile (佐々原憂樹)] 小鳩は三度さえずる (僕は友達が少ない)[Genesis漢化]
+                                   作者：tete a tete fragile (佐々原憂樹)
+                                   是否完结：是
+                                   总页数：23
+                                   分类：同人,短篇,妹妹系
+                                   章节数：1
+                                   最后更新时间：2009-08-06T06:47:17.000Z
+                                   =================================================
+2026-02-14 23:35:52 - mkk_pika - database.py:101 - INFO - 保存成功：(C81)(同人誌)[tete a tete fragile (佐々原憂樹)] 小鳩は三度さえずる (僕は友達が少ない)[Genesis漢化]
+2026-02-14 23:35:52 - mkk_pika - main.py:35 - INFO - 开始检查(FF19)(同人誌)[KAROMIX (karory)] Karorfulmix KE3 (僕は友達が少ない)[中文版]是否存在未下载章节
+2026-02-14 23:35:52 - mkk_pika - main.py:45 - INFO - 正在下载:[(FF19)(同人誌)[KAROMIX (karory)] Karorfulmix KE3 (僕は友達が少ない)[中文版]]-[KAROMIX (karory)]-[['同人', '短篇', '全彩', '後宮閃光', '妹妹系']]-[total_pages:24]
+2026-02-14 23:35:52 - mkk_pika - main.py:49 - INFO - [{'_id': '582192995f6b9a4f93e58c63', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:45.953Z', 'id': '582192995f6b9a4f93e58c63'}]
+2026-02-14 23:35:52 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:53 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:第1集
+2026-02-14 23:35:53 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    24, total:  24, progress:100%
+2026-02-14 23:35:53 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:53 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:53 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:35:54 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：582192995f6b9a4f93e58c61
+                                   标题：(FF19)(同人誌)[KAROMIX (karory)] Karorfulmix KE3 (僕は友達が少ない)[中文版]
+                                   作者：KAROMIX (karory)
+                                   是否完结：是
+                                   总页数：24
+                                   分类：同人,短篇,全彩,後宮閃光,妹妹系
+                                   章节数：1
+                                   最后更新时间：2009-08-06T16:47:17.000Z
+                                   =================================================
+2026-02-14 23:35:54 - mkk_pika - database.py:101 - INFO - 保存成功：(FF19)(同人誌)[KAROMIX (karory)] Karorfulmix KE3 (僕は友達が少ない)[中文版]
+2026-02-14 23:35:54 - mkk_pika - main.py:35 - INFO - 开始检查[鋼鉄力企画 (大秦国王安敦)] GN (僕は友達が少ない) (C81)是否存在未下载章节
+2026-02-14 23:35:55 - mkk_pika - main.py:45 - INFO - 正在下载:[[鋼鉄力企画 (大秦国王安敦)] GN (僕は友達が少ない) (C81)]-[鋼鉄力企画 (大秦国王安敦)]-[['同人', '短篇', '強暴', '妹妹系']]-[total_pages:18]
+2026-02-14 23:35:55 - mkk_pika - main.py:49 - INFO - [{'_id': '5821929a5f6b9a4f93e58c97', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:46.344Z', 'id': '5821929a5f6b9a4f93e58c97'}]
+2026-02-14 23:35:55 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:55 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:第1集
+2026-02-14 23:35:56 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    18, total:  18, progress:100%
+2026-02-14 23:35:56 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:56 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:56 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:35:57 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5821929a5f6b9a4f93e58c95
+                                   标题：[鋼鉄力企画 (大秦国王安敦)] GN (僕は友達が少ない) (C81)
+                                   作者：鋼鉄力企画 (大秦国王安敦)
+                                   是否完结：是
+                                   总页数：18
+                                   分类：同人,短篇,強暴,妹妹系
+                                   章节数：1
+                                   最后更新时间：2009-08-07T02:47:17.000Z
+                                   =================================================
+2026-02-14 23:35:57 - mkk_pika - database.py:101 - INFO - 保存成功：[鋼鉄力企画 (大秦国王安敦)] GN (僕は友達が少ない) (C81)
+2026-02-14 23:35:57 - mkk_pika - main.py:35 - INFO - 开始检查(C86)(23.4ドイチリ) イリヤとクロが妹ならしかたない (Fatekaleid liner プリズマ☆イリヤ) [无毒汉化组]是否存在未下载章节
+2026-02-14 23:35:58 - mkk_pika - main.py:45 - INFO - 正在下载:[(C86)(23.4ドイチリ) イリヤとクロが妹ならしかたない (Fatekaleid liner プリズマ☆イリヤ) [无毒汉化组]]-[23.4ド(イチリ)]-[['同人', '短篇', '全彩', '後宮閃光']]-[total_pages:18]
+2026-02-14 23:35:58 - mkk_pika - main.py:49 - INFO - [{'_id': '5821929b5f6b9a4f93e58d27', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:47.810Z', 'id': '5821929b5f6b9a4f93e58d27'}]
+2026-02-14 23:35:58 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:35:58 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:第1集
+2026-02-14 23:35:59 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    18, total:  18, progress:100%
+2026-02-14 23:35:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:35:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:35:59 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:36:00 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5821929b5f6b9a4f93e58d25
+                                   标题：(C86)(23.4ドイチリ) イリヤとクロが妹ならしかたない (Fatekaleid liner プリズマ☆イリヤ) [无毒汉化组]
+                                   作者：23.4ド(イチリ)
+                                   是否完结：是
+                                   总页数：18
+                                   分类：同人,短篇,全彩,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2009-08-08T08:47:17.000Z
+                                   =================================================
+2026-02-14 23:36:00 - mkk_pika - database.py:101 - INFO - 保存成功：(C86)(23.4ドイチリ) イリヤとクロが妹ならしかたない (Fatekaleid liner プリズマ☆イリヤ) [无毒汉化组]
+2026-02-14 23:36:00 - mkk_pika - main.py:35 - INFO - 开始检查【CE家族社】(C86) [冬宮 (冬嗣)] クロとイリヤの肛感共有 (Fate／kaleid liner プリズマ☆イリヤ)是否存在未下载章节
+2026-02-14 23:36:00 - mkk_pika - main.py:45 - INFO - 正在下载:[【CE家族社】(C86) [冬宮 (冬嗣)] クロとイリヤの肛感共有 (Fate／kaleid liner プリズマ☆イリヤ)]-[[冬宮 (冬嗣)]-[['同人', '短篇']]-[total_pages:28]
+2026-02-14 23:36:00 - mkk_pika - main.py:49 - INFO - [{'_id': '5821929f5f6b9a4f93e58ec1', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:51.968Z', 'id': '5821929f5f6b9a4f93e58ec1'}]
+2026-02-14 23:36:00 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:36:01 - mkk_pika - main.py:83 - INFO - 找到 28 张图片在:第1集
+2026-02-14 23:36:02 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    28, total:  28, progress:100%
+2026-02-14 23:36:02 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:36:02 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:36:02 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:36:03 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5821929f5f6b9a4f93e58ebf
+                                   标题：【CE家族社】(C86) [冬宮 (冬嗣)] クロとイリヤの肛感共有 (Fate／kaleid liner プリズマ☆イリヤ)
+                                   作者：[冬宮 (冬嗣)
+                                   是否完结：是
+                                   总页数：28
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2009-08-11T16:47:17.000Z
+                                   =================================================
+2026-02-14 23:36:03 - mkk_pika - database.py:101 - INFO - 保存成功：【CE家族社】(C86) [冬宮 (冬嗣)] クロとイリヤの肛感共有 (Fate／kaleid liner プリズマ☆イリヤ)
+2026-02-14 23:36:03 - mkk_pika - main.py:35 - INFO - 开始检查[まぐろ帝國] LUST TRAIN是否存在未下载章节
+2026-02-14 23:36:04 - mkk_pika - main.py:45 - INFO - 正在下载:[[まぐろ帝國] LUST TRAIN]-[まぐろ帝國]-[['長篇', '強暴']]-[total_pages:176]
+2026-02-14 23:36:04 - mkk_pika - main.py:49 - INFO - [{'_id': '582192a35f6b9a4f93e590bb', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:53:55.058Z', 'id': '582192a35f6b9a4f93e590bb'}]
+2026-02-14 23:36:04 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-02-14 23:36:06 - mkk_pika - main.py:83 - INFO - 找到 176 张图片在:第1集
+2026-02-14 23:36:09 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   176, total: 176, progress:100%
+2026-02-14 23:36:09 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-02-14 23:36:09 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-02-14 23:36:09 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-02-14 23:36:11 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：582192a25f6b9a4f93e590b9
+                                   标题：[まぐろ帝國] LUST TRAIN
+                                   作者：まぐろ帝國
+                                   是否完结：是
+                                   总页数：176
+                                   分类：長篇,強暴
+                                   章节数：1
+                                   最后更新时间：2009-08-12T22:47:17.000Z
+                                   =================================================
+2026-02-14 23:36:11 - mkk_pika - database.py:101 - INFO - 保存成功：[まぐろ帝國] LUST TRAIN
+2026-02-14 23:36:11 - mkk_pika - main.py:380 - INFO - 本次任务下载完毕
+2026-02-14 23:36:11 - mkk_pika - database.py:173 - INFO - 数据库连接已关闭
