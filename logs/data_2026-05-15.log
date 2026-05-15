@@ -2294,3 +2294,1146 @@
 2026-05-15 14:23:10 - mkk_pika - database.py:101 - INFO - 保存成功：桜さん笑顔が怖い です。 (Fate hollow ataraxia)
 2026-05-15 14:23:10 - mkk_pika - main.py:380 - INFO - 本次任务下载完毕
 2026-05-15 14:23:10 - mkk_pika - database.py:173 - INFO - 数据库连接已关闭
+2026-05-15 14:26:22 - mkk_pika - main.py:193 - INFO - =======================================================================
+2026-05-15 14:26:22 - mkk_pika - database.py:61 - INFO - 表和索引初始化成功
+2026-05-15 14:26:22 - mkk_pika - main.py:197 - INFO - 已经累计下载9841本漫画
+2026-05-15 14:26:22 - mkk_pika - api.py:87 - INFO - 登录成功
+2026-05-15 14:26:23 - mkk_pika - main.py:203 - INFO - 收藏夹共计0本漫画
+2026-05-15 14:26:23 - mkk_pika - main.py:206 - INFO - 开始下载收藏夹内未下载内容
+2026-05-15 14:26:23 - mkk_pika - main.py:266 - INFO - 收藏夹内容下载完毕
+2026-05-15 14:26:23 - mkk_pika - main.py:268 - INFO - 开始下载订阅内容
+2026-05-15 14:26:23 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：萝莉 -> 陽菜ちゃん調教日記|阳菜酱的调教日记 [中国翻译][進行中]
+2026-05-15 14:26:24 - mkk_pika - database.py:101 - INFO - 保存成功：陽菜ちゃん調教日記|阳菜酱的调教日记 [中国翻译][進行中]
+2026-05-15 14:26:24 - mkk_pika - main.py:273 - INFO - 关键词萝莉找到1本漫画
+2026-05-15 14:26:24 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：蘿莉 -> [Artist] Laoyeh（AI）
+2026-05-15 14:26:24 - mkk_pika - database.py:101 - INFO - 保存成功：[Artist] Laoyeh（AI）
+2026-05-15 14:26:24 - mkk_pika - main.py:273 - INFO - 关键词蘿莉找到0本漫画
+2026-05-15 14:26:24 - mkk_pika - main.py:275 - INFO - 订阅内容共计1本漫画
+2026-05-15 14:26:24 - mkk_pika - main.py:35 - INFO - 开始检查私たちが153cmだった時のこと [DL版][中国翻译]是否存在未下载章节
+2026-05-15 14:26:25 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在生肉
+2026-05-15 14:26:25 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在熟肉8618整合
+2026-05-15 14:26:25 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在熟肉revolving整合&重嵌
+2026-05-15 14:26:25 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在熟肉aaaeeeo个人机翻汉化
+2026-05-15 14:26:25 - mkk_pika - main.py:51 - INFO - 私たちが153cmだった時のこと [DL版][中国翻译]中没有可下载章节
+2026-05-15 14:26:25 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：69f642a965d95803a0837473
+                                标题：私たちが153cmだった時のこと [DL版][中国翻译]
+                                作者：鳥居ヨシツナ
+                                是否完结：是
+                                总页数：737
+                                分类：長篇,單行本
+                                章节数：4
+                                最后更新时间：2026-05-09T15:40:52.495Z
+                                =================================================
+2026-05-15 14:26:25 - mkk_pika - database.py:101 - INFO - 保存成功：私たちが153cmだった時のこと [DL版][中国翻译]
+2026-05-15 14:26:25 - mkk_pika - main.py:323 - INFO - 订阅内容内容下载完毕
+2026-05-15 14:26:25 - mkk_pika - main.py:324 - INFO - 开始分批下载全部章节
+2026-05-15 14:26:25 - mkk_pika - database.py:280 - INFO - 表和索引初始化成功
+2026-05-15 14:26:25 - mkk_pika - main.py:177 - INFO - 已经下载了658页，一共6901页，现在开始添加第659页
+2026-05-15 14:26:26 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-15 14:26:26 - mkk_pika - main.py:177 - INFO - 已经下载了659页，一共6901页，现在开始添加第660页
+2026-05-15 14:26:26 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-15 14:26:27 - mkk_pika - main.py:177 - INFO - 已经下载了660页，一共6901页，现在开始添加第661页
+2026-05-15 14:26:27 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-15 14:26:27 - mkk_pika - main.py:177 - INFO - 已经下载了661页，一共6901页，现在开始添加第662页
+2026-05-15 14:26:28 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-15 14:26:28 - mkk_pika - main.py:177 - INFO - 已经下载了662页，一共6901页，现在开始添加第663页
+2026-05-15 14:26:29 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-15 14:26:29 - mkk_pika - main.py:331 - INFO - 分批下载共计47本漫画
+2026-05-15 14:26:29 - mkk_pika - main.py:35 - INFO - 开始检查Fate／fireworks (Fate／stay night)是否存在未下载章节
+2026-05-15 14:26:29 - mkk_pika - main.py:45 - INFO - 正在下载:[Fate／fireworks (Fate／stay night)]-[CROSS FIRE]-[['同人', '短篇', 'Fate', '純愛']]-[total_pages:31]
+2026-05-15 14:26:29 - mkk_pika - main.py:49 - INFO - [{'_id': '594d26d3d7562514e02c2f0f', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-23T10:29:24.250Z', 'id': '594d26d3d7562514e02c2f0f'}]
+2026-05-15 14:26:29 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:26:29 - mkk_pika - main.py:83 - INFO - 找到 31 张图片在:第1集
+2026-05-15 14:26:30 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    31, total:  31, progress:100%
+2026-05-15 14:26:30 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:26:30 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:26:30 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:26:32 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594d26d3d7562514e02c2f0e
+                                   标题：Fate／fireworks (Fate／stay night)
+                                   作者：CROSS FIRE
+                                   是否完结：否
+                                   总页数：31
+                                   分类：同人,短篇,Fate,純愛
+                                   章节数：1
+                                   最后更新时间：2017-06-23T14:33:55.876Z
+                                   =================================================
+2026-05-15 14:26:32 - mkk_pika - database.py:101 - INFO - 保存成功：Fate／fireworks (Fate／stay night)
+2026-05-15 14:26:32 - mkk_pika - main.py:35 - INFO - 开始检查T-MOON COMPLEX X 05是否存在未下载章节
+2026-05-15 14:26:32 - mkk_pika - main.py:45 - INFO - 正在下载:[T-MOON COMPLEX X 05]-[Crazy Clover Club]-[['同人', '短篇', 'Fate']]-[total_pages:33]
+2026-05-15 14:26:32 - mkk_pika - main.py:49 - INFO - [{'_id': '594d270dd8942714fc6b4726', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-23T10:18:42.433Z', 'id': '594d270dd8942714fc6b4726'}]
+2026-05-15 14:26:32 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:26:33 - mkk_pika - main.py:83 - INFO - 找到 33 张图片在:第1集
+2026-05-15 14:26:34 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    33, total:  33, progress:100%
+2026-05-15 14:26:34 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:26:34 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:26:34 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:26:35 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594d270dd8942714fc6b4725
+                                   标题：T-MOON COMPLEX X 05
+                                   作者：Crazy Clover Club
+                                   是否完结：否
+                                   总页数：33
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2017-06-23T14:34:53.402Z
+                                   =================================================
+2026-05-15 14:26:35 - mkk_pika - database.py:101 - INFO - 保存成功：T-MOON COMPLEX X 05
+2026-05-15 14:26:35 - mkk_pika - main.py:35 - INFO - 开始检查有罪証拠物件_弐号(Fate_stay_night)是否存在未下载章节
+2026-05-15 14:26:35 - mkk_pika - main.py:45 - INFO - 正在下载:[有罪証拠物件_弐号(Fate_stay_night)]-[比村乳業(比村奇石)]-[['同人', '短篇', 'Fate']]-[total_pages:49]
+2026-05-15 14:26:35 - mkk_pika - main.py:49 - INFO - [{'_id': '594d272aa9e9f714af8db27c', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-23T10:34:29.783Z', 'id': '594d272aa9e9f714af8db27c'}]
+2026-05-15 14:26:35 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:26:36 - mkk_pika - main.py:83 - INFO - 找到 49 张图片在:第1集
+2026-05-15 14:26:37 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    49, total:  49, progress:100%
+2026-05-15 14:26:37 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:26:37 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:26:37 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:26:39 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594d272aa9e9f714af8db27b
+                                   标题：有罪証拠物件_弐号(Fate_stay_night)
+                                   作者：比村乳業(比村奇石)
+                                   是否完结：否
+                                   总页数：49
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2017-06-23T14:35:22.844Z
+                                   =================================================
+2026-05-15 14:26:39 - mkk_pika - database.py:101 - INFO - 保存成功：有罪証拠物件_弐号(Fate_stay_night)
+2026-05-15 14:26:39 - mkk_pika - main.py:35 - INFO - 开始检查仮面の淫夢是否存在未下载章节
+2026-05-15 14:26:39 - mkk_pika - main.py:45 - INFO - 正在下载:[仮面の淫夢]-[tabe koji]-[['長篇']]-[total_pages:186]
+2026-05-15 14:26:39 - mkk_pika - main.py:49 - INFO - [{'_id': '594d27ab610cc85f6bf64d6f', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-23T12:21:34.672Z', 'id': '594d27ab610cc85f6bf64d6f'}]
+2026-05-15 14:26:39 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:26:41 - mkk_pika - main.py:83 - INFO - 找到 186 张图片在:第1集
+2026-05-15 14:26:46 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   186, total: 186, progress:100%
+2026-05-15 14:26:46 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:26:46 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:26:46 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:26:47 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594d27ab610cc85f6bf64d6e
+                                   标题：仮面の淫夢
+                                   作者：tabe koji
+                                   是否完结：是
+                                   总页数：186
+                                   分类：長篇
+                                   章节数：1
+                                   最后更新时间：2017-06-23T14:37:31.465Z
+                                   =================================================
+2026-05-15 14:26:47 - mkk_pika - database.py:101 - INFO - 保存成功：仮面の淫夢
+2026-05-15 14:26:47 - mkk_pika - main.py:35 - INFO - 开始检查童貞Lovers是否存在未下载章节
+2026-05-15 14:26:48 - mkk_pika - main.py:45 - INFO - 正在下载:[童貞Lovers]-[やながわ理央]-[['人妻', '長篇', '姐姐系', 'NTR', '足の恋']]-[total_pages:197]
+2026-05-15 14:26:48 - mkk_pika - main.py:49 - INFO - [{'_id': '58218c1e5f6b9a4f93e0a01f', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T03:42:14.954Z', 'id': '58218c1e5f6b9a4f93e0a01f'}]
+2026-05-15 14:26:48 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:26:49 - mkk_pika - main.py:83 - INFO - 找到 197 张图片在:第1集
+2026-05-15 14:26:54 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   197, total: 197, progress:100%
+2026-05-15 14:26:54 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:26:54 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:26:54 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:26:56 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218c1d5f6b9a4f93e0a01d
+                                   标题：童貞Lovers
+                                   作者：やながわ理央
+                                   是否完结：是
+                                   总页数：197
+                                   分类：人妻,長篇,姐姐系,NTR,足の恋
+                                   章节数：1
+                                   最后更新时间：2017-06-24T03:42:14.916Z
+                                   =================================================
+2026-05-15 14:26:56 - mkk_pika - database.py:101 - INFO - 保存成功：童貞Lovers
+2026-05-15 14:26:56 - mkk_pika - main.py:35 - INFO - 开始检查おおきくなるるめいや (グランブルーファンタジー)是否存在未下载章节
+2026-05-15 14:26:56 - mkk_pika - main.py:45 - INFO - 正在下载:[おおきくなるるめいや (グランブルーファンタジー)]-[おちこにうむ (寺田落子)]-[['同人', '短篇', '碧藍幻想', '非人類']]-[total_pages:23]
+2026-05-15 14:26:56 - mkk_pika - main.py:49 - INFO - [{'_id': '594de081d56fa5320f976fc7', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-23T17:04:16.175Z', 'id': '594de081d56fa5320f976fc7'}]
+2026-05-15 14:26:56 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:26:56 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-05-15 14:26:57 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-05-15 14:26:57 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:26:57 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:26:57 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:26:58 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de081d56fa5320f976fc6
+                                   标题：おおきくなるるめいや (グランブルーファンタジー)
+                                   作者：おちこにうむ (寺田落子)
+                                   是否完结：是
+                                   总页数：23
+                                   分类：同人,短篇,碧藍幻想,非人類
+                                   章节数：1
+                                   最后更新时间：2017-06-24T03:46:09.871Z
+                                   =================================================
+2026-05-15 14:26:58 - mkk_pika - database.py:101 - INFO - 保存成功：おおきくなるるめいや (グランブルーファンタジー)
+2026-05-15 14:26:58 - mkk_pika - main.py:35 - INFO - 开始检查Bitches Plan是否存在未下载章节
+2026-05-15 14:26:59 - mkk_pika - main.py:45 - INFO - 正在下载:[Bitches Plan]-[スミヤ]-[['長篇', '純愛', '後宮閃光']]-[total_pages:222]
+2026-05-15 14:26:59 - mkk_pika - main.py:49 - INFO - [{'_id': '594de0b4610cc85f6bf6511d', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-23T17:27:29.937Z', 'id': '594de0b4610cc85f6bf6511d'}]
+2026-05-15 14:26:59 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:01 - mkk_pika - main.py:83 - INFO - 找到 222 张图片在:第1集
+2026-05-15 14:27:07 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   222, total: 222, progress:100%
+2026-05-15 14:27:07 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:07 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:07 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:08 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de0b4610cc85f6bf6511c
+                                   标题：Bitches Plan
+                                   作者：スミヤ
+                                   是否完结：是
+                                   总页数：222
+                                   分类：長篇,純愛,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2017-06-24T03:47:00.803Z
+                                   =================================================
+2026-05-15 14:27:08 - mkk_pika - database.py:101 - INFO - 保存成功：Bitches Plan
+2026-05-15 14:27:08 - mkk_pika - main.py:35 - INFO - 开始检查My Debut是否存在未下载章节
+2026-05-15 14:27:08 - mkk_pika - main.py:45 - INFO - 正在下载:[My Debut]-[Prism Girls (InCase)]-[['全彩', '短篇', '扶他樂園']]-[total_pages:20]
+2026-05-15 14:27:08 - mkk_pika - main.py:49 - INFO - [{'_id': '594de0efbc2ae631cf4cfa8d', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-23T17:51:19.413Z', 'id': '594de0efbc2ae631cf4cfa8d'}]
+2026-05-15 14:27:08 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:09 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-05-15 14:27:09 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-05-15 14:27:09 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:09 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:09 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:11 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de0efbc2ae631cf4cfa8c
+                                   标题：My Debut
+                                   作者：Prism Girls (InCase)
+                                   是否完结：否
+                                   总页数：20
+                                   分类：全彩,短篇,扶他樂園
+                                   章节数：1
+                                   最后更新时间：2017-06-24T03:47:59.071Z
+                                   =================================================
+2026-05-15 14:27:11 - mkk_pika - database.py:101 - INFO - 保存成功：My Debut
+2026-05-15 14:27:11 - mkk_pika - main.py:35 - INFO - 开始检查二次元コミックマガジン デカクリ美少女クリイキ地獄 Vol.2 是否存在未下载章节
+2026-05-15 14:27:11 - mkk_pika - main.py:45 - INFO - 正在下载:[二次元コミックマガジン デカクリ美少女クリイキ地獄 Vol.2 ]-[アンソロジー]-[['長篇', '非人類']]-[total_pages:101]
+2026-05-15 14:27:11 - mkk_pika - main.py:49 - INFO - [{'_id': '594de230d7562514e02c31c3', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-23T13:31:13.428Z', 'id': '594de230d7562514e02c31c3'}]
+2026-05-15 14:27:11 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:12 - mkk_pika - main.py:83 - INFO - 找到 101 张图片在:第1集
+2026-05-15 14:27:15 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   101, total: 101, progress:100%
+2026-05-15 14:27:15 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:15 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:15 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:16 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de230d7562514e02c31c2
+                                   标题：二次元コミックマガジン デカクリ美少女クリイキ地獄 Vol.2 
+                                   作者：アンソロジー
+                                   是否完结：否
+                                   总页数：101
+                                   分类：長篇,非人類
+                                   章节数：1
+                                   最后更新时间：2017-06-24T03:53:20.784Z
+                                   =================================================
+2026-05-15 14:27:16 - mkk_pika - database.py:101 - INFO - 保存成功：二次元コミックマガジン デカクリ美少女クリイキ地獄 Vol.2 
+2026-05-15 14:27:16 - mkk_pika - main.py:35 - INFO - 开始检查RE10 （Fate）是否存在未下载章节
+2026-05-15 14:27:16 - mkk_pika - main.py:45 - INFO - 正在下载:[RE10 （Fate）]-[RUBBISH選別隊]-[['同人', '短篇', 'Fate']]-[total_pages:42]
+2026-05-15 14:27:16 - mkk_pika - main.py:49 - INFO - [{'_id': '594de54fa591025fa2de5af4', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T03:29:14.096Z', 'id': '594de54fa591025fa2de5af4'}]
+2026-05-15 14:27:16 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:17 - mkk_pika - main.py:83 - INFO - 找到 42 张图片在:第1集
+2026-05-15 14:27:18 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    42, total:  42, progress:100%
+2026-05-15 14:27:18 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:18 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:18 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:19 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de54fa591025fa2de5af3
+                                   标题：RE10 （Fate）
+                                   作者：RUBBISH選別隊
+                                   是否完结：否
+                                   总页数：42
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2017-06-24T04:06:39.427Z
+                                   =================================================
+2026-05-15 14:27:19 - mkk_pika - database.py:101 - INFO - 保存成功：RE10 （Fate）
+2026-05-15 14:27:19 - mkk_pika - main.py:35 - INFO - 开始检查お姫様の夜 (Fate stay night)是否存在未下载章节
+2026-05-15 14:27:20 - mkk_pika - main.py:45 - INFO - 正在下载:[お姫様の夜 (Fate stay night)]-[我チ○コ書房 (孤蛮屋こばん)]-[['同人', '短篇', 'Fate']]-[total_pages:43]
+2026-05-15 14:27:20 - mkk_pika - main.py:49 - INFO - [{'_id': '594de561d8942714fc6b49fa', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T03:01:07.429Z', 'id': '594de561d8942714fc6b49fa'}]
+2026-05-15 14:27:20 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:21 - mkk_pika - main.py:83 - INFO - 找到 43 张图片在:第1集
+2026-05-15 14:27:22 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    43, total:  43, progress:100%
+2026-05-15 14:27:22 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:22 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:22 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:23 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de561d8942714fc6b49f9
+                                   标题：お姫様の夜 (Fate stay night)
+                                   作者：我チ○コ書房 (孤蛮屋こばん)
+                                   是否完结：否
+                                   总页数：43
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2017-06-24T04:06:57.909Z
+                                   =================================================
+2026-05-15 14:27:23 - mkk_pika - database.py:101 - INFO - 保存成功：お姫様の夜 (Fate stay night)
+2026-05-15 14:27:23 - mkk_pika - main.py:35 - INFO - 开始检查GARIGARI 38(Fate stay night)是否存在未下载章节
+2026-05-15 14:27:23 - mkk_pika - main.py:45 - INFO - 正在下载:[GARIGARI 38(Fate stay night)]-[アレマテオレマ(小林由高)]-[['同人', '短篇', 'Fate']]-[total_pages:32]
+2026-05-15 14:27:23 - mkk_pika - main.py:49 - INFO - [{'_id': '594de571bc2ae631cf4cfba1', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T03:21:58.449Z', 'id': '594de571bc2ae631cf4cfba1'}]
+2026-05-15 14:27:23 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:24 - mkk_pika - main.py:83 - INFO - 找到 32 张图片在:第1集
+2026-05-15 14:27:25 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    32, total:  32, progress:100%
+2026-05-15 14:27:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:25 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:26 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de571bc2ae631cf4cfba0
+                                   标题：GARIGARI 38(Fate stay night)
+                                   作者：アレマテオレマ(小林由高)
+                                   是否完结：否
+                                   总页数：32
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2017-06-24T04:07:13.622Z
+                                   =================================================
+2026-05-15 14:27:26 - mkk_pika - database.py:101 - INFO - 保存成功：GARIGARI 38(Fate stay night)
+2026-05-15 14:27:26 - mkk_pika - main.py:35 - INFO - 开始检查やっぱりライダーはえろいな 5 (Fate)是否存在未下载章节
+2026-05-15 14:27:26 - mkk_pika - main.py:45 - INFO - 正在下载:[やっぱりライダーはえろいな 5 (Fate)]-[我チ○コ書房]-[['同人', '短篇', 'Fate']]-[total_pages:33]
+2026-05-15 14:27:26 - mkk_pika - main.py:49 - INFO - [{'_id': '594de57ea9e9f714af8db53b', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T03:10:04.934Z', 'id': '594de57ea9e9f714af8db53b'}]
+2026-05-15 14:27:26 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:27 - mkk_pika - main.py:83 - INFO - 找到 33 张图片在:第1集
+2026-05-15 14:27:28 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    33, total:  33, progress:100%
+2026-05-15 14:27:28 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:28 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:28 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:29 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de57ea9e9f714af8db53a
+                                   标题：やっぱりライダーはえろいな 5 (Fate)
+                                   作者：我チ○コ書房
+                                   是否完结：否
+                                   总页数：33
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2017-06-24T04:07:26.857Z
+                                   =================================================
+2026-05-15 14:27:29 - mkk_pika - database.py:101 - INFO - 保存成功：やっぱりライダーはえろいな 5 (Fate)
+2026-05-15 14:27:29 - mkk_pika - main.py:35 - INFO - 开始检查学生ver. (Fate)是否存在未下载章节
+2026-05-15 14:27:30 - mkk_pika - main.py:45 - INFO - 正在下载:[学生ver. (Fate)]-[生クリームびより (ななせめるち)]-[['同人', '短篇', 'Fate']]-[total_pages:29]
+2026-05-15 14:27:30 - mkk_pika - main.py:49 - INFO - [{'_id': '594de58fd7562514e02c3235', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T03:26:13.573Z', 'id': '594de58fd7562514e02c3235'}]
+2026-05-15 14:27:30 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:30 - mkk_pika - main.py:83 - INFO - 找到 29 张图片在:第1集
+2026-05-15 14:27:31 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    29, total:  29, progress:100%
+2026-05-15 14:27:31 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:31 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:31 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:32 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594de58fd7562514e02c3234
+                                   标题：学生ver. (Fate)
+                                   作者：生クリームびより (ななせめるち)
+                                   是否完结：否
+                                   总页数：29
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2017-06-24T04:07:43.758Z
+                                   =================================================
+2026-05-15 14:27:32 - mkk_pika - database.py:101 - INFO - 保存成功：学生ver. (Fate)
+2026-05-15 14:27:32 - mkk_pika - main.py:35 - INFO - 开始检查pixiv-パパパパパオン!! (パオ)是否存在未下载章节
+2026-05-15 14:27:33 - mkk_pika - main.py:45 - INFO - 正在下载:[pixiv-パパパパパオン!! (パオ)]-[ パパパパパオン!! (パオ)]-[['全彩', '長篇', '同人']]-[total_pages:333]
+2026-05-15 14:27:33 - mkk_pika - main.py:49 - INFO - [{'_id': '594e8a8bd56fa5320f9772f0', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T14:51:21.473Z', 'id': '594e8a8bd56fa5320f9772f0'}]
+2026-05-15 14:27:33 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:36 - mkk_pika - main.py:83 - INFO - 找到 333 张图片在:第1集
+2026-05-15 14:27:43 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   333, total: 333, progress:100%
+2026-05-15 14:27:43 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:43 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:43 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:45 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594e8a8bd56fa5320f9772ef
+                                   标题：pixiv-パパパパパオン!! (パオ)
+                                   作者： パパパパパオン!! (パオ)
+                                   是否完结：否
+                                   总页数：333
+                                   分类：全彩,長篇,同人
+                                   章节数：1
+                                   最后更新时间：2017-06-24T15:51:39.503Z
+                                   =================================================
+2026-05-15 14:27:45 - mkk_pika - database.py:101 - INFO - 保存成功：pixiv-パパパパパオン!! (パオ)
+2026-05-15 14:27:45 - mkk_pika - main.py:35 - INFO - 开始检查ジャスミンとジェシカと (グランブルーファンタジー)是否存在未下载章节
+2026-05-15 14:27:45 - mkk_pika - main.py:45 - INFO - 正在下载:[ジャスミンとジェシカと (グランブルーファンタジー)]-[Pale Scarlet (松河)]-[['同人', '短篇', '碧藍幻想', '後宮閃光']]-[total_pages:23]
+2026-05-15 14:27:45 - mkk_pika - main.py:49 - INFO - [{'_id': '594ec315d8942714fc6b504f', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T17:23:40.458Z', 'id': '594ec315d8942714fc6b504f'}]
+2026-05-15 14:27:45 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:46 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-05-15 14:27:46 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-05-15 14:27:46 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:46 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:46 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:48 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594ec315d8942714fc6b504e
+                                   标题：ジャスミンとジェシカと (グランブルーファンタジー)
+                                   作者：Pale Scarlet (松河)
+                                   是否完结：是
+                                   总页数：23
+                                   分类：同人,短篇,碧藍幻想,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2017-06-24T19:52:53.021Z
+                                   =================================================
+2026-05-15 14:27:48 - mkk_pika - database.py:101 - INFO - 保存成功：ジャスミンとジェシカと (グランブルーファンタジー)
+2026-05-15 14:27:48 - mkk_pika - main.py:35 - INFO - 开始检查イシズさんのシークレット☆ドロー (遊☆戯☆王)是否存在未下载章节
+2026-05-15 14:27:48 - mkk_pika - main.py:45 - INFO - 正在下载:[イシズさんのシークレット☆ドロー (遊☆戯☆王)]-[ひょこ道 (ひょころー)]-[['短篇', '同人', '純愛']]-[total_pages:21]
+2026-05-15 14:27:48 - mkk_pika - main.py:49 - INFO - [{'_id': '594ec32587499c5fa821f0f1', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T17:30:47.936Z', 'id': '594ec32587499c5fa821f0f1'}]
+2026-05-15 14:27:48 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:48 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第1集
+2026-05-15 14:27:49 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    21, total:  21, progress:100%
+2026-05-15 14:27:49 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:49 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:49 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:50 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594ec32587499c5fa821f0f0
+                                   标题：イシズさんのシークレット☆ドロー (遊☆戯☆王)
+                                   作者：ひょこ道 (ひょころー)
+                                   是否完结：是
+                                   总页数：21
+                                   分类：短篇,同人,純愛
+                                   章节数：1
+                                   最后更新时间：2017-06-24T19:53:09.000Z
+                                   =================================================
+2026-05-15 14:27:50 - mkk_pika - database.py:101 - INFO - 保存成功：イシズさんのシークレット☆ドロー (遊☆戯☆王)
+2026-05-15 14:27:50 - mkk_pika - main.py:35 - INFO - 开始检查Artist Xiao Ren (小忍.pr) Long Legs 美脚是否存在未下载章节
+2026-05-15 14:27:50 - mkk_pika - main.py:45 - INFO - 正在下载:[Artist Xiao Ren (小忍.pr) Long Legs 美脚]-[Xiao Ren (小忍.pr) Long Legs 美脚]-[['全彩', '同人']]-[total_pages:57]
+2026-05-15 14:27:50 - mkk_pika - main.py:49 - INFO - [{'_id': '594ec369610cc85f6bf658aa', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T15:01:10.079Z', 'id': '594ec369610cc85f6bf658aa'}]
+2026-05-15 14:27:50 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:51 - mkk_pika - main.py:83 - INFO - 找到 57 张图片在:第1集
+2026-05-15 14:27:53 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    57, total:  57, progress:100%
+2026-05-15 14:27:53 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:53 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:53 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:54 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594ec369610cc85f6bf658a9
+                                   标题：Artist Xiao Ren (小忍.pr) Long Legs 美脚
+                                   作者：Xiao Ren (小忍.pr) Long Legs 美脚
+                                   是否完结：否
+                                   总页数：57
+                                   分类：全彩,同人
+                                   章节数：1
+                                   最后更新时间：2017-06-24T19:54:17.925Z
+                                   =================================================
+2026-05-15 14:27:54 - mkk_pika - database.py:101 - INFO - 保存成功：Artist Xiao Ren (小忍.pr) Long Legs 美脚
+2026-05-15 14:27:54 - mkk_pika - main.py:35 - INFO - 开始检查Maidencarnation3 -Abyss dresser-是否存在未下载章节
+2026-05-15 14:27:54 - mkk_pika - main.py:45 - INFO - 正在下载:[Maidencarnation3 -Abyss dresser-]-[L.P.E.G. (まる寝子)]-[['短篇', '扶他樂園']]-[total_pages:26]
+2026-05-15 14:27:54 - mkk_pika - main.py:49 - INFO - [{'_id': '594f2ed854618e31c33299e2', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T02:52:55.817Z', 'id': '594f2ed854618e31c33299e2'}]
+2026-05-15 14:27:54 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:55 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-05-15 14:27:56 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-05-15 14:27:56 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:27:56 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:27:56 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:27:57 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594f2ed854618e31c33299e1
+                                   标题：Maidencarnation3 -Abyss dresser-
+                                   作者：L.P.E.G. (まる寝子)
+                                   是否完结：否
+                                   总页数：26
+                                   分类：短篇,扶他樂園
+                                   章节数：1
+                                   最后更新时间：2017-06-25T03:32:40.499Z
+                                   =================================================
+2026-05-15 14:27:57 - mkk_pika - database.py:101 - INFO - 保存成功：Maidencarnation3 -Abyss dresser-
+2026-05-15 14:27:57 - mkk_pika - main.py:35 - INFO - 开始检查兄上がケダモノすぎて迷惑すぎる是否存在未下载章节
+2026-05-15 14:27:57 - mkk_pika - main.py:45 - INFO - 正在下载:[兄上がケダモノすぎて迷惑すぎる]-[天乃一水]-[['長篇', '純愛', '妹妹系']]-[total_pages:206]
+2026-05-15 14:27:57 - mkk_pika - main.py:49 - INFO - [{'_id': '594f2ee5610cc85f6bf65a26', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T03:03:46.636Z', 'id': '594f2ee5610cc85f6bf65a26'}]
+2026-05-15 14:27:57 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:27:59 - mkk_pika - main.py:83 - INFO - 找到 206 张图片在:第1集
+2026-05-15 14:28:05 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   206, total: 206, progress:100%
+2026-05-15 14:28:05 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:05 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:05 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:06 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594f2ee5610cc85f6bf65a25
+                                   标题：兄上がケダモノすぎて迷惑すぎる
+                                   作者：天乃一水
+                                   是否完结：是
+                                   总页数：206
+                                   分类：長篇,純愛,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-06-25T03:32:53.663Z
+                                   =================================================
+2026-05-15 14:28:06 - mkk_pika - database.py:101 - INFO - 保存成功：兄上がケダモノすぎて迷惑すぎる
+2026-05-15 14:28:06 - mkk_pika - main.py:35 - INFO - 开始检查Maiden Carnation -monochrome-是否存在未下载章节
+2026-05-15 14:28:07 - mkk_pika - main.py:45 - INFO - 正在下载:[Maiden Carnation -monochrome-]-[L.P.E.G. (まる寝子)]-[['短篇', '性轉換']]-[total_pages:26]
+2026-05-15 14:28:07 - mkk_pika - main.py:49 - INFO - [{'_id': '594f2f0287499c5fa821f2ff', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T02:32:23.334Z', 'id': '594f2f0287499c5fa821f2ff'}]
+2026-05-15 14:28:07 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:07 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-05-15 14:28:08 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-05-15 14:28:08 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:08 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:08 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:09 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594f2f0287499c5fa821f2fe
+                                   标题：Maiden Carnation -monochrome-
+                                   作者：L.P.E.G. (まる寝子)
+                                   是否完结：否
+                                   总页数：26
+                                   分类：短篇,性轉換
+                                   章节数：1
+                                   最后更新时间：2017-06-25T03:33:22.297Z
+                                   =================================================
+2026-05-15 14:28:09 - mkk_pika - database.py:101 - INFO - 保存成功：Maiden Carnation -monochrome-
+2026-05-15 14:28:09 - mkk_pika - main.py:35 - INFO - 开始检查ネトリ♡パコリ是否存在未下载章节
+2026-05-15 14:28:10 - mkk_pika - main.py:45 - INFO - 正在下载:[ネトリ♡パコリ]-[さなづらひろゆき]-[['長篇', '後宮閃光', '姐姐系', 'NTR']]-[total_pages:227]
+2026-05-15 14:28:10 - mkk_pika - main.py:49 - INFO - [{'_id': '594fbe3bd7562514e02c3b2a', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T11:56:43.887Z', 'id': '594fbe3bd7562514e02c3b2a'}]
+2026-05-15 14:28:10 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:12 - mkk_pika - main.py:83 - INFO - 找到 227 张图片在:第1集
+2026-05-15 14:28:18 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   227, total: 227, progress:100%
+2026-05-15 14:28:18 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:18 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:18 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:19 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：594fbe3bd7562514e02c3b29
+                                   标题：ネトリ♡パコリ
+                                   作者：さなづらひろゆき
+                                   是否完结：是
+                                   总页数：227
+                                   分类：長篇,後宮閃光,姐姐系,NTR
+                                   章节数：1
+                                   最后更新时间：2017-06-25T13:44:27.463Z
+                                   =================================================
+2026-05-15 14:28:19 - mkk_pika - database.py:101 - INFO - 保存成功：ネトリ♡パコリ
+2026-05-15 14:28:19 - mkk_pika - main.py:35 - INFO - 开始检查童貞マニュアル是否存在未下载章节
+2026-05-15 14:28:19 - mkk_pika - main.py:45 - INFO - 正在下载:[童貞マニュアル]-[やながわ理央]-[['人妻', '長篇', '純愛']]-[total_pages:189]
+2026-05-15 14:28:19 - mkk_pika - main.py:49 - INFO - [{'_id': '58218f3a5f6b9a4f93e2f0a1', 'title': '第1集', 'order': 1, 'updated_at': '2016-11-08T08:39:22.737Z', 'id': '58218f3a5f6b9a4f93e2f0a1'}]
+2026-05-15 14:28:19 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:21 - mkk_pika - main.py:83 - INFO - 找到 189 张图片在:第1集
+2026-05-15 14:28:25 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   189, total: 189, progress:100%
+2026-05-15 14:28:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:25 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:27 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58218f3a5f6b9a4f93e2f09f
+                                   标题：童貞マニュアル
+                                   作者：やながわ理央
+                                   是否完结：是
+                                   总页数：189
+                                   分类：人妻,長篇,純愛
+                                   章节数：1
+                                   最后更新时间：2017-06-26T02:25:13.593Z
+                                   =================================================
+2026-05-15 14:28:27 - mkk_pika - database.py:101 - INFO - 保存成功：童貞マニュアル
+2026-05-15 14:28:27 - mkk_pika - main.py:35 - INFO - 开始检查秋子さんといっしょ 19 (カノン)是否存在未下载章节
+2026-05-15 14:28:27 - mkk_pika - main.py:45 - INFO - 正在下载:[秋子さんといっしょ 19 (カノン)]-[みたらし倶楽部 (みたらし侯成)]-[['同人', '短篇', '人妻']]-[total_pages:34]
+2026-05-15 14:28:27 - mkk_pika - main.py:49 - INFO - [{'_id': '595070f9d7562514e02c3e04', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T17:36:41.598Z', 'id': '595070f9d7562514e02c3e04'}]
+2026-05-15 14:28:27 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:27 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:第1集
+2026-05-15 14:28:28 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    34, total:  34, progress:100%
+2026-05-15 14:28:28 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:28 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:28 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:30 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：595070f9d7562514e02c3e03
+                                   标题：秋子さんといっしょ 19 (カノン)
+                                   作者：みたらし倶楽部 (みたらし侯成)
+                                   是否完结：是
+                                   总页数：34
+                                   分类：同人,短篇,人妻
+                                   章节数：1
+                                   最后更新时间：2017-06-26T02:27:05.349Z
+                                   =================================================
+2026-05-15 14:28:30 - mkk_pika - database.py:101 - INFO - 保存成功：秋子さんといっしょ 19 (カノン)
+2026-05-15 14:28:30 - mkk_pika - main.py:35 - INFO - 开始检查ぼくの妹の処女買いませんか是否存在未下载章节
+2026-05-15 14:28:30 - mkk_pika - main.py:45 - INFO - 正在下载:[ぼくの妹の処女買いませんか]-[床子屋 (HEIZO, 鬼頭えん)]-[['短篇', '妹妹系']]-[total_pages:28]
+2026-05-15 14:28:30 - mkk_pika - main.py:49 - INFO - [{'_id': '59507108d8942714fc6b55d5', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T17:44:00.651Z', 'id': '59507108d8942714fc6b55d5'}]
+2026-05-15 14:28:30 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:30 - mkk_pika - main.py:83 - INFO - 找到 28 张图片在:第1集
+2026-05-15 14:28:31 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    28, total:  28, progress:100%
+2026-05-15 14:28:31 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:31 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:31 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:33 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59507108d8942714fc6b55d4
+                                   标题：ぼくの妹の処女買いませんか
+                                   作者：床子屋 (HEIZO, 鬼頭えん)
+                                   是否完结：是
+                                   总页数：28
+                                   分类：短篇,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-06-26T02:27:20.257Z
+                                   =================================================
+2026-05-15 14:28:33 - mkk_pika - database.py:101 - INFO - 保存成功：ぼくの妹の処女買いませんか
+2026-05-15 14:28:33 - mkk_pika - main.py:35 - INFO - 开始检查御籠りの家 (COMIC X-EROS 54)是否存在未下载章节
+2026-05-15 14:28:33 - mkk_pika - main.py:45 - INFO - 正在下载:[御籠りの家 (COMIC X-EROS 54)]-[南田U助]-[['短篇', '人妻', '後宮閃光']]-[total_pages:37]
+2026-05-15 14:28:33 - mkk_pika - main.py:49 - INFO - [{'_id': '59507114d7562514e02c3e28', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T17:55:12.664Z', 'id': '59507114d7562514e02c3e28'}]
+2026-05-15 14:28:33 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:33 - mkk_pika - main.py:83 - INFO - 找到 37 张图片在:第1集
+2026-05-15 14:28:34 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    37, total:  37, progress:100%
+2026-05-15 14:28:34 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:34 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:34 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:36 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59507114d7562514e02c3e27
+                                   标题：御籠りの家 (COMIC X-EROS 54)
+                                   作者：南田U助
+                                   是否完结：是
+                                   总页数：37
+                                   分类：短篇,人妻,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2017-06-26T02:27:32.247Z
+                                   =================================================
+2026-05-15 14:28:36 - mkk_pika - database.py:101 - INFO - 保存成功：御籠りの家 (COMIC X-EROS 54)
+2026-05-15 14:28:36 - mkk_pika - main.py:35 - INFO - 开始检查屹立の巨チン (進撃の巨人) 是否存在未下载章节
+2026-05-15 14:28:36 - mkk_pika - main.py:45 - INFO - 正在下载:[屹立の巨チン (進撃の巨人) ]-[黒いみかんのなるももの木]-[['同人', '短篇', '後宮閃光']]-[total_pages:23]
+2026-05-15 14:28:36 - mkk_pika - main.py:49 - INFO - [{'_id': '5950cba23bf93c65bc241be6', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T06:08:43.607Z', 'id': '5950cba23bf93c65bc241be6'}]
+2026-05-15 14:28:36 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:37 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-05-15 14:28:37 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-05-15 14:28:37 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:37 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:37 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:38 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5950cba23bf93c65bc241be5
+                                   标题：屹立の巨チン (進撃の巨人) 
+                                   作者：黒いみかんのなるももの木
+                                   是否完结：是
+                                   总页数：23
+                                   分类：同人,短篇,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2017-06-26T08:53:54.735Z
+                                   =================================================
+2026-05-15 14:28:38 - mkk_pika - database.py:101 - INFO - 保存成功：屹立の巨チン (進撃の巨人) 
+2026-05-15 14:28:38 - mkk_pika - main.py:35 - INFO - 开始检查とある冬の少女の絵本是否存在未下载章节
+2026-05-15 14:28:39 - mkk_pika - main.py:45 - INFO - 正在下载:[とある冬の少女の絵本]-[暗中模索 (まるころんど)]-[['短篇', '同人']]-[total_pages:32]
+2026-05-15 14:28:39 - mkk_pika - main.py:49 - INFO - [{'_id': '59510308f463d819ede09a6a', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T11:42:13.956Z', 'id': '59510308f463d819ede09a6a'}]
+2026-05-15 14:28:39 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:39 - mkk_pika - main.py:83 - INFO - 找到 32 张图片在:第1集
+2026-05-15 14:28:40 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    32, total:  32, progress:100%
+2026-05-15 14:28:40 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:40 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:40 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:41 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59510308f463d819ede09a69
+                                   标题：とある冬の少女の絵本
+                                   作者：暗中模索 (まるころんど)
+                                   是否完结：是
+                                   总页数：32
+                                   分类：短篇,同人
+                                   章节数：1
+                                   最后更新时间：2017-06-26T12:50:16.396Z
+                                   =================================================
+2026-05-15 14:28:41 - mkk_pika - database.py:101 - INFO - 保存成功：とある冬の少女の絵本
+2026-05-15 14:28:41 - mkk_pika - main.py:35 - INFO - 开始检查とある夏の少女の絵本是否存在未下载章节
+2026-05-15 14:28:42 - mkk_pika - main.py:45 - INFO - 正在下载:[とある夏の少女の絵本]-[暗中模索 (まるころんど)]-[['短篇', '同人']]-[total_pages:32]
+2026-05-15 14:28:42 - mkk_pika - main.py:49 - INFO - [{'_id': '5951032f9a435765aad323c1', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T11:46:38.986Z', 'id': '5951032f9a435765aad323c1'}]
+2026-05-15 14:28:42 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:42 - mkk_pika - main.py:83 - INFO - 找到 32 张图片在:第1集
+2026-05-15 14:28:43 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    32, total:  32, progress:100%
+2026-05-15 14:28:43 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:43 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:43 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:44 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951032f9a435765aad323c0
+                                   标题：とある夏の少女の絵本
+                                   作者：暗中模索 (まるころんど)
+                                   是否完结：是
+                                   总页数：32
+                                   分类：短篇,同人
+                                   章节数：1
+                                   最后更新时间：2017-06-26T12:50:55.692Z
+                                   =================================================
+2026-05-15 14:28:44 - mkk_pika - database.py:101 - INFO - 保存成功：とある夏の少女の絵本
+2026-05-15 14:28:44 - mkk_pika - main.py:35 - INFO - 开始检查(C91)  はなかん~なんでこんな事になるズラ!是否存在未下载章节
+2026-05-15 14:28:45 - mkk_pika - main.py:45 - INFO - 正在下载:[(C91)  はなかん~なんでこんな事になるズラ!]-[酔っ払い鬼]-[['短篇', 'Love Live']]-[total_pages:38]
+2026-05-15 14:28:45 - mkk_pika - main.py:49 - INFO - [{'_id': '5951033d99f1f82d01c911c0', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T10:19:48.028Z', 'id': '5951033d99f1f82d01c911c0'}]
+2026-05-15 14:28:45 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:45 - mkk_pika - main.py:83 - INFO - 找到 38 张图片在:第1集
+2026-05-15 14:28:46 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    38, total:  38, progress:100%
+2026-05-15 14:28:46 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:46 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:46 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:28:48 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951033d99f1f82d01c911bf
+                                   标题：(C91)  はなかん~なんでこんな事になるズラ!
+                                   作者：酔っ払い鬼
+                                   是否完结：否
+                                   总页数：38
+                                   分类：短篇,Love Live
+                                   章节数：1
+                                   最后更新时间：2017-06-26T12:51:09.739Z
+                                   =================================================
+2026-05-15 14:28:48 - mkk_pika - database.py:101 - INFO - 保存成功：(C91)  はなかん~なんでこんな事になるズラ!
+2026-05-15 14:28:48 - mkk_pika - main.py:35 - INFO - 开始检查嗶咔官方 - 畫師的搖籃是否存在未下载章节
+2026-05-15 14:28:48 - mkk_pika - main.py:45 - INFO - 正在下载:[嗶咔官方 - 畫師的搖籃]-[嗶咔官方]-[['嗶咔漢化']]-[total_pages:64]
+2026-05-15 14:28:48 - mkk_pika - main.py:49 - INFO - [{'_id': '58d933ab2d16953760d604cb', 'title': '點了爆炸', 'order': 1, 'updated_at': '2017-03-28T09:04:02.478Z', 'id': '58d933ab2d16953760d604cb'}, {'_id': '58e678d3b9517917219afe8d', 'title': '性感泳衣', 'order': 2, 'updated_at': '2017-04-06T17:18:12.901Z', 'id': '58e678d3b9517917219afe8d'}, {'_id': '58e678d3b9517917219afe8e', 'title': '穿了等於沒有穿的泳衣', 'order': 3, 'updated_at': '2017-04-06T17:18:29.982Z', 'id': '58e678d3b9517917219afe8e'}, {'_id': '58e678d3b9517917219afe8f', 'title': '女僕裝', 'order': 4, 'updated_at': '2017-04-06T17:19:12.861Z', 'id': '58e678d3b9517917219afe8f'}, {'_id': '58fc0e13d91e3c10da568f11', 'title': '水手裝', 'order': 5, 'updated_at': '2017-04-23T02:10:39.638Z', 'id': '58fc0e13d91e3c10da568f11'}, {'_id': '58fc0e13d91e3c10da568f12', 'title': '惡魔篇', 'order': 6, 'updated_at': '2017-04-23T02:06:38.667Z', 'id': '58fc0e13d91e3c10da568f12'}, {'_id': '58fc0e13d91e3c10da568f13', 'title': '天使篇', 'order': 7, 'updated_at': '2017-04-23T02:06:49.589Z', 'id': '58fc0e13d91e3c10da568f13'}, {'_id': '58fc0e13d91e3c10da568f14', 'title': '肢解篇', 'order': 8, 'updated_at': '2017-04-23T02:06:58.087Z', 'id': '58fc0e13d91e3c10da568f14'}, {'_id': '58fc0e13d91e3c10da568f15', 'title': '我們結婚吧', 'order': 9, 'updated_at': '2017-04-23T02:07:08.417Z', 'id': '58fc0e13d91e3c10da568f15'}, {'_id': '58fc0e13d91e3c10da568f16', 'title': '初音就是未來篇', 'order': 10, 'updated_at': '2017-04-23T02:07:14.336Z', 'id': '58fc0e13d91e3c10da568f16'}, {'_id': '58fc0e13d91e3c10da568f17', 'title': '雞精篇', 'order': 11, 'updated_at': '2017-04-23T02:07:21.796Z', 'id': '58fc0e13d91e3c10da568f17'}, {'_id': '58fc0e13d91e3c10da568f18', 'title': '鼠精篇', 'order': 12, 'updated_at': '2017-04-23T02:09:22.814Z', 'id': '58fc0e13d91e3c10da568f18'}, {'_id': '58fc0e13d91e3c10da568f19', 'title': 'gal?', 'order': 13, 'updated_at': '2017-04-23T02:09:31.403Z', 'id': '58fc0e13d91e3c10da568f19'}, {'_id': '58fc62ccc02ad0686b11f93a', 'title': '\x08靈魂 RBQ【機械式欺詐師95號】', 'order': 14, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '58fc62ccc02ad0686b11f93a'}, {'_id': '5912d21e18fba10745c150fd', 'title': 'SM篇【amoeba】', 'order': 15, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '5912d21e18fba10745c150fd'}, {'_id': '594895be54335457c2783359', 'title': '二次元和三次元的合體【woshi691】', 'order': 16, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594895be54335457c2783359'}, {'_id': '594895be54335457c278335a', 'title': '小正太服務器君【不願透露ID的人】', 'order': 17, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594895be54335457c278335a'}, {'_id': '594895be54335457c278335b', 'title': ' 不要在吃東西時看啊～【东方传教士】', 'order': 18, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594895be54335457c278335b'}, {'_id': '594895be54335457c278335c', 'title': '草書畫風【抹茶慕斯】', 'order': 19, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594895be54335457c278335c'}, {'_id': '594916ff57dd262a6a889379', 'title': '遲來的服務器君人設【嗶咔科普娘四葉】', 'order': 20, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594916ff57dd262a6a889379'}, {'_id': '594a8a64f0c8de1a01c1fecf', 'title': '變態！【咸咸的鱼干桑】', 'order': 21, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594a8a64f0c8de1a01c1fecf'}, {'_id': '594a8a64f0c8de1a01c1fed0', 'title': '表白😍【ブラック羽川】', 'order': 22, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594a8a64f0c8de1a01c1fed0'}, {'_id': '594b3002775ebf034aa8479c', 'title': '幽幽子【東鰉鍾】', 'order': 23, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594b3002775ebf034aa8479c'}, {'_id': '594bb4c763fcae0b4e0fd6fc', 'title': '蕾姆【東鰉鍾】🌟', 'order': 24, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594bb4c763fcae0b4e0fd6fc'}, {'_id': '594bb4c763fcae0b4e0fd6fd', 'title': '不卡娘娘【白箬】', 'order': 25, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '594bb4c763fcae0b4e0fd6fd'}, {'_id': '595119ab3bf93c65bc241d54', 'title': '8bit - 我是服務器【機械師】', 'order': 26, 'updated_at': '2020-05-01T11:46:33.270Z', 'id': '595119ab3bf93c65bc241d54'}, {'_id': '5eac0c19d01b8847faeb0789', 'title': 'Dr忆昔', 'order': 27, 'updated_at': '2020-05-01T11:08:32.077Z', 'id': '5eac0c19d01b8847faeb0789'}, {'_id': '5eac0c19d01b8847faeb078a', 'title': 'N29', 'order': 28, 'updated_at': '2020-05-01T11:11:35.606Z', 'id': '5eac0c19d01b8847faeb078a'}, {'_id': '5eac0c19d01b8847faeb078b', 'title': '东德陆军警卫【真四六分】', 'order': 29, 'updated_at': '2020-05-01T11:20:28.896Z', 'id': '5eac0c19d01b8847faeb078b'}, {'_id': '5eac0c19d01b8847faeb078c', 'title': '可乐味碳酸饮料', 'order': 30, 'updated_at': '2020-05-01T11:24:26.933Z', 'id': '5eac0c19d01b8847faeb078c'}, {'_id': '5eac0c19d01b8847faeb078d', 'title': '美酱爱学习【Rullocu】🌟', 'order': 31, 'updated_at': '2020-05-01T11:28:02.078Z', 'id': '5eac0c19d01b8847faeb078d'}, {'_id': '5eac0c19d01b8847faeb078e', 'title': '怪盗van', 'order': 32, 'updated_at': '2020-05-01T11:33:35.602Z', 'id': '5eac0c19d01b8847faeb078e'}]
+2026-05-15 14:28:48 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:28:48 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:點了爆炸
+2026-05-15 14:28:48 - mkk_pika - main.py:112 - INFO - [episode:點了爆炸      ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:28:48 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:48 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:48 - mkk_pika - database.py:245 - INFO - ['點了爆炸']
+2026-05-15 14:28:50 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:性感泳衣
+2026-05-15 14:28:50 - mkk_pika - main.py:112 - INFO - [episode:性感泳衣      ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:28:50 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:50 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:50 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣']
+2026-05-15 14:28:52 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:穿了等於沒有穿的泳衣
+2026-05-15 14:28:52 - mkk_pika - main.py:112 - INFO - [episode:穿了等於沒有穿的泳衣] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:28:52 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:52 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:52 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣']
+2026-05-15 14:28:53 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:女僕裝
+2026-05-15 14:28:53 - mkk_pika - main.py:112 - INFO - [episode:女僕裝       ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:28:53 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:53 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:53 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝']
+2026-05-15 14:28:55 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:水手裝
+2026-05-15 14:28:55 - mkk_pika - main.py:112 - INFO - [episode:水手裝       ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:28:55 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:55 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:55 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝']
+2026-05-15 14:28:56 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:惡魔篇
+2026-05-15 14:28:57 - mkk_pika - main.py:112 - INFO - [episode:惡魔篇       ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:28:57 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:57 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:57 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇']
+2026-05-15 14:28:58 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:天使篇
+2026-05-15 14:28:58 - mkk_pika - main.py:112 - INFO - [episode:天使篇       ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:28:58 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:28:58 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:28:58 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇']
+2026-05-15 14:29:00 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:肢解篇
+2026-05-15 14:29:00 - mkk_pika - main.py:112 - INFO - [episode:肢解篇       ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:00 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:00 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:00 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇']
+2026-05-15 14:29:01 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:我們結婚吧
+2026-05-15 14:29:02 - mkk_pika - main.py:112 - INFO - [episode:我們結婚吧     ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:02 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:02 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:02 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧']
+2026-05-15 14:29:03 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:初音就是未來篇
+2026-05-15 14:29:03 - mkk_pika - main.py:112 - INFO - [episode:初音就是未來篇   ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:03 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:03 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:03 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇']
+2026-05-15 14:29:05 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:雞精篇
+2026-05-15 14:29:05 - mkk_pika - main.py:112 - INFO - [episode:雞精篇       ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:05 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:05 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:05 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇']
+2026-05-15 14:29:06 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:鼠精篇
+2026-05-15 14:29:06 - mkk_pika - main.py:112 - INFO - [episode:鼠精篇       ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:06 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:06 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:06 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇']
+2026-05-15 14:29:08 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:gal？
+2026-05-15 14:29:08 - mkk_pika - main.py:112 - INFO - [episode:gal?      ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:08 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:08 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:08 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?']
+2026-05-15 14:29:10 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:靈魂RBQ【機械式欺詐師95號】
+2026-05-15 14:29:10 - mkk_pika - main.py:112 - INFO - [episode:靈魂 RBQ【機械式欺詐師95號】] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:10 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:10 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:10 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】']
+2026-05-15 14:29:11 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:SM篇【amoeba】
+2026-05-15 14:29:11 - mkk_pika - main.py:112 - INFO - [episode:SM篇【amoeba】] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:11 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:11 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:11 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】']
+2026-05-15 14:29:13 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:二次元和三次元的合體【woshi691】
+2026-05-15 14:29:13 - mkk_pika - main.py:112 - INFO - [episode:二次元和三次元的合體【woshi691】] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:13 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:13 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:13 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】']
+2026-05-15 14:29:14 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:小正太服務器君【不願透露ID的人】
+2026-05-15 14:29:15 - mkk_pika - main.py:112 - INFO - [episode:小正太服務器君【不願透露ID的人】] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:15 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:15 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:15 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】']
+2026-05-15 14:29:16 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:不要在吃東西時看啊～【东方传教士】
+2026-05-15 14:29:16 - mkk_pika - main.py:112 - INFO - [episode: 不要在吃東西時看啊～【东方传教士】] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:16 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:16 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:16 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】']
+2026-05-15 14:29:18 - mkk_pika - main.py:83 - INFO - 找到 3 张图片在:草書畫風【抹茶慕斯】
+2026-05-15 14:29:18 - mkk_pika - main.py:112 - INFO - [episode:草書畫風【抹茶慕斯】] downloaded:     3, total:   3, progress:100%
+2026-05-15 14:29:18 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:18 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:18 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】']
+2026-05-15 14:29:19 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:遲來的服務器君人設【嗶咔科普娘四葉】
+2026-05-15 14:29:19 - mkk_pika - main.py:112 - INFO - [episode:遲來的服務器君人設【嗶咔科普娘四葉】] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:19 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:19 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:19 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】']
+2026-05-15 14:29:21 - mkk_pika - main.py:83 - INFO - 找到 6 张图片在:變態！【咸咸的鱼干桑】
+2026-05-15 14:29:21 - mkk_pika - main.py:112 - INFO - [episode:變態！【咸咸的鱼干桑】] downloaded:     6, total:   6, progress:100%
+2026-05-15 14:29:21 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:21 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:21 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】']
+2026-05-15 14:29:23 - mkk_pika - main.py:83 - INFO - 找到 2 张图片在:表白😍【ブラック羽川】
+2026-05-15 14:29:23 - mkk_pika - main.py:112 - INFO - [episode:表白😍【ブラック羽川】] downloaded:     2, total:   2, progress:100%
+2026-05-15 14:29:23 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:23 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:23 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】']
+2026-05-15 14:29:24 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:幽幽子【東鰉鍾】
+2026-05-15 14:29:25 - mkk_pika - main.py:112 - INFO - [episode:幽幽子【東鰉鍾】  ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:25 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】']
+2026-05-15 14:29:26 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:蕾姆【東鰉鍾】🌟
+2026-05-15 14:29:26 - mkk_pika - main.py:112 - INFO - [episode:蕾姆【東鰉鍾】🌟  ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:26 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:26 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:26 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟']
+2026-05-15 14:29:28 - mkk_pika - main.py:83 - INFO - 找到 2 张图片在:不卡娘娘【白箬】
+2026-05-15 14:29:28 - mkk_pika - main.py:112 - INFO - [episode:不卡娘娘【白箬】  ] downloaded:     2, total:   2, progress:100%
+2026-05-15 14:29:28 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:28 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:28 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟', '不卡娘娘【白箬】']
+2026-05-15 14:29:29 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:8bit－我是服務器【機械師】
+2026-05-15 14:29:30 - mkk_pika - main.py:112 - INFO - [episode:8bit - 我是服務器【機械師】] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:30 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:30 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:30 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟', '不卡娘娘【白箬】', '8bit - 我是服務器【機械師】']
+2026-05-15 14:29:31 - mkk_pika - main.py:83 - INFO - 找到 12 张图片在:Dr忆昔
+2026-05-15 14:29:32 - mkk_pika - main.py:112 - INFO - [episode:Dr忆昔      ] downloaded:    12, total:  12, progress:100%
+2026-05-15 14:29:32 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:32 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:32 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟', '不卡娘娘【白箬】', '8bit - 我是服務器【機械師】', 'Dr忆昔']
+2026-05-15 14:29:33 - mkk_pika - main.py:83 - INFO - 找到 8 张图片在:N29
+2026-05-15 14:29:33 - mkk_pika - main.py:112 - INFO - [episode:N29       ] downloaded:     8, total:   8, progress:100%
+2026-05-15 14:29:33 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:33 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:33 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟', '不卡娘娘【白箬】', '8bit - 我是服務器【機械師】', 'Dr忆昔', 'N29']
+2026-05-15 14:29:35 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:东德陆军警卫【真四六分】
+2026-05-15 14:29:35 - mkk_pika - main.py:112 - INFO - [episode:东德陆军警卫【真四六分】] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:35 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:35 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:35 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟', '不卡娘娘【白箬】', '8bit - 我是服務器【機械師】', 'Dr忆昔', 'N29', '东德陆军警卫【真四六分】']
+2026-05-15 14:29:37 - mkk_pika - main.py:83 - INFO - 找到 2 张图片在:可乐味碳酸饮料
+2026-05-15 14:29:37 - mkk_pika - main.py:112 - INFO - [episode:可乐味碳酸饮料   ] downloaded:     2, total:   2, progress:100%
+2026-05-15 14:29:37 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:37 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:37 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟', '不卡娘娘【白箬】', '8bit - 我是服務器【機械師】', 'Dr忆昔', 'N29', '东德陆军警卫【真四六分】', '可乐味碳酸饮料']
+2026-05-15 14:29:38 - mkk_pika - main.py:83 - INFO - 找到 5 张图片在:美酱爱学习【Rullocu】🌟
+2026-05-15 14:29:39 - mkk_pika - main.py:112 - INFO - [episode:美酱爱学习【Rullocu】🌟] downloaded:     5, total:   5, progress:100%
+2026-05-15 14:29:39 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:39 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:39 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟', '不卡娘娘【白箬】', '8bit - 我是服務器【機械師】', 'Dr忆昔', 'N29', '东德陆军警卫【真四六分】', '可乐味碳酸饮料', '美酱爱学习【Rullocu】🌟']
+2026-05-15 14:29:40 - mkk_pika - main.py:83 - INFO - 找到 1 张图片在:怪盗van
+2026-05-15 14:29:40 - mkk_pika - main.py:112 - INFO - [episode:怪盗van     ] downloaded:     1, total:   1, progress:100%
+2026-05-15 14:29:40 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:40 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:40 - mkk_pika - database.py:245 - INFO - ['點了爆炸', '性感泳衣', '穿了等於沒有穿的泳衣', '女僕裝', '水手裝', '惡魔篇', '天使篇', '肢解篇', '我們結婚吧', '初音就是未來篇', '雞精篇', '鼠精篇', 'gal?', '\x08靈魂 RBQ【機械式欺詐師95號】', 'SM篇【amoeba】', '二次元和三次元的合體【woshi691】', '小正太服務器君【不願透露ID的人】', ' 不要在吃東西時看啊～【东方传教士】', '草書畫風【抹茶慕斯】', '遲來的服務器君人設【嗶咔科普娘四葉】', '變態！【咸咸的鱼干桑】', '表白😍【ブラック羽川】', '幽幽子【東鰉鍾】', '蕾姆【東鰉鍾】🌟', '不卡娘娘【白箬】', '8bit - 我是服務器【機械師】', 'Dr忆昔', 'N29', '东德陆军警卫【真四六分】', '可乐味碳酸饮料', '美酱爱学习【Rullocu】🌟', '怪盗van']
+2026-05-15 14:29:41 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：58d933ab2d16953760d604ca
+                                   标题：嗶咔官方 - 畫師的搖籃
+                                   作者：嗶咔官方
+                                   是否完结：是
+                                   总页数：64
+                                   分类：嗶咔漢化
+                                   章节数：32
+                                   最后更新时间：2017-06-26T14:26:51.146Z
+                                   =================================================
+2026-05-15 14:29:41 - mkk_pika - database.py:101 - INFO - 保存成功：嗶咔官方 - 畫師的搖籃
+2026-05-15 14:29:41 - mkk_pika - main.py:35 - INFO - 开始检查憧れの友達のお母さんに悪戯したら逆に美味しく食べられた是否存在未下载章节
+2026-05-15 14:29:42 - mkk_pika - main.py:45 - INFO - 正在下载:[憧れの友達のお母さんに悪戯したら逆に美味しく食べられた]-[熟々ジュブナイル (清兵衛)]-[['短篇', '人妻']]-[total_pages:42]
+2026-05-15 14:29:42 - mkk_pika - main.py:49 - INFO - [{'_id': '59512f6598a38c65b6492e2d', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T17:52:57.382Z', 'id': '59512f6598a38c65b6492e2d'}]
+2026-05-15 14:29:42 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:29:43 - mkk_pika - main.py:83 - INFO - 找到 42 张图片在:第1集
+2026-05-15 14:29:44 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    42, total:  42, progress:100%
+2026-05-15 14:29:44 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:44 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:44 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:29:45 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59512f6598a38c65b6492e2c
+                                   标题：憧れの友達のお母さんに悪戯したら逆に美味しく食べられた
+                                   作者：熟々ジュブナイル (清兵衛)
+                                   是否完结：是
+                                   总页数：42
+                                   分类：短篇,人妻
+                                   章节数：1
+                                   最后更新时间：2017-06-26T15:59:33.759Z
+                                   =================================================
+2026-05-15 14:29:45 - mkk_pika - database.py:101 - INFO - 保存成功：憧れの友達のお母さんに悪戯したら逆に美味しく食べられた
+2026-05-15 14:29:45 - mkk_pika - main.py:35 - INFO - 开始检查お澄まし×お漏らし×お姉さん是否存在未下载章节
+2026-05-15 14:29:46 - mkk_pika - main.py:45 - INFO - 正在下载:[お澄まし×お漏らし×お姉さん]-[夢色ぐらさん]-[['長篇', '強暴']]-[total_pages:187]
+2026-05-15 14:29:46 - mkk_pika - main.py:49 - INFO - [{'_id': '59512f7b976c632ced21d949', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T18:01:33.054Z', 'id': '59512f7b976c632ced21d949'}]
+2026-05-15 14:29:46 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:29:47 - mkk_pika - main.py:83 - INFO - 找到 187 张图片在:第1集
+2026-05-15 14:29:52 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   187, total: 187, progress:100%
+2026-05-15 14:29:52 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:29:52 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:29:52 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:29:54 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59512f7b976c632ced21d948
+                                   标题：お澄まし×お漏らし×お姉さん
+                                   作者：夢色ぐらさん
+                                   是否完结：是
+                                   总页数：187
+                                   分类：長篇,強暴
+                                   章节数：1
+                                   最后更新时间：2017-06-26T15:59:55.623Z
+                                   =================================================
+2026-05-15 14:29:54 - mkk_pika - database.py:101 - INFO - 保存成功：お澄まし×お漏らし×お姉さん
+2026-05-15 14:29:54 - mkk_pika - main.py:35 - INFO - 开始检查pixiv-Current Storage (momi、ぴょん吉)2是否存在未下载章节
+2026-05-15 14:29:54 - mkk_pika - main.py:45 - INFO - 正在下载:[pixiv-Current Storage (momi、ぴょん吉)2]-[Current Storage (momi、ぴょん吉)]-[['全彩', '長篇', '同人']]-[total_pages:199]
+2026-05-15 14:29:54 - mkk_pika - main.py:49 - INFO - [{'_id': '59512fddc6177c1a01527f5d', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-24T15:29:06.294Z', 'id': '59512fddc6177c1a01527f5d'}]
+2026-05-15 14:29:54 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:29:56 - mkk_pika - main.py:83 - INFO - 找到 199 张图片在:第1集
+2026-05-15 14:30:01 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   199, total: 199, progress:100%
+2026-05-15 14:30:01 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:01 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:01 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:03 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59512fddc6177c1a01527f5c
+                                   标题：pixiv-Current Storage (momi、ぴょん吉)2
+                                   作者：Current Storage (momi、ぴょん吉)
+                                   是否完结：否
+                                   总页数：199
+                                   分类：全彩,長篇,同人
+                                   章节数：1
+                                   最后更新时间：2017-06-26T16:01:33.187Z
+                                   =================================================
+2026-05-15 14:30:03 - mkk_pika - database.py:101 - INFO - 保存成功：pixiv-Current Storage (momi、ぴょん吉)2
+2026-05-15 14:30:03 - mkk_pika - main.py:35 - INFO - 开始检查宮崎親子のオオカミさん (ゆらぎ荘の幽奈さん)是否存在未下载章节
+2026-05-15 14:30:03 - mkk_pika - main.py:45 - INFO - 正在下载:[宮崎親子のオオカミさん (ゆらぎ荘の幽奈さん)]-[P:P (おりょう)]-[['同人', '短篇', '人妻']]-[total_pages:20]
+2026-05-15 14:30:03 - mkk_pika - main.py:49 - INFO - [{'_id': '5951452299f1f82d01c91390', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T16:09:35.582Z', 'id': '5951452299f1f82d01c91390'}]
+2026-05-15 14:30:03 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:04 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-05-15 14:30:04 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-05-15 14:30:04 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:04 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:04 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:06 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951452299f1f82d01c9138f
+                                   标题：宮崎親子のオオカミさん (ゆらぎ荘の幽奈さん)
+                                   作者：P:P (おりょう)
+                                   是否完结：是
+                                   总页数：20
+                                   分类：同人,短篇,人妻
+                                   章节数：1
+                                   最后更新时间：2017-06-26T17:32:18.211Z
+                                   =================================================
+2026-05-15 14:30:06 - mkk_pika - database.py:101 - INFO - 保存成功：宮崎親子のオオカミさん (ゆらぎ荘の幽奈さん)
+2026-05-15 14:30:06 - mkk_pika - main.py:35 - INFO - 开始检查マオリフレ (ポケットモンスター サン･ムーン)是否存在未下载章节
+2026-05-15 14:30:06 - mkk_pika - main.py:45 - INFO - 正在下载:[マオリフレ (ポケットモンスター サン･ムーン)]-[WICKED HEART (ZooTAN)]-[['同人', '短篇']]-[total_pages:27]
+2026-05-15 14:30:06 - mkk_pika - main.py:49 - INFO - [{'_id': '595145309a435765aad32654', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T16:23:43.834Z', 'id': '595145309a435765aad32654'}]
+2026-05-15 14:30:06 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:07 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-05-15 14:30:07 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-05-15 14:30:07 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:07 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:07 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:09 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951452f9a435765aad32653
+                                   标题：マオリフレ (ポケットモンスター サン･ムーン)
+                                   作者：WICKED HEART (ZooTAN)
+                                   是否完结：是
+                                   总页数：27
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2017-06-26T17:32:31.986Z
+                                   =================================================
+2026-05-15 14:30:09 - mkk_pika - database.py:101 - INFO - 保存成功：マオリフレ (ポケットモンスター サン･ムーン)
+2026-05-15 14:30:09 - mkk_pika - main.py:35 - INFO - 开始检查ママショタイム アウトドア編是否存在未下载章节
+2026-05-15 14:30:09 - mkk_pika - main.py:45 - INFO - 正在下载:[ママショタイム アウトドア編]-[pink-noise (みずいろ めがね)]-[['長篇', '人妻']]-[total_pages:72]
+2026-05-15 14:30:09 - mkk_pika - main.py:49 - INFO - [{'_id': '59514583c0ded92cf32d4e33', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T16:27:17.955Z', 'id': '59514583c0ded92cf32d4e33'}]
+2026-05-15 14:30:09 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:10 - mkk_pika - main.py:83 - INFO - 找到 72 张图片在:第1集
+2026-05-15 14:30:11 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    72, total:  72, progress:100%
+2026-05-15 14:30:11 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:11 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:11 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:13 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59514583c0ded92cf32d4e32
+                                   标题：ママショタイム アウトドア編
+                                   作者：pink-noise (みずいろ めがね)
+                                   是否完结：是
+                                   总页数：72
+                                   分类：長篇,人妻
+                                   章节数：1
+                                   最后更新时间：2017-06-26T17:33:55.388Z
+                                   =================================================
+2026-05-15 14:30:13 - mkk_pika - database.py:101 - INFO - 保存成功：ママショタイム アウトドア編
+2026-05-15 14:30:13 - mkk_pika - main.py:35 - INFO - 开始检查ひどいことしないで是否存在未下载章节
+2026-05-15 14:30:13 - mkk_pika - main.py:45 - INFO - 正在下载:[ひどいことしないで]-[ZUKI樹]-[['長篇', '強暴']]-[total_pages:199]
+2026-05-15 14:30:13 - mkk_pika - main.py:49 - INFO - [{'_id': '59514593c6177c1a015280cc', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T16:39:21.812Z', 'id': '59514593c6177c1a015280cc'}]
+2026-05-15 14:30:13 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:15 - mkk_pika - main.py:83 - INFO - 找到 199 张图片在:第1集
+2026-05-15 14:30:20 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   199, total: 199, progress:100%
+2026-05-15 14:30:20 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:20 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:20 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:22 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59514593c6177c1a015280cb
+                                   标题：ひどいことしないで
+                                   作者：ZUKI樹
+                                   是否完结：是
+                                   总页数：199
+                                   分类：長篇,強暴
+                                   章节数：1
+                                   最后更新时间：2017-06-26T17:34:11.933Z
+                                   =================================================
+2026-05-15 14:30:22 - mkk_pika - database.py:101 - INFO - 保存成功：ひどいことしないで
+2026-05-15 14:30:22 - mkk_pika - main.py:35 - INFO - 开始检查 Filly Fooling - It's Straight Shipping Here!是否存在未下载章节
+2026-05-15 14:30:22 - mkk_pika - main.py:45 - INFO - 正在下载:[ Filly Fooling - It's Straight Shipping Here!]-[Vavacung]-[['短篇', '同人']]-[total_pages:41]
+2026-05-15 14:30:22 - mkk_pika - main.py:49 - INFO - [{'_id': '5951c55c98a38c65b6493127', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-26T23:51:35.308Z', 'id': '5951c55c98a38c65b6493127'}]
+2026-05-15 14:30:22 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:23 - mkk_pika - main.py:83 - INFO - 找到 41 张图片在:第1集
+2026-05-15 14:30:24 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    41, total:  41, progress:100%
+2026-05-15 14:30:24 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:24 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:24 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:25 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951c55c98a38c65b6493126
+                                   标题： Filly Fooling - It's Straight Shipping Here!
+                                   作者：Vavacung
+                                   是否完结：否
+                                   总页数：41
+                                   分类：短篇,同人
+                                   章节数：1
+                                   最后更新时间：2017-06-27T02:39:24.671Z
+                                   =================================================
+2026-05-15 14:30:25 - mkk_pika - database.py:101 - INFO - 保存成功： Filly Fooling - It's Straight Shipping Here!
+2026-05-15 14:30:25 - mkk_pika - main.py:35 - INFO - 开始检查催眠家庭教師の淫行是否存在未下载章节
+2026-05-15 14:30:25 - mkk_pika - main.py:45 - INFO - 正在下载:[催眠家庭教師の淫行]-[せみもぐら (由家)]-[['短篇']]-[total_pages:27]
+2026-05-15 14:30:25 - mkk_pika - main.py:49 - INFO - [{'_id': '5951c56a688fdd2d07b7b550', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-27T02:25:12.021Z', 'id': '5951c56a688fdd2d07b7b550'}]
+2026-05-15 14:30:25 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:26 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-05-15 14:30:27 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-05-15 14:30:27 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:27 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:27 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:28 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951c56a688fdd2d07b7b54f
+                                   标题：催眠家庭教師の淫行
+                                   作者：せみもぐら (由家)
+                                   是否完结：是
+                                   总页数：27
+                                   分类：短篇
+                                   章节数：1
+                                   最后更新时间：2017-06-27T02:39:38.161Z
+                                   =================================================
+2026-05-15 14:30:28 - mkk_pika - database.py:101 - INFO - 保存成功：催眠家庭教師の淫行
+2026-05-15 14:30:28 - mkk_pika - main.py:35 - INFO - 开始检查初エッチは妹でした 初體驗是和妹妹做的是否存在未下载章节
+2026-05-15 14:30:28 - mkk_pika - main.py:45 - INFO - 正在下载:[初エッチは妹でした 初體驗是和妹妹做的]-[潮風サンゴ]-[['長篇', '純愛', '後宮閃光', '妹妹系']]-[total_pages:190]
+2026-05-15 14:30:28 - mkk_pika - main.py:49 - INFO - [{'_id': '5951ea7cc6177c1a01528458', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-27T03:23:22.043Z', 'id': '5951ea7cc6177c1a01528458'}]
+2026-05-15 14:30:28 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:30 - mkk_pika - main.py:83 - INFO - 找到 190 张图片在:第1集
+2026-05-15 14:30:35 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   190, total: 190, progress:100%
+2026-05-15 14:30:35 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:35 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:35 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:36 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951ea7cc6177c1a01528457
+                                   标题：初エッチは妹でした 初體驗是和妹妹做的
+                                   作者：潮風サンゴ
+                                   是否完结：是
+                                   总页数：190
+                                   分类：長篇,純愛,後宮閃光,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-06-27T05:17:48.653Z
+                                   =================================================
+2026-05-15 14:30:36 - mkk_pika - database.py:101 - INFO - 保存成功：初エッチは妹でした 初體驗是和妹妹做的
+2026-05-15 14:30:36 - mkk_pika - main.py:35 - INFO - 开始检查Twisted Twisted Treeline (League of Legends)是否存在未下载章节
+2026-05-15 14:30:37 - mkk_pika - main.py:45 - INFO - 正在下载:[Twisted Twisted Treeline (League of Legends)]-[ArbuzBudesh]-[['全彩', '短篇', '同人']]-[total_pages:17]
+2026-05-15 14:30:37 - mkk_pika - main.py:49 - INFO - [{'_id': '5951ea8d1f498765a4cccb25', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-27T04:11:14.466Z', 'id': '5951ea8d1f498765a4cccb25'}]
+2026-05-15 14:30:37 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:37 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:第1集
+2026-05-15 14:30:38 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    17, total:  17, progress:100%
+2026-05-15 14:30:38 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:38 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:38 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:39 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951ea8d1f498765a4cccb24
+                                   标题：Twisted Twisted Treeline (League of Legends)
+                                   作者：ArbuzBudesh
+                                   是否完结：是
+                                   总页数：17
+                                   分类：全彩,短篇,同人
+                                   章节数：1
+                                   最后更新时间：2017-06-27T05:18:05.944Z
+                                   =================================================
+2026-05-15 14:30:39 - mkk_pika - database.py:101 - INFO - 保存成功：Twisted Twisted Treeline (League of Legends)
+2026-05-15 14:30:39 - mkk_pika - main.py:35 - INFO - 开始检查artist - 21YC是否存在未下载章节
+2026-05-15 14:30:39 - mkk_pika - main.py:45 - INFO - 正在下载:[artist - 21YC]-[21YC]-[['全彩', '同人']]-[total_pages:80]
+2026-05-15 14:30:39 - mkk_pika - main.py:49 - INFO - [{'_id': '5951ea9a3bf93c65bc24224a', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-25T01:18:52.116Z', 'id': '5951ea9a3bf93c65bc24224a'}]
+2026-05-15 14:30:39 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:40 - mkk_pika - main.py:83 - INFO - 找到 80 张图片在:第1集
+2026-05-15 14:30:42 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    80, total:  80, progress:100%
+2026-05-15 14:30:42 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:42 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:42 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:44 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951ea9a3bf93c65bc242249
+                                   标题：artist - 21YC
+                                   作者：21YC
+                                   是否完结：否
+                                   总页数：80
+                                   分类：全彩,同人
+                                   章节数：1
+                                   最后更新时间：2017-06-27T05:18:18.754Z
+                                   =================================================
+2026-05-15 14:30:44 - mkk_pika - database.py:101 - INFO - 保存成功：artist - 21YC
+2026-05-15 14:30:44 - mkk_pika - main.py:35 - INFO - 开始检查三十路のDTドクターがフタナリJKなマスターに逆アナル调教されてメスイキする本是否存在未下载章节
+2026-05-15 14:30:44 - mkk_pika - main.py:45 - INFO - 正在下载:[三十路のDTドクターがフタナリJKなマスターに逆アナル调教されてメスイキする本]-[田圃 (莳田ミキ)]-[['短篇', '扶他樂園', '性轉換']]-[total_pages:33]
+2026-05-15 14:30:44 - mkk_pika - main.py:49 - INFO - [{'_id': '5951eb779a435765aad33058', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-27T03:29:51.816Z', 'id': '5951eb779a435765aad33058'}]
+2026-05-15 14:30:44 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:45 - mkk_pika - main.py:83 - INFO - 找到 33 张图片在:第1集
+2026-05-15 14:30:46 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    33, total:  33, progress:100%
+2026-05-15 14:30:46 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:46 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:46 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:47 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951eb779a435765aad33057
+                                   标题：三十路のDTドクターがフタナリJKなマスターに逆アナル调教されてメスイキする本
+                                   作者：田圃 (莳田ミキ)
+                                   是否完结：是
+                                   总页数：33
+                                   分类：短篇,扶他樂園,性轉換
+                                   章节数：1
+                                   最后更新时间：2017-06-27T05:21:59.918Z
+                                   =================================================
+2026-05-15 14:30:47 - mkk_pika - database.py:101 - INFO - 保存成功：三十路のDTドクターがフタナリJKなマスターに逆アナル调教されてメスイキする本
+2026-05-15 14:30:47 - mkk_pika - main.py:35 - INFO - 开始检查露出少女日記 14冊目是否存在未下载章节
+2026-05-15 14:30:47 - mkk_pika - main.py:45 - INFO - 正在下载:[露出少女日記 14冊目]-[valssu (茶琉)]-[['長篇']]-[total_pages:36]
+2026-05-15 14:30:47 - mkk_pika - main.py:49 - INFO - [{'_id': '5951eb86c6177c1a0152851f', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-27T04:12:29.470Z', 'id': '5951eb86c6177c1a0152851f'}]
+2026-05-15 14:30:47 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:48 - mkk_pika - main.py:83 - INFO - 找到 36 张图片在:第1集
+2026-05-15 14:30:49 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    36, total:  36, progress:100%
+2026-05-15 14:30:49 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:49 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:49 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:50 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951eb86c6177c1a0152851e
+                                   标题：露出少女日記 14冊目
+                                   作者：valssu (茶琉)
+                                   是否完结：否
+                                   总页数：36
+                                   分类：長篇
+                                   章节数：1
+                                   最后更新时间：2017-06-27T05:22:14.341Z
+                                   =================================================
+2026-05-15 14:30:50 - mkk_pika - database.py:101 - INFO - 保存成功：露出少女日記 14冊目
+2026-05-15 14:30:50 - mkk_pika - main.py:35 - INFO - 开始检查 Fallen Heart (超次元ゲイム ネプテューヌ)是否存在未下载章节
+2026-05-15 14:30:51 - mkk_pika - main.py:45 - INFO - 正在下载:[ Fallen Heart (超次元ゲイム ネプテューヌ)]-[CotesDeNoix (Cru)]-[['同人', '短篇']]-[total_pages:26]
+2026-05-15 14:30:51 - mkk_pika - main.py:49 - INFO - [{'_id': '5951ef263bf93c65bc2422b7', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-27T05:23:14.745Z', 'id': '5951ef263bf93c65bc2422b7'}]
+2026-05-15 14:30:51 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:51 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-05-15 14:30:52 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-05-15 14:30:52 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:52 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:52 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:53 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951ef263bf93c65bc2422b6
+                                   标题： Fallen Heart (超次元ゲイム ネプテューヌ)
+                                   作者：CotesDeNoix (Cru)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2017-06-27T05:37:42.741Z
+                                   =================================================
+2026-05-15 14:30:53 - mkk_pika - database.py:101 - INFO - 保存成功： Fallen Heart (超次元ゲイム ネプテューヌ)
+2026-05-15 14:30:53 - mkk_pika - main.py:35 - INFO - 开始检查come on! Dance XXX是否存在未下载章节
+2026-05-15 14:30:53 - mkk_pika - main.py:45 - INFO - 正在下载:[come on! Dance XXX]-[WICKED HEART (ZooTAN)]-[['短篇', '同人', 'NTR', '強暴']]-[total_pages:26]
+2026-05-15 14:30:53 - mkk_pika - main.py:49 - INFO - [{'_id': '5951ef36c6177c1a015285d2', 'title': '第1集', 'order': 1, 'updated_at': '2017-06-27T05:33:44.990Z', 'id': '5951ef36c6177c1a015285d2'}]
+2026-05-15 14:30:53 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-15 14:30:55 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-05-15 14:30:55 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-05-15 14:30:55 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-15 14:30:55 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-15 14:30:55 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-15 14:30:57 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5951ef36c6177c1a015285d1
+                                   标题：come on! Dance XXX
+                                   作者：WICKED HEART (ZooTAN)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：短篇,同人,NTR,強暴
+                                   章节数：1
+                                   最后更新时间：2017-06-27T05:37:58.020Z
+                                   =================================================
+2026-05-15 14:30:57 - mkk_pika - database.py:101 - INFO - 保存成功：come on! Dance XXX
+2026-05-15 14:30:57 - mkk_pika - main.py:380 - INFO - 本次任务下载完毕
+2026-05-15 14:30:57 - mkk_pika - database.py:173 - INFO - 数据库连接已关闭
