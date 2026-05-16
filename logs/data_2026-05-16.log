@@ -6305,3 +6305,1561 @@
 2026-05-16 08:14:24 - mkk_pika - database.py:101 - INFO - 保存成功：やせいのちじょがあらわれた! 7
 2026-05-16 08:14:24 - mkk_pika - main.py:380 - INFO - 本次任务下载完毕
 2026-05-16 08:14:24 - mkk_pika - database.py:173 - INFO - 数据库连接已关闭
+2026-05-16 08:15:34 - mkk_pika - main.py:193 - INFO - =======================================================================
+2026-05-16 08:15:34 - mkk_pika - database.py:61 - INFO - 表和索引初始化成功
+2026-05-16 08:15:34 - mkk_pika - main.py:197 - INFO - 已经累计下载10313本漫画
+2026-05-16 08:15:34 - mkk_pika - api.py:87 - INFO - 登录成功
+2026-05-16 08:15:35 - mkk_pika - main.py:203 - INFO - 收藏夹共计0本漫画
+2026-05-16 08:15:35 - mkk_pika - main.py:206 - INFO - 开始下载收藏夹内未下载内容
+2026-05-16 08:15:35 - mkk_pika - main.py:266 - INFO - 收藏夹内容下载完毕
+2026-05-16 08:15:35 - mkk_pika - main.py:268 - INFO - 开始下载订阅内容
+2026-05-16 08:15:35 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：萝莉 -> 陽菜ちゃん調教日記|阳菜酱的调教日记 [中国翻译][進行中]
+2026-05-16 08:15:35 - mkk_pika - database.py:101 - INFO - 保存成功：陽菜ちゃん調教日記|阳菜酱的调教日记 [中国翻译][進行中]
+2026-05-16 08:15:35 - mkk_pika - main.py:273 - INFO - 关键词萝莉找到1本漫画
+2026-05-16 08:15:35 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：蘿莉 -> [Pixiv] Maec (15592774) (AI)
+2026-05-16 08:15:36 - mkk_pika - database.py:101 - INFO - 保存成功：[Pixiv] Maec (15592774) (AI)
+2026-05-16 08:15:36 - mkk_pika - main.py:273 - INFO - 关键词蘿莉找到1本漫画
+2026-05-16 08:15:36 - mkk_pika - main.py:275 - INFO - 订阅内容共计2本漫画
+2026-05-16 08:15:36 - mkk_pika - main.py:35 - INFO - 开始检查私たちが153cmだった時のこと [DL版][中国翻译]是否存在未下载章节
+2026-05-16 08:15:36 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在生肉
+2026-05-16 08:15:36 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在熟肉8618整合
+2026-05-16 08:15:36 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在熟肉revolving整合&重嵌
+2026-05-16 08:15:36 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在熟肉aaaeeeo个人机翻汉化
+2026-05-16 08:15:36 - mkk_pika - main.py:51 - INFO - 私たちが153cmだった時のこと [DL版][中国翻译]中没有可下载章节
+2026-05-16 08:15:36 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：69f642a965d95803a0837473
+                                标题：私たちが153cmだった時のこと [DL版][中国翻译]
+                                作者：鳥居ヨシツナ
+                                是否完结：是
+                                总页数：737
+                                分类：長篇,單行本
+                                章节数：4
+                                最后更新时间：2026-05-09T15:40:52.495Z
+                                =================================================
+2026-05-16 08:15:36 - mkk_pika - database.py:101 - INFO - 保存成功：私たちが153cmだった時のこと [DL版][中国翻译]
+2026-05-16 08:15:36 - mkk_pika - main.py:35 - INFO - 开始检查おにいちゃん!しないってゆったよね?! (COMIC LO 2026-06)是否存在未下载章节
+2026-05-16 08:15:37 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在吗喽汉化组
+2026-05-16 08:15:37 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在涩涩人个人机翻润色
+2026-05-16 08:15:37 - mkk_pika - main.py:51 - INFO - おにいちゃん!しないってゆったよね?! (COMIC LO 2026-06)中没有可下载章节
+2026-05-16 08:15:37 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：6a07467af83ad742f895b179
+                                标题：おにいちゃん!しないってゆったよね?! (COMIC LO 2026-06)
+                                作者：きのもと杏
+                                是否完结：是
+                                总页数：64
+                                分类：短篇,妹妹系
+                                章节数：2
+                                最后更新时间：2026-05-15T16:14:50.669Z
+                                =================================================
+2026-05-16 08:15:37 - mkk_pika - database.py:101 - INFO - 保存成功：おにいちゃん!しないってゆったよね?! (COMIC LO 2026-06)
+2026-05-16 08:15:37 - mkk_pika - main.py:323 - INFO - 订阅内容内容下载完毕
+2026-05-16 08:15:37 - mkk_pika - main.py:324 - INFO - 开始分批下载全部章节
+2026-05-16 08:15:37 - mkk_pika - database.py:280 - INFO - 表和索引初始化成功
+2026-05-16 08:15:37 - mkk_pika - main.py:177 - INFO - 已经下载了698页，一共6902页，现在开始添加第699页
+2026-05-16 08:15:38 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-16 08:15:38 - mkk_pika - main.py:177 - INFO - 已经下载了699页，一共6902页，现在开始添加第700页
+2026-05-16 08:15:38 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-16 08:15:38 - mkk_pika - main.py:177 - INFO - 已经下载了700页，一共6902页，现在开始添加第701页
+2026-05-16 08:15:39 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-16 08:15:40 - mkk_pika - main.py:177 - INFO - 已经下载了701页，一共6902页，现在开始添加第702页
+2026-05-16 08:15:40 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-16 08:15:40 - mkk_pika - main.py:177 - INFO - 已经下载了702页，一共6902页，现在开始添加第703页
+2026-05-16 08:15:41 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-05-16 08:15:41 - mkk_pika - main.py:331 - INFO - 分批下载共计58本漫画
+2026-05-16 08:15:41 - mkk_pika - main.py:35 - INFO - 开始检查とある黑子の妄想御手 _ 黑子的妄想御手是否存在未下载章节
+2026-05-16 08:15:41 - mkk_pika - main.py:45 - INFO - 正在下载:[とある黑子の妄想御手 _ 黑子的妄想御手]-[蒼銀之星 (Flyking)]-[['短篇', '全彩', '同人']]-[total_pages:20]
+2026-05-16 08:15:41 - mkk_pika - main.py:49 - INFO - [{'_id': '596e2a35a3c15e06a7154b88', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T10:11:27.389Z', 'id': '596e2a35a3c15e06a7154b88'}]
+2026-05-16 08:15:41 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:15:41 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-05-16 08:15:42 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:15:42 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:15:42 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:15:42 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:15:44 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596e2a35a3c15e06a7154b87
+                                   标题：とある黑子の妄想御手 _ 黑子的妄想御手
+                                   作者：蒼銀之星 (Flyking)
+                                   是否完结：是
+                                   总页数：20
+                                   分类：短篇,全彩,同人
+                                   章节数：1
+                                   最后更新时间：2017-07-18T15:33:09.893Z
+                                   =================================================
+2026-05-16 08:15:44 - mkk_pika - database.py:101 - INFO - 保存成功：とある黑子の妄想御手 _ 黑子的妄想御手
+2026-05-16 08:15:44 - mkk_pika - main.py:35 - INFO - 开始检查母乳を出す女たち (グランブルーファンタジー)是否存在未下载章节
+2026-05-16 08:15:44 - mkk_pika - main.py:45 - INFO - 正在下载:[母乳を出す女たち (グランブルーファンタジー)]-[吟醸マゴッツ (くろたま)]-[['同人', '短篇', '碧藍幻想', '人妻']]-[total_pages:9]
+2026-05-16 08:15:44 - mkk_pika - main.py:49 - INFO - [{'_id': '596e2a5792c786325e1987b1', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T11:49:18.901Z', 'id': '596e2a5792c786325e1987b1'}]
+2026-05-16 08:15:44 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:15:44 - mkk_pika - main.py:83 - INFO - 找到 9 张图片在:第1集
+2026-05-16 08:15:45 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:     9, total:   9, progress:100%
+2026-05-16 08:15:45 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:15:45 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:15:45 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:15:46 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596e2a5692c786325e1987b0
+                                   标题：母乳を出す女たち (グランブルーファンタジー)
+                                   作者：吟醸マゴッツ (くろたま)
+                                   是否完结：是
+                                   总页数：9
+                                   分类：同人,短篇,碧藍幻想,人妻
+                                   章节数：1
+                                   最后更新时间：2017-07-18T15:33:42.980Z
+                                   =================================================
+2026-05-16 08:15:46 - mkk_pika - database.py:101 - INFO - 保存成功：母乳を出す女たち (グランブルーファンタジー)
+2026-05-16 08:15:46 - mkk_pika - main.py:35 - INFO - 开始检查ボテ魂 マ魂ティLOVE (銀魂)是否存在未下载章节
+2026-05-16 08:15:46 - mkk_pika - main.py:45 - INFO - 正在下载:[ボテ魂 マ魂ティLOVE (銀魂)]-[青森りんご (よろず)]-[['同人', '短篇', '性轉換']]-[total_pages:37]
+2026-05-16 08:15:46 - mkk_pika - main.py:49 - INFO - [{'_id': '596e2ab892c786325e1987c2', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T13:48:56.615Z', 'id': '596e2ab892c786325e1987c2'}]
+2026-05-16 08:15:46 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:15:47 - mkk_pika - main.py:83 - INFO - 找到 37 张图片在:第1集
+2026-05-16 08:15:48 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    37, total:  37, progress:100%
+2026-05-16 08:15:48 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:15:48 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:15:48 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:15:49 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596e2ab892c786325e1987c1
+                                   标题：ボテ魂 マ魂ティLOVE (銀魂)
+                                   作者：青森りんご (よろず)
+                                   是否完结：是
+                                   总页数：37
+                                   分类：同人,短篇,性轉換
+                                   章节数：1
+                                   最后更新时间：2017-07-18T15:35:20.709Z
+                                   =================================================
+2026-05-16 08:15:49 - mkk_pika - database.py:101 - INFO - 保存成功：ボテ魂 マ魂ティLOVE (銀魂)
+2026-05-16 08:15:49 - mkk_pika - main.py:35 - INFO - 开始检查おにいちゃんのお葬式是否存在未下载章节
+2026-05-16 08:15:50 - mkk_pika - main.py:45 - INFO - 正在下载:[おにいちゃんのお葬式]-[squeezecandyheaven (いちはや)]-[['短篇', '妹妹系']]-[total_pages:27]
+2026-05-16 08:15:50 - mkk_pika - main.py:49 - INFO - [{'_id': '596e2abfdb78c5321a2c3292', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T13:55:36.019Z', 'id': '596e2abfdb78c5321a2c3292'}]
+2026-05-16 08:15:50 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:15:50 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-05-16 08:15:51 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-05-16 08:15:51 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:15:51 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:15:51 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:15:52 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596e2abedb78c5321a2c3291
+                                   标题：おにいちゃんのお葬式
+                                   作者：squeezecandyheaven (いちはや)
+                                   是否完结：是
+                                   总页数：27
+                                   分类：短篇,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-07-18T15:35:26.991Z
+                                   =================================================
+2026-05-16 08:15:52 - mkk_pika - database.py:101 - INFO - 保存成功：おにいちゃんのお葬式
+2026-05-16 08:15:52 - mkk_pika - main.py:35 - INFO - 开始检查Fuckin' Teacher (ANGEL 倶楽部 2017年2月号)是否存在未下载章节
+2026-05-16 08:15:53 - mkk_pika - main.py:45 - INFO - 正在下载:[Fuckin' Teacher (ANGEL 倶楽部 2017年2月号)]-[かわはぎさかな]-[['全彩', '短篇']]-[total_pages:8]
+2026-05-16 08:15:53 - mkk_pika - main.py:49 - INFO - [{'_id': '596e2ac69f55ab06898f6876', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T14:01:43.323Z', 'id': '596e2ac69f55ab06898f6876'}]
+2026-05-16 08:15:53 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:15:53 - mkk_pika - main.py:83 - INFO - 找到 8 张图片在:第1集
+2026-05-16 08:15:53 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:     8, total:   8, progress:100%
+2026-05-16 08:15:53 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:15:53 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:15:53 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:15:55 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596e2ac69f55ab06898f6875
+                                   标题：Fuckin' Teacher (ANGEL 倶楽部 2017年2月号)
+                                   作者：かわはぎさかな
+                                   是否完结：是
+                                   总页数：8
+                                   分类：全彩,短篇
+                                   章节数：1
+                                   最后更新时间：2017-07-18T15:35:34.072Z
+                                   =================================================
+2026-05-16 08:15:55 - mkk_pika - database.py:101 - INFO - 保存成功：Fuckin' Teacher (ANGEL 倶楽部 2017年2月号)
+2026-05-16 08:15:55 - mkk_pika - main.py:35 - INFO - 开始检查結び逢えたら (COMIC快楽天ビースト 2017年5月号)是否存在未下载章节
+2026-05-16 08:15:55 - mkk_pika - main.py:45 - INFO - 正在下载:[結び逢えたら (COMIC快楽天ビースト 2017年5月号)]-[西條サトル]-[['短篇', '純愛']]-[total_pages:19]
+2026-05-16 08:15:55 - mkk_pika - main.py:49 - INFO - [{'_id': '596e2acccf2b4106c122e03c', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T14:14:55.584Z', 'id': '596e2acccf2b4106c122e03c'}]
+2026-05-16 08:15:55 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:15:55 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:第1集
+2026-05-16 08:15:56 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:15:56 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:15:56 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:15:56 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:15:58 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596e2acccf2b4106c122e03b
+                                   标题：結び逢えたら (COMIC快楽天ビースト 2017年5月号)
+                                   作者：西條サトル
+                                   是否完结：是
+                                   总页数：19
+                                   分类：短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2017-07-18T15:35:40.013Z
+                                   =================================================
+2026-05-16 08:15:58 - mkk_pika - database.py:101 - INFO - 保存成功：結び逢えたら (COMIC快楽天ビースト 2017年5月号)
+2026-05-16 08:15:58 - mkk_pika - main.py:35 - INFO - 开始检查えろまんが日本昔話(天狗編)是否存在未下载章节
+2026-05-16 08:15:58 - mkk_pika - main.py:45 - INFO - 正在下载:[えろまんが日本昔話(天狗編)]-[武力大王 (えもんず)]-[['短篇', '非人類', '扶他樂園']]-[total_pages:30]
+2026-05-16 08:15:58 - mkk_pika - main.py:49 - INFO - [{'_id': '596e3244cf2b4106c122e0b5', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T15:36:09.062Z', 'id': '596e3244cf2b4106c122e0b5'}]
+2026-05-16 08:15:58 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:15:58 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-05-16 08:15:59 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-05-16 08:15:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:15:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:15:59 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:16:01 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596e3244cf2b4106c122e0b4
+                                   标题：えろまんが日本昔話(天狗編)
+                                   作者：武力大王 (えもんず)
+                                   是否完结：是
+                                   总页数：30
+                                   分类：短篇,非人類,扶他樂園
+                                   章节数：1
+                                   最后更新时间：2017-07-18T16:07:32.047Z
+                                   =================================================
+2026-05-16 08:16:01 - mkk_pika - database.py:101 - INFO - 保存成功：えろまんが日本昔話(天狗編)
+2026-05-16 08:16:01 - mkk_pika - main.py:35 - INFO - 开始检查のぞきサプライズ!是否存在未下载章节
+2026-05-16 08:16:01 - mkk_pika - main.py:45 - INFO - 正在下载:[のぞきサプライズ!]-[中田モデム]-[['短篇', '姐姐系', '足の恋']]-[total_pages:26]
+2026-05-16 08:16:01 - mkk_pika - main.py:49 - INFO - [{'_id': '596e324fa3c15e06a7154c21', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T15:48:39.596Z', 'id': '596e324fa3c15e06a7154c21'}]
+2026-05-16 08:16:01 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:16:01 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-05-16 08:16:02 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-05-16 08:16:02 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:02 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:02 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:16:04 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596e324fa3c15e06a7154c20
+                                   标题：のぞきサプライズ!
+                                   作者：中田モデム
+                                   是否完结：是
+                                   总页数：26
+                                   分类：短篇,姐姐系,足の恋
+                                   章节数：1
+                                   最后更新时间：2017-07-18T16:07:43.722Z
+                                   =================================================
+2026-05-16 08:16:04 - mkk_pika - database.py:101 - INFO - 保存成功：のぞきサプライズ!
+2026-05-16 08:16:04 - mkk_pika - main.py:35 - INFO - 开始检查20世紀美少女 ～歴史上の美女だけど処女あげます～是否存在未下载章节
+2026-05-16 08:16:04 - mkk_pika - main.py:45 - INFO - 正在下载:[20世紀美少女 ～歴史上の美女だけど処女あげます～]-[西崎えいむ]-[['長篇', '後宮閃光', '足の恋']]-[total_pages:209]
+2026-05-16 08:16:04 - mkk_pika - main.py:49 - INFO - [{'_id': '596ed7536f10593244cec2e9', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-16T06:06:50.071Z', 'id': '596ed7536f10593244cec2e9'}]
+2026-05-16 08:16:04 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:16:05 - mkk_pika - main.py:83 - INFO - 找到 209 张图片在:第1集
+2026-05-16 08:16:13 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   209, total: 209, progress:100%
+2026-05-16 08:16:13 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:13 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:13 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:16:15 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596ed7536f10593244cec2e8
+                                   标题：20世紀美少女 ～歴史上の美女だけど処女あげます～
+                                   作者：西崎えいむ
+                                   是否完结：是
+                                   总页数：209
+                                   分类：長篇,後宮閃光,足の恋
+                                   章节数：1
+                                   最后更新时间：2017-07-19T03:51:47.436Z
+                                   =================================================
+2026-05-16 08:16:15 - mkk_pika - database.py:101 - INFO - 保存成功：20世紀美少女 ～歴史上の美女だけど処女あげます～
+2026-05-16 08:16:15 - mkk_pika - main.py:35 - INFO - 开始检查D.L. action 46-113是否存在未下载章节
+2026-05-16 08:16:15 - mkk_pika - main.py:45 - INFO - 正在下载:[D.L. action 46-113]-[Digital Lover (なかじまゆか)]-[['同人']]-[total_pages:1769]
+2026-05-16 08:16:15 - mkk_pika - main.py:49 - INFO - [{'_id': '596ed76cd051cb1457997acb', 'title': '46生肉', 'order': 1, 'updated_at': '2017-07-18T12:47:17.791Z', 'id': '596ed76cd051cb1457997acb'}, {'_id': '596ed76cd051cb1457997acc', 'title': '47生肉魔禁', 'order': 2, 'updated_at': '2017-07-18T12:51:40.104Z', 'id': '596ed76cd051cb1457997acc'}, {'_id': '596ed76cd051cb1457997acd', 'title': '48生肉', 'order': 3, 'updated_at': '2017-07-18T12:52:52.018Z', 'id': '596ed76cd051cb1457997acd'}, {'_id': '596ed76cd051cb1457997ace', 'title': '49生肉', 'order': 4, 'updated_at': '2017-07-18T12:56:44.760Z', 'id': '596ed76cd051cb1457997ace'}, {'_id': '596ed76cd051cb1457997acf', 'title': '50[soulrr個人漢化]魔禁', 'order': 5, 'updated_at': '2017-07-18T12:58:49.654Z', 'id': '596ed76cd051cb1457997acf'}, {'_id': '596ed76cd051cb1457997ad0', 'title': '51[soulrr個人漢化]魔禁', 'order': 6, 'updated_at': '2017-07-18T15:20:30.519Z', 'id': '596ed76cd051cb1457997ad0'}, {'_id': '596ed76cd051cb1457997ad1', 'title': '52[脸肿汉化组]召喚獣', 'order': 7, 'updated_at': '2017-07-18T15:23:04.142Z', 'id': '596ed76cd051cb1457997ad1'}, {'_id': '596ed76cd051cb1457997ad2', 'title': '53[soulrr個人漢化]魔禁', 'order': 8, 'updated_at': '2017-07-18T15:25:59.513Z', 'id': '596ed76cd051cb1457997ad2'}, {'_id': '596ed76cd051cb1457997ad3', 'title': '54[冬乳汉化组]魔禁', 'order': 9, 'updated_at': '2017-07-18T15:30:31.273Z', 'id': '596ed76cd051cb1457997ad3'}, {'_id': '596ed76cd051cb1457997ad4', 'title': '55 [Genesis漢化]俺妹', 'order': 10, 'updated_at': '2017-07-18T15:31:38.923Z', 'id': '596ed76cd051cb1457997ad4'}, {'_id': '596ed76cd051cb1457997ad5', 'title': '56 [Genesis漢化]俺妹', 'order': 11, 'updated_at': '2017-07-18T15:34:04.695Z', 'id': '596ed76cd051cb1457997ad5'}, {'_id': '596ed76cd051cb1457997ad6', 'title': '57 [Genesis漢化]俺妹', 'order': 12, 'updated_at': '2017-07-18T15:47:00.631Z', 'id': '596ed76cd051cb1457997ad6'}, {'_id': '596ed76cd051cb1457997ad7', 'title': '58 [GCDer汉化]魔禁', 'order': 13, 'updated_at': '2017-07-18T15:51:34.908Z', 'id': '596ed76cd051cb1457997ad7'}, {'_id': '596ed76cd051cb1457997ad8', 'title': '59 [Genesis漢化]俺妹', 'order': 14, 'updated_at': '2017-07-18T15:53:17.477Z', 'id': '596ed76cd051cb1457997ad8'}, {'_id': '596ed76cd051cb1457997ad9', 'title': '60 [Genesis漢化]俺妹', 'order': 15, 'updated_at': '2017-07-18T15:54:51.047Z', 'id': '596ed76cd051cb1457997ad9'}, {'_id': '596ed76cd051cb1457997ada', 'title': '61 [空气系汉化组]俺妹', 'order': 16, 'updated_at': '2017-07-18T15:56:10.950Z', 'id': '596ed76cd051cb1457997ada'}, {'_id': '596ed76cd051cb1457997adb', 'title': '62[Nice汉化组]僕は友逹が少ない', 'order': 17, 'updated_at': '2017-07-18T16:00:52.716Z', 'id': '596ed76cd051cb1457997adb'}, {'_id': '596ed76cd051cb1457997adc', 'title': '63[Genesis漢化]俺妹', 'order': 18, 'updated_at': '2017-07-18T16:09:09.623Z', 'id': '596ed76cd051cb1457997adc'}, {'_id': '596ed76cd051cb1457997add', 'title': '64[空气系汉化组]僕は友逹が少ない', 'order': 19, 'updated_at': '2017-07-18T16:11:03.676Z', 'id': '596ed76cd051cb1457997add'}, {'_id': '596ed76cd051cb1457997ade', 'title': '65[空气系汉化组]僕は友逹が少ない', 'order': 20, 'updated_at': '2017-07-18T16:13:12.030Z', 'id': '596ed76cd051cb1457997ade'}, {'_id': '596ed76cd051cb1457997adf', 'title': '66 [Genesis漢化]俺妹', 'order': 21, 'updated_at': '2017-07-18T16:15:13.672Z', 'id': '596ed76cd051cb1457997adf'}, {'_id': '596ed76cd051cb1457997ae0', 'title': '67 [Genesis漢化]加速', 'order': 22, 'updated_at': '2017-07-18T16:18:06.507Z', 'id': '596ed76cd051cb1457997ae0'}, {'_id': '596ed76cd051cb1457997ae1', 'title': '68[Genesis漢化]加速', 'order': 23, 'updated_at': '2017-07-18T16:19:22.793Z', 'id': '596ed76cd051cb1457997ae1'}, {'_id': '596ed76cd051cb1457997ae2', 'title': '69[Genesis漢化]俺妹', 'order': 24, 'updated_at': '2017-07-18T16:21:29.273Z', 'id': '596ed76cd051cb1457997ae2'}, {'_id': '596ed76cd051cb1457997ae3', 'title': '70[Genesis漢化]刀剑', 'order': 25, 'updated_at': '2017-07-18T16:23:24.145Z', 'id': '596ed76cd051cb1457997ae3'}, {'_id': '596ed76cd051cb1457997ae4', 'title': '71[Genesis漢化]刀剑', 'order': 26, 'updated_at': '2017-07-18T16:26:30.094Z', 'id': '596ed76cd051cb1457997ae4'}, {'_id': '596ed76cd051cb1457997ae5', 'title': '72[Genesis漢化]刀剑', 'order': 27, 'updated_at': '2017-07-18T16:28:02.355Z', 'id': '596ed76cd051cb1457997ae5'}, {'_id': '596ed76cd051cb1457997ae6', 'title': '73[脸肿汉化组]俺妹', 'order': 28, 'updated_at': '2017-07-18T16:29:19.107Z', 'id': '596ed76cd051cb1457997ae6'}, {'_id': '596ed76cd051cb1457997ae7', 'title': '74[脸肿汉化组]刀剑', 'order': 29, 'updated_at': '2017-07-18T16:31:27.703Z', 'id': '596ed76cd051cb1457997ae7'}, {'_id': '596ed76cd051cb1457997ae8', 'title': '75[Genesis漢化]俺妹', 'order': 30, 'updated_at': '2017-07-18T16:34:57.964Z', 'id': '596ed76cd051cb1457997ae8'}, {'_id': '596ed76cd051cb1457997ae9', 'title': '76[空气系汉化组]魔禁', 'order': 31, 'updated_at': '2017-07-18T16:33:13.980Z', 'id': '596ed76cd051cb1457997ae9'}, {'_id': '596ed76cd051cb1457997aea', 'title': '77[天鹅之恋汉化组]魔禁', 'order': 32, 'updated_at': '2017-07-18T16:37:55.988Z', 'id': '596ed76cd051cb1457997aea'}, {'_id': '596ed76cd051cb1457997aeb', 'title': '78[空気系☆漢化]魔禁', 'order': 33, 'updated_at': '2017-07-18T16:41:36.796Z', 'id': '596ed76cd051cb1457997aeb'}, {'_id': '596ed76cd051cb1457997aec', 'title': '79[脸肿汉化组]化物语', 'order': 34, 'updated_at': '2017-07-18T16:42:27.347Z', 'id': '596ed76cd051cb1457997aec'}, {'_id': '596ed76cd051cb1457997aed', 'title': '80[空気系☆漢化]魔禁', 'order': 35, 'updated_at': '2017-07-18T16:43:12.983Z', 'id': '596ed76cd051cb1457997aed'}, {'_id': '596ed76cd051cb1457997aee', 'title': '81[空気系☆漢化]舰娘', 'order': 36, 'updated_at': '2017-07-18T16:45:19.744Z', 'id': '596ed76cd051cb1457997aee'}, {'_id': '596ed76cd051cb1457997aef', 'title': '82[空気系☆漢化]舰娘', 'order': 37, 'updated_at': '2017-07-18T16:47:34.699Z', 'id': '596ed76cd051cb1457997aef'}, {'_id': '596ed76cd051cb1457997af0', 'title': '83[不觉晓个人汉化]刀剑', 'order': 38, 'updated_at': '2017-07-18T16:48:35.001Z', 'id': '596ed76cd051cb1457997af0'}, {'_id': '596ed76cd051cb1457997af1', 'title': '84[空気系☆漢化]舰娘', 'order': 39, 'updated_at': '2017-07-18T16:50:30.864Z', 'id': '596ed76cd051cb1457997af1'}, {'_id': '596ed76cd051cb1457997af2', 'title': '85[脸肿汉化组]舰娘', 'order': 40, 'updated_at': '2017-07-18T16:51:16.453Z', 'id': '596ed76cd051cb1457997af2'}, {'_id': '596ed76cd051cb1457997af3', 'title': '86[空気系☆漢化]劣等生', 'order': 41, 'updated_at': '2017-07-18T16:51:57.914Z', 'id': '596ed76cd051cb1457997af3'}, {'_id': '596ed76cd051cb1457997af4', 'title': '87[空気系☆漢化]舰娘', 'order': 42, 'updated_at': '2017-07-18T16:53:46.854Z', 'id': '596ed76cd051cb1457997af4'}, {'_id': '596ed76cd051cb1457997af5', 'title': '88[屏幕脏了汉化组]舰娘', 'order': 43, 'updated_at': '2017-07-18T16:55:33.787Z', 'id': '596ed76cd051cb1457997af5'}, {'_id': '596ed76cd051cb1457997af6', 'title': '89[屏幕脏了汉化组]舰娘', 'order': 44, 'updated_at': '2017-07-18T16:56:02.880Z', 'id': '596ed76cd051cb1457997af6'}, {'_id': '596ed76cd051cb1457997af7', 'title': '90[屏幕脏了汉化组]舰娘', 'order': 45, 'updated_at': '2017-07-18T16:58:38.983Z', 'id': '596ed76cd051cb1457997af7'}, {'_id': '596ed76cd051cb1457997af8', 'title': '91[空気系☆漢化]偶像大师', 'order': 46, 'updated_at': '2017-07-18T16:59:29.298Z', 'id': '596ed76cd051cb1457997af8'}, {'_id': '596ed76cd051cb1457997af9', 'title': '92[空気系☆漢化]偶像大师', 'order': 47, 'updated_at': '2017-07-18T17:00:20.589Z', 'id': '596ed76cd051cb1457997af9'}, {'_id': '596ed76cd051cb1457997afa', 'title': '93[空気系☆漢化]偶像大师', 'order': 48, 'updated_at': '2017-07-18T17:02:12.305Z', 'id': '596ed76cd051cb1457997afa'}, {'_id': '596ed76cd051cb1457997afb', 'title': '94[屏幕脏了汉化组]舰娘', 'order': 49, 'updated_at': '2017-07-18T17:02:47.702Z', 'id': '596ed76cd051cb1457997afb'}, {'_id': '596ed76cd051cb1457997afc', 'title': '95[空気系☆漢化]偶像大师', 'order': 50, 'updated_at': '2017-07-18T17:05:21.844Z', 'id': '596ed76cd051cb1457997afc'}, {'_id': '596ed76cd051cb1457997afd', 'title': '96[空気系☆漢化]偶像大师', 'order': 51, 'updated_at': '2017-07-18T17:07:18.266Z', 'id': '596ed76cd051cb1457997afd'}, {'_id': '596ed76cd051cb1457997afe', 'title': '97[空気系☆漢化]舰娘', 'order': 52, 'updated_at': '2017-07-18T17:10:53.470Z', 'id': '596ed76cd051cb1457997afe'}, {'_id': '596ed76cd051cb1457997aff', 'title': '98[空気系☆漢化]舰娘', 'order': 53, 'updated_at': '2017-07-18T17:39:08.210Z', 'id': '596ed76cd051cb1457997aff'}, {'_id': '596ed76cd051cb1457997b00', 'title': '99[空気系☆漢化]偶像大师', 'order': 54, 'updated_at': '2017-07-18T17:12:35.462Z', 'id': '596ed76cd051cb1457997b00'}, {'_id': '596ed76cd051cb1457997b01', 'title': '100[空気系☆漢化]舰娘', 'order': 55, 'updated_at': '2017-07-18T17:14:12.447Z', 'id': '596ed76cd051cb1457997b01'}, {'_id': '596ed76cd051cb1457997b02', 'title': '101[屏幕脏了汉化组]碧蓝幻想', 'order': 56, 'updated_at': '2017-07-18T17:16:55.279Z', 'id': '596ed76cd051cb1457997b02'}, {'_id': '596ed76cd051cb1457997b03', 'title': '102[空気系☆漢化]偶像大师', 'order': 57, 'updated_at': '2017-07-18T17:17:57.890Z', 'id': '596ed76cd051cb1457997b03'}, {'_id': '596ed76cd051cb1457997b04', 'title': '103[空気系☆漢化]舰娘', 'order': 58, 'updated_at': '2017-07-18T17:20:07.555Z', 'id': '596ed76cd051cb1457997b04'}, {'_id': '596ed76cd051cb1457997b05', 'title': '104 [空気系☆漢化]舰娘', 'order': 59, 'updated_at': '2017-07-18T17:22:14.719Z', 'id': '596ed76cd051cb1457997b05'}, {'_id': '596ed76cd051cb1457997b06', 'title': '105[空気系☆漢化]舰娘', 'order': 60, 'updated_at': '2017-07-18T17:24:12.758Z', 'id': '596ed76cd051cb1457997b06'}, {'_id': '596ed76cd051cb1457997b07', 'title': '106[空気系☆漢化]舰娘', 'order': 61, 'updated_at': '2017-07-18T17:26:59.245Z', 'id': '596ed76cd051cb1457997b07'}, {'_id': '596ed76cd051cb1457997b08', 'title': '107[屏幕脏了汉化组]舰娘', 'order': 62, 'updated_at': '2017-07-18T17:27:41.438Z', 'id': '596ed76cd051cb1457997b08'}, {'_id': '596ed76cd051cb1457997b09', 'title': '108[空気系☆漢化]舰娘', 'order': 63, 'updated_at': '2017-07-18T17:29:03.477Z', 'id': '596ed76cd051cb1457997b09'}, {'_id': '596ed76cd051cb1457997b0a', 'title': '109[空気系☆漢化]Re0', 'order': 64, 'updated_at': '2017-07-18T17:30:52.495Z', 'id': '596ed76cd051cb1457997b0a'}, {'_id': '596ed76cd051cb1457997b0b', 'title': '110[空気系☆漢化]Re0', 'order': 65, 'updated_at': '2017-07-18T17:30:57.471Z', 'id': '596ed76cd051cb1457997b0b'}, {'_id': '596ed76cd051cb1457997b0c', 'title': '111[空気系☆漢化]舰娘', 'order': 66, 'updated_at': '2017-07-18T17:34:13.416Z', 'id': '596ed76cd051cb1457997b0c'}, {'_id': '596ed76cd051cb1457997b0d', 'title': '112[CE家族社]少女与战车', 'order': 67, 'updated_at': '2017-07-18T17:35:15.240Z', 'id': '596ed76cd051cb1457997b0d'}, {'_id': '596ed76cd051cb1457997b0e', 'title': '113[佳奈助汉化组]舰娘', 'order': 68, 'updated_at': '2017-07-18T17:37:27.771Z', 'id': '596ed76cd051cb1457997b0e'}]
+2026-05-16 08:16:15 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:16:16 - mkk_pika - main.py:83 - INFO - 找到 52 张图片在:46生肉
+2026-05-16 08:16:17 - mkk_pika - main.py:112 - INFO - [episode:46生肉      ] downloaded:    52, total:  52, progress:100%
+2026-05-16 08:16:17 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:17 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:17 - mkk_pika - database.py:245 - INFO - ['46生肉']
+2026-05-16 08:16:19 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:47生肉魔禁
+2026-05-16 08:16:20 - mkk_pika - main.py:112 - INFO - [episode:47生肉魔禁    ] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:16:20 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:20 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:20 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁']
+2026-05-16 08:16:22 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:48生肉
+2026-05-16 08:16:22 - mkk_pika - main.py:112 - INFO - [episode:48生肉      ] downloaded:    18, total:  18, progress:100%
+2026-05-16 08:16:22 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:22 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:22 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉']
+2026-05-16 08:16:24 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:49生肉
+2026-05-16 08:16:25 - mkk_pika - main.py:112 - INFO - [episode:49生肉      ] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:16:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:25 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉']
+2026-05-16 08:16:26 - mkk_pika - main.py:83 - INFO - 找到 35 张图片在:50[soulrr個人漢化]魔禁
+2026-05-16 08:16:28 - mkk_pika - main.py:112 - INFO - [episode:50[soulrr個人漢化]魔禁] downloaded:    35, total:  35, progress:100%
+2026-05-16 08:16:28 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:28 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:28 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁']
+2026-05-16 08:16:29 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:51[soulrr個人漢化]魔禁
+2026-05-16 08:16:30 - mkk_pika - main.py:112 - INFO - [episode:51[soulrr個人漢化]魔禁] downloaded:    26, total:  26, progress:100%
+2026-05-16 08:16:30 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:30 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:30 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁']
+2026-05-16 08:16:32 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:52[脸肿汉化组]召喚獣
+2026-05-16 08:16:33 - mkk_pika - main.py:112 - INFO - [episode:52[脸肿汉化组]召喚獣] downloaded:    27, total:  27, progress:100%
+2026-05-16 08:16:33 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:33 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:33 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣']
+2026-05-16 08:16:35 - mkk_pika - main.py:83 - INFO - 找到 51 张图片在:53[soulrr個人漢化]魔禁
+2026-05-16 08:16:36 - mkk_pika - main.py:112 - INFO - [episode:53[soulrr個人漢化]魔禁] downloaded:    51, total:  51, progress:100%
+2026-05-16 08:16:36 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:36 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:36 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁']
+2026-05-16 08:16:38 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:54[冬乳汉化组]魔禁
+2026-05-16 08:16:39 - mkk_pika - main.py:112 - INFO - [episode:54[冬乳汉化组]魔禁] downloaded:    18, total:  18, progress:100%
+2026-05-16 08:16:39 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:39 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:39 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁']
+2026-05-16 08:16:40 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:55[Genesis漢化]俺妹
+2026-05-16 08:16:41 - mkk_pika - main.py:112 - INFO - [episode:55 [Genesis漢化]俺妹] downloaded:    18, total:  18, progress:100%
+2026-05-16 08:16:41 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:41 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:41 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹']
+2026-05-16 08:16:42 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:56[Genesis漢化]俺妹
+2026-05-16 08:16:43 - mkk_pika - main.py:112 - INFO - [episode:56 [Genesis漢化]俺妹] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:16:43 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:43 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:43 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹']
+2026-05-16 08:16:45 - mkk_pika - main.py:83 - INFO - 找到 33 张图片在:57[Genesis漢化]俺妹
+2026-05-16 08:16:46 - mkk_pika - main.py:112 - INFO - [episode:57 [Genesis漢化]俺妹] downloaded:    33, total:  33, progress:100%
+2026-05-16 08:16:46 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:46 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:46 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹']
+2026-05-16 08:16:48 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:58[GCDer汉化]魔禁
+2026-05-16 08:16:49 - mkk_pika - main.py:112 - INFO - [episode:58 [GCDer汉化]魔禁] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:16:49 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:49 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:49 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁']
+2026-05-16 08:16:50 - mkk_pika - main.py:83 - INFO - 找到 35 张图片在:59[Genesis漢化]俺妹
+2026-05-16 08:16:51 - mkk_pika - main.py:112 - INFO - [episode:59 [Genesis漢化]俺妹] downloaded:    35, total:  35, progress:100%
+2026-05-16 08:16:51 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:51 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:51 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹']
+2026-05-16 08:16:53 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:60[Genesis漢化]俺妹
+2026-05-16 08:16:54 - mkk_pika - main.py:112 - INFO - [episode:60 [Genesis漢化]俺妹] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:16:54 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:54 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:54 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹']
+2026-05-16 08:16:55 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:61[空气系汉化组]俺妹
+2026-05-16 08:16:56 - mkk_pika - main.py:112 - INFO - [episode:61 [空气系汉化组]俺妹] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:16:56 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:56 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:56 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹']
+2026-05-16 08:16:58 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:62[Nice汉化组]僕は友逹が少ない
+2026-05-16 08:16:59 - mkk_pika - main.py:112 - INFO - [episode:62[Nice汉化组]僕は友逹が少ない] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:16:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:16:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:16:59 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない']
+2026-05-16 08:17:00 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:63[Genesis漢化]俺妹
+2026-05-16 08:17:01 - mkk_pika - main.py:112 - INFO - [episode:63[Genesis漢化]俺妹] downloaded:    18, total:  18, progress:100%
+2026-05-16 08:17:01 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:01 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:01 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹']
+2026-05-16 08:17:03 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:64[空气系汉化组]僕は友逹が少ない
+2026-05-16 08:17:04 - mkk_pika - main.py:112 - INFO - [episode:64[空气系汉化组]僕は友逹が少ない] downloaded:    18, total:  18, progress:100%
+2026-05-16 08:17:04 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:04 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:04 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない']
+2026-05-16 08:17:05 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:65[空气系汉化组]僕は友逹が少ない
+2026-05-16 08:17:06 - mkk_pika - main.py:112 - INFO - [episode:65[空气系汉化组]僕は友逹が少ない] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:17:06 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:06 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:06 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない']
+2026-05-16 08:17:08 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:66[Genesis漢化]俺妹
+2026-05-16 08:17:09 - mkk_pika - main.py:112 - INFO - [episode:66 [Genesis漢化]俺妹] downloaded:    17, total:  17, progress:100%
+2026-05-16 08:17:09 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:09 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:09 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹']
+2026-05-16 08:17:10 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:67[Genesis漢化]加速
+2026-05-16 08:17:11 - mkk_pika - main.py:112 - INFO - [episode:67 [Genesis漢化]加速] downloaded:    17, total:  17, progress:100%
+2026-05-16 08:17:11 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:11 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:11 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速']
+2026-05-16 08:17:12 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:68[Genesis漢化]加速
+2026-05-16 08:17:13 - mkk_pika - main.py:112 - INFO - [episode:68[Genesis漢化]加速] downloaded:    17, total:  17, progress:100%
+2026-05-16 08:17:13 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:13 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:13 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速']
+2026-05-16 08:17:15 - mkk_pika - main.py:83 - INFO - 找到 36 张图片在:69[Genesis漢化]俺妹
+2026-05-16 08:17:16 - mkk_pika - main.py:112 - INFO - [episode:69[Genesis漢化]俺妹] downloaded:    36, total:  36, progress:100%
+2026-05-16 08:17:16 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:16 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:16 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹']
+2026-05-16 08:17:18 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:70[Genesis漢化]刀剑
+2026-05-16 08:17:19 - mkk_pika - main.py:112 - INFO - [episode:70[Genesis漢化]刀剑] downloaded:    21, total:  21, progress:100%
+2026-05-16 08:17:19 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:19 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:19 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑']
+2026-05-16 08:17:20 - mkk_pika - main.py:83 - INFO - 找到 36 张图片在:71[Genesis漢化]刀剑
+2026-05-16 08:17:22 - mkk_pika - main.py:112 - INFO - [episode:71[Genesis漢化]刀剑] downloaded:    36, total:  36, progress:100%
+2026-05-16 08:17:22 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:22 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:22 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑']
+2026-05-16 08:17:23 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:72[Genesis漢化]刀剑
+2026-05-16 08:17:24 - mkk_pika - main.py:112 - INFO - [episode:72[Genesis漢化]刀剑] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:17:24 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:24 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:24 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑']
+2026-05-16 08:17:26 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:73[脸肿汉化组]俺妹
+2026-05-16 08:17:27 - mkk_pika - main.py:112 - INFO - [episode:73[脸肿汉化组]俺妹] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:17:27 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:27 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:27 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹']
+2026-05-16 08:17:28 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:74[脸肿汉化组]刀剑
+2026-05-16 08:17:29 - mkk_pika - main.py:112 - INFO - [episode:74[脸肿汉化组]刀剑] downloaded:    21, total:  21, progress:100%
+2026-05-16 08:17:29 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:29 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:29 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑']
+2026-05-16 08:17:31 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:75[Genesis漢化]俺妹
+2026-05-16 08:17:32 - mkk_pika - main.py:112 - INFO - [episode:75[Genesis漢化]俺妹] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:17:32 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:32 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:32 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹']
+2026-05-16 08:17:34 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:76[空气系汉化组]魔禁
+2026-05-16 08:17:34 - mkk_pika - main.py:112 - INFO - [episode:76[空气系汉化组]魔禁] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:17:34 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:34 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:34 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁']
+2026-05-16 08:17:36 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:77[天鹅之恋汉化组]魔禁
+2026-05-16 08:17:37 - mkk_pika - main.py:112 - INFO - [episode:77[天鹅之恋汉化组]魔禁] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:17:37 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:37 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:37 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁']
+2026-05-16 08:17:38 - mkk_pika - main.py:83 - INFO - 找到 35 张图片在:78[空気系☆漢化]魔禁
+2026-05-16 08:17:40 - mkk_pika - main.py:112 - INFO - [episode:78[空気系☆漢化]魔禁] downloaded:    35, total:  35, progress:100%
+2026-05-16 08:17:40 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:40 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:40 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁']
+2026-05-16 08:17:41 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:79[脸肿汉化组]化物语
+2026-05-16 08:17:42 - mkk_pika - main.py:112 - INFO - [episode:79[脸肿汉化组]化物语] downloaded:    21, total:  21, progress:100%
+2026-05-16 08:17:42 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:42 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:42 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语']
+2026-05-16 08:17:43 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:80[空気系☆漢化]魔禁
+2026-05-16 08:17:44 - mkk_pika - main.py:112 - INFO - [episode:80[空気系☆漢化]魔禁] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:17:44 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:44 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:44 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁']
+2026-05-16 08:17:46 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:81[空気系☆漢化]舰娘
+2026-05-16 08:17:46 - mkk_pika - main.py:112 - INFO - [episode:81[空気系☆漢化]舰娘] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:17:46 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:46 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:46 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘']
+2026-05-16 08:17:48 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:82[空気系☆漢化]舰娘
+2026-05-16 08:17:49 - mkk_pika - main.py:112 - INFO - [episode:82[空気系☆漢化]舰娘] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:17:49 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:49 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:49 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘']
+2026-05-16 08:17:51 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:83[不觉晓个人汉化]刀剑
+2026-05-16 08:17:51 - mkk_pika - main.py:112 - INFO - [episode:83[不觉晓个人汉化]刀剑] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:17:51 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:51 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:51 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑']
+2026-05-16 08:17:53 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:84[空気系☆漢化]舰娘
+2026-05-16 08:17:54 - mkk_pika - main.py:112 - INFO - [episode:84[空気系☆漢化]舰娘] downloaded:    18, total:  18, progress:100%
+2026-05-16 08:17:54 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:54 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:54 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘']
+2026-05-16 08:17:55 - mkk_pika - main.py:83 - INFO - 找到 35 张图片在:85[脸肿汉化组]舰娘
+2026-05-16 08:17:56 - mkk_pika - main.py:112 - INFO - [episode:85[脸肿汉化组]舰娘] downloaded:    35, total:  35, progress:100%
+2026-05-16 08:17:56 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:56 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:56 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘']
+2026-05-16 08:17:58 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:86[空気系☆漢化]劣等生
+2026-05-16 08:17:59 - mkk_pika - main.py:112 - INFO - [episode:86[空気系☆漢化]劣等生] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:17:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:17:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:17:59 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生']
+2026-05-16 08:18:00 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:87[空気系☆漢化]舰娘
+2026-05-16 08:18:01 - mkk_pika - main.py:112 - INFO - [episode:87[空気系☆漢化]舰娘] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:18:01 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:01 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:01 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘']
+2026-05-16 08:18:02 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:88[屏幕脏了汉化组]舰娘
+2026-05-16 08:18:04 - mkk_pika - main.py:112 - INFO - [episode:88[屏幕脏了汉化组]舰娘] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:18:04 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:04 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:04 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘']
+2026-05-16 08:18:05 - mkk_pika - main.py:83 - INFO - 找到 16 张图片在:89[屏幕脏了汉化组]舰娘
+2026-05-16 08:18:06 - mkk_pika - main.py:112 - INFO - [episode:89[屏幕脏了汉化组]舰娘] downloaded:    16, total:  16, progress:100%
+2026-05-16 08:18:06 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:06 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:06 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘']
+2026-05-16 08:18:07 - mkk_pika - main.py:83 - INFO - 找到 33 张图片在:90[屏幕脏了汉化组]舰娘
+2026-05-16 08:18:09 - mkk_pika - main.py:112 - INFO - [episode:90[屏幕脏了汉化组]舰娘] downloaded:    33, total:  33, progress:100%
+2026-05-16 08:18:09 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:09 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:09 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘']
+2026-05-16 08:18:10 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:91[空気系☆漢化]偶像大师
+2026-05-16 08:18:11 - mkk_pika - main.py:112 - INFO - [episode:91[空気系☆漢化]偶像大师] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:18:11 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:11 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:11 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师']
+2026-05-16 08:18:12 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:92[空気系☆漢化]偶像大师
+2026-05-16 08:18:13 - mkk_pika - main.py:112 - INFO - [episode:92[空気系☆漢化]偶像大师] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:18:13 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:13 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:13 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师']
+2026-05-16 08:18:15 - mkk_pika - main.py:83 - INFO - 找到 36 张图片在:93[空気系☆漢化]偶像大师
+2026-05-16 08:18:17 - mkk_pika - main.py:112 - INFO - [episode:93[空気系☆漢化]偶像大师] downloaded:    36, total:  36, progress:100%
+2026-05-16 08:18:17 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:17 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:17 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师']
+2026-05-16 08:18:18 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:94[屏幕脏了汉化组]舰娘
+2026-05-16 08:18:19 - mkk_pika - main.py:112 - INFO - [episode:94[屏幕脏了汉化组]舰娘] downloaded:    17, total:  17, progress:100%
+2026-05-16 08:18:19 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:19 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:19 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘']
+2026-05-16 08:18:20 - mkk_pika - main.py:83 - INFO - 找到 36 张图片在:95[空気系☆漢化]偶像大师
+2026-05-16 08:18:22 - mkk_pika - main.py:112 - INFO - [episode:95[空気系☆漢化]偶像大师] downloaded:    36, total:  36, progress:100%
+2026-05-16 08:18:22 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:22 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:22 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师']
+2026-05-16 08:18:23 - mkk_pika - main.py:83 - INFO - 找到 36 张图片在:96[空気系☆漢化]偶像大师
+2026-05-16 08:18:25 - mkk_pika - main.py:112 - INFO - [episode:96[空気系☆漢化]偶像大师] downloaded:    36, total:  36, progress:100%
+2026-05-16 08:18:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:25 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师']
+2026-05-16 08:18:26 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:97[空気系☆漢化]舰娘
+2026-05-16 08:18:27 - mkk_pika - main.py:112 - INFO - [episode:97[空気系☆漢化]舰娘] downloaded:    18, total:  18, progress:100%
+2026-05-16 08:18:27 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:27 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:27 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘']
+2026-05-16 08:18:29 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:98[空気系☆漢化]舰娘
+2026-05-16 08:18:30 - mkk_pika - main.py:112 - INFO - [episode:98[空気系☆漢化]舰娘] downloaded:    24, total:  24, progress:100%
+2026-05-16 08:18:30 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:30 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:30 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘']
+2026-05-16 08:18:31 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:99[空気系☆漢化]偶像大师
+2026-05-16 08:18:32 - mkk_pika - main.py:112 - INFO - [episode:99[空気系☆漢化]偶像大师] downloaded:    24, total:  24, progress:100%
+2026-05-16 08:18:32 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:32 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:32 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师']
+2026-05-16 08:18:34 - mkk_pika - main.py:83 - INFO - 找到 34 张图片在:100[空気系☆漢化]舰娘
+2026-05-16 08:18:35 - mkk_pika - main.py:112 - INFO - [episode:100[空気系☆漢化]舰娘] downloaded:    34, total:  34, progress:100%
+2026-05-16 08:18:35 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:35 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:35 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘']
+2026-05-16 08:18:37 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:101[屏幕脏了汉化组]碧蓝幻想
+2026-05-16 08:18:38 - mkk_pika - main.py:112 - INFO - [episode:101[屏幕脏了汉化组]碧蓝幻想] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:18:38 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:38 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:38 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想']
+2026-05-16 08:18:39 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:102[空気系☆漢化]偶像大师
+2026-05-16 08:18:40 - mkk_pika - main.py:112 - INFO - [episode:102[空気系☆漢化]偶像大师] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:18:40 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:40 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:40 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师']
+2026-05-16 08:18:42 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:103[空気系☆漢化]舰娘
+2026-05-16 08:18:43 - mkk_pika - main.py:112 - INFO - [episode:103[空気系☆漢化]舰娘] downloaded:    24, total:  24, progress:100%
+2026-05-16 08:18:43 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:43 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:43 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘']
+2026-05-16 08:18:44 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:104[空気系☆漢化]舰娘
+2026-05-16 08:18:45 - mkk_pika - main.py:112 - INFO - [episode:104 [空気系☆漢化]舰娘] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:18:45 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:45 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:45 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘']
+2026-05-16 08:18:46 - mkk_pika - main.py:83 - INFO - 找到 36 张图片在:105[空気系☆漢化]舰娘
+2026-05-16 08:18:49 - mkk_pika - main.py:112 - INFO - [episode:105[空気系☆漢化]舰娘] downloaded:    36, total:  36, progress:100%
+2026-05-16 08:18:49 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:49 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:49 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘']
+2026-05-16 08:18:51 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:106[空気系☆漢化]舰娘
+2026-05-16 08:18:51 - mkk_pika - main.py:112 - INFO - [episode:106[空気系☆漢化]舰娘] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:18:51 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:51 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:51 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘', '106[空気系☆漢化]舰娘']
+2026-05-16 08:18:53 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:107[屏幕脏了汉化组]舰娘
+2026-05-16 08:18:54 - mkk_pika - main.py:112 - INFO - [episode:107[屏幕脏了汉化组]舰娘] downloaded:    18, total:  18, progress:100%
+2026-05-16 08:18:54 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:54 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:54 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘', '106[空気系☆漢化]舰娘', '107[屏幕脏了汉化组]舰娘']
+2026-05-16 08:18:55 - mkk_pika - main.py:83 - INFO - 找到 36 张图片在:108[空気系☆漢化]舰娘
+2026-05-16 08:18:57 - mkk_pika - main.py:112 - INFO - [episode:108[空気系☆漢化]舰娘] downloaded:    36, total:  36, progress:100%
+2026-05-16 08:18:57 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:57 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:57 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘', '106[空気系☆漢化]舰娘', '107[屏幕脏了汉化组]舰娘', '108[空気系☆漢化]舰娘']
+2026-05-16 08:18:58 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:109[空気系☆漢化]Re0
+2026-05-16 08:18:59 - mkk_pika - main.py:112 - INFO - [episode:109[空気系☆漢化]Re0] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:18:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:18:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:18:59 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘', '106[空気系☆漢化]舰娘', '107[屏幕脏了汉化组]舰娘', '108[空気系☆漢化]舰娘', '109[空気系☆漢化]Re0']
+2026-05-16 08:19:00 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:110[空気系☆漢化]Re0
+2026-05-16 08:19:01 - mkk_pika - main.py:112 - INFO - [episode:110[空気系☆漢化]Re0] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:19:01 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:01 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:01 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘', '106[空気系☆漢化]舰娘', '107[屏幕脏了汉化组]舰娘', '108[空気系☆漢化]舰娘', '109[空気系☆漢化]Re0', '110[空気系☆漢化]Re0']
+2026-05-16 08:19:03 - mkk_pika - main.py:83 - INFO - 找到 35 张图片在:111[空気系☆漢化]舰娘
+2026-05-16 08:19:04 - mkk_pika - main.py:112 - INFO - [episode:111[空気系☆漢化]舰娘] downloaded:    35, total:  35, progress:100%
+2026-05-16 08:19:04 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:04 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:04 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘', '106[空気系☆漢化]舰娘', '107[屏幕脏了汉化组]舰娘', '108[空気系☆漢化]舰娘', '109[空気系☆漢化]Re0', '110[空気系☆漢化]Re0', '111[空気系☆漢化]舰娘']
+2026-05-16 08:19:05 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:112[CE家族社]少女与战车
+2026-05-16 08:19:06 - mkk_pika - main.py:112 - INFO - [episode:112[CE家族社]少女与战车] downloaded:    17, total:  17, progress:100%
+2026-05-16 08:19:06 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:06 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:06 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘', '106[空気系☆漢化]舰娘', '107[屏幕脏了汉化组]舰娘', '108[空気系☆漢化]舰娘', '109[空気系☆漢化]Re0', '110[空気系☆漢化]Re0', '111[空気系☆漢化]舰娘', '112[CE家族社]少女与战车']
+2026-05-16 08:19:08 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:113[佳奈助汉化组]舰娘
+2026-05-16 08:19:09 - mkk_pika - main.py:112 - INFO - [episode:113[佳奈助汉化组]舰娘] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:19:09 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:09 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:09 - mkk_pika - database.py:245 - INFO - ['46生肉', '47生肉魔禁', '48生肉', '49生肉', '50[soulrr個人漢化]魔禁', '51[soulrr個人漢化]魔禁', '52[脸肿汉化组]召喚獣', '53[soulrr個人漢化]魔禁', '54[冬乳汉化组]魔禁', '55 [Genesis漢化]俺妹', '56 [Genesis漢化]俺妹', '57 [Genesis漢化]俺妹', '58 [GCDer汉化]魔禁', '59 [Genesis漢化]俺妹', '60 [Genesis漢化]俺妹', '61 [空气系汉化组]俺妹', '62[Nice汉化组]僕は友逹が少ない', '63[Genesis漢化]俺妹', '64[空气系汉化组]僕は友逹が少ない', '65[空气系汉化组]僕は友逹が少ない', '66 [Genesis漢化]俺妹', '67 [Genesis漢化]加速', '68[Genesis漢化]加速', '69[Genesis漢化]俺妹', '70[Genesis漢化]刀剑', '71[Genesis漢化]刀剑', '72[Genesis漢化]刀剑', '73[脸肿汉化组]俺妹', '74[脸肿汉化组]刀剑', '75[Genesis漢化]俺妹', '76[空气系汉化组]魔禁', '77[天鹅之恋汉化组]魔禁', '78[空気系☆漢化]魔禁', '79[脸肿汉化组]化物语', '80[空気系☆漢化]魔禁', '81[空気系☆漢化]舰娘', '82[空気系☆漢化]舰娘', '83[不觉晓个人汉化]刀剑', '84[空気系☆漢化]舰娘', '85[脸肿汉化组]舰娘', '86[空気系☆漢化]劣等生', '87[空気系☆漢化]舰娘', '88[屏幕脏了汉化组]舰娘', '89[屏幕脏了汉化组]舰娘', '90[屏幕脏了汉化组]舰娘', '91[空気系☆漢化]偶像大师', '92[空気系☆漢化]偶像大师', '93[空気系☆漢化]偶像大师', '94[屏幕脏了汉化组]舰娘', '95[空気系☆漢化]偶像大师', '96[空気系☆漢化]偶像大师', '97[空気系☆漢化]舰娘', '98[空気系☆漢化]舰娘', '99[空気系☆漢化]偶像大师', '100[空気系☆漢化]舰娘', '101[屏幕脏了汉化组]碧蓝幻想', '102[空気系☆漢化]偶像大师', '103[空気系☆漢化]舰娘', '104 [空気系☆漢化]舰娘', '105[空気系☆漢化]舰娘', '106[空気系☆漢化]舰娘', '107[屏幕脏了汉化组]舰娘', '108[空気系☆漢化]舰娘', '109[空気系☆漢化]Re0', '110[空気系☆漢化]Re0', '111[空気系☆漢化]舰娘', '112[CE家族社]少女与战车', '113[佳奈助汉化组]舰娘']
+2026-05-16 08:19:10 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596ed76cd051cb1457997aca
+                                   标题：D.L. action 46-113
+                                   作者：Digital Lover (なかじまゆか)
+                                   是否完结：是
+                                   总页数：1769
+                                   分类：同人
+                                   章节数：68
+                                   最后更新时间：2017-07-19T03:52:12.144Z
+                                   =================================================
+2026-05-16 08:19:10 - mkk_pika - database.py:101 - INFO - 保存成功：D.L. action 46-113
+2026-05-16 08:19:10 - mkk_pika - main.py:35 - INFO - 开始检查イイナリホリック是否存在未下载章节
+2026-05-16 08:19:10 - mkk_pika - main.py:45 - INFO - 正在下载:[イイナリホリック]-[オレイロ]-[['長篇', '純愛']]-[total_pages:220]
+2026-05-16 08:19:10 - mkk_pika - main.py:49 - INFO - [{'_id': '596ed7a9a3c15e06a7154eb8', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T12:16:22.697Z', 'id': '596ed7a9a3c15e06a7154eb8'}]
+2026-05-16 08:19:10 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:12 - mkk_pika - main.py:83 - INFO - 找到 220 张图片在:第1集
+2026-05-16 08:19:20 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   220, total: 220, progress:100%
+2026-05-16 08:19:20 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:20 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:20 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:19:21 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596ed7a9a3c15e06a7154eb7
+                                   标题：イイナリホリック
+                                   作者：オレイロ
+                                   是否完结：是
+                                   总页数：220
+                                   分类：長篇,純愛
+                                   章节数：1
+                                   最后更新时间：2017-07-19T03:53:13.715Z
+                                   =================================================
+2026-05-16 08:19:21 - mkk_pika - database.py:101 - INFO - 保存成功：イイナリホリック
+2026-05-16 08:19:21 - mkk_pika - main.py:35 - INFO - 开始检查放課後はメスの顔 是否存在未下载章节
+2026-05-16 08:19:21 - mkk_pika - main.py:45 - INFO - 正在下载:[放課後はメスの顔 ]-[吉田犬人]-[['長篇']]-[total_pages:231]
+2026-05-16 08:19:21 - mkk_pika - main.py:49 - INFO - [{'_id': '596ed7c6cf2b4106c122e404', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-18T22:55:07.751Z', 'id': '596ed7c6cf2b4106c122e404'}]
+2026-05-16 08:19:21 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:23 - mkk_pika - main.py:83 - INFO - 找到 231 张图片在:第1集
+2026-05-16 08:19:31 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   231, total: 231, progress:100%
+2026-05-16 08:19:31 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:31 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:31 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:19:33 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596ed7c6cf2b4106c122e403
+                                   标题：放課後はメスの顔 
+                                   作者：吉田犬人
+                                   是否完结：是
+                                   总页数：231
+                                   分类：長篇
+                                   章节数：1
+                                   最后更新时间：2017-07-19T03:53:42.873Z
+                                   =================================================
+2026-05-16 08:19:33 - mkk_pika - database.py:101 - INFO - 保存成功：放課後はメスの顔 
+2026-05-16 08:19:33 - mkk_pika - main.py:35 - INFO - 开始检查蟒蛇詣り (別冊 COMIC アンスリウム 人間以外じゃダメですか？) 是否存在未下载章节
+2026-05-16 08:19:33 - mkk_pika - main.py:45 - INFO - 正在下载:[蟒蛇詣り (別冊 COMIC アンスリウム 人間以外じゃダメですか？) ]-[鉄巻とーます]-[['短篇', '非人類']]-[total_pages:21]
+2026-05-16 08:19:33 - mkk_pika - main.py:49 - INFO - [{'_id': '596ed80fdb78c5321a2c3582', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T03:27:12.530Z', 'id': '596ed80fdb78c5321a2c3582'}]
+2026-05-16 08:19:33 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:33 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第1集
+2026-05-16 08:19:34 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    21, total:  21, progress:100%
+2026-05-16 08:19:34 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:34 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:34 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:19:35 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596ed80fdb78c5321a2c3581
+                                   标题：蟒蛇詣り (別冊 COMIC アンスリウム 人間以外じゃダメですか？) 
+                                   作者：鉄巻とーます
+                                   是否完结：是
+                                   总页数：21
+                                   分类：短篇,非人類
+                                   章节数：1
+                                   最后更新时间：2017-07-19T03:54:55.281Z
+                                   =================================================
+2026-05-16 08:19:35 - mkk_pika - database.py:101 - INFO - 保存成功：蟒蛇詣り (別冊 COMIC アンスリウム 人間以外じゃダメですか？) 
+2026-05-16 08:19:35 - mkk_pika - main.py:35 - INFO - 开始检查とある荷電の魔法少女 _ 荷電的魔法少女是否存在未下载章节
+2026-05-16 08:19:36 - mkk_pika - main.py:45 - INFO - 正在下载:[とある荷電の魔法少女 _ 荷電的魔法少女]-[蒼銀之星 (Flyking)]-[['短篇', '全彩']]-[total_pages:21]
+2026-05-16 08:19:36 - mkk_pika - main.py:49 - INFO - [{'_id': '596f7505ce6321141f6c59eb', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T10:47:57.703Z', 'id': '596f7505ce6321141f6c59eb'}]
+2026-05-16 08:19:36 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:36 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第1集
+2026-05-16 08:19:37 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    21, total:  21, progress:100%
+2026-05-16 08:19:37 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:37 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:37 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:19:39 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f7505ce6321141f6c59ea
+                                   标题：とある荷電の魔法少女 _ 荷電的魔法少女
+                                   作者：蒼銀之星 (Flyking)
+                                   是否完结：是
+                                   总页数：21
+                                   分类：短篇,全彩
+                                   章节数：1
+                                   最后更新时间：2017-07-19T15:04:37.141Z
+                                   =================================================
+2026-05-16 08:19:39 - mkk_pika - database.py:101 - INFO - 保存成功：とある荷電の魔法少女 _ 荷電的魔法少女
+2026-05-16 08:19:39 - mkk_pika - main.py:35 - INFO - 开始检查抱きしめたい。是否存在未下载章节
+2026-05-16 08:19:39 - mkk_pika - main.py:45 - INFO - 正在下载:[抱きしめたい。]-[飴沢狛]-[['長篇', '非人類', '純愛', '妹妹系']]-[total_pages:210]
+2026-05-16 08:19:39 - mkk_pika - main.py:49 - INFO - [{'_id': '596f750bcf2b4106c122e89b', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T10:41:46.036Z', 'id': '596f750bcf2b4106c122e89b'}]
+2026-05-16 08:19:39 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:41 - mkk_pika - main.py:83 - INFO - 找到 210 张图片在:第1集
+2026-05-16 08:19:47 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   210, total: 210, progress:100%
+2026-05-16 08:19:47 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:47 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:47 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:19:48 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f750bcf2b4106c122e89a
+                                   标题：抱きしめたい。
+                                   作者：飴沢狛
+                                   是否完结：是
+                                   总页数：210
+                                   分类：長篇,非人類,純愛,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-07-19T15:04:43.588Z
+                                   =================================================
+2026-05-16 08:19:48 - mkk_pika - database.py:101 - INFO - 保存成功：抱きしめたい。
+2026-05-16 08:19:48 - mkk_pika - main.py:35 - INFO - 开始检查エロマンガチェックが止まらない (COMIC LO 2016年7月号)是否存在未下载章节
+2026-05-16 08:19:49 - mkk_pika - main.py:45 - INFO - 正在下载:[エロマンガチェックが止まらない (COMIC LO 2016年7月号)]-[チグチミリ]-[['短篇', '純愛', '後宮閃光', '妹妹系']]-[total_pages:19]
+2026-05-16 08:19:49 - mkk_pika - main.py:49 - INFO - [{'_id': '596f7530a3c15e06a71553a8', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T11:03:16.227Z', 'id': '596f7530a3c15e06a71553a8'}]
+2026-05-16 08:19:49 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:49 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:第1集
+2026-05-16 08:19:50 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:19:50 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:50 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:50 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:19:51 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f7530a3c15e06a71553a7
+                                   标题：エロマンガチェックが止まらない (COMIC LO 2016年7月号)
+                                   作者：チグチミリ
+                                   是否完结：是
+                                   总页数：19
+                                   分类：短篇,純愛,後宮閃光,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-07-19T15:05:20.446Z
+                                   =================================================
+2026-05-16 08:19:51 - mkk_pika - database.py:101 - INFO - 保存成功：エロマンガチェックが止まらない (COMIC LO 2016年7月号)
+2026-05-16 08:19:51 - mkk_pika - main.py:35 - INFO - 开始检查エロマンガチェックが止まらない 後篇 (COMIC LO 2016年8月号)是否存在未下载章节
+2026-05-16 08:19:51 - mkk_pika - main.py:45 - INFO - 正在下载:[エロマンガチェックが止まらない 後篇 (COMIC LO 2016年8月号)]-[チグチミリ]-[['短篇', '純愛', '後宮閃光', '妹妹系']]-[total_pages:22]
+2026-05-16 08:19:51 - mkk_pika - main.py:49 - INFO - [{'_id': '596f75379f55ab06898f700b', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T11:39:19.419Z', 'id': '596f75379f55ab06898f700b'}]
+2026-05-16 08:19:51 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:52 - mkk_pika - main.py:83 - INFO - 找到 22 张图片在:第1集
+2026-05-16 08:19:53 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    22, total:  22, progress:100%
+2026-05-16 08:19:53 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:53 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:53 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:19:54 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f75379f55ab06898f700a
+                                   标题：エロマンガチェックが止まらない 後篇 (COMIC LO 2016年8月号)
+                                   作者：チグチミリ
+                                   是否完结：是
+                                   总页数：22
+                                   分类：短篇,純愛,後宮閃光,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-07-19T15:05:27.338Z
+                                   =================================================
+2026-05-16 08:19:54 - mkk_pika - database.py:101 - INFO - 保存成功：エロマンガチェックが止まらない 後篇 (COMIC LO 2016年8月号)
+2026-05-16 08:19:54 - mkk_pika - main.py:35 - INFO - 开始检查逆転ココちゃん (逆転裁判-DL版)是否存在未下载章节
+2026-05-16 08:19:54 - mkk_pika - main.py:45 - INFO - 正在下载:[逆転ココちゃん (逆転裁判-DL版)]-[だまぐろ]-[['同人', '短篇', '足の恋']]-[total_pages:30]
+2026-05-16 08:19:54 - mkk_pika - main.py:49 - INFO - [{'_id': '596f756fcf2b4106c122e9bb', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T14:19:26.177Z', 'id': '596f756fcf2b4106c122e9bb'}]
+2026-05-16 08:19:54 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:55 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-05-16 08:19:56 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-05-16 08:19:56 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:56 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:56 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:19:57 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f756fcf2b4106c122e9ba
+                                   标题：逆転ココちゃん (逆転裁判-DL版)
+                                   作者：だまぐろ
+                                   是否完结：是
+                                   总页数：30
+                                   分类：同人,短篇,足の恋
+                                   章节数：1
+                                   最后更新时间：2017-07-19T15:06:23.739Z
+                                   =================================================
+2026-05-16 08:19:57 - mkk_pika - database.py:101 - INFO - 保存成功：逆転ココちゃん (逆転裁判-DL版)
+2026-05-16 08:19:57 - mkk_pika - main.py:35 - INFO - 开始检查アンジェラとスーが部屋に居る。 (げんしけん)是否存在未下载章节
+2026-05-16 08:19:58 - mkk_pika - main.py:45 - INFO - 正在下载:[アンジェラとスーが部屋に居る。 (げんしけん)]-[RADIOSTAR (工藤洋)]-[['同人', '短篇', '強暴']]-[total_pages:20]
+2026-05-16 08:19:58 - mkk_pika - main.py:49 - INFO - [{'_id': '596f757ba936e10673352cf8', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T14:47:46.915Z', 'id': '596f757ba936e10673352cf8'}]
+2026-05-16 08:19:58 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:19:58 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-05-16 08:19:59 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:19:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:19:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:19:59 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:00 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f757ba936e10673352cf7
+                                   标题：アンジェラとスーが部屋に居る。 (げんしけん)
+                                   作者：RADIOSTAR (工藤洋)
+                                   是否完结：是
+                                   总页数：20
+                                   分类：同人,短篇,強暴
+                                   章节数：1
+                                   最后更新时间：2017-07-19T15:06:35.598Z
+                                   =================================================
+2026-05-16 08:20:00 - mkk_pika - database.py:101 - INFO - 保存成功：アンジェラとスーが部屋に居る。 (げんしけん)
+2026-05-16 08:20:00 - mkk_pika - main.py:35 - INFO - 开始检查ゾンビパニック (ヒロインピンチ Vol.14 )是否存在未下载章节
+2026-05-16 08:20:00 - mkk_pika - main.py:45 - INFO - 正在下载:[ゾンビパニック (ヒロインピンチ Vol.14 )]-[Hirno]-[['短篇', '強暴', '非人類']]-[total_pages:20]
+2026-05-16 08:20:00 - mkk_pika - main.py:49 - INFO - [{'_id': '596f87e1ce6321141f6c5a7e', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T15:10:59.502Z', 'id': '596f87e1ce6321141f6c5a7e'}]
+2026-05-16 08:20:00 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:01 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-05-16 08:20:02 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:20:02 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:02 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:02 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:03 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f87e1ce6321141f6c5a7d
+                                   标题：ゾンビパニック (ヒロインピンチ Vol.14 )
+                                   作者：Hirno
+                                   是否完结：是
+                                   总页数：20
+                                   分类：短篇,強暴,非人類
+                                   章节数：1
+                                   最后更新时间：2017-07-19T16:25:05.340Z
+                                   =================================================
+2026-05-16 08:20:03 - mkk_pika - database.py:101 - INFO - 保存成功：ゾンビパニック (ヒロインピンチ Vol.14 )
+2026-05-16 08:20:03 - mkk_pika - main.py:35 - INFO - 开始检查キングスライムがあらわれた! (ドラゴンクエスト)是否存在未下载章节
+2026-05-16 08:20:03 - mkk_pika - main.py:45 - INFO - 正在下载:[キングスライムがあらわれた! (ドラゴンクエスト)]-[肌色三昧 (未定)]-[['短篇', '同人']]-[total_pages:8]
+2026-05-16 08:20:03 - mkk_pika - main.py:49 - INFO - [{'_id': '596f882c63ffb51409e9e27a', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T15:27:42.428Z', 'id': '596f882c63ffb51409e9e27a'}]
+2026-05-16 08:20:03 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:04 - mkk_pika - main.py:83 - INFO - 找到 8 张图片在:第1集
+2026-05-16 08:20:04 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:     8, total:   8, progress:100%
+2026-05-16 08:20:04 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:04 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:04 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:05 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f882c63ffb51409e9e279
+                                   标题：キングスライムがあらわれた! (ドラゴンクエスト)
+                                   作者：肌色三昧 (未定)
+                                   是否完结：是
+                                   总页数：8
+                                   分类：短篇,同人
+                                   章节数：1
+                                   最后更新时间：2017-07-19T16:26:20.883Z
+                                   =================================================
+2026-05-16 08:20:05 - mkk_pika - database.py:101 - INFO - 保存成功：キングスライムがあらわれた! (ドラゴンクエスト)
+2026-05-16 08:20:05 - mkk_pika - main.py:35 - INFO - 开始检查思春期まるだしっ！是否存在未下载章节
+2026-05-16 08:20:05 - mkk_pika - main.py:45 - INFO - 正在下载:[思春期まるだしっ！]-[ぐりえるも]-[['長篇']]-[total_pages:241]
+2026-05-16 08:20:05 - mkk_pika - main.py:49 - INFO - [{'_id': '596f885763ffb51409e9e284', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T10:59:33.622Z', 'id': '596f885763ffb51409e9e284'}]
+2026-05-16 08:20:05 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:08 - mkk_pika - main.py:83 - INFO - 找到 241 张图片在:第1集
+2026-05-16 08:20:14 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   241, total: 241, progress:100%
+2026-05-16 08:20:14 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:14 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:14 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:16 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：596f885763ffb51409e9e283
+                                   标题：思春期まるだしっ！
+                                   作者：ぐりえるも
+                                   是否完结：是
+                                   总页数：241
+                                   分类：長篇
+                                   章节数：1
+                                   最后更新时间：2017-07-19T16:27:03.080Z
+                                   =================================================
+2026-05-16 08:20:16 - mkk_pika - database.py:101 - INFO - 保存成功：思春期まるだしっ！
+2026-05-16 08:20:16 - mkk_pika - main.py:35 - INFO - 开始检查Wet lips是否存在未下载章节
+2026-05-16 08:20:16 - mkk_pika - main.py:45 - INFO - 正在下载:[Wet lips]-[木村寧都]-[['長篇', '姐姐系', '妹妹系', 'NTR']]-[total_pages:199]
+2026-05-16 08:20:16 - mkk_pika - main.py:49 - INFO - [{'_id': '59700d7aa936e10673352f2f', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-19T17:12:47.100Z', 'id': '59700d7aa936e10673352f2f'}]
+2026-05-16 08:20:16 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:17 - mkk_pika - main.py:83 - INFO - 找到 199 张图片在:第1集
+2026-05-16 08:20:25 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   199, total: 199, progress:100%
+2026-05-16 08:20:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:25 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:26 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59700d7aa936e10673352f2e
+                                   标题：Wet lips
+                                   作者：木村寧都
+                                   是否完结：是
+                                   总页数：199
+                                   分类：長篇,姐姐系,妹妹系,NTR
+                                   章节数：1
+                                   最后更新时间：2017-07-20T01:55:06.185Z
+                                   =================================================
+2026-05-16 08:20:26 - mkk_pika - database.py:101 - INFO - 保存成功：Wet lips
+2026-05-16 08:20:26 - mkk_pika - main.py:35 - INFO - 开始检查むち♥無知ッ強製成長中っ是否存在未下载章节
+2026-05-16 08:20:26 - mkk_pika - main.py:45 - INFO - 正在下载:[むち♥無知ッ強製成長中っ]-[まろん☆まろん]-[['長篇', '後宮閃光', '妹妹系']]-[total_pages:207]
+2026-05-16 08:20:26 - mkk_pika - main.py:49 - INFO - [{'_id': '59700def2275da3230dc53b0', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-20T00:52:59.832Z', 'id': '59700def2275da3230dc53b0'}]
+2026-05-16 08:20:26 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:28 - mkk_pika - main.py:83 - INFO - 找到 207 张图片在:第1集
+2026-05-16 08:20:32 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   207, total: 207, progress:100%
+2026-05-16 08:20:32 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:32 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:32 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:34 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59700def2275da3230dc53af
+                                   标题：むち♥無知ッ強製成長中っ
+                                   作者：まろん☆まろん
+                                   是否完结：是
+                                   总页数：207
+                                   分类：長篇,後宮閃光,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-07-20T01:57:03.054Z
+                                   =================================================
+2026-05-16 08:20:34 - mkk_pika - database.py:101 - INFO - 保存成功：むち♥無知ッ強製成長中っ
+2026-05-16 08:20:34 - mkk_pika - main.py:35 - INFO - 开始检查誘惑ガールズ誘惑的女孩們是否存在未下载章节
+2026-05-16 08:20:34 - mkk_pika - main.py:45 - INFO - 正在下载:[誘惑ガールズ誘惑的女孩們]-[蒼津ウミヒト]-[['長篇', '純愛']]-[total_pages:192]
+2026-05-16 08:20:34 - mkk_pika - main.py:49 - INFO - [{'_id': '59704aaf72cbbd143d72345f', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-20T02:36:55.063Z', 'id': '59704aaf72cbbd143d72345f'}]
+2026-05-16 08:20:34 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:35 - mkk_pika - main.py:83 - INFO - 找到 192 张图片在:第1集
+2026-05-16 08:20:42 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   192, total: 192, progress:100%
+2026-05-16 08:20:42 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:42 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:42 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:43 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59704aaf72cbbd143d72345e
+                                   标题：誘惑ガールズ誘惑的女孩們
+                                   作者：蒼津ウミヒト
+                                   是否完结：是
+                                   总页数：192
+                                   分类：長篇,純愛
+                                   章节数：1
+                                   最后更新时间：2017-07-20T06:16:15.035Z
+                                   =================================================
+2026-05-16 08:20:43 - mkk_pika - database.py:101 - INFO - 保存成功：誘惑ガールズ誘惑的女孩們
+2026-05-16 08:20:43 - mkk_pika - main.py:35 - INFO - 开始检查犯る気スイッチ是否存在未下载章节
+2026-05-16 08:20:43 - mkk_pika - main.py:45 - INFO - 正在下载:[犯る気スイッチ]-[ 肉そうきゅー]-[['長篇', '後宮閃光', '強暴']]-[total_pages:202]
+2026-05-16 08:20:43 - mkk_pika - main.py:49 - INFO - [{'_id': '5971d113a3c15e06a7155e1d', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T09:26:42.090Z', 'id': '5971d113a3c15e06a7155e1d'}]
+2026-05-16 08:20:43 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:45 - mkk_pika - main.py:83 - INFO - 找到 199 张图片在:第1集
+2026-05-16 08:20:52 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   199, total: 199, progress:100%
+2026-05-16 08:20:52 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:52 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:52 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:54 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5971d113a3c15e06a7155e1c
+                                   标题：犯る気スイッチ
+                                   作者： 肉そうきゅー
+                                   是否完结：是
+                                   总页数：202
+                                   分类：長篇,後宮閃光,強暴
+                                   章节数：1
+                                   最后更新时间：2017-07-21T10:01:55.008Z
+                                   =================================================
+2026-05-16 08:20:54 - mkk_pika - database.py:101 - INFO - 保存成功：犯る気スイッチ
+2026-05-16 08:20:54 - mkk_pika - main.py:35 - INFO - 开始检查RWBY MOONLIGHT是否存在未下载章节
+2026-05-16 08:20:54 - mkk_pika - main.py:45 - INFO - 正在下载:[RWBY MOONLIGHT]-[Dragon Kitchen(かにばさみ)]-[['短篇', '同人', '強暴']]-[total_pages:22]
+2026-05-16 08:20:54 - mkk_pika - main.py:49 - INFO - [{'_id': '59721bd463ffb51409e9ef2e', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T10:35:33.732Z', 'id': '59721bd463ffb51409e9ef2e'}]
+2026-05-16 08:20:54 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:54 - mkk_pika - main.py:83 - INFO - 找到 22 张图片在:第1集
+2026-05-16 08:20:55 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    22, total:  22, progress:100%
+2026-05-16 08:20:55 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:55 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:55 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:56 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721bd463ffb51409e9ef2d
+                                   标题：RWBY MOONLIGHT
+                                   作者：Dragon Kitchen(かにばさみ)
+                                   是否完结：是
+                                   总页数：22
+                                   分类：短篇,同人,強暴
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:20:52.907Z
+                                   =================================================
+2026-05-16 08:20:56 - mkk_pika - database.py:101 - INFO - 保存成功：RWBY MOONLIGHT
+2026-05-16 08:20:56 - mkk_pika - main.py:35 - INFO - 开始检查いちごオフタイム是否存在未下载章节
+2026-05-16 08:20:56 - mkk_pika - main.py:45 - INFO - 正在下载:[いちごオフタイム]-[ノビタグラフ(いしがな)]-[['短篇', '同人']]-[total_pages:20]
+2026-05-16 08:20:56 - mkk_pika - main.py:49 - INFO - [{'_id': '59721c1c72cbbd143d723e0c', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T10:38:59.584Z', 'id': '59721c1c72cbbd143d723e0c'}]
+2026-05-16 08:20:56 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:20:57 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-05-16 08:20:58 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:20:58 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:20:58 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:20:58 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:20:59 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721c1c72cbbd143d723e0b
+                                   标题：いちごオフタイム
+                                   作者：ノビタグラフ(いしがな)
+                                   是否完结：否
+                                   总页数：20
+                                   分类：短篇,同人
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:22:04.326Z
+                                   =================================================
+2026-05-16 08:20:59 - mkk_pika - database.py:101 - INFO - 保存成功：いちごオフタイム
+2026-05-16 08:20:59 - mkk_pika - main.py:35 - INFO - 开始检查姫・淫女実験輪獄編是否存在未下载章节
+2026-05-16 08:20:59 - mkk_pika - main.py:45 - INFO - 正在下载:[姫・淫女実験輪獄編]-[サークルENERGY (新春夏秋冬)]-[['短篇', '同人', '強暴', 'SM', '非人類']]-[total_pages:38]
+2026-05-16 08:20:59 - mkk_pika - main.py:49 - INFO - [{'_id': '59721c31ce6321141f6c667d', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T10:44:29.749Z', 'id': '59721c31ce6321141f6c667d'}]
+2026-05-16 08:20:59 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:00 - mkk_pika - main.py:83 - INFO - 找到 38 张图片在:第1集
+2026-05-16 08:21:01 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    38, total:  38, progress:100%
+2026-05-16 08:21:01 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:01 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:01 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:02 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721c31ce6321141f6c667c
+                                   标题：姫・淫女実験輪獄編
+                                   作者：サークルENERGY (新春夏秋冬)
+                                   是否完结：是
+                                   总页数：38
+                                   分类：短篇,同人,強暴,SM,非人類
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:22:25.329Z
+                                   =================================================
+2026-05-16 08:21:02 - mkk_pika - database.py:101 - INFO - 保存成功：姫・淫女実験輪獄編
+2026-05-16 08:21:02 - mkk_pika - main.py:35 - INFO - 开始检查Melcheese44是否存在未下载章节
+2026-05-16 08:21:02 - mkk_pika - main.py:45 - INFO - 正在下载:[Melcheese44]-[生クリームびより (ななせめるち)]-[['短篇', '同人', '艦隊收藏']]-[total_pages:27]
+2026-05-16 08:21:02 - mkk_pika - main.py:49 - INFO - [{'_id': '59721c4a72cbbd143d723e23', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T10:48:52.029Z', 'id': '59721c4a72cbbd143d723e23'}]
+2026-05-16 08:21:02 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:03 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-05-16 08:21:04 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-05-16 08:21:04 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:04 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:04 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:05 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721c4972cbbd143d723e22
+                                   标题：Melcheese44
+                                   作者：生クリームびより (ななせめるち)
+                                   是否完结：是
+                                   总页数：27
+                                   分类：短篇,同人,艦隊收藏
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:22:49.998Z
+                                   =================================================
+2026-05-16 08:21:05 - mkk_pika - database.py:101 - INFO - 保存成功：Melcheese44
+2026-05-16 08:21:05 - mkk_pika - main.py:35 - INFO - 开始检查Melcheese45是否存在未下载章节
+2026-05-16 08:21:06 - mkk_pika - main.py:45 - INFO - 正在下载:[Melcheese45]-[生クリームびより (ななせめるち)]-[['短篇', '同人', '艦隊收藏']]-[total_pages:27]
+2026-05-16 08:21:06 - mkk_pika - main.py:49 - INFO - [{'_id': '59721c5b92c786325e199ab9', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T10:52:16.684Z', 'id': '59721c5b92c786325e199ab9'}]
+2026-05-16 08:21:06 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:06 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-05-16 08:21:07 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-05-16 08:21:07 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:07 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:07 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:08 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721c5a92c786325e199ab8
+                                   标题：Melcheese45
+                                   作者：生クリームびより (ななせめるち)
+                                   是否完结：是
+                                   总页数：27
+                                   分类：短篇,同人,艦隊收藏
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:23:06.961Z
+                                   =================================================
+2026-05-16 08:21:08 - mkk_pika - database.py:101 - INFO - 保存成功：Melcheese45
+2026-05-16 08:21:08 - mkk_pika - main.py:35 - INFO - 开始检查ちびっこまーけっと是否存在未下载章节
+2026-05-16 08:21:08 - mkk_pika - main.py:45 - INFO - 正在下载:[ちびっこまーけっと]-[ぽぽちち(八尋ぽち)]-[['短篇', '同人', '足の恋']]-[total_pages:24]
+2026-05-16 08:21:08 - mkk_pika - main.py:49 - INFO - [{'_id': '59721c6dd051cb14579992f8', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T10:58:53.159Z', 'id': '59721c6dd051cb14579992f8'}]
+2026-05-16 08:21:08 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:09 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:第1集
+2026-05-16 08:21:10 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    24, total:  24, progress:100%
+2026-05-16 08:21:10 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:10 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:10 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:11 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721c6dd051cb14579992f7
+                                   标题：ちびっこまーけっと
+                                   作者：ぽぽちち(八尋ぽち)
+                                   是否完结：是
+                                   总页数：24
+                                   分类：短篇,同人,足の恋
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:23:25.468Z
+                                   =================================================
+2026-05-16 08:21:11 - mkk_pika - database.py:101 - INFO - 保存成功：ちびっこまーけっと
+2026-05-16 08:21:11 - mkk_pika - main.py:35 - INFO - 开始检查putit lips是否存在未下载章节
+2026-05-16 08:21:11 - mkk_pika - main.py:45 - INFO - 正在下载:[putit lips]-[有葉と愉快な仲間たち (有葉)]-[['短篇', '同人', '後宮閃光', '艦隊收藏']]-[total_pages:26]
+2026-05-16 08:21:11 - mkk_pika - main.py:49 - INFO - [{'_id': '59721c7e63ffb51409e9ef4a', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T11:04:31.527Z', 'id': '59721c7e63ffb51409e9ef4a'}]
+2026-05-16 08:21:11 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:12 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-05-16 08:21:12 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-05-16 08:21:12 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:12 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:12 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:14 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721c7e63ffb51409e9ef49
+                                   标题：putit lips
+                                   作者：有葉と愉快な仲間たち (有葉)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：短篇,同人,後宮閃光,艦隊收藏
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:23:42.557Z
+                                   =================================================
+2026-05-16 08:21:14 - mkk_pika - database.py:101 - INFO - 保存成功：putit lips
+2026-05-16 08:21:14 - mkk_pika - main.py:35 - INFO - 开始检查おしおきするよ step4是否存在未下载章节
+2026-05-16 08:21:14 - mkk_pika - main.py:45 - INFO - 正在下载:[おしおきするよ step4]-[八神秋一]-[['短篇', '同人', '後宮閃光', '足の恋']]-[total_pages:25]
+2026-05-16 08:21:14 - mkk_pika - main.py:49 - INFO - [{'_id': '59721d1372cbbd143d723e4c', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T11:30:19.792Z', 'id': '59721d1372cbbd143d723e4c'}]
+2026-05-16 08:21:14 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:14 - mkk_pika - main.py:83 - INFO - 找到 25 张图片在:第1集
+2026-05-16 08:21:15 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    25, total:  25, progress:100%
+2026-05-16 08:21:15 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:15 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:15 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:17 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721d1372cbbd143d723e4b
+                                   标题：おしおきするよ step4
+                                   作者：八神秋一
+                                   是否完结：是
+                                   总页数：25
+                                   分类：短篇,同人,後宮閃光,足の恋
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:26:11.264Z
+                                   =================================================
+2026-05-16 08:21:17 - mkk_pika - database.py:101 - INFO - 保存成功：おしおきするよ step4
+2026-05-16 08:21:17 - mkk_pika - main.py:35 - INFO - 开始检查壊花-かいか-是否存在未下载章节
+2026-05-16 08:21:17 - mkk_pika - main.py:45 - INFO - 正在下载:[壊花-かいか-]-[服部ミツカ]-[['短篇', '同人', '非人類', '強暴']]-[total_pages:21]
+2026-05-16 08:21:17 - mkk_pika - main.py:49 - INFO - [{'_id': '59721d212275da3230dc5e61', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T11:34:36.727Z', 'id': '59721d212275da3230dc5e61'}]
+2026-05-16 08:21:17 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:17 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第1集
+2026-05-16 08:21:18 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    21, total:  21, progress:100%
+2026-05-16 08:21:18 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:18 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:18 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:19 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721d212275da3230dc5e60
+                                   标题：壊花-かいか-
+                                   作者：服部ミツカ
+                                   是否完结：是
+                                   总页数：21
+                                   分类：短篇,同人,非人類,強暴
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:26:25.781Z
+                                   =================================================
+2026-05-16 08:21:19 - mkk_pika - database.py:101 - INFO - 保存成功：壊花-かいか-
+2026-05-16 08:21:19 - mkk_pika - main.py:35 - INFO - 开始检查ご注文のモカです是否存在未下载章节
+2026-05-16 08:21:19 - mkk_pika - main.py:45 - INFO - 正在下载:[ご注文のモカです]-[咳寝 (咳寝はじめ)]-[['短篇', '同人', '純愛']]-[total_pages:26]
+2026-05-16 08:21:19 - mkk_pika - main.py:49 - INFO - [{'_id': '59721d3cdb78c5321a2c4570', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T11:43:13.025Z', 'id': '59721d3cdb78c5321a2c4570'}]
+2026-05-16 08:21:19 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:20 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-05-16 08:21:21 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-05-16 08:21:21 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:21 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:21 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:22 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721d3cdb78c5321a2c456f
+                                   标题：ご注文のモカです
+                                   作者：咳寝 (咳寝はじめ)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：短篇,同人,純愛
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:26:52.512Z
+                                   =================================================
+2026-05-16 08:21:22 - mkk_pika - database.py:101 - INFO - 保存成功：ご注文のモカです
+2026-05-16 08:21:22 - mkk_pika - main.py:35 - INFO - 开始检查はたての敏腕取材録是否存在未下载章节
+2026-05-16 08:21:22 - mkk_pika - main.py:45 - INFO - 正在下载:[はたての敏腕取材録]-[方円軒 (稲瀬信也)]-[['短篇', '同人', '東方']]-[total_pages:26]
+2026-05-16 08:21:22 - mkk_pika - main.py:49 - INFO - [{'_id': '59721d49ce6321141f6c66e6', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T11:46:34.407Z', 'id': '59721d49ce6321141f6c66e6'}]
+2026-05-16 08:21:22 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:23 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-05-16 08:21:24 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-05-16 08:21:24 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:24 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:24 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:25 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59721d49ce6321141f6c66e5
+                                   标题：はたての敏腕取材録
+                                   作者：方円軒 (稲瀬信也)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：短篇,同人,東方
+                                   章节数：1
+                                   最后更新时间：2017-07-21T15:27:05.845Z
+                                   =================================================
+2026-05-16 08:21:25 - mkk_pika - database.py:101 - INFO - 保存成功：はたての敏腕取材録
+2026-05-16 08:21:25 - mkk_pika - main.py:35 - INFO - 开始检查がんばらないバレンタイン是否存在未下载章节
+2026-05-16 08:21:25 - mkk_pika - main.py:45 - INFO - 正在下载:[がんばらないバレンタイン]-[八木崎銀座 (八神秋一)]-[['短篇', '同人', '足の恋', '妹妹系', '純愛']]-[total_pages:24]
+2026-05-16 08:21:25 - mkk_pika - main.py:49 - INFO - [{'_id': '597231196f10593244ced4f5', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T11:08:05.674Z', 'id': '597231196f10593244ced4f5'}]
+2026-05-16 08:21:25 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:26 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:第1集
+2026-05-16 08:21:26 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    24, total:  24, progress:100%
+2026-05-16 08:21:26 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:26 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:26 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:28 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：597231196f10593244ced4f4
+                                   标题：がんばらないバレンタイン
+                                   作者：八木崎銀座 (八神秋一)
+                                   是否完结：是
+                                   总页数：24
+                                   分类：短篇,同人,足の恋,妹妹系,純愛
+                                   章节数：1
+                                   最后更新时间：2017-07-21T16:51:37.493Z
+                                   =================================================
+2026-05-16 08:21:28 - mkk_pika - database.py:101 - INFO - 保存成功：がんばらないバレンタイン
+2026-05-16 08:21:28 - mkk_pika - main.py:35 - INFO - 开始检查ロリトリオエッチ (化物語)是否存在未下载章节
+2026-05-16 08:21:28 - mkk_pika - main.py:45 - INFO - 正在下载:[ロリトリオエッチ (化物語)]-[夕鍋進行中 (田辺京)]-[['同人', '短篇', '後宮閃光']]-[total_pages:28]
+2026-05-16 08:21:28 - mkk_pika - main.py:49 - INFO - [{'_id': '5972316972cbbd143d723f19', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T16:40:51.399Z', 'id': '5972316972cbbd143d723f19'}]
+2026-05-16 08:21:28 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:28 - mkk_pika - main.py:83 - INFO - 找到 28 张图片在:第1集
+2026-05-16 08:21:29 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    28, total:  28, progress:100%
+2026-05-16 08:21:29 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:29 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:29 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:31 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5972316972cbbd143d723f18
+                                   标题：ロリトリオエッチ (化物語)
+                                   作者：夕鍋進行中 (田辺京)
+                                   是否完结：是
+                                   总页数：28
+                                   分类：同人,短篇,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2017-07-21T16:52:57.597Z
+                                   =================================================
+2026-05-16 08:21:31 - mkk_pika - database.py:101 - INFO - 保存成功：ロリトリオエッチ (化物語)
+2026-05-16 08:21:31 - mkk_pika - main.py:35 - INFO - 开始检查the book of alice (食戟のソーマ)是否存在未下载章节
+2026-05-16 08:21:31 - mkk_pika - main.py:45 - INFO - 正在下载:[the book of alice (食戟のソーマ)]-[孤独intelligence (ななお)]-[['全彩', '同人', '短篇']]-[total_pages:17]
+2026-05-16 08:21:31 - mkk_pika - main.py:49 - INFO - [{'_id': '59723170ce6321141f6c6782', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T16:46:58.431Z', 'id': '59723170ce6321141f6c6782'}]
+2026-05-16 08:21:31 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:31 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:第1集
+2026-05-16 08:21:32 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    17, total:  17, progress:100%
+2026-05-16 08:21:32 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:32 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:32 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:33 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59723170ce6321141f6c6781
+                                   标题：the book of alice (食戟のソーマ)
+                                   作者：孤独intelligence (ななお)
+                                   是否完结：是
+                                   总页数：17
+                                   分类：全彩,同人,短篇
+                                   章节数：1
+                                   最后更新时间：2017-07-21T16:53:04.345Z
+                                   =================================================
+2026-05-16 08:21:33 - mkk_pika - database.py:101 - INFO - 保存成功：the book of alice (食戟のソーマ)
+2026-05-16 08:21:33 - mkk_pika - main.py:35 - INFO - 开始检查ふたりの日々を。 (君の名は。)是否存在未下载章节
+2026-05-16 08:21:33 - mkk_pika - main.py:45 - INFO - 正在下载:[ふたりの日々を。 (君の名は。)]-[ナイフエッジ (星憑ネオン。、さきうらら)]-[['同人', '短篇', '純愛']]-[total_pages:19]
+2026-05-16 08:21:33 - mkk_pika - main.py:49 - INFO - [{'_id': '5972c26672cbbd143d724155', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T16:51:26.449Z', 'id': '5972c26672cbbd143d724155'}]
+2026-05-16 08:21:33 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:34 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:第1集
+2026-05-16 08:21:34 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    19, total:  19, progress:100%
+2026-05-16 08:21:34 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:34 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:34 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:36 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5972c26672cbbd143d724154
+                                   标题：ふたりの日々を。 (君の名は。)
+                                   作者：ナイフエッジ (星憑ネオン。、さきうらら)
+                                   是否完结：是
+                                   总页数：19
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2017-07-22T03:11:34.351Z
+                                   =================================================
+2026-05-16 08:21:36 - mkk_pika - database.py:101 - INFO - 保存成功：ふたりの日々を。 (君の名は。)
+2026-05-16 08:21:36 - mkk_pika - main.py:35 - INFO - 开始检查四百年目の恋紅葉是否存在未下载章节
+2026-05-16 08:21:36 - mkk_pika - main.py:45 - INFO - 正在下载:[四百年目の恋紅葉]-[稲山神社 (かめ)]-[['短篇', '非人類', '純愛']]-[total_pages:41]
+2026-05-16 08:21:36 - mkk_pika - main.py:49 - INFO - [{'_id': '5972c34472cbbd143d72416f', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-21T17:12:14.574Z', 'id': '5972c34472cbbd143d72416f'}]
+2026-05-16 08:21:36 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:37 - mkk_pika - main.py:83 - INFO - 找到 41 张图片在:第1集
+2026-05-16 08:21:38 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    41, total:  41, progress:100%
+2026-05-16 08:21:38 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:38 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:38 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:39 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5972c34472cbbd143d72416e
+                                   标题：四百年目の恋紅葉
+                                   作者：稲山神社 (かめ)
+                                   是否完结：是
+                                   总页数：41
+                                   分类：短篇,非人類,純愛
+                                   章节数：1
+                                   最后更新时间：2017-07-22T03:15:16.616Z
+                                   =================================================
+2026-05-16 08:21:39 - mkk_pika - database.py:101 - INFO - 保存成功：四百年目の恋紅葉
+2026-05-16 08:21:39 - mkk_pika - main.py:35 - INFO - 开始检查ママならないオンナたち是否存在未下载章节
+2026-05-16 08:21:40 - mkk_pika - main.py:45 - INFO - 正在下载:[ママならないオンナたち]-[おとちち]-[['長篇', '人妻']]-[total_pages:198]
+2026-05-16 08:21:40 - mkk_pika - main.py:49 - INFO - [{'_id': '5972c4549f55ab06898f7e94', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T03:18:51.412Z', 'id': '5972c4549f55ab06898f7e94'}]
+2026-05-16 08:21:40 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:41 - mkk_pika - main.py:83 - INFO - 找到 198 张图片在:第1集
+2026-05-16 08:21:46 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   198, total: 198, progress:100%
+2026-05-16 08:21:46 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:46 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:46 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:47 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5972c4549f55ab06898f7e93
+                                   标题：ママならないオンナたち
+                                   作者：おとちち
+                                   是否完结：是
+                                   总页数：198
+                                   分类：長篇,人妻
+                                   章节数：1
+                                   最后更新时间：2017-07-22T03:19:48.311Z
+                                   =================================================
+2026-05-16 08:21:47 - mkk_pika - database.py:101 - INFO - 保存成功：ママならないオンナたち
+2026-05-16 08:21:47 - mkk_pika - main.py:35 - INFO - 开始检查(COMIC1☆11) らいへらいっきうち (けものフレンズ) 是否存在未下载章节
+2026-05-16 08:21:48 - mkk_pika - main.py:45 - INFO - 正在下载:[(COMIC1☆11) らいへらいっきうち (けものフレンズ) ]-[沙悟荘 (瀬浦沙悟)]-[['同人', '短篇']]-[total_pages:23]
+2026-05-16 08:21:48 - mkk_pika - main.py:49 - INFO - [{'_id': '59736c50cf2b4106c122fec0', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T03:30:06.787Z', 'id': '59736c50cf2b4106c122fec0'}]
+2026-05-16 08:21:48 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:48 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-05-16 08:21:49 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-05-16 08:21:49 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:49 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:49 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:21:50 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59736c50cf2b4106c122febf
+                                   标题：(COMIC1☆11) らいへらいっきうち (けものフレンズ) 
+                                   作者：沙悟荘 (瀬浦沙悟)
+                                   是否完结：是
+                                   总页数：23
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:16:32.801Z
+                                   =================================================
+2026-05-16 08:21:50 - mkk_pika - database.py:101 - INFO - 保存成功：(COMIC1☆11) らいへらいっきうち (けものフレンズ) 
+2026-05-16 08:21:50 - mkk_pika - main.py:35 - INFO - 开始检查欲負け妻の淫乱本性|縱欲之妻的淫亂本性是否存在未下载章节
+2026-05-16 08:21:50 - mkk_pika - main.py:45 - INFO - 正在下载:[欲負け妻の淫乱本性|縱欲之妻的淫亂本性]-[シロノマヒロ]-[['長篇', '人妻']]-[total_pages:229]
+2026-05-16 08:21:50 - mkk_pika - main.py:49 - INFO - [{'_id': '59736c5e72cbbd143d724773', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T03:48:32.856Z', 'id': '59736c5e72cbbd143d724773'}]
+2026-05-16 08:21:50 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:21:52 - mkk_pika - main.py:83 - INFO - 找到 229 张图片在:第1集
+2026-05-16 08:21:59 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   229, total: 229, progress:100%
+2026-05-16 08:21:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:21:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:21:59 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:00 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59736c5e72cbbd143d724772
+                                   标题：欲負け妻の淫乱本性|縱欲之妻的淫亂本性
+                                   作者：シロノマヒロ
+                                   是否完结：是
+                                   总页数：229
+                                   分类：長篇,人妻
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:16:46.964Z
+                                   =================================================
+2026-05-16 08:22:00 - mkk_pika - database.py:101 - INFO - 保存成功：欲負け妻の淫乱本性|縱欲之妻的淫亂本性
+2026-05-16 08:22:00 - mkk_pika - main.py:35 - INFO - 开始检查(C91) Phantom thief (ペルソナ5)是否存在未下载章节
+2026-05-16 08:22:00 - mkk_pika - main.py:45 - INFO - 正在下载:[(C91) Phantom thief (ペルソナ5)]-[だらぶち堂 ]-[['同人', '短篇', 'NTR']]-[total_pages:39]
+2026-05-16 08:22:00 - mkk_pika - main.py:49 - INFO - [{'_id': '59736c7492c786325e19a181', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T04:03:46.813Z', 'id': '59736c7492c786325e19a181'}]
+2026-05-16 08:22:00 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:22:01 - mkk_pika - main.py:83 - INFO - 找到 39 张图片在:第1集
+2026-05-16 08:22:02 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    39, total:  39, progress:100%
+2026-05-16 08:22:02 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:22:02 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:22:02 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:03 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59736c7492c786325e19a180
+                                   标题：(C91) Phantom thief (ペルソナ5)
+                                   作者：だらぶち堂 
+                                   是否完结：是
+                                   总页数：39
+                                   分类：同人,短篇,NTR
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:17:08.094Z
+                                   =================================================
+2026-05-16 08:22:03 - mkk_pika - database.py:101 - INFO - 保存成功：(C91) Phantom thief (ペルソナ5)
+2026-05-16 08:22:03 - mkk_pika - main.py:35 - INFO - 开始检查(C87) Love Pet (ペルソナ3)  是否存在未下载章节
+2026-05-16 08:22:04 - mkk_pika - main.py:45 - INFO - 正在下载:[(C87) Love Pet (ペルソナ3)  ]-[だらぶち堂 (だらぶち)]-[['同人', '短篇']]-[total_pages:40]
+2026-05-16 08:22:04 - mkk_pika - main.py:49 - INFO - [{'_id': '597370bbcf2b4106c122feec', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T04:10:51.548Z', 'id': '597370bbcf2b4106c122feec'}]
+2026-05-16 08:22:04 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:22:04 - mkk_pika - main.py:83 - INFO - 找到 40 张图片在:第1集
+2026-05-16 08:22:06 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    40, total:  40, progress:100%
+2026-05-16 08:22:06 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:22:06 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:22:06 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:07 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：597370bbcf2b4106c122feeb
+                                   标题：(C87) Love Pet (ペルソナ3)  
+                                   作者：だらぶち堂 (だらぶち)
+                                   是否完结：是
+                                   总页数：40
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:35:23.555Z
+                                   =================================================
+2026-05-16 08:22:07 - mkk_pika - database.py:101 - INFO - 保存成功：(C87) Love Pet (ペルソナ3)  
+2026-05-16 08:22:07 - mkk_pika - main.py:35 - INFO - 开始检查和淫猥的柔嫩美乳來玩玩吧_だらしなオッパイとあそぼー是否存在未下载章节
+2026-05-16 08:22:07 - mkk_pika - main.py:45 - INFO - 正在下载:[和淫猥的柔嫩美乳來玩玩吧_だらしなオッパイとあそぼー]-[もじゃりん]-[['長篇']]-[total_pages:214]
+2026-05-16 08:22:07 - mkk_pika - main.py:49 - INFO - [{'_id': '597370cdcf2b4106c122ff19', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T04:49:58.546Z', 'id': '597370cdcf2b4106c122ff19'}]
+2026-05-16 08:22:07 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:22:09 - mkk_pika - main.py:83 - INFO - 找到 214 张图片在:第1集
+2026-05-16 08:22:16 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   214, total: 214, progress:100%
+2026-05-16 08:22:16 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:22:16 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:22:16 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:18 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：597370cdcf2b4106c122ff18
+                                   标题：和淫猥的柔嫩美乳來玩玩吧_だらしなオッパイとあそぼー
+                                   作者：もじゃりん
+                                   是否完结：是
+                                   总页数：214
+                                   分类：長篇
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:35:41.045Z
+                                   =================================================
+2026-05-16 08:22:18 - mkk_pika - database.py:101 - INFO - 保存成功：和淫猥的柔嫩美乳來玩玩吧_だらしなオッパイとあそぼー
+2026-05-16 08:22:18 - mkk_pika - main.py:35 - INFO - 开始检查せいじんしきごっこ是否存在未下载章节
+2026-05-16 08:22:18 - mkk_pika - main.py:45 - INFO - 正在下载:[せいじんしきごっこ]-[前島龍]-[['長篇']]-[total_pages:220]
+2026-05-16 08:22:18 - mkk_pika - main.py:49 - INFO - [{'_id': '597370dc6f10593244cedb8e', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T05:15:27.515Z', 'id': '597370dc6f10593244cedb8e'}]
+2026-05-16 08:22:18 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:22:20 - mkk_pika - main.py:83 - INFO - 找到 220 张图片在:第1集
+2026-05-16 08:22:26 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   220, total: 220, progress:100%
+2026-05-16 08:22:26 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:22:26 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:22:26 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:27 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：597370dc6f10593244cedb8d
+                                   标题：せいじんしきごっこ
+                                   作者：前島龍
+                                   是否完结：是
+                                   总页数：220
+                                   分类：長篇
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:35:56.923Z
+                                   =================================================
+2026-05-16 08:22:27 - mkk_pika - database.py:101 - INFO - 保存成功：せいじんしきごっこ
+2026-05-16 08:22:27 - mkk_pika - main.py:35 - INFO - 开始检查かしましふぁっきんぐ！| 笑笑鬧鬧的FUCKING! 是否存在未下载章节
+2026-05-16 08:22:27 - mkk_pika - main.py:45 - INFO - 正在下载:[かしましふぁっきんぐ！| 笑笑鬧鬧的FUCKING! ]-[ニム]-[['長篇']]-[total_pages:201]
+2026-05-16 08:22:27 - mkk_pika - main.py:49 - INFO - [{'_id': '597370ee72cbbd143d72487b', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T05:38:56.721Z', 'id': '597370ee72cbbd143d72487b'}]
+2026-05-16 08:22:27 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:22:29 - mkk_pika - main.py:83 - INFO - 找到 201 张图片在:第1集
+2026-05-16 08:22:36 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   201, total: 201, progress:100%
+2026-05-16 08:22:36 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:22:36 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:22:36 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:37 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：597370ee72cbbd143d72487a
+                                   标题：かしましふぁっきんぐ！| 笑笑鬧鬧的FUCKING! 
+                                   作者：ニム
+                                   是否完结：是
+                                   总页数：201
+                                   分类：長篇
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:36:14.493Z
+                                   =================================================
+2026-05-16 08:22:37 - mkk_pika - database.py:101 - INFO - 保存成功：かしましふぁっきんぐ！| 笑笑鬧鬧的FUCKING! 
+2026-05-16 08:22:37 - mkk_pika - main.py:35 - INFO - 开始检查乳じぇねれ是否存在未下载章节
+2026-05-16 08:22:37 - mkk_pika - main.py:45 - INFO - 正在下载:[乳じぇねれ]-[オクモト悠太]-[['長篇']]-[total_pages:221]
+2026-05-16 08:22:37 - mkk_pika - main.py:49 - INFO - [{'_id': '597370fb63ffb51409e9f65f', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T06:07:56.990Z', 'id': '597370fb63ffb51409e9f65f'}]
+2026-05-16 08:22:37 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:22:39 - mkk_pika - main.py:83 - INFO - 找到 221 张图片在:第1集
+2026-05-16 08:22:47 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   221, total: 221, progress:100%
+2026-05-16 08:22:47 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:22:47 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:22:47 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:48 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：597370fb63ffb51409e9f65e
+                                   标题：乳じぇねれ
+                                   作者：オクモト悠太
+                                   是否完结：是
+                                   总页数：221
+                                   分类：長篇
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:36:27.677Z
+                                   =================================================
+2026-05-16 08:22:48 - mkk_pika - database.py:101 - INFO - 保存成功：乳じぇねれ
+2026-05-16 08:22:48 - mkk_pika - main.py:35 - INFO - 开始检查B.B.IDOL 是否存在未下载章节
+2026-05-16 08:22:48 - mkk_pika - main.py:45 - INFO - 正在下载:[B.B.IDOL ]-[こうたろう]-[['長篇', '全彩']]-[total_pages:96]
+2026-05-16 08:22:48 - mkk_pika - main.py:49 - INFO - [{'_id': '59737139a936e10673354303', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T06:33:03.283Z', 'id': '59737139a936e10673354303'}]
+2026-05-16 08:22:48 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:22:49 - mkk_pika - main.py:83 - INFO - 找到 96 张图片在:第1集
+2026-05-16 08:22:52 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    96, total:  96, progress:100%
+2026-05-16 08:22:52 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:22:52 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:22:52 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:53 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59737139a936e10673354302
+                                   标题：B.B.IDOL 
+                                   作者：こうたろう
+                                   是否完结：是
+                                   总页数：96
+                                   分类：長篇,全彩
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:37:29.098Z
+                                   =================================================
+2026-05-16 08:22:53 - mkk_pika - database.py:101 - INFO - 保存成功：B.B.IDOL 
+2026-05-16 08:22:53 - mkk_pika - main.py:35 - INFO - 开始检查爆乳げげら (爆乳又下流)是否存在未下载章节
+2026-05-16 08:22:53 - mkk_pika - main.py:45 - INFO - 正在下载:[爆乳げげら (爆乳又下流)]-[げげら俊和]-[['長篇', '全彩']]-[total_pages:97]
+2026-05-16 08:22:53 - mkk_pika - main.py:49 - INFO - [{'_id': '5973714bd051cb1457999ac4', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T07:24:43.679Z', 'id': '5973714bd051cb1457999ac4'}]
+2026-05-16 08:22:53 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:22:54 - mkk_pika - main.py:83 - INFO - 找到 97 张图片在:第1集
+2026-05-16 08:22:57 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    97, total:  97, progress:100%
+2026-05-16 08:22:57 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:22:57 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:22:57 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:22:58 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5973714bd051cb1457999ac3
+                                   标题：爆乳げげら (爆乳又下流)
+                                   作者：げげら俊和
+                                   是否完结：是
+                                   总页数：97
+                                   分类：長篇,全彩
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:37:47.289Z
+                                   =================================================
+2026-05-16 08:22:58 - mkk_pika - database.py:101 - INFO - 保存成功：爆乳げげら (爆乳又下流)
+2026-05-16 08:22:58 - mkk_pika - main.py:35 - INFO - 开始检查Illusion Girls是否存在未下载章节
+2026-05-16 08:22:58 - mkk_pika - main.py:45 - INFO - 正在下载:[Illusion Girls]-[アシオミマサト]-[['長篇', '純愛']]-[total_pages:213]
+2026-05-16 08:22:58 - mkk_pika - main.py:49 - INFO - [{'_id': '59737163cf2b4106c122fff9', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T07:59:02.311Z', 'id': '59737163cf2b4106c122fff9'}]
+2026-05-16 08:22:58 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:23:00 - mkk_pika - main.py:83 - INFO - 找到 213 张图片在:第1集
+2026-05-16 08:23:07 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   213, total: 213, progress:100%
+2026-05-16 08:23:07 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:23:07 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:23:07 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:23:08 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：59737163cf2b4106c122fff8
+                                   标题：Illusion Girls
+                                   作者：アシオミマサト
+                                   是否完结：是
+                                   总页数：213
+                                   分类：長篇,純愛
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:38:11.932Z
+                                   =================================================
+2026-05-16 08:23:08 - mkk_pika - database.py:101 - INFO - 保存成功：Illusion Girls
+2026-05-16 08:23:08 - mkk_pika - main.py:35 - INFO - 开始检查セクロス是否存在未下载章节
+2026-05-16 08:23:08 - mkk_pika - main.py:45 - INFO - 正在下载:[セクロス]-[ハッチ]-[['長篇', '妹妹系']]-[total_pages:204]
+2026-05-16 08:23:08 - mkk_pika - main.py:49 - INFO - [{'_id': '597371732275da3230dc67c6', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T08:13:42.150Z', 'id': '597371732275da3230dc67c6'}]
+2026-05-16 08:23:08 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:23:10 - mkk_pika - main.py:83 - INFO - 找到 204 张图片在:第1集
+2026-05-16 08:23:17 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   204, total: 204, progress:100%
+2026-05-16 08:23:17 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:23:17 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:23:17 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:23:18 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：597371732275da3230dc67c5
+                                   标题：セクロス
+                                   作者：ハッチ
+                                   是否完结：是
+                                   总页数：204
+                                   分类：長篇,妹妹系
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:38:27.144Z
+                                   =================================================
+2026-05-16 08:23:18 - mkk_pika - database.py:101 - INFO - 保存成功：セクロス
+2026-05-16 08:23:18 - mkk_pika - main.py:35 - INFO - 开始检查(CT25) 姦これ-SEX FLEET COLLECTION- 姦娘型録 (艦隊これくしょん -艦これ-)是否存在未下载章节
+2026-05-16 08:23:18 - mkk_pika - main.py:45 - INFO - 正在下载:[(CT25) 姦これ-SEX FLEET COLLECTION- 姦娘型録 (艦隊これくしょん -艦これ-)]-[かしわ屋 (ひよひよ)]-[['長篇', '同人', '艦隊收藏']]-[total_pages:86]
+2026-05-16 08:23:18 - mkk_pika - main.py:49 - INFO - [{'_id': '5973719fa936e1067335436a', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T08:41:00.577Z', 'id': '5973719fa936e1067335436a'}]
+2026-05-16 08:23:18 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:23:19 - mkk_pika - main.py:83 - INFO - 找到 86 张图片在:第1集
+2026-05-16 08:23:22 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    86, total:  86, progress:100%
+2026-05-16 08:23:22 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:23:22 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:23:22 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:23:23 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5973719fa936e10673354369
+                                   标题：(CT25) 姦これ-SEX FLEET COLLECTION- 姦娘型録 (艦隊これくしょん -艦これ-)
+                                   作者：かしわ屋 (ひよひよ)
+                                   是否完结：是
+                                   总页数：86
+                                   分类：長篇,同人,艦隊收藏
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:39:11.577Z
+                                   =================================================
+2026-05-16 08:23:23 - mkk_pika - database.py:101 - INFO - 保存成功：(CT25) 姦これ-SEX FLEET COLLECTION- 姦娘型録 (艦隊これくしょん -艦これ-)
+2026-05-16 08:23:23 - mkk_pika - main.py:35 - INFO - 开始检查姦これ おまんここれくしょん 正規空母編 (艦隊これくしょん -艦これ-)是否存在未下载章节
+2026-05-16 08:23:24 - mkk_pika - main.py:45 - INFO - 正在下载:[姦これ おまんここれくしょん 正規空母編 (艦隊これくしょん -艦これ-)]-[満珍楼 (COSiNE)]-[['全彩', '同人', '短篇', '艦隊收藏']]-[total_pages:16]
+2026-05-16 08:23:24 - mkk_pika - main.py:49 - INFO - [{'_id': '597371f66f10593244cedca5', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T08:52:02.531Z', 'id': '597371f66f10593244cedca5'}]
+2026-05-16 08:23:24 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:23:24 - mkk_pika - main.py:83 - INFO - 找到 16 张图片在:第1集
+2026-05-16 08:23:25 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    16, total:  16, progress:100%
+2026-05-16 08:23:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:23:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:23:25 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:23:26 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：597371f66f10593244cedca4
+                                   标题：姦これ おまんここれくしょん 正規空母編 (艦隊これくしょん -艦これ-)
+                                   作者：満珍楼 (COSiNE)
+                                   是否完结：是
+                                   总页数：16
+                                   分类：全彩,同人,短篇,艦隊收藏
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:40:38.539Z
+                                   =================================================
+2026-05-16 08:23:26 - mkk_pika - database.py:101 - INFO - 保存成功：姦これ おまんここれくしょん 正規空母編 (艦隊これくしょん -艦これ-)
+2026-05-16 08:23:26 - mkk_pika - main.py:35 - INFO - 开始检查艦隊おまんここれくしょん戦艦編 (艦隊これくしょん-艦これ-)是否存在未下载章节
+2026-05-16 08:23:27 - mkk_pika - main.py:45 - INFO - 正在下载:[艦隊おまんここれくしょん戦艦編 (艦隊これくしょん-艦これ-)]-[満珍楼 (COSiNE)]-[['全彩', '同人', '短篇', '艦隊收藏']]-[total_pages:20]
+2026-05-16 08:23:27 - mkk_pika - main.py:49 - INFO - [{'_id': '5973724763ffb51409e9f745', 'title': '第1集', 'order': 1, 'updated_at': '2017-07-22T09:01:38.541Z', 'id': '5973724763ffb51409e9f745'}]
+2026-05-16 08:23:27 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-05-16 08:23:27 - mkk_pika - main.py:83 - INFO - 找到 20 张图片在:第1集
+2026-05-16 08:23:28 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    20, total:  20, progress:100%
+2026-05-16 08:23:28 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-05-16 08:23:28 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-05-16 08:23:28 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-05-16 08:23:29 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5973724763ffb51409e9f744
+                                   标题：艦隊おまんここれくしょん戦艦編 (艦隊これくしょん-艦これ-)
+                                   作者：満珍楼 (COSiNE)
+                                   是否完结：是
+                                   总页数：20
+                                   分类：全彩,同人,短篇,艦隊收藏
+                                   章节数：1
+                                   最后更新时间：2017-07-22T15:41:59.805Z
+                                   =================================================
+2026-05-16 08:23:29 - mkk_pika - database.py:101 - INFO - 保存成功：艦隊おまんここれくしょん戦艦編 (艦隊これくしょん-艦これ-)
+2026-05-16 08:23:29 - mkk_pika - main.py:380 - INFO - 本次任务下载完毕
+2026-05-16 08:23:29 - mkk_pika - database.py:173 - INFO - 数据库连接已关闭
