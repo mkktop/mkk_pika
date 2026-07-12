@@ -1,0 +1,1136 @@
+2026-07-12 00:05:18 - mkk_pika - main.py:193 - INFO - =======================================================================
+2026-07-12 00:05:18 - mkk_pika - database.py:61 - INFO - 表和索引初始化成功
+2026-07-12 00:05:18 - mkk_pika - main.py:197 - INFO - 已经累计下载16915本漫画
+2026-07-12 00:05:18 - mkk_pika - api.py:87 - INFO - 登录成功
+2026-07-12 00:05:18 - mkk_pika - main.py:203 - INFO - 收藏夹共计0本漫画
+2026-07-12 00:05:18 - mkk_pika - main.py:206 - INFO - 开始下载收藏夹内未下载内容
+2026-07-12 00:05:18 - mkk_pika - main.py:266 - INFO - 收藏夹内容下载完毕
+2026-07-12 00:05:18 - mkk_pika - main.py:268 - INFO - 开始下载订阅内容
+2026-07-12 00:05:18 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：萝莉 -> 生意気合法ロリ一琉はかなりマゾ
+2026-07-12 00:05:19 - mkk_pika - database.py:101 - INFO - 保存成功：生意気合法ロリ一琉はかなりマゾ
+2026-07-12 00:05:19 - mkk_pika - main.py:273 - INFO - 关键词萝莉找到1本漫画
+2026-07-12 00:05:19 - mkk_pika - database.py:258 - INFO - 根据ID查询到标题：蘿莉 -> [PIXIV] TengaWa 修行中 [24729168]（AI）
+2026-07-12 00:05:19 - mkk_pika - database.py:101 - INFO - 保存成功：ふたなりおねえさんのムクムクはついくウォッチ！[中国翻译]
+2026-07-12 00:05:19 - mkk_pika - main.py:273 - INFO - 关键词蘿莉找到1本漫画
+2026-07-12 00:05:19 - mkk_pika - main.py:275 - INFO - 订阅内容共计2本漫画
+2026-07-12 00:05:19 - mkk_pika - main.py:35 - INFO - 开始检查あめのちろり～メスガキに犯されまくるお話～是否存在未下载章节
+2026-07-12 00:05:19 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在第1話
+2026-07-12 00:05:19 - mkk_pika - database.py:203 - INFO - 查询数据库中是否已存在次元控去码
+2026-07-12 00:05:19 - mkk_pika - main.py:51 - INFO - あめのちろり～メスガキに犯されまくるお話～中没有可下载章节
+2026-07-12 00:05:20 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：66cf408ca9a2f6388f517f27
+                                标题：あめのちろり～メスガキに犯されまくるお話～
+                                作者：ろすとている (雨楽)
+                                是否完结：是
+                                总页数：34
+                                分类：短篇
+                                章节数：1
+                                最后更新时间：2024-08-28T15:21:48.945Z
+                                =================================================
+2026-07-12 00:05:20 - mkk_pika - database.py:101 - INFO - 保存成功：あめのちろり～メスガキに犯されまくるお話～
+2026-07-12 00:05:20 - mkk_pika - main.py:35 - INFO - 开始检查午睡の悪魔 是否存在未下载章节
+2026-07-12 00:05:20 - mkk_pika - main.py:45 - INFO - 正在下载:[午睡の悪魔 ]-[不可不可 (関谷あさみ)]-[['長篇']]-[total_pages:-1]
+2026-07-12 00:05:20 - mkk_pika - main.py:49 - INFO - [{'_id': '6a5282808888d1767c4f369e', 'title': '第1話', 'order': 1, 'updated_at': '2026-07-11T06:57:56.015Z', 'id': '6a5282808888d1767c4f369e'}]
+2026-07-12 00:05:20 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:21 - mkk_pika - main.py:83 - INFO - 找到 118 张图片在:第1話
+2026-07-12 00:05:25 - mkk_pika - main.py:112 - INFO - [episode:第1話       ] downloaded:   118, total: 118, progress:100%
+2026-07-12 00:05:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:25 - mkk_pika - database.py:245 - INFO - ['第1話']
+2026-07-12 00:05:26 - mkk_pika - main.py:292 - INFO - ==================== 漫画信息 ====================
+                                漫画ID：6a5282808888d1767c4f369d
+                                标题：午睡の悪魔 
+                                作者：不可不可 (関谷あさみ)
+                                是否完结：是
+                                总页数：118
+                                分类：長篇
+                                章节数：1
+                                最后更新时间：2026-07-11T17:50:56.721Z
+                                =================================================
+2026-07-12 00:05:26 - mkk_pika - database.py:101 - INFO - 保存成功：午睡の悪魔 
+2026-07-12 00:05:26 - mkk_pika - main.py:323 - INFO - 订阅内容内容下载完毕
+2026-07-12 00:05:26 - mkk_pika - main.py:324 - INFO - 开始分批下载全部章节
+2026-07-12 00:05:26 - mkk_pika - database.py:280 - INFO - 表和索引初始化成功
+2026-07-12 00:05:27 - mkk_pika - main.py:177 - INFO - 已经下载了1248页，一共7012页，现在开始添加第1249页
+2026-07-12 00:05:27 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-07-12 00:05:27 - mkk_pika - main.py:177 - INFO - 已经下载了1249页，一共7012页，现在开始添加第1250页
+2026-07-12 00:05:28 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-07-12 00:05:28 - mkk_pika - main.py:177 - INFO - 已经下载了1250页，一共7012页，现在开始添加第1251页
+2026-07-12 00:05:28 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-07-12 00:05:29 - mkk_pika - main.py:177 - INFO - 已经下载了1251页，一共7012页，现在开始添加第1252页
+2026-07-12 00:05:29 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-07-12 00:05:29 - mkk_pika - main.py:177 - INFO - 已经下载了1252页，一共7012页，现在开始添加第1253页
+2026-07-12 00:05:30 - mkk_pika - database.py:318 - INFO - 保存成功
+2026-07-12 00:05:30 - mkk_pika - main.py:331 - INFO - 分批下载共计52本漫画
+2026-07-12 00:05:30 - mkk_pika - main.py:35 - INFO - 开始检查C級カノジョの育てかた是否存在未下载章节
+2026-07-12 00:05:30 - mkk_pika - main.py:45 - INFO - 正在下载:[C級カノジョの育てかた]-[つかこ]-[['同人', '短篇']]-[total_pages:17]
+2026-07-12 00:05:30 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf2eda0bd40525bdc97dcf3', 'title': '小肥鹅', 'order': 1, 'updated_at': '2018-11-19T12:10:13.212Z', 'id': '5bf2eda0bd40525bdc97dcf3'}]
+2026-07-12 00:05:30 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:30 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:小肥鹅
+2026-07-12 00:05:31 - mkk_pika - main.py:112 - INFO - [episode:小肥鹅       ] downloaded:    17, total:  17, progress:100%
+2026-07-12 00:05:31 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:31 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:31 - mkk_pika - database.py:245 - INFO - ['小肥鹅']
+2026-07-12 00:05:32 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf2eda0bd40525bdc97dcf2
+                                   标题：C級カノジョの育てかた
+                                   作者：つかこ
+                                   是否完结：否
+                                   总页数：17
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2018-11-19T17:06:40.118Z
+                                   =================================================
+2026-07-12 00:05:32 - mkk_pika - database.py:101 - INFO - 保存成功：C級カノジョの育てかた
+2026-07-12 00:05:32 - mkk_pika - main.py:35 - INFO - 开始检查散仙落凡是否存在未下载章节
+2026-07-12 00:05:33 - mkk_pika - main.py:45 - INFO - 正在下载:[散仙落凡]-[凌美琪]-[['同人', '全彩', '短篇', '非人類', '強暴']]-[total_pages:12]
+2026-07-12 00:05:33 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf2ee1363d71e33c6f6d787', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-19T12:28:48.933Z', 'id': '5bf2ee1363d71e33c6f6d787'}]
+2026-07-12 00:05:33 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:33 - mkk_pika - main.py:83 - INFO - 找到 12 张图片在:第1集
+2026-07-12 00:05:33 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    12, total:  12, progress:100%
+2026-07-12 00:05:33 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:33 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:33 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:05:35 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf2ee1363d71e33c6f6d786
+                                   标题：散仙落凡
+                                   作者：凌美琪
+                                   是否完结：否
+                                   总页数：12
+                                   分类：同人,全彩,短篇,非人類,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-19T17:08:35.418Z
+                                   =================================================
+2026-07-12 00:05:35 - mkk_pika - database.py:101 - INFO - 保存成功：散仙落凡
+2026-07-12 00:05:35 - mkk_pika - main.py:35 - INFO - 开始检查凌辱魔仙3话是否存在未下载章节
+2026-07-12 00:05:35 - mkk_pika - main.py:45 - INFO - 正在下载:[凌辱魔仙3话]-[凌美琪]-[['同人', '全彩', '短篇']]-[total_pages:9]
+2026-07-12 00:05:35 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf2ee3dbd40525bdc97dd0a', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-19T12:45:12.483Z', 'id': '5bf2ee3dbd40525bdc97dd0a'}]
+2026-07-12 00:05:35 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:35 - mkk_pika - main.py:83 - INFO - 找到 9 张图片在:第1集
+2026-07-12 00:05:36 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:     9, total:   9, progress:100%
+2026-07-12 00:05:36 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:36 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:36 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:05:37 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf2ee3dbd40525bdc97dd09
+                                   标题：凌辱魔仙3话
+                                   作者：凌美琪
+                                   是否完结：否
+                                   总页数：9
+                                   分类：同人,全彩,短篇
+                                   章节数：1
+                                   最后更新时间：2018-11-19T17:09:17.140Z
+                                   =================================================
+2026-07-12 00:05:37 - mkk_pika - database.py:101 - INFO - 保存成功：凌辱魔仙3话
+2026-07-12 00:05:37 - mkk_pika - main.py:35 - INFO - 开始检查(サンクリ2018 Autumn) 可愛い後輩に悪戯してみる本 (Fate/Grand Order)是否存在未下载章节
+2026-07-12 00:05:37 - mkk_pika - main.py:45 - INFO - 正在下载:[(サンクリ2018 Autumn) 可愛い後輩に悪戯してみる本 (Fate/Grand Order)]-[ELHEART'S (息吹ポン)]-[['同人', '短篇', 'Fate']]-[total_pages:16]
+2026-07-12 00:05:37 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf2ee50f756905bf667d50d', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-19T14:14:49.519Z', 'id': '5bf2ee50f756905bf667d50d'}]
+2026-07-12 00:05:37 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:38 - mkk_pika - main.py:83 - INFO - 找到 16 张图片在:第1集
+2026-07-12 00:05:38 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    16, total:  16, progress:100%
+2026-07-12 00:05:38 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:38 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:38 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:05:40 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf2ee50f756905bf667d50c
+                                   标题：(サンクリ2018 Autumn) 可愛い後輩に悪戯してみる本 (Fate/Grand Order)
+                                   作者：ELHEART'S (息吹ポン)
+                                   是否完结：是
+                                   总页数：16
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2018-11-19T17:09:36.784Z
+                                   =================================================
+2026-07-12 00:05:40 - mkk_pika - database.py:101 - INFO - 保存成功：(サンクリ2018 Autumn) 可愛い後輩に悪戯してみる本 (Fate/Grand Order)
+2026-07-12 00:05:40 - mkk_pika - main.py:35 - INFO - 开始检查淫欲の棲家1是否存在未下载章节
+2026-07-12 00:05:40 - mkk_pika - main.py:45 - INFO - 正在下载:[淫欲の棲家1]-[YAKIYAMA LINE (カルーア鈴木)]-[['短篇', '人妻', 'NTR', '強暴']]-[total_pages:90]
+2026-07-12 00:05:40 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf38a2a09b8d45be245290e', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T02:59:56.395Z', 'id': '5bf38a2a09b8d45be245290e'}]
+2026-07-12 00:05:40 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:41 - mkk_pika - main.py:83 - INFO - 找到 90 张图片在:第1集
+2026-07-12 00:05:44 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    90, total:  90, progress:100%
+2026-07-12 00:05:44 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:44 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:44 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:05:45 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf38a2a09b8d45be245290d
+                                   标题：淫欲の棲家1
+                                   作者：YAKIYAMA LINE (カルーア鈴木)
+                                   是否完结：是
+                                   总页数：90
+                                   分类：短篇,人妻,NTR,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-20T04:14:34.612Z
+                                   =================================================
+2026-07-12 00:05:45 - mkk_pika - database.py:101 - INFO - 保存成功：淫欲の棲家1
+2026-07-12 00:05:45 - mkk_pika - main.py:35 - INFO - 开始检查人妻ヘルパーよしえさん是否存在未下载章节
+2026-07-12 00:05:45 - mkk_pika - main.py:45 - INFO - 正在下载:[人妻ヘルパーよしえさん]-[U羅漢]-[['短篇', '人妻']]-[total_pages:33]
+2026-07-12 00:05:45 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf38a38bd40525bdc97dec7', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T03:03:15.273Z', 'id': '5bf38a38bd40525bdc97dec7'}]
+2026-07-12 00:05:45 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:46 - mkk_pika - main.py:83 - INFO - 找到 33 张图片在:第1集
+2026-07-12 00:05:47 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    33, total:  33, progress:100%
+2026-07-12 00:05:47 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:47 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:47 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:05:48 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf38a38bd40525bdc97dec6
+                                   标题：人妻ヘルパーよしえさん
+                                   作者：U羅漢
+                                   是否完结：是
+                                   总页数：33
+                                   分类：短篇,人妻
+                                   章节数：1
+                                   最后更新时间：2018-11-20T04:14:48.376Z
+                                   =================================================
+2026-07-12 00:05:48 - mkk_pika - database.py:101 - INFO - 保存成功：人妻ヘルパーよしえさん
+2026-07-12 00:05:48 - mkk_pika - main.py:35 - INFO - 开始检查レンタル彼女 是否存在未下载章节
+2026-07-12 00:05:48 - mkk_pika - main.py:45 - INFO - 正在下载:[レンタル彼女 ]-[JACK-POT (じゅら)]-[['短篇', 'NTR']]-[total_pages:25]
+2026-07-12 00:05:48 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf38a47c813e933b261f1e1', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T03:07:03.695Z', 'id': '5bf38a47c813e933b261f1e1'}]
+2026-07-12 00:05:48 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:49 - mkk_pika - main.py:83 - INFO - 找到 25 张图片在:第1集
+2026-07-12 00:05:50 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    25, total:  25, progress:100%
+2026-07-12 00:05:50 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:50 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:50 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:05:51 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf38a47c813e933b261f1e0
+                                   标题：レンタル彼女 
+                                   作者：JACK-POT (じゅら)
+                                   是否完结：是
+                                   总页数：25
+                                   分类：短篇,NTR
+                                   章节数：1
+                                   最后更新时间：2018-11-20T04:15:03.308Z
+                                   =================================================
+2026-07-12 00:05:51 - mkk_pika - database.py:101 - INFO - 保存成功：レンタル彼女 
+2026-07-12 00:05:51 - mkk_pika - main.py:35 - INFO - 开始检查もてあましづま 難以滿足的人妻是否存在未下载章节
+2026-07-12 00:05:51 - mkk_pika - main.py:45 - INFO - 正在下载:[もてあましづま 難以滿足的人妻]-[たなかななたか]-[['長篇', '單行本', '純愛', '姐姐系', 'SM', '足の恋', '人妻', 'NTR']]-[total_pages:186]
+2026-07-12 00:05:51 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf3fc74a601d25bf0800b03', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-15T08:42:16.605Z', 'id': '5bf3fc74a601d25bf0800b03'}]
+2026-07-12 00:05:51 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:05:53 - mkk_pika - main.py:83 - INFO - 找到 186 张图片在:第1集
+2026-07-12 00:05:58 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   186, total: 186, progress:100%
+2026-07-12 00:05:58 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:05:58 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:05:58 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:05:59 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf3fc74a601d25bf0800b02
+                                   标题：もてあましづま 難以滿足的人妻
+                                   作者：たなかななたか
+                                   是否完结：是
+                                   总页数：186
+                                   分类：長篇,單行本,純愛,姐姐系,SM,足の恋,人妻,NTR
+                                   章节数：1
+                                   最后更新时间：2018-11-20T12:22:12.513Z
+                                   =================================================
+2026-07-12 00:05:59 - mkk_pika - database.py:101 - INFO - 保存成功：もてあましづま 難以滿足的人妻
+2026-07-12 00:05:59 - mkk_pika - main.py:35 - INFO - 开始检查 霞ヶ丘詩羽のりんり審査会(冴えない彼女の育てかた)是否存在未下载章节
+2026-07-12 00:05:59 - mkk_pika - main.py:45 - INFO - 正在下载:[ 霞ヶ丘詩羽のりんり審査会(冴えない彼女の育てかた)]-[G-SCAN CORP. (佐藤茶菓子)]-[['同人', '短篇']]-[total_pages:28]
+2026-07-12 00:05:59 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf41d3eae00b425078d3be2', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T05:09:37.248Z', 'id': '5bf41d3eae00b425078d3be2'}]
+2026-07-12 00:06:00 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:00 - mkk_pika - main.py:83 - INFO - 找到 28 张图片在:第1集
+2026-07-12 00:06:01 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    28, total:  28, progress:100%
+2026-07-12 00:06:01 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:01 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:01 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:02 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf41d3eae00b425078d3be1
+                                   标题： 霞ヶ丘詩羽のりんり審査会(冴えない彼女の育てかた)
+                                   作者：G-SCAN CORP. (佐藤茶菓子)
+                                   是否完结：是
+                                   总页数：28
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2018-11-20T14:42:06.259Z
+                                   =================================================
+2026-07-12 00:06:02 - mkk_pika - database.py:101 - INFO - 保存成功： 霞ヶ丘詩羽のりんり審査会(冴えない彼女の育てかた)
+2026-07-12 00:06:02 - mkk_pika - main.py:35 - INFO - 开始检查加藤恵のりんり審査会 (冴えない彼女の育てかた)是否存在未下载章节
+2026-07-12 00:06:02 - mkk_pika - main.py:45 - INFO - 正在下载:[加藤恵のりんり審査会 (冴えない彼女の育てかた)]-[G-SCAN CORP. (佐藤茶菓子)]-[['同人', '短篇', '純愛']]-[total_pages:28]
+2026-07-12 00:06:02 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf41d63ae00b425078d3c02', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T05:21:46.944Z', 'id': '5bf41d63ae00b425078d3c02'}]
+2026-07-12 00:06:02 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:03 - mkk_pika - main.py:83 - INFO - 找到 28 张图片在:第1集
+2026-07-12 00:06:04 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    28, total:  28, progress:100%
+2026-07-12 00:06:04 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:04 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:04 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:05 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf41d63ae00b425078d3c01
+                                   标题：加藤恵のりんり審査会 (冴えない彼女の育てかた)
+                                   作者：G-SCAN CORP. (佐藤茶菓子)
+                                   是否完结：是
+                                   总页数：28
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2018-11-20T14:42:43.790Z
+                                   =================================================
+2026-07-12 00:06:05 - mkk_pika - database.py:101 - INFO - 保存成功：加藤恵のりんり審査会 (冴えない彼女の育てかた)
+2026-07-12 00:06:05 - mkk_pika - main.py:35 - INFO - 开始检查 Fate/delusions of grandeur是否存在未下载章节
+2026-07-12 00:06:05 - mkk_pika - main.py:45 - INFO - 正在下载:[ Fate/delusions of grandeur]-[爆裂風船 (でん吉)]-[['同人', '短篇', 'Fate']]-[total_pages:32]
+2026-07-12 00:06:05 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf41d81ae00b425078d3c20', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T06:04:33.182Z', 'id': '5bf41d81ae00b425078d3c20'}]
+2026-07-12 00:06:05 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:06 - mkk_pika - main.py:83 - INFO - 找到 32 张图片在:第1集
+2026-07-12 00:06:07 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    32, total:  32, progress:100%
+2026-07-12 00:06:07 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:07 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:07 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:08 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf41d81ae00b425078d3c1f
+                                   标题： Fate/delusions of grandeur
+                                   作者：爆裂風船 (でん吉)
+                                   是否完结：是
+                                   总页数：32
+                                   分类：同人,短篇,Fate
+                                   章节数：1
+                                   最后更新时间：2018-11-20T14:43:13.376Z
+                                   =================================================
+2026-07-12 00:06:08 - mkk_pika - database.py:101 - INFO - 保存成功： Fate/delusions of grandeur
+2026-07-12 00:06:08 - mkk_pika - main.py:35 - INFO - 开始检查催眠寝盗られ人妻さん… 是否存在未下载章节
+2026-07-12 00:06:09 - mkk_pika - main.py:45 - INFO - 正在下载:[催眠寝盗られ人妻さん… ]-[ハセミボックス (長谷見亮)]-[['短篇', '人妻', 'NTR']]-[total_pages:30]
+2026-07-12 00:06:09 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf41d8dbd40525bdc97e1cc', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T07:23:14.574Z', 'id': '5bf41d8dbd40525bdc97e1cc'}]
+2026-07-12 00:06:09 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:09 - mkk_pika - main.py:83 - INFO - 找到 30 张图片在:第1集
+2026-07-12 00:06:10 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    30, total:  30, progress:100%
+2026-07-12 00:06:10 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:10 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:10 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:11 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf41d8dbd40525bdc97e1cb
+                                   标题：催眠寝盗られ人妻さん… 
+                                   作者：ハセミボックス (長谷見亮)
+                                   是否完结：是
+                                   总页数：30
+                                   分类：短篇,人妻,NTR
+                                   章节数：1
+                                   最后更新时间：2018-11-20T14:43:25.420Z
+                                   =================================================
+2026-07-12 00:06:11 - mkk_pika - database.py:101 - INFO - 保存成功：催眠寝盗られ人妻さん… 
+2026-07-12 00:06:11 - mkk_pika - main.py:35 - INFO - 开始检查D.L. action 121是否存在未下载章节
+2026-07-12 00:06:11 - mkk_pika - main.py:45 - INFO - 正在下载:[D.L. action 121]-[なかじまゆか]-[['短篇', '同人', '後宮閃光']]-[total_pages:27]
+2026-07-12 00:06:11 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf41dbaa601d25bf0800d47', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T10:58:30.398Z', 'id': '5bf41dbaa601d25bf0800d47'}]
+2026-07-12 00:06:11 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:12 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-07-12 00:06:13 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-07-12 00:06:13 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:13 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:13 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:14 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf41dbaa601d25bf0800d46
+                                   标题：D.L. action 121
+                                   作者：なかじまゆか
+                                   是否完结：否
+                                   总页数：27
+                                   分类：短篇,同人,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2018-11-20T14:44:10.531Z
+                                   =================================================
+2026-07-12 00:06:14 - mkk_pika - database.py:101 - INFO - 保存成功：D.L. action 121
+2026-07-12 00:06:14 - mkk_pika - main.py:35 - INFO - 开始检查妄想本 (New Super Mario Bros. U Deluxe)是否存在未下载章节
+2026-07-12 00:06:14 - mkk_pika - main.py:45 - INFO - 正在下载:[妄想本 (New Super Mario Bros. U Deluxe)]-[Karin]-[['同人', '短篇', '非人類']]-[total_pages:10]
+2026-07-12 00:06:14 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf4c68289739433ac192be5', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T17:41:32.273Z', 'id': '5bf4c68289739433ac192be5'}]
+2026-07-12 00:06:14 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:15 - mkk_pika - main.py:83 - INFO - 找到 10 张图片在:第1集
+2026-07-12 00:06:15 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    10, total:  10, progress:100%
+2026-07-12 00:06:15 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:15 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:15 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:16 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf4c68289739433ac192be4
+                                   标题：妄想本 (New Super Mario Bros. U Deluxe)
+                                   作者：Karin
+                                   是否完结：是
+                                   总页数：10
+                                   分类：同人,短篇,非人類
+                                   章节数：1
+                                   最后更新时间：2018-11-21T02:44:18.032Z
+                                   =================================================
+2026-07-12 00:06:16 - mkk_pika - database.py:101 - INFO - 保存成功：妄想本 (New Super Mario Bros. U Deluxe)
+2026-07-12 00:06:16 - mkk_pika - main.py:35 - INFO - 开始检查彼女の秘密 是否存在未下载章节
+2026-07-12 00:06:17 - mkk_pika - main.py:45 - INFO - 正在下载:[彼女の秘密 ]-[幾花にいろ]-[['長篇', 'NTR']]-[total_pages:64]
+2026-07-12 00:06:17 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf4c68bf756905bf667dc6a', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T17:47:53.068Z', 'id': '5bf4c68bf756905bf667dc6a'}, {'_id': '5bf4c68bf756905bf667dc6b', 'title': '第2集', 'order': 2, 'updated_at': '2018-11-20T17:48:38.073Z', 'id': '5bf4c68bf756905bf667dc6b'}, {'_id': '5bf4c68bf756905bf667dc6c', 'title': '第3集', 'order': 3, 'updated_at': '2018-11-20T17:49:48.017Z', 'id': '5bf4c68bf756905bf667dc6c'}]
+2026-07-12 00:06:17 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:17 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第1集
+2026-07-12 00:06:18 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    21, total:  21, progress:100%
+2026-07-12 00:06:18 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:18 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:18 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:19 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第2集
+2026-07-12 00:06:20 - mkk_pika - main.py:112 - INFO - [episode:第2集       ] downloaded:    21, total:  21, progress:100%
+2026-07-12 00:06:20 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:20 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:20 - mkk_pika - database.py:245 - INFO - ['第1集', '第2集']
+2026-07-12 00:06:22 - mkk_pika - main.py:83 - INFO - 找到 22 张图片在:第3集
+2026-07-12 00:06:23 - mkk_pika - main.py:112 - INFO - [episode:第3集       ] downloaded:    22, total:  22, progress:100%
+2026-07-12 00:06:23 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:23 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:23 - mkk_pika - database.py:245 - INFO - ['第1集', '第2集', '第3集']
+2026-07-12 00:06:24 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf4c68bf756905bf667dc69
+                                   标题：彼女の秘密 
+                                   作者：幾花にいろ
+                                   是否完结：否
+                                   总页数：64
+                                   分类：長篇,NTR
+                                   章节数：3
+                                   最后更新时间：2018-11-21T02:44:27.233Z
+                                   =================================================
+2026-07-12 00:06:24 - mkk_pika - database.py:101 - INFO - 保存成功：彼女の秘密 
+2026-07-12 00:06:24 - mkk_pika - main.py:35 - INFO - 开始检查AZUS@TTACK (けいおん！) 梓喵買醬油是否存在未下载章节
+2026-07-12 00:06:24 - mkk_pika - main.py:45 - INFO - 正在下载:[AZUS@TTACK (けいおん！) 梓喵買醬油]-[綿120パーセント (めんようじゃん)]-[['同人', '全彩', '長篇']]-[total_pages:51]
+2026-07-12 00:06:24 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf4c694c813e933b261f484', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T18:06:08.981Z', 'id': '5bf4c694c813e933b261f484'}, {'_id': '5bf4c694c813e933b261f485', 'title': '第2集', 'order': 2, 'updated_at': '2018-11-20T18:07:24.172Z', 'id': '5bf4c694c813e933b261f485'}, {'_id': '5bf4c694c813e933b261f486', 'title': '第3集', 'order': 3, 'updated_at': '2018-11-20T18:10:27.125Z', 'id': '5bf4c694c813e933b261f486'}]
+2026-07-12 00:06:24 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:25 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:第1集
+2026-07-12 00:06:25 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    17, total:  17, progress:100%
+2026-07-12 00:06:25 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:25 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:25 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:26 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:第2集
+2026-07-12 00:06:27 - mkk_pika - main.py:112 - INFO - [episode:第2集       ] downloaded:    17, total:  17, progress:100%
+2026-07-12 00:06:27 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:27 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:27 - mkk_pika - database.py:245 - INFO - ['第1集', '第2集']
+2026-07-12 00:06:28 - mkk_pika - main.py:83 - INFO - 找到 17 张图片在:第3集
+2026-07-12 00:06:29 - mkk_pika - main.py:112 - INFO - [episode:第3集       ] downloaded:    17, total:  17, progress:100%
+2026-07-12 00:06:29 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:29 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:29 - mkk_pika - database.py:245 - INFO - ['第1集', '第2集', '第3集']
+2026-07-12 00:06:30 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：582188855f6b9a4f93de2245
+                                   标题：AZUS@TTACK (けいおん！) 梓喵買醬油
+                                   作者：綿120パーセント (めんようじゃん)
+                                   是否完结：否
+                                   总页数：51
+                                   分类：同人,全彩,長篇
+                                   章节数：3
+                                   最后更新时间：2018-11-21T02:44:36.450Z
+                                   =================================================
+2026-07-12 00:06:30 - mkk_pika - database.py:101 - INFO - 保存成功：AZUS@TTACK (けいおん！) 梓喵買醬油
+2026-07-12 00:06:30 - mkk_pika - main.py:35 - INFO - 开始检查妹のおてつだい9是否存在未下载章节
+2026-07-12 00:06:30 - mkk_pika - main.py:45 - INFO - 正在下载:[妹のおてつだい9]-[高苗床 (高苗京鈴)]-[['短篇', '純愛', '妹妹系']]-[total_pages:23]
+2026-07-12 00:06:30 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf4c6a689739433ac192bf2', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-20T18:19:05.701Z', 'id': '5bf4c6a689739433ac192bf2'}]
+2026-07-12 00:06:30 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:31 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-07-12 00:06:32 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-07-12 00:06:32 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:32 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:32 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:33 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf4c6a689739433ac192bf1
+                                   标题：妹のおてつだい9
+                                   作者：高苗床 (高苗京鈴)
+                                   是否完结：否
+                                   总页数：23
+                                   分类：短篇,純愛,妹妹系
+                                   章节数：1
+                                   最后更新时间：2018-11-21T02:44:54.261Z
+                                   =================================================
+2026-07-12 00:06:33 - mkk_pika - database.py:101 - INFO - 保存成功：妹のおてつだい9
+2026-07-12 00:06:33 - mkk_pika - main.py:35 - INFO - 开始检查発情！少女エクスタシー 發情！少女 失神絕頂高潮是否存在未下载章节
+2026-07-12 00:06:33 - mkk_pika - main.py:45 - INFO - 正在下载:[発情！少女エクスタシー 發情！少女 失神絕頂高潮]-[蒼津ウミヒト]-[['長篇', '單行本', 'SM', '非人類', '強暴']]-[total_pages:202]
+2026-07-12 00:06:33 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf55473daba042c4a8de2a1', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-15T09:06:40.714Z', 'id': '5bf55473daba042c4a8de2a1'}]
+2026-07-12 00:06:33 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:35 - mkk_pika - main.py:83 - INFO - 找到 202 张图片在:第1集
+2026-07-12 00:06:41 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:   202, total: 202, progress:100%
+2026-07-12 00:06:41 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:41 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:41 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:43 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf55473daba042c4a8de2a0
+                                   标题：発情！少女エクスタシー 發情！少女 失神絕頂高潮
+                                   作者：蒼津ウミヒト
+                                   是否完结：是
+                                   总页数：202
+                                   分类：長篇,單行本,SM,非人類,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-21T12:49:55.247Z
+                                   =================================================
+2026-07-12 00:06:43 - mkk_pika - database.py:101 - INFO - 保存成功：発情！少女エクスタシー 發情！少女 失神絕頂高潮
+2026-07-12 00:06:43 - mkk_pika - main.py:35 - INFO - 开始检查秘密の百合エステ フレンドコース是否存在未下载章节
+2026-07-12 00:06:43 - mkk_pika - main.py:45 - INFO - 正在下载:[秘密の百合エステ フレンドコース]-[peachpulsar (みら)]-[['短篇', '百合花園']]-[total_pages:42]
+2026-07-12 00:06:43 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56e0adaba042c4a8de3ea', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T13:34:38.718Z', 'id': '5bf56e0adaba042c4a8de3ea'}]
+2026-07-12 00:06:43 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:44 - mkk_pika - main.py:83 - INFO - 找到 42 张图片在:第1集
+2026-07-12 00:06:45 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    42, total:  42, progress:100%
+2026-07-12 00:06:45 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:45 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:45 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:47 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56e0adaba042c4a8de3e9
+                                   标题：秘密の百合エステ フレンドコース
+                                   作者：peachpulsar (みら)
+                                   是否完结：否
+                                   总页数：42
+                                   分类：短篇,百合花園
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:39:06.481Z
+                                   =================================================
+2026-07-12 00:06:47 - mkk_pika - database.py:101 - INFO - 保存成功：秘密の百合エステ フレンドコース
+2026-07-12 00:06:47 - mkk_pika - main.py:35 - INFO - 开始检查 押しに弱い高雄 是否存在未下载章节
+2026-07-12 00:06:47 - mkk_pika - main.py:45 - INFO - 正在下载:[ 押しに弱い高雄 ]-[てんらけ茶屋 (あーる。)]-[['同人', '短篇', '姐姐系']]-[total_pages:24]
+2026-07-12 00:06:47 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56e1d09b8d45be2453218', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T12:05:29.623Z', 'id': '5bf56e1d09b8d45be2453218'}]
+2026-07-12 00:06:47 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:47 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:第1集
+2026-07-12 00:06:48 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    24, total:  24, progress:100%
+2026-07-12 00:06:48 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:48 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:48 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:49 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56e1d09b8d45be2453217
+                                   标题： 押しに弱い高雄 
+                                   作者：てんらけ茶屋 (あーる。)
+                                   是否完结：否
+                                   总页数：24
+                                   分类：同人,短篇,姐姐系
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:39:25.657Z
+                                   =================================================
+2026-07-12 00:06:49 - mkk_pika - database.py:101 - INFO - 保存成功： 押しに弱い高雄 
+2026-07-12 00:06:49 - mkk_pika - main.py:35 - INFO - 开始检查 夕立捕O計畫!是否存在未下载章节
+2026-07-12 00:06:50 - mkk_pika - main.py:45 - INFO - 正在下载:[ 夕立捕O計畫!]-[猫崎葵]-[['同人', '短篇', '強暴']]-[total_pages:22]
+2026-07-12 00:06:50 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56e2bbd40525bdc97e769', 'title': '6-4', 'order': 1, 'updated_at': '2018-11-21T11:38:00.939Z', 'id': '5bf56e2bbd40525bdc97e769'}]
+2026-07-12 00:06:50 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:50 - mkk_pika - main.py:83 - INFO - 找到 22 张图片在:6－4
+2026-07-12 00:06:51 - mkk_pika - main.py:112 - INFO - [episode:6-4       ] downloaded:    22, total:  22, progress:100%
+2026-07-12 00:06:51 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:51 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:51 - mkk_pika - database.py:245 - INFO - ['6-4']
+2026-07-12 00:06:52 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56e2bbd40525bdc97e768
+                                   标题： 夕立捕O計畫!
+                                   作者：猫崎葵
+                                   是否完结：否
+                                   总页数：22
+                                   分类：同人,短篇,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:39:39.346Z
+                                   =================================================
+2026-07-12 00:06:52 - mkk_pika - database.py:101 - INFO - 保存成功： 夕立捕O計畫!
+2026-07-12 00:06:52 - mkk_pika - main.py:35 - INFO - 开始检查アカネが絶頂く！是否存在未下载章节
+2026-07-12 00:06:52 - mkk_pika - main.py:45 - INFO - 正在下载:[アカネが絶頂く！]-[TANABE]-[['短篇', '純愛']]-[total_pages:18]
+2026-07-12 00:06:52 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56e6cdaba042c4a8de419', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T04:29:05.184Z', 'id': '5bf56e6cdaba042c4a8de419'}]
+2026-07-12 00:06:52 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:53 - mkk_pika - main.py:83 - INFO - 找到 18 张图片在:第1集
+2026-07-12 00:06:54 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    18, total:  18, progress:100%
+2026-07-12 00:06:54 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:54 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:54 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:55 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56e6cdaba042c4a8de418
+                                   标题：アカネが絶頂く！
+                                   作者：TANABE
+                                   是否完结：是
+                                   总页数：18
+                                   分类：短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:40:44.138Z
+                                   =================================================
+2026-07-12 00:06:55 - mkk_pika - database.py:101 - INFO - 保存成功：アカネが絶頂く！
+2026-07-12 00:06:55 - mkk_pika - main.py:35 - INFO - 开始检查麻衣さんえっちしませんか是否存在未下载章节
+2026-07-12 00:06:55 - mkk_pika - main.py:45 - INFO - 正在下载:[麻衣さんえっちしませんか]-[Imitation Moon (成海優)]-[['短篇', '同人']]-[total_pages:23]
+2026-07-12 00:06:55 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56e8609b8d45be2453235', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T06:30:33.007Z', 'id': '5bf56e8609b8d45be2453235'}]
+2026-07-12 00:06:55 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:55 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-07-12 00:06:56 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-07-12 00:06:56 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:56 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:56 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:06:58 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56e8609b8d45be2453234
+                                   标题：麻衣さんえっちしませんか
+                                   作者：Imitation Moon (成海優)
+                                   是否完结：是
+                                   总页数：23
+                                   分类：短篇,同人
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:41:10.128Z
+                                   =================================================
+2026-07-12 00:06:58 - mkk_pika - database.py:101 - INFO - 保存成功：麻衣さんえっちしませんか
+2026-07-12 00:06:58 - mkk_pika - main.py:35 - INFO - 开始检查D4C Dirty deeds done dirt cheap是否存在未下载章节
+2026-07-12 00:06:58 - mkk_pika - main.py:45 - INFO - 正在下载:[D4C Dirty deeds done dirt cheap]-[皇DESIGNS (皇征介)]-[['東方', '同人', '強暴']]-[total_pages:31]
+2026-07-12 00:06:58 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56ea7f756905bf667e03b', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T09:22:28.294Z', 'id': '5bf56ea7f756905bf667e03b'}]
+2026-07-12 00:06:58 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:06:58 - mkk_pika - main.py:83 - INFO - 找到 31 张图片在:第1集
+2026-07-12 00:06:59 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    31, total:  31, progress:100%
+2026-07-12 00:06:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:06:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:06:59 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:01 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56ea7f756905bf667e03a
+                                   标题：D4C Dirty deeds done dirt cheap
+                                   作者：皇DESIGNS (皇征介)
+                                   是否完结：否
+                                   总页数：31
+                                   分类：東方,同人,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:41:43.507Z
+                                   =================================================
+2026-07-12 00:07:01 - mkk_pika - database.py:101 - INFO - 保存成功：D4C Dirty deeds done dirt cheap
+2026-07-12 00:07:01 - mkk_pika - main.py:35 - INFO - 开始检查S&W～そふと・あんど・うぇっと～是否存在未下载章节
+2026-07-12 00:07:01 - mkk_pika - main.py:45 - INFO - 正在下载:[S&W～そふと・あんど・うぇっと～]-[TANABE]-[['短篇']]-[total_pages:21]
+2026-07-12 00:07:01 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56ebca601d25bf0801337', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T04:45:38.721Z', 'id': '5bf56ebca601d25bf0801337'}]
+2026-07-12 00:07:01 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:01 - mkk_pika - main.py:83 - INFO - 找到 21 张图片在:第1集
+2026-07-12 00:07:02 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    21, total:  21, progress:100%
+2026-07-12 00:07:02 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:02 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:02 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:03 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56ebca601d25bf0801336
+                                   标题：S&W～そふと・あんど・うぇっと～
+                                   作者：TANABE
+                                   是否完结：是
+                                   总页数：21
+                                   分类：短篇
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:42:03.999Z
+                                   =================================================
+2026-07-12 00:07:03 - mkk_pika - database.py:101 - INFO - 保存成功：S&W～そふと・あんど・うぇっと～
+2026-07-12 00:07:03 - mkk_pika - main.py:35 - INFO - 开始检查この素晴らしい女神さまと素晴らしい日々を!是否存在未下载章节
+2026-07-12 00:07:04 - mkk_pika - main.py:45 - INFO - 正在下载:[この素晴らしい女神さまと素晴らしい日々を!]-[ハイテクペンケース (Tam-U)]-[['同人', '短篇', 'SM', '強暴']]-[total_pages:71]
+2026-07-12 00:07:04 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56ecbdaba042c4a8de42f', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T05:34:25.810Z', 'id': '5bf56ecbdaba042c4a8de42f'}]
+2026-07-12 00:07:04 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:04 - mkk_pika - main.py:83 - INFO - 找到 71 张图片在:第1集
+2026-07-12 00:07:07 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    71, total:  71, progress:100%
+2026-07-12 00:07:07 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:07 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:07 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:08 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56ecbdaba042c4a8de42e
+                                   标题：この素晴らしい女神さまと素晴らしい日々を!
+                                   作者：ハイテクペンケース (Tam-U)
+                                   是否完结：是
+                                   总页数：71
+                                   分类：同人,短篇,SM,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:42:19.909Z
+                                   =================================================
+2026-07-12 00:07:08 - mkk_pika - database.py:101 - INFO - 保存成功：この素晴らしい女神さまと素晴らしい日々を!
+2026-07-12 00:07:08 - mkk_pika - main.py:35 - INFO - 开始检查(COMIC1☆11)  これ以上は許して...是否存在未下载章节
+2026-07-12 00:07:08 - mkk_pika - main.py:45 - INFO - 正在下载:[(COMIC1☆11)  これ以上は許して...]-[みっくすふらい (たくろう)]-[['短篇', '強暴']]-[total_pages:23]
+2026-07-12 00:07:08 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf56eee63d71e33c6f6def3', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T06:57:58.566Z', 'id': '5bf56eee63d71e33c6f6def3'}]
+2026-07-12 00:07:08 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:09 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-07-12 00:07:09 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-07-12 00:07:09 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:09 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:09 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:11 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf56eee63d71e33c6f6def2
+                                   标题：(COMIC1☆11)  これ以上は許して...
+                                   作者：みっくすふらい (たくろう)
+                                   是否完结：是
+                                   总页数：23
+                                   分类：短篇,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-21T14:42:54.074Z
+                                   =================================================
+2026-07-12 00:07:11 - mkk_pika - database.py:101 - INFO - 保存成功：(COMIC1☆11)  これ以上は許して...
+2026-07-12 00:07:11 - mkk_pika - main.py:35 - INFO - 开始检查智絵里ちゃんに憑依してHする本是否存在未下载章节
+2026-07-12 00:07:11 - mkk_pika - main.py:45 - INFO - 正在下载:[智絵里ちゃんに憑依してHする本]-[竹とんぼ (菜葉)]-[['短篇', '性轉換']]-[total_pages:22]
+2026-07-12 00:07:11 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf64841150a0924fb469e8d', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-21T19:19:49.356Z', 'id': '5bf64841150a0924fb469e8d'}]
+2026-07-12 00:07:11 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:11 - mkk_pika - main.py:83 - INFO - 找到 22 张图片在:第1集
+2026-07-12 00:07:12 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    22, total:  22, progress:100%
+2026-07-12 00:07:12 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:12 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:12 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:13 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf64841150a0924fb469e8c
+                                   标题：智絵里ちゃんに憑依してHする本
+                                   作者：竹とんぼ (菜葉)
+                                   是否完结：是
+                                   总页数：22
+                                   分类：短篇,性轉換
+                                   章节数：1
+                                   最后更新时间：2018-11-22T06:10:09.348Z
+                                   =================================================
+2026-07-12 00:07:13 - mkk_pika - database.py:101 - INFO - 保存成功：智絵里ちゃんに憑依してHする本
+2026-07-12 00:07:13 - mkk_pika - main.py:35 - INFO - 开始检查(C90) skmzx4是否存在未下载章节
+2026-07-12 00:07:14 - mkk_pika - main.py:45 - INFO - 正在下载:[(C90) skmzx4]-[milkberry (如月みゆ)]-[['短篇', '全彩', '強暴']]-[total_pages:26]
+2026-07-12 00:07:14 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf6485b09b8d45be245352f', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-22T02:45:06.446Z', 'id': '5bf6485b09b8d45be245352f'}]
+2026-07-12 00:07:14 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:15 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-07-12 00:07:16 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-07-12 00:07:16 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:16 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:16 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:17 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf6485b09b8d45be245352e
+                                   标题：(C90) skmzx4
+                                   作者：milkberry (如月みゆ)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：短篇,全彩,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-22T06:10:35.153Z
+                                   =================================================
+2026-07-12 00:07:17 - mkk_pika - database.py:101 - INFO - 保存成功：(C90) skmzx4
+2026-07-12 00:07:17 - mkk_pika - main.py:35 - INFO - 开始检查彼とわたしと店長の深夜勤務 是否存在未下载章节
+2026-07-12 00:07:17 - mkk_pika - main.py:45 - INFO - 正在下载:[彼とわたしと店長の深夜勤務 ]-[サイクロン (和泉、冷泉)]-[['全彩', '短篇', 'NTR', '強暴']]-[total_pages:47]
+2026-07-12 00:07:17 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf6487509b8d45be245354b', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-22T02:50:14.443Z', 'id': '5bf6487509b8d45be245354b'}]
+2026-07-12 00:07:17 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:18 - mkk_pika - main.py:83 - INFO - 找到 47 张图片在:第1集
+2026-07-12 00:07:20 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    47, total:  47, progress:100%
+2026-07-12 00:07:20 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:20 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:20 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:21 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf6487509b8d45be245354a
+                                   标题：彼とわたしと店長の深夜勤務 
+                                   作者：サイクロン (和泉、冷泉)
+                                   是否完结：是
+                                   总页数：47
+                                   分类：全彩,短篇,NTR,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-22T06:11:01.326Z
+                                   =================================================
+2026-07-12 00:07:21 - mkk_pika - database.py:101 - INFO - 保存成功：彼とわたしと店長の深夜勤務 
+2026-07-12 00:07:21 - mkk_pika - main.py:35 - INFO - 开始检查 (C94) はつじょう沖田ちゃんとやきもち沖田さん是否存在未下载章节
+2026-07-12 00:07:21 - mkk_pika - main.py:45 - INFO - 正在下载:[ (C94) はつじょう沖田ちゃんとやきもち沖田さん]-[ヤモセブン (あゆま紗由)]-[['嗶咔漢化', '同人', '短篇', '純愛', '後宮閃光', 'Fate']]-[total_pages:26]
+2026-07-12 00:07:21 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf6c5e1150a0924fb469ffc', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-22T10:36:05.563Z', 'id': '5bf6c5e1150a0924fb469ffc'}]
+2026-07-12 00:07:21 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:22 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-07-12 00:07:23 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-07-12 00:07:23 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:23 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:23 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:24 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf6c5e1150a0924fb469ffb
+                                   标题： (C94) はつじょう沖田ちゃんとやきもち沖田さん
+                                   作者：ヤモセブン (あゆま紗由)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：嗶咔漢化,同人,短篇,純愛,後宮閃光,Fate
+                                   章节数：1
+                                   最后更新时间：2018-11-22T15:06:09.100Z
+                                   =================================================
+2026-07-12 00:07:24 - mkk_pika - database.py:101 - INFO - 保存成功： (C94) はつじょう沖田ちゃんとやきもち沖田さん
+2026-07-12 00:07:24 - mkk_pika - main.py:35 - INFO - 开始检查 催眠人妻OLさん…是否存在未下载章节
+2026-07-12 00:07:24 - mkk_pika - main.py:45 - INFO - 正在下载:[ 催眠人妻OLさん…]-[ハセミボックス (長谷見亮)]-[['短篇', '人妻', 'NTR']]-[total_pages:39]
+2026-07-12 00:07:24 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf6c79989739433ac19331f', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-22T12:22:23.120Z', 'id': '5bf6c79989739433ac19331f'}]
+2026-07-12 00:07:24 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:25 - mkk_pika - main.py:83 - INFO - 找到 39 张图片在:第1集
+2026-07-12 00:07:26 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    39, total:  39, progress:100%
+2026-07-12 00:07:26 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:26 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:26 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:27 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf6c79989739433ac19331e
+                                   标题： 催眠人妻OLさん…
+                                   作者：ハセミボックス (長谷見亮)
+                                   是否完结：是
+                                   总页数：39
+                                   分类：短篇,人妻,NTR
+                                   章节数：1
+                                   最后更新时间：2018-11-22T15:13:29.927Z
+                                   =================================================
+2026-07-12 00:07:27 - mkk_pika - database.py:101 - INFO - 保存成功： 催眠人妻OLさん…
+2026-07-12 00:07:27 - mkk_pika - main.py:35 - INFO - 开始检查綾波配信中是否存在未下载章节
+2026-07-12 00:07:27 - mkk_pika - main.py:45 - INFO - 正在下载:[綾波配信中]-[八分咲 (豊咲)]-[['同人', '短篇']]-[total_pages:22]
+2026-07-12 00:07:27 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf6c7a989739433ac193348', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-22T12:46:50.785Z', 'id': '5bf6c7a989739433ac193348'}]
+2026-07-12 00:07:27 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:28 - mkk_pika - main.py:83 - INFO - 找到 22 张图片在:第1集
+2026-07-12 00:07:28 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    22, total:  22, progress:100%
+2026-07-12 00:07:28 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:28 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:28 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:30 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf6c7a989739433ac193347
+                                   标题：綾波配信中
+                                   作者：八分咲 (豊咲)
+                                   是否完结：否
+                                   总页数：22
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2018-11-22T15:13:45.188Z
+                                   =================================================
+2026-07-12 00:07:30 - mkk_pika - database.py:101 - INFO - 保存成功：綾波配信中
+2026-07-12 00:07:30 - mkk_pika - main.py:35 - INFO - 开始检查恋色模様21 ふたりのベルファスト是否存在未下载章节
+2026-07-12 00:07:30 - mkk_pika - main.py:45 - INFO - 正在下载:[恋色模様21 ふたりのベルファスト]-[紫陽花風味亭 (舞猫ルル)]-[['同人', '短篇', '後宮閃光']]-[total_pages:49]
+2026-07-12 00:07:30 - mkk_pika - main.py:49 - INFO - [{'_id': '5b8cc9914ed86540b0b27c6a', 'title': '生肉', 'order': 1, 'updated_at': '2018-11-22T15:17:04.371Z', 'id': '5b8cc9914ed86540b0b27c6a'}, {'_id': '5bf6c87089739433ac193396', 'title': '熟肉', 'order': 2, 'updated_at': '2018-11-22T13:01:39.684Z', 'id': '5bf6c87089739433ac193396'}]
+2026-07-12 00:07:30 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:30 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:生肉
+2026-07-12 00:07:31 - mkk_pika - main.py:112 - INFO - [episode:生肉        ] downloaded:    23, total:  23, progress:100%
+2026-07-12 00:07:31 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:31 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:31 - mkk_pika - database.py:245 - INFO - ['生肉']
+2026-07-12 00:07:33 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:熟肉
+2026-07-12 00:07:34 - mkk_pika - main.py:112 - INFO - [episode:熟肉        ] downloaded:    26, total:  26, progress:100%
+2026-07-12 00:07:34 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:34 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:34 - mkk_pika - database.py:245 - INFO - ['生肉', '熟肉']
+2026-07-12 00:07:35 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5b8cc9914ed86540b0b27c69
+                                   标题：恋色模様21 ふたりのベルファスト
+                                   作者：紫陽花風味亭 (舞猫ルル)
+                                   是否完结：否
+                                   总页数：49
+                                   分类：同人,短篇,後宮閃光
+                                   章节数：2
+                                   最后更新时间：2018-11-22T15:17:04.358Z
+                                   =================================================
+2026-07-12 00:07:35 - mkk_pika - database.py:101 - INFO - 保存成功：恋色模様21 ふたりのベルファスト
+2026-07-12 00:07:35 - mkk_pika - main.py:35 - INFO - 开始检查恋する島風ちゃんとヘンタイ提督 (艦隊これくしょん )是否存在未下载章节
+2026-07-12 00:07:35 - mkk_pika - main.py:45 - INFO - 正在下载:[恋する島風ちゃんとヘンタイ提督 (艦隊これくしょん )]-[餅屋 (かろちー)]-[['短篇', '同人', '艦隊收藏']]-[total_pages:24]
+2026-07-12 00:07:35 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf6c882e8618624f553ad7d', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-22T14:18:47.809Z', 'id': '5bf6c882e8618624f553ad7d'}]
+2026-07-12 00:07:35 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:36 - mkk_pika - main.py:83 - INFO - 找到 24 张图片在:第1集
+2026-07-12 00:07:36 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    24, total:  24, progress:100%
+2026-07-12 00:07:36 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:36 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:36 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:38 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf6c882e8618624f553ad7c
+                                   标题：恋する島風ちゃんとヘンタイ提督 (艦隊これくしょん )
+                                   作者：餅屋 (かろちー)
+                                   是否完结：是
+                                   总页数：24
+                                   分类：短篇,同人,艦隊收藏
+                                   章节数：1
+                                   最后更新时间：2018-11-22T15:17:22.385Z
+                                   =================================================
+2026-07-12 00:07:38 - mkk_pika - database.py:101 - INFO - 保存成功：恋する島風ちゃんとヘンタイ提督 (艦隊これくしょん )
+2026-07-12 00:07:38 - mkk_pika - main.py:35 - INFO - 开始检查阿良々木ダークネス是否存在未下载章节
+2026-07-12 00:07:38 - mkk_pika - main.py:45 - INFO - 正在下载:[阿良々木ダークネス]-[Marked-two]-[['短篇', '妹妹系']]-[total_pages:25]
+2026-07-12 00:07:38 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf6c895bd40525bdc97ee1b', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-22T14:23:10.850Z', 'id': '5bf6c895bd40525bdc97ee1b'}]
+2026-07-12 00:07:38 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:38 - mkk_pika - main.py:83 - INFO - 找到 25 张图片在:第1集
+2026-07-12 00:07:39 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    25, total:  25, progress:100%
+2026-07-12 00:07:39 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:39 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:39 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:41 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf6c895bd40525bdc97ee1a
+                                   标题：阿良々木ダークネス
+                                   作者：Marked-two
+                                   是否完结：是
+                                   总页数：25
+                                   分类：短篇,妹妹系
+                                   章节数：1
+                                   最后更新时间：2018-11-22T15:17:41.457Z
+                                   =================================================
+2026-07-12 00:07:41 - mkk_pika - database.py:101 - INFO - 保存成功：阿良々木ダークネス
+2026-07-12 00:07:41 - mkk_pika - main.py:35 - INFO - 开始检查ヒナギクヴァージンロストクラブへようこそ♡ 小雛菊的處女貞操喪失俱樂部歡迎你來是否存在未下载章节
+2026-07-12 00:07:41 - mkk_pika - main.py:45 - INFO - 正在下载:[ヒナギクヴァージンロストクラブへようこそ♡ 小雛菊的處女貞操喪失俱樂部歡迎你來]-[赤月みゅうと]-[['長篇', '單行本', '純愛', '後宮閃光', '妹妹系', '姐姐系', 'SM']]-[total_pages:248]
+2026-07-12 00:07:41 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf7f358b9aebc2c5e1ad256', 'title': '後宮神漫單行本', 'order': 1, 'updated_at': '2018-11-22T08:41:24.970Z', 'id': '5bf7f358b9aebc2c5e1ad256'}]
+2026-07-12 00:07:41 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:43 - mkk_pika - main.py:83 - INFO - 找到 248 张图片在:後宮神漫單行本
+2026-07-12 00:07:51 - mkk_pika - main.py:112 - INFO - [episode:後宮神漫單行本   ] downloaded:   248, total: 248, progress:100%
+2026-07-12 00:07:51 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:51 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:51 - mkk_pika - database.py:245 - INFO - ['後宮神漫單行本']
+2026-07-12 00:07:52 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf7f358b9aebc2c5e1ad255
+                                   标题：ヒナギクヴァージンロストクラブへようこそ♡ 小雛菊的處女貞操喪失俱樂部歡迎你來
+                                   作者：赤月みゅうと
+                                   是否完结：是
+                                   总页数：248
+                                   分类：長篇,單行本,純愛,後宮閃光,妹妹系,姐姐系,SM
+                                   章节数：1
+                                   最后更新时间：2018-11-23T12:32:24.227Z
+                                   =================================================
+2026-07-12 00:07:52 - mkk_pika - database.py:101 - INFO - 保存成功：ヒナギクヴァージンロストクラブへようこそ♡ 小雛菊的處女貞操喪失俱樂部歡迎你來
+2026-07-12 00:07:52 - mkk_pika - main.py:35 - INFO - 开始检查ユニコーンはおりこう是否存在未下载章节
+2026-07-12 00:07:52 - mkk_pika - main.py:45 - INFO - 正在下载:[ユニコーンはおりこう]-[ciaociao (あらきかなお)]-[['同人', '短篇', '純愛']]-[total_pages:26]
+2026-07-12 00:07:52 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf7f3f1a601d25bf0801f3e', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-23T11:34:11.874Z', 'id': '5bf7f3f1a601d25bf0801f3e'}]
+2026-07-12 00:07:52 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:53 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-07-12 00:07:53 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-07-12 00:07:53 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:53 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:53 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:55 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf7f3f1a601d25bf0801f3d
+                                   标题：ユニコーンはおりこう
+                                   作者：ciaociao (あらきかなお)
+                                   是否完结：否
+                                   总页数：26
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2018-11-23T12:34:57.638Z
+                                   =================================================
+2026-07-12 00:07:55 - mkk_pika - database.py:101 - INFO - 保存成功：ユニコーンはおりこう
+2026-07-12 00:07:55 - mkk_pika - main.py:35 - INFO - 开始检查(C94) 立香君の災難？ 狙われた子羊!! (Fate Grand Order)是否存在未下载章节
+2026-07-12 00:07:55 - mkk_pika - main.py:45 - INFO - 正在下载:[(C94) 立香君の災難？ 狙われた子羊!! (Fate Grand Order)]-[Z.A.P. (ズッキーニ)]-[['全彩', '同人', '短篇', 'Fate', '後宮閃光']]-[total_pages:23]
+2026-07-12 00:07:55 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf7f429bd40525bdc97f3b8', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-23T02:43:37.083Z', 'id': '5bf7f429bd40525bdc97f3b8'}]
+2026-07-12 00:07:55 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:55 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-07-12 00:07:56 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-07-12 00:07:56 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:56 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:56 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:07:57 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf7f429bd40525bdc97f3b7
+                                   标题：(C94) 立香君の災難？ 狙われた子羊!! (Fate Grand Order)
+                                   作者：Z.A.P. (ズッキーニ)
+                                   是否完结：是
+                                   总页数：23
+                                   分类：全彩,同人,短篇,Fate,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2018-11-23T12:35:53.541Z
+                                   =================================================
+2026-07-12 00:07:57 - mkk_pika - database.py:101 - INFO - 保存成功：(C94) 立香君の災難？ 狙われた子羊!! (Fate Grand Order)
+2026-07-12 00:07:57 - mkk_pika - main.py:35 - INFO - 开始检查ヘンタイシンドローム是否存在未下载章节
+2026-07-12 00:07:58 - mkk_pika - main.py:45 - INFO - 正在下载:[ヘンタイシンドローム]-[Twilight Road (ともー]-[['同人', '短篇', '純愛']]-[total_pages:23]
+2026-07-12 00:07:58 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf7f437bd40525bdc97f3d2', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-23T11:18:26.289Z', 'id': '5bf7f437bd40525bdc97f3d2'}]
+2026-07-12 00:07:58 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:07:58 - mkk_pika - main.py:83 - INFO - 找到 23 张图片在:第1集
+2026-07-12 00:07:59 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    23, total:  23, progress:100%
+2026-07-12 00:07:59 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:07:59 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:07:59 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:00 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf7f437bd40525bdc97f3d1
+                                   标题：ヘンタイシンドローム
+                                   作者：Twilight Road (ともー
+                                   是否完结：否
+                                   总页数：23
+                                   分类：同人,短篇,純愛
+                                   章节数：1
+                                   最后更新时间：2018-11-23T12:36:07.920Z
+                                   =================================================
+2026-07-12 00:08:00 - mkk_pika - database.py:101 - INFO - 保存成功：ヘンタイシンドローム
+2026-07-12 00:08:00 - mkk_pika - main.py:35 - INFO - 开始检查(C94)  D.L. action 123是否存在未下载章节
+2026-07-12 00:08:00 - mkk_pika - main.py:45 - INFO - 正在下载:[(C94)  D.L. action 123]-[Digital Lover (なかじまゆか)]-[['嗶咔漢化', '同人', '短篇', '純愛', 'Fate']]-[total_pages:27]
+2026-07-12 00:08:00 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf7f475d9f4ca2c64e5c2a3', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-23T02:23:02.058Z', 'id': '5bf7f475d9f4ca2c64e5c2a3'}]
+2026-07-12 00:08:00 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:01 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-07-12 00:08:02 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-07-12 00:08:02 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:02 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:02 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:03 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf7f475d9f4ca2c64e5c2a2
+                                   标题：(C94)  D.L. action 123
+                                   作者：Digital Lover (なかじまゆか)
+                                   是否完结：是
+                                   总页数：27
+                                   分类：嗶咔漢化,同人,短篇,純愛,Fate
+                                   章节数：1
+                                   最后更新时间：2018-11-23T12:37:09.401Z
+                                   =================================================
+2026-07-12 00:08:03 - mkk_pika - database.py:101 - INFO - 保存成功：(C94)  D.L. action 123
+2026-07-12 00:08:03 - mkk_pika - main.py:35 - INFO - 开始检查おふろでぽかぽかえっちっち是否存在未下载章节
+2026-07-12 00:08:03 - mkk_pika - main.py:45 - INFO - 正在下载:[おふろでぽかぽかえっちっち]-[Rico-ba (Rico)]-[['短篇', '純愛', '妹妹系']]-[total_pages:27]
+2026-07-12 00:08:03 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf7f4a4b9aebc2c5e1ad353', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-23T00:39:02.224Z', 'id': '5bf7f4a4b9aebc2c5e1ad353'}]
+2026-07-12 00:08:03 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:04 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-07-12 00:08:05 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-07-12 00:08:05 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:05 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:05 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:06 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf7f4a4b9aebc2c5e1ad352
+                                   标题：おふろでぽかぽかえっちっち
+                                   作者：Rico-ba (Rico)
+                                   是否完结：是
+                                   总页数：27
+                                   分类：短篇,純愛,妹妹系
+                                   章节数：1
+                                   最后更新时间：2018-11-23T12:37:56.483Z
+                                   =================================================
+2026-07-12 00:08:06 - mkk_pika - database.py:101 - INFO - 保存成功：おふろでぽかぽかえっちっち
+2026-07-12 00:08:06 - mkk_pika - main.py:35 - INFO - 开始检查JKギャルに転生したのでパッコパコ♥是否存在未下载章节
+2026-07-12 00:08:06 - mkk_pika - main.py:45 - INFO - 正在下载:[JKギャルに転生したのでパッコパコ♥]-[ろいやるびっち]-[['短篇', '性轉換']]-[total_pages:21]
+2026-07-12 00:08:06 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf7f4ecbd40525bdc97f40a', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-22T23:22:43.443Z', 'id': '5bf7f4ecbd40525bdc97f40a'}, {'_id': '5bf7f4ecbd40525bdc97f40b', 'title': '看過的TSF動漫', 'order': 2, 'updated_at': '2018-11-23T00:01:52.798Z', 'id': '5bf7f4ecbd40525bdc97f40b'}]
+2026-07-12 00:08:06 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:07 - mkk_pika - main.py:83 - INFO - 找到 19 张图片在:第1集
+2026-07-12 00:08:07 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    19, total:  19, progress:100%
+2026-07-12 00:08:07 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:07 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:07 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:09 - mkk_pika - main.py:83 - INFO - 找到 2 张图片在:看過的TSF動漫
+2026-07-12 00:08:09 - mkk_pika - main.py:112 - INFO - [episode:看過的TSF動漫  ] downloaded:     2, total:   2, progress:100%
+2026-07-12 00:08:09 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:09 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:09 - mkk_pika - database.py:245 - INFO - ['第1集', '看過的TSF動漫']
+2026-07-12 00:08:10 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf7f4ecbd40525bdc97f409
+                                   标题：JKギャルに転生したのでパッコパコ♥
+                                   作者：ろいやるびっち
+                                   是否完结：是
+                                   总页数：21
+                                   分类：短篇,性轉換
+                                   章节数：2
+                                   最后更新时间：2018-11-23T12:39:08.138Z
+                                   =================================================
+2026-07-12 00:08:10 - mkk_pika - database.py:101 - INFO - 保存成功：JKギャルに転生したのでパッコパコ♥
+2026-07-12 00:08:10 - mkk_pika - main.py:35 - INFO - 开始检查指揮官大好き! 是否存在未下载章节
+2026-07-12 00:08:11 - mkk_pika - main.py:45 - INFO - 正在下载:[指揮官大好き! ]-[S.K (シシガイ)]-[['同人']]-[total_pages:27]
+2026-07-12 00:08:11 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf9202fbd40525bdc97fa8c', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-24T08:46:49.170Z', 'id': '5bf9202fbd40525bdc97fa8c'}]
+2026-07-12 00:08:11 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:11 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-07-12 00:08:12 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-07-12 00:08:12 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:12 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:12 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:13 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf9202fbd40525bdc97fa8b
+                                   标题：指揮官大好き! 
+                                   作者：S.K (シシガイ)
+                                   是否完结：否
+                                   总页数：27
+                                   分类：同人
+                                   章节数：1
+                                   最后更新时间：2018-11-24T09:55:59.767Z
+                                   =================================================
+2026-07-12 00:08:13 - mkk_pika - database.py:101 - INFO - 保存成功：指揮官大好き! 
+2026-07-12 00:08:13 - mkk_pika - main.py:35 - INFO - 开始检查(C93) おじさんと。2 是否存在未下载章节
+2026-07-12 00:08:14 - mkk_pika - main.py:45 - INFO - 正在下载:[(C93) おじさんと。2 ]-[星に帰る (たらぞお)]-[['短篇']]-[total_pages:31]
+2026-07-12 00:08:14 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf9208fae00b425078d49f2', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-24T03:19:40.885Z', 'id': '5bf9208fae00b425078d49f2'}]
+2026-07-12 00:08:14 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:14 - mkk_pika - main.py:83 - INFO - 找到 31 张图片在:第1集
+2026-07-12 00:08:15 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    31, total:  31, progress:100%
+2026-07-12 00:08:15 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:15 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:15 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:16 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf9208fae00b425078d49f1
+                                   标题：(C93) おじさんと。2 
+                                   作者：星に帰る (たらぞお)
+                                   是否完结：是
+                                   总页数：31
+                                   分类：短篇
+                                   章节数：1
+                                   最后更新时间：2018-11-24T09:57:35.365Z
+                                   =================================================
+2026-07-12 00:08:16 - mkk_pika - database.py:101 - INFO - 保存成功：(C93) おじさんと。2 
+2026-07-12 00:08:16 - mkk_pika - main.py:35 - INFO - 开始检查(C92) アルマがアレコレされるのを眺める本。4 (神羅万象)是否存在未下载章节
+2026-07-12 00:08:17 - mkk_pika - main.py:45 - INFO - 正在下载:[(C92) アルマがアレコレされるのを眺める本。4 (神羅万象)]-[カナリヤバいカナリヤ (まゃ～吾郎)]-[['同人', '短篇', '強暴']]-[total_pages:48]
+2026-07-12 00:08:17 - mkk_pika - main.py:49 - INFO - [{'_id': '5bf9209ebd40525bdc97faaa', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-24T03:29:02.553Z', 'id': '5bf9209ebd40525bdc97faaa'}]
+2026-07-12 00:08:17 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:17 - mkk_pika - main.py:83 - INFO - 找到 48 张图片在:第1集
+2026-07-12 00:08:19 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    48, total:  48, progress:100%
+2026-07-12 00:08:19 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:19 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:19 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:20 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bf9209ebd40525bdc97faa9
+                                   标题：(C92) アルマがアレコレされるのを眺める本。4 (神羅万象)
+                                   作者：カナリヤバいカナリヤ (まゃ～吾郎)
+                                   是否完结：是
+                                   总页数：48
+                                   分类：同人,短篇,強暴
+                                   章节数：1
+                                   最后更新时间：2018-11-24T09:57:50.383Z
+                                   =================================================
+2026-07-12 00:08:20 - mkk_pika - database.py:101 - INFO - 保存成功：(C92) アルマがアレコレされるのを眺める本。4 (神羅万象)
+2026-07-12 00:08:20 - mkk_pika - main.py:35 - INFO - 开始检查きららのプリンセスレッスン是否存在未下载章节
+2026-07-12 00:08:20 - mkk_pika - main.py:45 - INFO - 正在下载:[きららのプリンセスレッスン]-[かに家 (かにゃぴぃ)]-[['同人', '短篇']]-[total_pages:29]
+2026-07-12 00:08:20 - mkk_pika - main.py:49 - INFO - [{'_id': '5bfa0fa1b9aebc2c5e1ad8fd', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-24T14:05:50.236Z', 'id': '5bfa0fa1b9aebc2c5e1ad8fd'}]
+2026-07-12 00:08:20 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:21 - mkk_pika - main.py:83 - INFO - 找到 29 张图片在:第1集
+2026-07-12 00:08:22 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    29, total:  29, progress:100%
+2026-07-12 00:08:22 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:22 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:22 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:23 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bfa0fa1b9aebc2c5e1ad8fc
+                                   标题：きららのプリンセスレッスン
+                                   作者：かに家 (かにゃぴぃ)
+                                   是否完结：否
+                                   总页数：29
+                                   分类：同人,短篇
+                                   章节数：1
+                                   最后更新时间：2018-11-25T02:57:37.914Z
+                                   =================================================
+2026-07-12 00:08:23 - mkk_pika - database.py:101 - INFO - 保存成功：きららのプリンセスレッスン
+2026-07-12 00:08:23 - mkk_pika - main.py:35 - INFO - 开始检查性教育教材には同年代の生徒の写真を使うべきだと思うのです!FILE 26 性教育モデルがこんなに可愛いわけがない是否存在未下载章节
+2026-07-12 00:08:23 - mkk_pika - main.py:45 - INFO - 正在下载:[性教育教材には同年代の生徒の写真を使うべきだと思うのです!FILE 26 性教育モデルがこんなに可愛いわけがない]-[ふぇちすぴ]-[['同人', '短篇', '全彩', '妹妹系']]-[total_pages:77]
+2026-07-12 00:08:23 - mkk_pika - main.py:49 - INFO - [{'_id': '5bfa0fb6a601d25bf0802a96', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-24T13:58:49.309Z', 'id': '5bfa0fb6a601d25bf0802a96'}]
+2026-07-12 00:08:23 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:24 - mkk_pika - main.py:83 - INFO - 找到 77 张图片在:第1集
+2026-07-12 00:08:26 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    77, total:  77, progress:100%
+2026-07-12 00:08:26 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:26 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:26 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:27 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bfa0fb6a601d25bf0802a95
+                                   标题：性教育教材には同年代の生徒の写真を使うべきだと思うのです!FILE 26 性教育モデルがこんなに可愛いわけがない
+                                   作者：ふぇちすぴ
+                                   是否完结：是
+                                   总页数：77
+                                   分类：同人,短篇,全彩,妹妹系
+                                   章节数：1
+                                   最后更新时间：2018-11-25T02:57:58.577Z
+                                   =================================================
+2026-07-12 00:08:27 - mkk_pika - database.py:101 - INFO - 保存成功：性教育教材には同年代の生徒の写真を使うべきだと思うのです!FILE 26 性教育モデルがこんなに可愛いわけがない
+2026-07-12 00:08:27 - mkk_pika - main.py:35 - INFO - 开始检查TRANCE SEXUAL INTER WORM是否存在未下载章节
+2026-07-12 00:08:27 - mkk_pika - main.py:45 - INFO - 正在下载:[TRANCE SEXUAL INTER WORM]-[からじしぼたん (牡丹もちと)]-[['短篇', '扶他樂園', '性轉換', '非人類']]-[total_pages:26]
+2026-07-12 00:08:27 - mkk_pika - main.py:49 - INFO - [{'_id': '5bfa1013bd40525bdc9800ac', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-23T15:08:23.801Z', 'id': '5bfa1013bd40525bdc9800ac'}]
+2026-07-12 00:08:27 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:28 - mkk_pika - main.py:83 - INFO - 找到 26 张图片在:第1集
+2026-07-12 00:08:28 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    26, total:  26, progress:100%
+2026-07-12 00:08:28 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:28 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:28 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:30 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bfa1013bd40525bdc9800ab
+                                   标题：TRANCE SEXUAL INTER WORM
+                                   作者：からじしぼたん (牡丹もちと)
+                                   是否完结：是
+                                   总页数：26
+                                   分类：短篇,扶他樂園,性轉換,非人類
+                                   章节数：1
+                                   最后更新时间：2018-11-25T02:59:31.622Z
+                                   =================================================
+2026-07-12 00:08:30 - mkk_pika - database.py:101 - INFO - 保存成功：TRANCE SEXUAL INTER WORM
+2026-07-12 00:08:30 - mkk_pika - main.py:35 - INFO - 开始检查姉妹姦是否存在未下载章节
+2026-07-12 00:08:30 - mkk_pika - main.py:45 - INFO - 正在下载:[姉妹姦]-[うごくな薬局θ (ababari)]-[['同人', '短篇', '後宮閃光']]-[total_pages:28]
+2026-07-12 00:08:30 - mkk_pika - main.py:49 - INFO - [{'_id': '5bfa10a04a873b2c50e39010', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-24T10:52:36.538Z', 'id': '5bfa10a04a873b2c50e39010'}]
+2026-07-12 00:08:30 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:30 - mkk_pika - main.py:83 - INFO - 找到 28 张图片在:第1集
+2026-07-12 00:08:31 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    28, total:  28, progress:100%
+2026-07-12 00:08:31 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:31 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:31 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:32 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bfa10a04a873b2c50e3900f
+                                   标题：姉妹姦
+                                   作者：うごくな薬局θ (ababari)
+                                   是否完结：否
+                                   总页数：28
+                                   分类：同人,短篇,後宮閃光
+                                   章节数：1
+                                   最后更新时间：2018-11-25T03:01:52.174Z
+                                   =================================================
+2026-07-12 00:08:32 - mkk_pika - database.py:101 - INFO - 保存成功：姉妹姦
+2026-07-12 00:08:32 - mkk_pika - main.py:35 - INFO - 开始检查夏休み友達のママに是否存在未下载章节
+2026-07-12 00:08:33 - mkk_pika - main.py:45 - INFO - 正在下载:[夏休み友達のママに]-[痔男]-[['短篇', '人妻']]-[total_pages:52]
+2026-07-12 00:08:33 - mkk_pika - main.py:49 - INFO - [{'_id': '5bfa7293bd40525bdc980348', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-25T03:09:04.026Z', 'id': '5bfa7293bd40525bdc980348'}]
+2026-07-12 00:08:33 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:33 - mkk_pika - main.py:83 - INFO - 找到 52 张图片在:第1集
+2026-07-12 00:08:35 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    52, total:  52, progress:100%
+2026-07-12 00:08:35 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:35 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:35 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:36 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bfa7293bd40525bdc980347
+                                   标题：夏休み友達のママに
+                                   作者：痔男
+                                   是否完结：是
+                                   总页数：52
+                                   分类：短篇,人妻
+                                   章节数：1
+                                   最后更新时间：2018-11-25T09:59:47.265Z
+                                   =================================================
+2026-07-12 00:08:36 - mkk_pika - database.py:101 - INFO - 保存成功：夏休み友達のママに
+2026-07-12 00:08:36 - mkk_pika - main.py:35 - INFO - 开始检查* (アズールレーン)是否存在未下载章节
+2026-07-12 00:08:37 - mkk_pika - main.py:45 - INFO - 正在下载:[* (アズールレーン)]-[sin-maniax (轟真)]-[['同人', '短篇', 'NTR']]-[total_pages:27]
+2026-07-12 00:08:37 - mkk_pika - main.py:49 - INFO - [{'_id': '5bfa72a7ae00b425078d4de1', 'title': '第1集', 'order': 1, 'updated_at': '2018-11-25T03:13:20.609Z', 'id': '5bfa72a7ae00b425078d4de1'}]
+2026-07-12 00:08:37 - mkk_pika - database.py:215 - INFO - 第一次下载该漫画，记录数据库中
+2026-07-12 00:08:37 - mkk_pika - main.py:83 - INFO - 找到 27 张图片在:第1集
+2026-07-12 00:08:38 - mkk_pika - main.py:112 - INFO - [episode:第1集       ] downloaded:    27, total:  27, progress:100%
+2026-07-12 00:08:38 - mkk_pika - database.py:238 - INFO - 数据库更新已下载章节
+2026-07-12 00:08:38 - mkk_pika - database.py:244 - INFO - 该漫画已下载章节如下
+2026-07-12 00:08:38 - mkk_pika - database.py:245 - INFO - ['第1集']
+2026-07-12 00:08:39 - mkk_pika - main.py:348 - INFO - ==================== 漫画信息 ====================
+                                   漫画ID：5bfa72a7ae00b425078d4de0
+                                   标题：* (アズールレーン)
+                                   作者：sin-maniax (轟真)
+                                   是否完结：是
+                                   总页数：27
+                                   分类：同人,短篇,NTR
+                                   章节数：1
+                                   最后更新时间：2018-11-25T10:00:07.872Z
+                                   =================================================
+2026-07-12 00:08:39 - mkk_pika - database.py:101 - INFO - 保存成功：* (アズールレーン)
+2026-07-12 00:08:39 - mkk_pika - main.py:380 - INFO - 本次任务下载完毕
+2026-07-12 00:08:39 - mkk_pika - database.py:173 - INFO - 数据库连接已关闭
