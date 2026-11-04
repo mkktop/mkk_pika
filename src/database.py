@@ -52,17 +52,74 @@ class ComicSQLiteDB:
             "CREATE INDEX IF NOT EXISTS idx_comic_category ON comic_info(category)",
             "CREATE INDEX IF NOT EXISTS idx_comic_update_time ON comic_info(update_time)"
         ]
+        create_retry_sql = '''
+        CREATE TABLE IF NOT EXISTS comic_retry (
+            comic_id TEXT NOT NULL PRIMARY KEY,
+            attempts INTEGER DEFAULT 0,
+            last_error TEXT DEFAULT '',
+            updated_at TEXT DEFAULT (datetime('now'))
+        )
+        '''
+        create_chapter_sql = '''
+        CREATE TABLE IF NOT EXISTS chapter (
+            comic_id TEXT NOT NULL,
+            ep_order TEXT NOT NULL,
+            ep_id TEXT DEFAULT '',
+            title TEXT DEFAULT '',
+            PRIMARY KEY (comic_id, ep_order)
+        )
+        '''
         try:
             self.cursor.execute(create_sql)
             # 执行建索引
             for sql in create_index_sqls:
                 self.cursor.execute(sql)
+            # 下载失败计数表，用于避免坏数据无限卡住分页游标
+            self.cursor.execute(create_retry_sql)
+            # 章节信息表，用于网站失效后本地还原章节名
+            self.cursor.execute(create_chapter_sql)
+            # 旧库补字段（幂等）
+            for column, ddl in [
+                ("seq", "seq INTEGER"),
+                ("description", "description TEXT DEFAULT ''"),
+                ("tags", "tags TEXT DEFAULT ''"),
+            ]:
+                self._ensure_column("comic_info", column, ddl)
+            self._backfill_seq()
+            # seq 字段补好之后才能建唯一索引
+            self.cursor.execute(
+                "CREATE UNIQUE INDEX IF NOT EXISTS idx_comic_seq ON comic_info(seq)"
+            )
             self.conn.commit()
             logger.info("表和索引初始化成功")
         except sqlite3.Error as e:
             self.conn.rollback()
             logger.error(f"表或索引初始化失败：{e}")
             raise Exception(f"表初始化失败：{e}")
+
+    def _ensure_column(self, table: str, column: str, ddl: str):
+        """表里没有该字段时补上，用于旧库平滑升级"""
+        self.cursor.execute(f"PRAGMA table_info({table})")
+        columns = {row[1] for row in self.cursor.fetchall()}
+        if column not in columns:
+            self.cursor.execute(f"ALTER TABLE {table} ADD COLUMN {ddl}")
+            logger.info(f"表{table}新增字段{column}")
+
+    def _backfill_seq(self):
+        """给还没有编号的历史漫画按入库顺序补编号"""
+        self.cursor.execute('SELECT COALESCE(MAX(seq), 0) FROM comic_info')
+        start = self.cursor.fetchone()[0]
+        self.cursor.execute(
+            'SELECT comic_id FROM comic_info WHERE seq IS NULL ORDER BY crawl_time, comic_id'
+        )
+        rows = self.cursor.fetchall()
+        if not rows:
+            return
+        for offset, (comic_id,) in enumerate(rows, start=1):
+            self.cursor.execute(
+                'UPDATE comic_info SET seq = ? WHERE comic_id = ?', (start + offset, comic_id)
+            )
+        logger.info(f"为{len(rows)}本历史漫画补编号：{start + 1} ~ {start + len(rows)}")
 
     def save_comic(self, comic_data: Dict):
         """
@@ -72,7 +129,7 @@ class ComicSQLiteDB:
         # 字段列表（排除 downloaded_episodes，避免覆盖）
         fields = [
             "comic_id", "title", "author", "finished", "pagesCount", "category", "epsCount",
-            "update_time"
+            "update_time", "description", "tags"
         ]
         # 过滤数据，只保留表中存在的字段
         filtered_data = {k: v for k, v in comic_data.items() if k in fields}
@@ -192,30 +249,40 @@ class ComicSQLiteDB:
         result = self.cursor.fetchone()
         return result is not None
 
-    def is_episode_downloaded(self,comic_id,episode_title):
+    def is_episode_downloaded(self,comic_id,episode_key):
         """
         判断漫画的指定章节是否已下载。
+        章节用 order 作为唯一标识，避免同名章节互相覆盖。
         """
         self.cursor.execute('SELECT downloaded_episodes FROM comic_info WHERE comic_id = ?', (comic_id,))
         result = self.cursor.fetchone()
         if result and result[0]:
             downloaded_episodes = json.loads(result[0])
-            logger.info(f"查询数据库中是否已存在{episode_title}")
-            return episode_title in downloaded_episodes
+            return episode_key in downloaded_episodes
         return False
 
     def mark_comic_as_downloaded(self,comic_id):
         """
-        标记漫画为已下载，在数据库中插入该 comic_id。
+        确保漫画已在库中，并返回它的编号（从1开始自增）。
         """
-        self.cursor.execute('SELECT comic_id FROM comic_info WHERE comic_id = ?', (comic_id,))
+        self.cursor.execute('SELECT seq FROM comic_info WHERE comic_id = ?', (comic_id,))
         result = self.cursor.fetchone()
-        if not result:
-            self.cursor.execute('INSERT OR IGNORE INTO comic_info (comic_id) VALUES (?)', (comic_id,))
-            logger.info("第一次下载该漫画，记录数据库中")
-            self.conn.commit()
+        if result and result[0] is not None:
+            return result[0]
+        self.cursor.execute('SELECT COALESCE(MAX(seq), 0) + 1 FROM comic_info')
+        seq = self.cursor.fetchone()[0]
+        if result:
+            # 已有行但没有编号（历史数据兜底）
+            self.cursor.execute('UPDATE comic_info SET seq = ? WHERE comic_id = ?', (seq, comic_id))
+        else:
+            self.cursor.execute(
+                'INSERT OR IGNORE INTO comic_info (comic_id, seq) VALUES (?, ?)', (comic_id, seq)
+            )
+            logger.info(f"第一次下载该漫画，记录数据库中，编号{seq}")
+        self.conn.commit()
+        return seq
 
-    def update_downloaded_episodes(self,comic_id,episode_title):
+    def update_downloaded_episodes(self,comic_id,episode_key):
         """
         更新数据库中的已下载章节列表。
         """
@@ -227,7 +294,8 @@ class ComicSQLiteDB:
             downloaded_episodes = json.loads(result[0])
         else:
             downloaded_episodes = []
-        downloaded_episodes.append(episode_title)
+        if episode_key not in downloaded_episodes:
+            downloaded_episodes.append(episode_key)
         # 更新数据库中的章节列表
         self.cursor.execute('''
             UPDATE comic_info 
@@ -243,6 +311,59 @@ class ComicSQLiteDB:
             downloaded_episodes = json.loads(result[0])
             logger.info("该漫画已下载章节如下")
             logger.info(downloaded_episodes)
+
+    def save_chapters(self, comic_id: str, episodes: list):
+        """保存漫画的全部章节信息（order/title/ep_id），供网站失效后本地还原"""
+        if not episodes:
+            return
+        rows = [
+            (comic_id, str(e.get("order", "")), str(e.get("_id", "")), str(e.get("title", "")))
+            for e in episodes
+        ]
+        self.cursor.executemany('''
+            INSERT INTO chapter (comic_id, ep_order, ep_id, title)
+            VALUES (?, ?, ?, ?)
+            ON CONFLICT(comic_id, ep_order) DO UPDATE SET
+                ep_id = excluded.ep_id,
+                title = excluded.title
+            ''', rows)
+        self.conn.commit()
+
+    def get_chapters(self, comic_id: str) -> List[Dict]:
+        """查询漫画的章节列表，按 order 排序"""
+        self.cursor.execute('''
+            SELECT ep_order, ep_id, title FROM chapter
+            WHERE comic_id = ?
+            ORDER BY CAST(ep_order AS INTEGER), ep_order
+            ''', (comic_id,))
+        return [
+            {"order": row[0], "ep_id": row[1], "title": row[2]}
+            for row in self.cursor.fetchall()
+        ]
+
+    def add_comic_failure(self, comic_id: str, error: str = '') -> int:
+        """记录一次下载失败，返回累计失败次数"""
+        self.cursor.execute('''
+            INSERT INTO comic_retry (comic_id, attempts, last_error, updated_at)
+            VALUES (?, 1, ?, datetime('now'))
+            ON CONFLICT(comic_id) DO UPDATE SET
+                attempts = attempts + 1,
+                last_error = excluded.last_error,
+                updated_at = excluded.updated_at
+            ''', (comic_id, str(error)[:500]))
+        self.conn.commit()
+        return self.get_comic_failure_count(comic_id)
+
+    def clear_comic_failure(self, comic_id: str):
+        """下载成功后清除失败记录"""
+        self.cursor.execute('DELETE FROM comic_retry WHERE comic_id = ?', (comic_id,))
+        self.conn.commit()
+
+    def get_comic_failure_count(self, comic_id: str) -> int:
+        """查询该漫画连续失败次数"""
+        self.cursor.execute('SELECT attempts FROM comic_retry WHERE comic_id = ?', (comic_id,))
+        result = self.cursor.fetchone()
+        return result[0] if result else 0
 
     def get_title_by_comic_id(self, comic_id: str) -> Optional[str]:
         """

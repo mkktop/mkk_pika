@@ -9,17 +9,15 @@ pdf:
 download:
   is_detail: True
   thread_number: 5
-  remove_favorites: True
-  out_time_day: 30
-  key_world : "萝莉,蘿莉"
   filter : "CG雜圖,生肉,耽美花園,偽娘哲學,禁書目錄,英語 ENG,耽美花園,重口地帶,歐美,WEBTOON"
-  page : 2
   # 本次最多扫描多少页（真正的停止条件是下面的下载大小上限）
   download_plan : 100
   # 一本漫画完整下完后，累计超过该值就不再开始下一本
   max_size_gb : 6
   # 单本漫画下载途中达到该值立即停止，防止单本超大撑爆 runner 磁盘（14GB）
   hard_max_size_gb : 7
+  # 同一本漫画连续失败多少次后跳过（避免坏数据把分页游标卡死）
+  max_retry : 3
 
 
 

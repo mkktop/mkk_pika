@@ -126,32 +126,36 @@ def episodes(book_id, current_page):
     return http_do("GET", url=url)
 
 #
-def episodes_all(book_id, title: str) -> list:
-    """获取本子的全部章节"""
+def episodes_all(book_id, title: str):
+    """获取本子的全部章节。
+    成功返回章节列表（可能为空列表），获取失败返回 None（调用方应重试而不是当成没有章节）。"""
     try:
         first_page_data = episodes(book_id, current_page=1).json()
-        if 'data' not in first_page_data:
-            return []
+        if first_page_data.get("code", 200) != 200 or "data" not in first_page_data:
+            logger.error(f"获取{title}章节失败：{first_page_data.get('message')}")
+            return None
         # 'total' represents the total number of chapters in the comic,
         # while 'pages' indicates the number of pages needed to paginate the chapter data.
-        total_pages    = first_page_data["data"]["eps"]["pages"]
-        total_episodes = first_page_data["data"]["eps"]["total"]
-        episode_list  = list(first_page_data["data"]["eps"]["docs"])
-        while total_pages > 1:
-            additional_episodes = episodes(book_id, total_pages).json()["data"]["eps"]["docs"]
-            episode_list.extend(list(additional_episodes))
-            total_pages -= 1
+        eps = first_page_data["data"]["eps"]
+        total_pages    = eps["pages"]
+        total_episodes = eps["total"]
+        episode_list  = list(eps["docs"])
+        for page in range(2, total_pages + 1):
+            page_data = episodes(book_id, current_page=page).json()
+            if page_data.get("code", 200) != 200 or "data" not in page_data:
+                logger.error(f"获取{title}章节第{page}页失败")
+                return None
+            episode_list.extend(page_data["data"]["eps"]["docs"])
         episode_list = sorted(episode_list, key=lambda x: x['order'])
         if len(episode_list) != total_episodes:
-            raise Exception('wrong number of episodes,expect:' +
-                total_episodes + ',actual:' + len(episode_list)
-            )
+            logger.error(f"{title}章节数不一致，expect:{total_episodes},actual:{len(episode_list)}")
+            return None
     except KeyError as e:
-        print(f"Comic {title} has been MISSING. KeyError: {e}")
-        return []
+        logger.error(f"{title}章节数据缺少字段（可能已下架）：{e}")
+        return None
     except Exception as e:
-        print(f"An error occurred while fetching episodes for comic {title}. Error: {e}")
-        return []
+        logger.error(f"获取{title}章节异常：{e}")
+        return None
     return episode_list
 
 # 根据章节获取图片

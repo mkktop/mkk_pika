@@ -13,6 +13,8 @@ from database import ComicSQLiteDB
 _SIZE_LOCK = threading.Lock()
 _downloaded_bytes = 0
 _download_limits = None
+# 本次运行实际下载了内容的漫画编号
+_downloaded_seqs = set()
 
 def add_downloaded_bytes(num_bytes: int):
     """累加本次运行已下载的字节数"""
@@ -80,23 +82,33 @@ def download(name_len,folder_path: str, i: int, url: str, retries=3,):
             logger.error(f"Attempt {attempt+1} error for {url}: {e}")
     raise Exception(f"Failed to download {url} after {retries} attempts.")
 
+def episode_key(episode) -> str:
+    """章节唯一标识：用 API 的 order，同名章节也不会互相覆盖"""
+    return str(episode["order"])
+
 #下载漫画
 def download_comic(comic,executor:ThreadPoolExecutor):
+    """下载一本漫画，返回 ok / failed / limit / stuck / skip"""
     if size_limit_reached():
         soft, _ = download_limits()
         logger.info(f"已达到本次下载上限({format_size(soft)})，跳过{comic.get('title')}")
-        return
+        return "skip"
     cid = comic["_id"]
     title = comic["title"]
     logger.info(f"开始检查{title}是否存在未下载章节")
     author = comic["author"]
     categories = comic["categories"]
     episodes = episodes_all(cid, title)
+    if episodes is None:
+        logger.error(f"获取{title}的章节失败，本轮跳过，下次重试")
+        return "failed"
+    #章节信息入库，网站失效后也能还原章节名
+    db.save_chapters(cid, episodes)
     num_pages = comic["pagesCount"] if "pagesCount" in comic else -1
     is_detail = get_config("download","is_detail")
     if db.is_comic_downloaded(comic["_id"]):
         episodes = [episode for episode in episodes
-                    if not db.is_episode_downloaded(comic["_id"], episode["title"])]
+                    if not db.is_episode_downloaded(comic["_id"], episode_key(episode))]
     if episodes:
         logger.info(
             '正在下载:[%s]-[%s]-[%s]-[total_pages:%d]' %
@@ -105,20 +117,23 @@ def download_comic(comic,executor:ThreadPoolExecutor):
         logger.info(episodes)
     else:
         logger.info(f"{title}中没有可下载章节")
-        return
-    #数据库加入该漫画
-    db.mark_comic_as_downloaded(comic["_id"])
+        return "ok"
+    #数据库加入该漫画，返回编号（从1开始自增）
+    seq = db.mark_comic_as_downloaded(comic["_id"])
+    bytes_before = downloaded_bytes()
     comic_path = os.path.join(".",
                               "comics",
                               f"{convert_file_name(title)}"
                             )
     comic_path = ensure_valid_path(comic_path)
+    completed_episodes = 0
+    failed_episodes = 0
     for episode in episodes:
         if hard_limit_reached():
             _, hard = download_limits()
             logger.info(f"已达到单本漫画硬上限({format_size(hard)})，剩余章节留待下次")
-            return
-        chapter_title = convert_file_name(episode["title"])
+            break
+        chapter_title = f"{episode_key(episode)}_{convert_file_name(episode['title'])}"
         chapter_path = os.path.join(comic_path, chapter_title)
         chapter_path = Path(chapter_path)
         chapter_path.mkdir(parents=True, exist_ok=True)
@@ -139,6 +154,7 @@ def download_comic(comic,executor:ThreadPoolExecutor):
                 break
         if not image_urls:
             logger.warning(f"{title}{chapter_title}没有找到图片")
+            failed_episodes += 1
             continue
         logger.info(f"找到 {len(image_urls)} 张图片在:{chapter_title}")
         if len(image_urls) <1000:
@@ -175,7 +191,8 @@ def download_comic(comic,executor:ThreadPoolExecutor):
                 f"progress:{int(downloaded_count / len(image_urls) * 100):>3}%",
             )
         if downloaded_count == len(image_urls):
-            db.update_downloaded_episodes(comic["_id"], episode["title"])
+            db.update_downloaded_episodes(comic["_id"], episode_key(episode))
+            completed_episodes += 1
         elif limit_hit:
             logger.info(
                 f"达到单本漫画硬上限，{chapter_title}已下载"
@@ -183,6 +200,7 @@ def download_comic(comic,executor:ThreadPoolExecutor):
             )
         else:
             episode_title = episode["title"]
+            failed_episodes += 1
             logger.error(
                 f"Failed to download the episodes:{episode_title} "
                 f"of comic:{title}. "
@@ -190,42 +208,15 @@ def download_comic(comic,executor:ThreadPoolExecutor):
                 "from this episode have been downloaded"
             )
         sleep(1)
+    if downloaded_bytes() > bytes_before:
+        _downloaded_seqs.add(seq)
+    if hard_limit_reached():
+        return "limit" if completed_episodes > 0 else "stuck"
+    if failed_episodes:
+        logger.error(f"{title}有{failed_episodes}个章节没下完，下次重试")
+        return "failed"
+    return "ok"
 
-
-def search_all(the_keyword):
-    subscribed_comics = []
-    categories = get_config("download","filter").split(',')
-    download_page = get_config("download","page")
-    if the_keyword:
-        db.mark_comic_as_downloaded(the_keyword)
-        last_title = db.get_title_by_comic_id(the_keyword)
-        this_title = ""
-        total_pages_num = search(the_keyword)["pages"]
-        if total_pages_num < download_page:
-            download_page = total_pages_num
-        for page in range(1, download_page+1):
-            page_docs = search(the_keyword, page)["docs"]
-            for idx, doc in enumerate(page_docs):
-                if idx == 1 and page == 1:
-                    this_title = doc["title"]
-                if last_title == doc["title"]:
-                    last_comic = {
-                        "comic_id": the_keyword,
-                        "title": this_title,
-                        "author": "mkk"
-                    }
-                    db.save_comic(last_comic)
-                    return subscribed_comics
-                intersection = set(doc['categories']).intersection(set(categories))
-                if len(intersection) == 0:
-                    subscribed_comics.append(doc)
-        last_comic ={
-            "comic_id": the_keyword,
-            "title": this_title,
-            "author": "mkk"
-        }
-        db.save_comic(last_comic)
-    return subscribed_comics
 
 def download_all_comics():
     """扫描全站下一页，返回 (页码, 总页数, 总漫画数, 待下载漫画列表)。
@@ -263,6 +254,9 @@ def record_comic_info(comic_id: str):
     category = ",".join(category_list) if isinstance(category_list, list) else ""
     epsCount = data["epsCount"]
     update_time = data["updated_at"]
+    description = data.get("description") or ""
+    tags = data.get("tags") or []
+    tags = ",".join(map(str, tags)) if isinstance(tags, list) else ""
     logger.info(
         f"""
 
@@ -287,6 +281,8 @@ def record_comic_info(comic_id: str):
         "category": category,
         "epsCount": epsCount,
         "update_time": update_time,
+        "description": description,
+        "tags": tags,
     })
     return data
 
@@ -303,71 +299,12 @@ if __name__ == "__main__":
         logger.info('本次运行下载上限：不限制')
     #登录
     login()
-    #获取收藏夹的漫画数量
-    favourite_comics = my_favourite_all()
     #获取下载的线程数
-    logger.info('收藏夹共计%d本漫画' % (len(favourite_comics)))
     thread_number = int(get_config(section="download", key="thread_number"))
-    #开始下载收藏夹内容
-    logger.info("开始下载收藏夹内未下载内容")
-    with ThreadPoolExecutor(max_workers=thread_number) as executor:
-        for the_comic in favourite_comics:
-            if size_limit_reached():
-                logger.info("已达到本次下载上限，收藏夹剩余内容留待下次")
-                break
-            try:
-                #开始下载
-                download_comic(the_comic,executor)
-                data = record_comic_info(the_comic['_id'])
-                is_remove_favorites = get_config(section="download", key="remove_favorites")
-
-                #如果设置了下载取消收藏，并且是已经完结的作品，则取消收藏
-                if is_remove_favorites and data['isFavourite'] and data["finished"]:
-                    favourite(data["_id"])
-                    logger.info(f"{data['title']}已经取消收藏！")
-                #如果设置了下载取消收藏，没有完结，但长时间不更新则取消收藏
-                if is_remove_favorites and data['isFavourite'] and data["finished"] == False:
-                    if compare_time(data["updated_at"]):
-                        favourite(data["_id"])
-                        logger.info(f"长时间未更新{data['title']}已经取消收藏！")
-
-            except Exception as e:
-                logger.error(
-                    'Download failed for {}, with Exception:{}'.format(the_comic["title"], e)
-                )
-                continue
-    logger.info("收藏夹内容下载完毕")
-    #开始下载订阅内容
-    logger.info("开始下载订阅内容")
-    searched_comics = []
-    if not size_limit_reached():
-        keywords = get_config(section='download', key='key_world').split(',')
-        for keyword in keywords:
-            if size_limit_reached():
-                logger.info("已达到本次下载上限，剩余关键词留待下次")
-                break
-            searched_comic = search_all(keyword)
-            logger.info(f"关键词{keyword}找到{len(searched_comic)}本漫画")
-            searched_comics += searched_comic
-    logger.info('订阅内容共计%d本漫画' % (len(searched_comics)))
-    with ThreadPoolExecutor(max_workers=thread_number) as executor:
-        for the_comic in searched_comics:
-            if size_limit_reached():
-                logger.info("已达到本次下载上限，订阅内容剩余部分留待下次")
-                break
-            try:
-                #开始下载
-                download_comic(the_comic,executor)
-                record_comic_info(the_comic['_id'])
-            except Exception as e:
-                logger.error(
-                    'Download failed for {}, with Exception:{}'.format(the_comic["title"], e)
-                )
-                continue
-    logger.info("订阅内容内容下载完毕")
     logger.info("开始分批下载全部章节")
     db.create_download_all_info()
     download_plan = int(get_config(section="download", key="download_plan", default_value=0))
+    max_retry = int(get_config(section="download", key="max_retry", default_value=3))
     if size_limit_reached():
         logger.info("已达到本次下载上限，跳过分批下载")
     elif download_plan > 0:
@@ -389,15 +326,41 @@ if __name__ == "__main__":
                         logger.info("已达到本次下载上限，本页剩余漫画留待下次")
                         page_complete = False
                         break
-                    try:
-                        # 开始下载
-                        download_comic(the_comic, executor)
-                        record_comic_info(the_comic['_id'])
-                    except Exception as e:
+                    cid = the_comic["_id"]
+                    attempts = db.get_comic_failure_count(cid)
+                    if attempts >= max_retry:
                         logger.error(
-                            'Download failed for {}, with Exception:{}'.format(the_comic["title"], e)
+                            f"{the_comic.get('title')}已连续失败{attempts}次，"
+                            "跳过并保留在 comic_retry 表，避免卡住全站游标"
                         )
                         continue
+                    try:
+                        # 开始下载
+                        result = download_comic(the_comic, executor)
+                    except Exception as e:
+                        times = db.add_comic_failure(cid, e)
+                        page_complete = False
+                        logger.error(
+                            'Download failed for {}, with Exception:{} ({}/{})'.format(
+                                the_comic["title"], e, times, max_retry)
+                        )
+                        continue
+                    try:
+                        record_comic_info(cid)
+                    except Exception as e:
+                        # 元数据保存失败不影响已下载内容，也不该卡住游标
+                        logger.error(f"{the_comic.get('title')}元数据保存失败：{e}")
+                    if result == "ok":
+                        db.clear_comic_failure(cid)
+                    elif result in ("failed", "stuck"):
+                        times = db.add_comic_failure(cid)
+                        logger.error(
+                            f"{the_comic.get('title')}下载未完成({result})，"
+                            f"累计失败{times}/{max_retry}次，游标不推进"
+                        )
+                        page_complete = False
+                    elif result == "limit":
+                        page_complete = False
             if hard_limit_reached():
                 page_complete = False
             if not page_complete:
@@ -412,4 +375,14 @@ if __name__ == "__main__":
             logger.info('第%d/%d页完成，本次已下载%s，游标推进到第%d页'
                         % (page, total_page, format_size(downloaded_bytes()), page))
 
+    if _downloaded_seqs:
+        seq_list = sorted(_downloaded_seqs)
+        with open("./run_seq.txt", "w", encoding="utf-8") as f:
+            f.write(f"{seq_list[0]} {seq_list[-1]}\n")
+        logger.info("本次下载编号区间：%06d - %06d（共%d本）"
+                    % (seq_list[0], seq_list[-1], len(seq_list)))
+    else:
+        with open("./run_seq.txt", "w", encoding="utf-8") as f:
+            f.write("0 0\n")
+        logger.info("本次没有下载任何漫画")
     logger.info("本次任务下载完毕，共下载%s" % format_size(downloaded_bytes()))
