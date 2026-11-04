@@ -142,9 +142,7 @@ def download_comic(comic,executor:ThreadPoolExecutor):
         fetch_failed = False
         while True:
             try:
-                page_data = json.loads(
-                    picture(cid, episode["order"], current_page).content
-                )["data"]["pages"]["docs"]
+                page_data = picture(cid, episode["order"], current_page)
             except Exception as e:
                 logger.error(f"{title}{chapter_title}获取图片列表失败(page:{current_page})：{e}")
                 fetch_failed = True

@@ -3,7 +3,7 @@ import hashlib
 import requests
 import json
 from util import *
-from time import time
+from time import time, sleep
 from urllib.parse import urlencode
 from logger import  logger
 from urllib.parse import quote
@@ -68,6 +68,28 @@ def http_do(method, url, **kwargs):
     response = requests.request(method = method, url = url,verify=False,proxies = proxies,timeout = 10, **kwargs)
     return response
 
+def api_get_json(url, retries=3, wait=1):
+    """带重试地请求 JSON 接口。
+    网络异常、HTTP 非 200、业务 code 非 200、缺少 data 字段都会重试。
+    全部失败返回 None。"""
+    last_error = None
+    for attempt in range(retries):
+        try:
+            resp = http_do("GET", url=url)
+            data = resp.json()
+            if resp.status_code == 200 and data.get("code", 200) == 200 and "data" in data:
+                return data
+            last_error = (f"status={resp.status_code} code={data.get('code')} "
+                          f"message={data.get('message')}")
+        except Exception as e:
+            last_error = repr(e)
+        if attempt < retries - 1:
+            delay = wait * (attempt + 1)
+            logger.warning(f"请求失败({attempt + 1}/{retries})，{delay}秒后重试：{url} | {last_error}")
+            sleep(delay)
+    logger.error(f"请求{retries}次均失败：{url} | {last_error}")
+    return None
+
 def login():
     """登录API"""
     url = api_base + "auth/sign-in"
@@ -130,9 +152,9 @@ def episodes_all(book_id, title: str):
     """获取本子的全部章节。
     成功返回章节列表（可能为空列表），获取失败返回 None（调用方应重试而不是当成没有章节）。"""
     try:
-        first_page_data = episodes(book_id, current_page=1).json()
-        if first_page_data.get("code", 200) != 200 or "data" not in first_page_data:
-            logger.error(f"获取{title}章节失败：{first_page_data.get('message')}")
+        first_page_data = api_get_json(f"{api_base}comics/{book_id}/eps?page=1")
+        if not first_page_data:
+            logger.error(f"获取{title}章节失败")
             return None
         # 'total' represents the total number of chapters in the comic,
         # while 'pages' indicates the number of pages needed to paginate the chapter data.
@@ -141,8 +163,8 @@ def episodes_all(book_id, title: str):
         total_episodes = eps["total"]
         episode_list  = list(eps["docs"])
         for page in range(2, total_pages + 1):
-            page_data = episodes(book_id, current_page=page).json()
-            if page_data.get("code", 200) != 200 or "data" not in page_data:
+            page_data = api_get_json(f"{api_base}comics/{book_id}/eps?page={page}")
+            if not page_data:
                 logger.error(f"获取{title}章节第{page}页失败")
                 return None
             episode_list.extend(page_data["data"]["eps"]["docs"])
@@ -158,16 +180,21 @@ def episodes_all(book_id, title: str):
         return None
     return episode_list
 
-# 根据章节获取图片
+# 根据章节获取图片（带重试，失败抛异常由调用方处理）
 def picture(book_id, ep_id, page=1):
     url = f"{api_base}comics/{book_id}/order/{ep_id}/pages?page={page}"
-    return http_do("GET", url=url)
+    data = api_get_json(url)
+    if data is None:
+        raise Exception(f"获取图片列表失败：{book_id}/{ep_id}/page={page}")
+    return data["data"]["pages"]["docs"]
 
-# 获取本子详细信息
+# 获取本子详细信息（带重试）
 def comic_info(book_id):
     url = f"{api_base}comics/{book_id}"
-    res = http_do("GET", url=url)
-    return json.loads(res.content.decode())
+    data = api_get_json(url)
+    if data is None:
+        raise Exception(f"获取漫画详情失败：{book_id}")
+    return data
 
 def get_categories():
     url = f"{api_base}categories"
