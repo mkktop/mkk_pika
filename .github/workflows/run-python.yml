@@ -27,10 +27,24 @@ jobs:
           USER_NAME: ${{secrets.USER_NAME}}
           USER_PASSWORD: ${{secrets.USER_PASSWORD}}
         run: python ./src/main.py
+      - name: 生成压缩包名称
+        id: pkg
+        run: |
+          # 脚本会把本次实际下载的编号区间写入 run_seq.txt，格式：最小 最大
+          if [ -f run_seq.txt ]; then
+            read -r IDX_MIN IDX_MAX < run_seq.txt
+            if [[ "$IDX_MIN" =~ ^[0-9]+$ ]] && [ "$IDX_MIN" -gt 0 ]; then
+              echo "name=pika$(printf '%06d' "$IDX_MIN")_$(printf '%06d' "$IDX_MAX")" >> "$GITHUB_OUTPUT"
+            else
+              echo "name=pika_none" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "name=pika_none" >> "$GITHUB_OUTPUT"
+          fi
       - name: 上传爬虫结果
         uses: actions/upload-artifact@v4
         with:
-          name: comic  # 工件名称
+          name: ${{ steps.pkg.outputs.name }}  # 工件名称：pika000001_000009
           path: ./comics/      # 要上传的目录/文件
           retention-days: 90   # 保留天数1-90
           if-no-files-found: warn  # 无文件时仅警告不失败

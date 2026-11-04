@@ -139,10 +139,16 @@ def download_comic(comic,executor:ThreadPoolExecutor):
         chapter_path.mkdir(parents=True, exist_ok=True)
         image_urls = []
         current_page = 1
+        fetch_failed = False
         while True:
-            page_data = json.loads(
-                picture(cid, episode["order"], current_page).content
-            )["data"]["pages"]["docs"]
+            try:
+                page_data = json.loads(
+                    picture(cid, episode["order"], current_page).content
+                )["data"]["pages"]["docs"]
+            except Exception as e:
+                logger.error(f"{title}{chapter_title}获取图片列表失败(page:{current_page})：{e}")
+                fetch_failed = True
+                break
             # print_full_json(page_data)
             current_page += 1
             if page_data:
@@ -152,6 +158,9 @@ def download_comic(comic,executor:ThreadPoolExecutor):
                 )))
             else:
                 break
+        if fetch_failed:
+            failed_episodes += 1
+            continue
         if not image_urls:
             logger.warning(f"{title}{chapter_title}没有找到图片")
             failed_episodes += 1
@@ -218,22 +227,18 @@ def download_comic(comic,executor:ThreadPoolExecutor):
     return "ok"
 
 
-def download_all_comics():
-    """扫描全站下一页，返回 (页码, 总页数, 总漫画数, 待下载漫画列表)。
+def download_all_comics(page: int):
+    """扫描全站指定页，返回 (页码, 总页数, 总漫画数, 待下载漫画列表)。
     游标由调用方在整页下载完成后推进，避免中途中断导致漏掉未下载内容。"""
     all_comics = []
     categories = get_config("download", "filter").split(',')
-    download_name = "old_to_nwe"
-    db.mark_download_info_id(download_name)
-    page = db.get_download_info_pagesCount(download_name) or 0
+    db.mark_download_info_id("old_to_nwe")
     res = get_old_update(1)
     total_page =  res["pages"]
     total_comic = res["total"]
-    if page >= total_page:
-        logger.info(f"已经扫描了{page}页，一共{total_page}页，全部分页已扫描完毕")
+    if page > total_page:
         return page, total_page, total_comic, []
-    page += 1
-    logger.info(f"已经下载了{page-1}页，一共{total_page}页，现在开始添加第{page}页")
+    logger.info(f"现在开始扫描第{page}/{total_page}页")
     page_docs = get_old_update(page)["docs"]
     for doc in page_docs:
         intersection = set(doc['categories']).intersection(set(categories))
@@ -309,12 +314,15 @@ if __name__ == "__main__":
         logger.info("已达到本次下载上限，跳过分批下载")
     elif download_plan > 0:
         # download_plan 是本次最多扫描的分页数，真正的停止条件是下载大小上限
+        cursor = db.get_download_info_pagesCount("old_to_nwe") or 0
+        scan_page = cursor
         for download_num in range(download_plan):
             if size_limit_reached():
                 logger.info("已达到本次下载上限，停止本次分批下载")
                 break
-            page, total_page, total_comic, the_all_comics = download_all_comics()
-            if not the_all_comics and page >= total_page:
+            scan_page += 1
+            page, total_page, total_comic, the_all_comics = download_all_comics(scan_page)
+            if page > total_page:
                 logger.info("全部分页已扫描完毕")
                 break
             logger.info('第%d/%d页共%d本漫画待下载' % (page, total_page, len(the_all_comics)))
@@ -364,16 +372,23 @@ if __name__ == "__main__":
             if hard_limit_reached():
                 page_complete = False
             if not page_complete:
-                logger.info('第%d页未下载完，游标不推进，下次从第%d页继续' % (page, page))
-                break
+                # 本页没下完：游标停在原处，但继续往下扫，避免整轮运行被一页卡住
+                logger.info('第%d页未下载完，游标保持第%d页，下次从第%d页继续'
+                            % (page, cursor, cursor + 1))
+                continue
+            if page != cursor + 1:
+                logger.info('第%d页完成，但第%d页仍未完成，游标保持第%d页'
+                            % (page, cursor + 1, cursor))
+                continue
+            cursor = page
             db.save_download_info({
                 "comic_id": "old_to_nwe",
-                "pagesCount": page,
+                "pagesCount": cursor,
                 "total_comic": total_comic,
                 "totalPages": total_page,
             })
             logger.info('第%d/%d页完成，本次已下载%s，游标推进到第%d页'
-                        % (page, total_page, format_size(downloaded_bytes()), page))
+                        % (page, total_page, format_size(downloaded_bytes()), cursor))
 
     if _downloaded_seqs:
         seq_list = sorted(_downloaded_seqs)
